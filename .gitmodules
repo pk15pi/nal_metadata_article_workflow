@@ -1,0 +1,3 @@
+[submodule "nal_srupymarc"]
+	path = nal_srupymarc
+	url = git@github.com:USDA-REE-ARS/nal_srupymarc.git

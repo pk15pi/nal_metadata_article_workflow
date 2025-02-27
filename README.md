@@ -136,3 +136,45 @@ If you have updated the wheels and would like to update your virtual environment
 ```bash
 pip install --force-reinstall metadata_routines-0.0.0-py3-none-any.whl
 ```
+
+## Srupymarc Submodule
+
+`nal_srupymarc` is a separate package and GitHub module created to handle SRU requests in python. A Git submodule is a repository embedded inside another Git repository. It allows you to keep a Git repository as a subdirectory of another Git repository. This can be useful for including and managing dependencies or libraries that are developed separately.
+
+Note: The `nal_srupymarc` repository contains the `srupymarc` package. Thus, we use pip to install `nal_srupymarc`, and once installed, we import `srupymarc`. The `nal_srupymarc` repository is a submodule of the `nal_metadata_article_workflow` repository. The `srupymarc` package is used by the `mapper` and `splitter` functions in the `metadata_routines` package. The `nal_srupymarc` submodule must be initialized by following the instructions below in order to locally install the `srupymarc` package needed by the `metadata_routines` package.
+
+### Managing the `nal_srupymarc` Submodule
+
+The `nal_srupymarc` submodule must be initialized so we can populate the directory with the contents of the `nal_srupymarc` repository. You can either initialize the submodule when you first clone the repository or after cloning it.
+
+#### Initialize `nal_srupymarc` when first cloning the repository:
+
+If you are cloning `nal_metadata_article_workflow` for the first time, use the `--recurse-submodules` flag to clone the repository and initialize the `nal_srupymarc` submodule in one step:
+```bash
+git clone --recurse-submodules https://github.com/USDA-REE-ARS/nal_metadata_article_workflow
+```
+
+...or with ssh:
+
+```bash
+git clone --recurse-submodules git@github.com:USDA-REE-ARS/nal_metadata_article_workflow.git
+```
+
+#### Initialize `nal_srupymarc` after cloning the repository:
+If you have just cloned `nal_metadata_article_workflow` and need to initialize the `nal_srupymarc` submodule, run the following command from the root of this repository:
+   
+```bash
+git submodule init
+git submodule update
+```
+
+#### Updating `nal_srupymarc`:
+
+To update `nal_srupymarc` to the latest commit from its remote repository, navigate to the `nal_srupymarc` directory and pull the latest changes:
+    ```bash
+    cd nal_srupymarc
+    git pull origin main
+    ```
+
+
+By following these steps, you can effectively manage the `nal_srupymarc` submodule within this project.

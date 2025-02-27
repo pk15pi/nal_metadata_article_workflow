@@ -32,6 +32,8 @@ class Local:
     identifiers: dict = field(default_factory = dict)
     USDA: str = "no"
     cataloger_notes: list = field(default_factory = list)
+    submitter_email: str = None
+    submitter_name: str = None
 
 
 @dataclass
@@ -54,6 +56,7 @@ class Citation:
     license: list[License] = field(default_factory = list)
     URL: str = None
     local: Local = None
+    container_DOI: str = None
 
     @property
     def author(self):
@@ -109,10 +112,12 @@ class Citation:
         publisher = self.publisher
         issn = list(self.ISSN.values())
         usda = self.local.USDA
+        container_doi = self.container_DOI
         journal_dict = {
             "journal_title": journal_title,
             "publisher": publisher,
             "issn": issn,
-            "usda": usda
+            "usda": usda,
+            "container_DOI": container_doi
         }
         return journal_dict

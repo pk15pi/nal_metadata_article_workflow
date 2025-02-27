@@ -7,7 +7,7 @@ the mapper module.
 '''
 
 with open('example_data/submission_2500.json', 'r') as f:
-    submission_data = json.load(f)[0] # Indexed because submission api returns a list
+    submission_data = json.load(f)
 
 cit = Citation(
     title=submission_data['title'],
@@ -66,4 +66,4 @@ new_local = Local(
     }
 )
 cit.local = new_local
-print(cit.local)
+print(cit.container_DOI)

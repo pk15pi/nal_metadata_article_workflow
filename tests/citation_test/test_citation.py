@@ -43,6 +43,6 @@ def test_citation_creation(citation_object):
     }
     #assert citation_object.local.accession_number == "441154"
     assert citation_object.step3_info() == {'title': 'A diverse diet increases animal growth performance and carcass yield of grazing lambs ', 'doi': '10.1093/tas/txae103', 'type': 'article', 'provider_rec': "2500"}
-    assert citation_object.get_journal_info() == {'journal_title': "Translational Animal Science", 'publisher': None,'issn': ['2573-2102'], "usda": "yes"}
+    assert citation_object.get_journal_info() == {'container_DOI': None, 'journal_title': "Translational Animal Science", 'publisher': None,'issn': ['2573-2102'], "usda": "yes"}
 
 

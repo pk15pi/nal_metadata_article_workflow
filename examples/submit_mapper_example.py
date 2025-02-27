@@ -8,5 +8,6 @@ with open('example_data/submission_345.json', 'r') as f:
 
 cit, msg = mapper(submission_data, "submit_json")
 
-# print msg
-print("message: ", msg)
+# print submitter email and name
+print(cit.local.submitter_email)
+print(cit.local.submitter_name)
