@@ -1,0 +1,836 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          8
+        ]
+      ],
+      "date-time": "2024-08-08T00:22:09Z",
+      "timestamp": 1723076529534
+    },
+    "reference-count": 61,
+    "publisher": "MDPI AG",
+    "issue": "8",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              4
+            ]
+          ],
+          "date-time": "2024-08-04T00:00:00Z",
+          "timestamp": 1722729600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https:\/\/creativecommons.org\/licenses\/by\/4.0\/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039\/501100002383",
+        "name": "King Saud University, Riyadh, Saudi Arabia",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "RSPD2024-R954"
+        ],
+        "id": [
+          {
+            "id": "10.13039\/501100002383",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Agronomy"
+    ],
+    "abstract": "<jats:p>Barley is indeed a versatile cereal crop, valued for its uses in food, animal feed, and increasingly in biofuel production. As interest grows in developing new barley genotypes that are better adapted to diverse environmental conditions and production systems, integrating agro-morphological evaluations with molecular marker analyses in barley breeding programs is essential for developing new genotypes. It is necessary to explore the genetic diversity of those germplasm to predicate their responses to targeted environments and regions. The current study explored the phenotypic and genotypic relations among Saudi advanced germplasm to facilitate the development of superior barley cultivars suitable for desert environments. Molecular microsatellites (SSR) markers revealed considerable wide genetic variation among Saudi germplasm and checks. Population structure analyses revealed four main groups. Those groups were validated using similarity analyses and coefficients. As well, principal components analysis (PCA) and heat map analyses separated the studied genotypes into four main groups. The improved Saudi germplasm, selected from the barley breeding program, revealed considerably wide genetic and phenotypic diversities, indicating the feasibility of selection to improve for semi-arid conditions. The improved line KSU-BR-C\/G-2 had the highest grain yield and harvest index in the first season. Rihana\/Lignee was followed by the KSU-BR-C\/G-2 genotype, with a grain yield averaging 6734.07 (kg ha\u22121), in the first season. KSU-BR-88-29-10 yielded 20,000 kg ha\u22121 for biomass yield. In the second year, KSU-BR-30-7 had the highest biomass yield, with 27,037.04 kg ha\u22121.<\/jats:p>",
+    "DOI": "10.3390\/agronomy14081716",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          5
+        ]
+      ],
+      "date-time": "2024-08-05T11:37:30Z",
+      "timestamp": 1722857850000
+    },
+    "page": "1716",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Characterization of Improved Barley Germplasm under Desert Environments Using Agro-Morphological and SSR Markers"
+    ],
+    "prefix": "10.3390",
+    "volume": "14",
+    "author": [
+      {
+        "ORCID": "http:\/\/orcid.org\/0000-0002-9975-7753",
+        "authenticated-orcid": false,
+        "given": "Abdelhalim I.",
+        "family": "Ghazy",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Plant Production Department, College of Food and Agricultural Sciences, King Saud University, Riyadh 11362, Saudi Arabia"
+          }
+        ]
+      },
+      {
+        "ORCID": "http:\/\/orcid.org\/0000-0003-2539-0407",
+        "authenticated-orcid": false,
+        "given": "Mohamed A.",
+        "family": "Ali",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Plant Production Department, College of Food and Agricultural Sciences, King Saud University, Riyadh 11362, Saudi Arabia"
+          }
+        ]
+      },
+      {
+        "ORCID": "http:\/\/orcid.org\/0000-0002-5029-6386",
+        "authenticated-orcid": false,
+        "given": "Eid I.",
+        "family": "Ibrahim",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Plant Production Department, College of Food and Agricultural Sciences, King Saud University, Riyadh 11362, Saudi Arabia"
+          }
+        ]
+      },
+      {
+        "ORCID": "http:\/\/orcid.org\/0009-0009-7602-1258",
+        "authenticated-orcid": false,
+        "given": "Mohammed",
+        "family": "Sallam",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Plant Production Department, College of Food and Agricultural Sciences, King Saud University, Riyadh 11362, Saudi Arabia"
+          }
+        ]
+      },
+      {
+        "ORCID": "http:\/\/orcid.org\/0000-0001-6711-8909",
+        "authenticated-orcid": false,
+        "given": "Talal K.",
+        "family": "Al Ateeq",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Plant Production Department, College of Food and Agricultural Sciences, King Saud University, Riyadh 11362, Saudi Arabia"
+          }
+        ]
+      },
+      {
+        "ORCID": "http:\/\/orcid.org\/0000-0001-5022-1555",
+        "authenticated-orcid": false,
+        "given": "Ibrahim",
+        "family": "Al-Ashkar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Plant Production Department, College of Food and Agricultural Sciences, King Saud University, Riyadh 11362, Saudi Arabia"
+          }
+        ]
+      },
+      {
+        "ORCID": "http:\/\/orcid.org\/0000-0002-5278-0104",
+        "authenticated-orcid": false,
+        "given": "Mohamed I.",
+        "family": "Motawei",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Crop Science Department, Faculty of Agriculture, University of Alexandria, Alexandria 21526, Egypt"
+          }
+        ]
+      },
+      {
+        "given": "Hussein",
+        "family": "Abdel-Haleem",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "US Arid Land Agricultural Research Center, USDA-Agricultural Research Services, Maricopa, AZ 85138, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "http:\/\/orcid.org\/0000-0003-3828-2384",
+        "authenticated-orcid": false,
+        "given": "Abdullah A.",
+        "family": "Al-Doss",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Plant Production Department, College of Food and Agricultural Sciences, King Saud University, Riyadh 11362, Saudi Arabia"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          4
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "843",
+        "DOI": "10.1038\/nature07895",
+        "article-title": "The nature of selection during plant domestication",
+        "volume": "457",
+        "author": "Purugganan",
+        "year": "2009",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref_2",
+        "unstructured": "Faostat, F. (2024, August 01). Food and Agriculture Organization of the United Nations-Statistic Division. Available online: https:\/\/www.fao.org\/faostat\/en\/#data."
+      },
+      {
+        "key": "ref_3",
+        "first-page": "279",
+        "article-title": "Assessment of genetic diversity in crop plants-an overview",
+        "volume": "7",
+        "author": "Bhandari",
+        "year": "2017",
+        "journal-title": "Adv. Plants Agric. Res."
+      },
+      {
+        "key": "ref_4",
+        "first-page": "119",
+        "article-title": "Selection of barley lines for drought tolerance in low-rainfall areas",
+        "volume": "186",
+        "author": "Shakhatreh",
+        "year": "2001",
+        "journal-title": "J. Agron."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "257",
+        "DOI": "10.1038\/s41586-019-1316-y",
+        "article-title": "National food production stabilized by crop diversity",
+        "volume": "571",
+        "author": "Renard",
+        "year": "2019",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "16442",
+        "DOI": "10.1073\/pnas.1906419116",
+        "article-title": "Increasing crop heterogeneity enhances multitrophic diversity across agricultural regions",
+        "volume": "116",
+        "author": "Sirami",
+        "year": "2019",
+        "journal-title": "Proc. Natl. Acad. Sci. USA"
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "E7",
+        "DOI": "10.1038\/s41586-020-2965-6",
+        "article-title": "Crop asynchrony stabilizes food production",
+        "volume": "588",
+        "author": "Egli",
+        "year": "2020",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "601",
+        "DOI": "10.17957\/IJAB\/15.0307",
+        "article-title": "Morphological and Genetic Diversity of Cereal Genotypes in Kingdom of Saudi Arabia",
+        "volume": "19",
+        "author": "Alghamdi",
+        "year": "2017",
+        "journal-title": "Int. J. Agric. Biol."
+      },
+      {
+        "key": "ref_9",
+        "first-page": "58",
+        "article-title": "Genetic diversity of Egyptian barley using agro\u2013physiological traits, grain quality and molecular markers",
+        "volume": "10",
+        "author": "Mariey",
+        "year": "2021",
+        "journal-title": "Curr. Sci. Int."
+      },
+      {
+        "key": "ref_10",
+        "first-page": "241",
+        "article-title": "Molecular characterization of salt tolerance in the genomes of some Egyptian and Saudi Arabian barely genotypes",
+        "volume": "8",
+        "author": "Hussein",
+        "year": "2005",
+        "journal-title": "Arab J. Biotechnol."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "252",
+        "DOI": "10.3923\/ijb.2006.252.260",
+        "article-title": "Genetic Relationships of Some Barley Cultivars, Based on Morphological Criteria and Rapd Fingerprinting",
+        "volume": "2",
+        "year": "2006",
+        "journal-title": "Int. J. Bot."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "752",
+        "DOI": "10.3844\/ajassp.2012.752.758",
+        "article-title": "Genetic diversity of some Saudi barley (Hordeum vulgare L.) landraces based on two types of molecular markers",
+        "volume": "9",
+        "year": "2012",
+        "journal-title": "Am. J. Appl. Sci."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "32",
+        "DOI": "10.1016\/j.fcr.2008.04.001",
+        "article-title": "Progress in ideotype breeding to increase rice yield potential",
+        "volume": "108",
+        "author": "Peng",
+        "year": "2008",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "385",
+        "DOI": "10.1007\/BF00056241",
+        "article-title": "The breeding of crop ideotypes",
+        "volume": "17",
+        "author": "Donald",
+        "year": "1968",
+        "journal-title": "Euphytica"
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "191",
+        "DOI": "10.1016\/0378-4290(91)90035-T",
+        "article-title": "A plant breeder\u2019s experience with ideotype breeding",
+        "volume": "26",
+        "author": "Rasmusson",
+        "year": "1991",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carbajal-Friedrich, A.A.J., and Burgess, A.J. (2024). The role of the ideotype in future agricultural production. Front. Plant Physiol., 2.",
+        "DOI": "10.3389\/fphgy.2024.1341617"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "232",
+        "DOI": "10.1016\/j.pbi.2011.03.002",
+        "article-title": "Genetic analysis of abiotic stress tolerance in crops",
+        "volume": "14",
+        "author": "Roy",
+        "year": "2011",
+        "journal-title": "Curr. Opin. Plant Biol."
+      },
+      {
+        "key": "ref_18",
+        "first-page": "5838",
+        "article-title": "Molecular markers for salt tolerant wild barley Hordeum spontaneum",
+        "volume": "9",
+        "author": "Bahieldin",
+        "year": "2012",
+        "journal-title": "Life Sci. J."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mohammadi, S.A., Abdollahi Sisi, N., and Sadeghzadeh, B. (2020). The influence of breeding history, origin and growth type on population structure of barley as revealed by SSR markers. Sci. Rep., 10.",
+        "DOI": "10.1038\/s41598-020-75339-4"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bouhlal, O., Visioni, A., Verma, R.P.S., Kandil, M., Gyawali, S., Capettini, F., and Sanchez-Garcia, M. (2022). CGIAR Barley Breeding Toolbox: A diversity panel to facilitate breeding and genomic research in the developing world. Front. Plant Sci., 13.",
+        "DOI": "10.3389\/fpls.2022.1034322"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "144175",
+        "DOI": "10.1016\/j.gene.2019.144175",
+        "article-title": "Determining the polymorphism information content of a molecular marker",
+        "volume": "726",
+        "author": "Serrote",
+        "year": "2020",
+        "journal-title": "Gene"
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "249",
+        "DOI": "10.1046\/j.1365-294X.2001.01185.x",
+        "article-title": "Estimating the probability of identity among genotypes in natural populations: Cautions and guidelines",
+        "volume": "10",
+        "author": "Waits",
+        "year": "2001",
+        "journal-title": "Mol. Ecol."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "11549",
+        "DOI": "10.1073\/pnas.92.25.11549",
+        "article-title": "Microsatellite variability and genetic distances",
+        "volume": "92",
+        "author": "Zhivotovsky",
+        "year": "1995",
+        "journal-title": "Proc. Natl. Acad. Sci. USA"
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "3321",
+        "DOI": "10.1073\/pnas.70.12.3321",
+        "article-title": "Analysis of gene diversity in subdivided populations",
+        "volume": "70",
+        "author": "Nei",
+        "year": "1973",
+        "journal-title": "Proc. Natl. Acad. Sci. USA"
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "94",
+        "DOI": "10.1016\/S1369-5266(02)00240-6",
+        "article-title": "Applications of single nucleotide polymorphisms in crop genetics",
+        "volume": "5",
+        "author": "Rafalski",
+        "year": "2002",
+        "journal-title": "Curr. Opin. Plant Biol."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "454",
+        "DOI": "10.1016\/j.crvi.2016.06.006",
+        "article-title": "Population structure and marker\u2013trait association of salt tolerance in barley (Hordeum vulgare L.)",
+        "volume": "339",
+        "author": "Elakhdar",
+        "year": "2016",
+        "journal-title": "Comptes Rendus Biol."
+      },
+      {
+        "key": "ref_27",
+        "first-page": "1937",
+        "article-title": "Assessment of genetic diversity in Egyptian barley (Hordeum vulgare L.) genotypes using SSR and SNP markers",
+        "volume": "65",
+        "author": "Elakhdar",
+        "year": "2018",
+        "journal-title": "Genet. Resour."
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Capo-Chichi, L.J.A., Eldridge, S., Elakhdar, A., Kubo, T., Brueggeman, R., and Anyia, A.O. (2021). QTL Mapping and Phenotypic Variation for Seedling Vigour Traits in Barley (Hordeum vulgare L.). Plants, 10.",
+        "DOI": "10.3390\/plants10061149"
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Capo-Chichi, L.J.A., Elakhdar, A., Kubo, T., Nyachiro, J., Juskiw, P., Capettini, F., Slaski, J.J., Ramirez, G.H., and Beattie, A.D. (2022). Genetic diversity and population structure assessment of Western Canadian barley cooperative trials. Front. Plant Sci., 13.",
+        "DOI": "10.3389\/fpls.2022.1006719"
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yirgu, M., Kebede, M., Feyissa, T., Lakew, B., Woldeyohannes, A.B., and Fikere, M. (2023). Single nucleotide polymorphism (SNP) markers for genetic diversity and population structure study in Ethiopian barley (Hordeum vulgare L.) germplasm. BMC Genom. Data, 24.",
+        "DOI": "10.1186\/s12863-023-01109-6"
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Maanju, S., Jasrotia, P., Yadav, S.S., Sharma, P., Kashyap, P.L., Kumar, S., Jat, M.K., and Singh, G.P. (2023). Genetic diversity and population structure analyses in barley (Hordeum vulgare) against corn-leaf aphid, Rhopalosiphum maidis (Fitch). Front. Plant Sci., 14.",
+        "DOI": "10.3389\/fpls.2023.1188627"
+      },
+      {
+        "key": "ref_32",
+        "unstructured": "American Association of Cereal Chemists, and Approved Methods Committee (2000). Approved Methods of the American Association of Cereal Chemists, American Association of Cereal Chemists."
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "8014",
+        "DOI": "10.1073\/pnas.81.24.8014",
+        "article-title": "Ribosomal DNA spacer-length polymorphisms in barley: Mendelian inheritance, chromosomal location, and population dynamics",
+        "volume": "81",
+        "author": "Soliman",
+        "year": "1984",
+        "journal-title": "Proc. Natl. Acad. Sci. USA"
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "first-page": "1091",
+        "DOI": "10.1007\/s00122-007-0503-7",
+        "article-title": "A high density barley microsatellite consensus map with 775 SSR loci",
+        "volume": "114",
+        "author": "Varshney",
+        "year": "2007",
+        "journal-title": "Theor. Appl. Genet."
+      },
+      {
+        "key": "ref_35",
+        "first-page": "91",
+        "article-title": "STATISTICA (data analysis software system), version 6",
+        "volume": "150",
+        "author": "StatSoft",
+        "year": "2001",
+        "journal-title": "Tulsa USA"
+      },
+      {
+        "key": "ref_36",
+        "first-page": "9",
+        "article-title": "PAST: Paleontological statistics software package for education and data analysis",
+        "volume": "4",
+        "author": "Hammer",
+        "year": "2001",
+        "journal-title": "Palaeontol. Electron."
+      },
+      {
+        "key": "ref_37",
+        "unstructured": "Rohlf, F.J. (1988). NTSYS-pc: Numerical Taxonomy and Multivariate Analysis System, Exeter Publishing."
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "first-page": "945",
+        "DOI": "10.1093\/genetics\/155.2.945",
+        "article-title": "Inference of population structure using multilocus genotype data",
+        "volume": "155",
+        "author": "Pritchard",
+        "year": "2000",
+        "journal-title": "Genetics"
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "first-page": "2611",
+        "DOI": "10.1111\/j.1365-294X.2005.02553.x",
+        "article-title": "Detecting the number of clusters of individuals using the software STRUCTURE: A simulation study",
+        "volume": "14",
+        "author": "Evanno",
+        "year": "2005",
+        "journal-title": "Mol. Ecol."
+      },
+      {
+        "key": "ref_40",
+        "unstructured": "Pritchard, J.K., Wen, X., and Falush, D. (2010). Documentation for Structure Software: Version 2.3, University of Chicago."
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "first-page": "359",
+        "DOI": "10.1007\/s12686-011-9548-7",
+        "article-title": "STRUCTURE HARVESTER: A website and program for visualizing STRUCTURE output and implementing the Evanno method",
+        "volume": "4",
+        "author": "Earl",
+        "year": "2012",
+        "journal-title": "Conserv. Genet. Resour."
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dar, A.A., Mahajan, R., Lay, P., and Sharma, S. (2017). Genetic diversity and population structure of Cucumis sativus L. by using SSR markers. 3 Biotech, 7.",
+        "DOI": "10.1007\/s13205-017-0944-x"
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "first-page": "1240",
+        "DOI": "10.3732\/ajb.0800097",
+        "article-title": "Population structure and genetic diversity of New World maize races assessed by DNA microsatellites",
+        "volume": "95",
+        "author": "Vigouroux",
+        "year": "2008",
+        "journal-title": "Am. J. Bot."
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "first-page": "339",
+        "DOI": "10.1007\/s10681-007-9535-y",
+        "article-title": "Molecular diversity and genome-wide linkage disequilibrium patterns in a worldwide collection of Oryza sativa and its wild relatives",
+        "volume": "160",
+        "author": "Agrama",
+        "year": "2008",
+        "journal-title": "Euphytica"
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oliveira, M., Sousa, L., Reis, M., Junior, E.S., Cardoso, D., Hamawaki, O., Nogueira, A., and Research, M. (2017). Evaluation of genetic diversity among soybean (Glycine max) genotypes using univariate and multivariate analysis. Genetics, 16.",
+        "DOI": "10.4238\/gmr16029661"
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "first-page": "378",
+        "DOI": "10.1016\/j.sajb.2021.08.020",
+        "article-title": "Morpho-molecular characterization and genetic diversity analysis across wild apple (Malus baccata) accessions using simple sequence repeat markers",
+        "volume": "145",
+        "author": "Raja",
+        "year": "2022",
+        "journal-title": "S. Afr. J. Bot."
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Keilwagen, J., Kilian, B., \u00d6zkan, H., Babben, S., Perovic, D., Mayer, K.F., Walther, A., Poskar, C.H., Ordon, F., and Eversole, K.J.S.R. (2014). Separating the wheat from the chaff\u2013a strategy to utilize plant genetic resources from ex situ genebanks. Sci. Rep., 4.",
+        "DOI": "10.1038\/srep05231"
+      },
+      {
+        "key": "ref_48",
+        "first-page": "31",
+        "article-title": "Evaluation of genetic bases and diversity of Egyptian wheat cultivars released during the last 50 years using coefficient of parentage",
+        "volume": "6",
+        "author": "Basnet",
+        "year": "2011",
+        "journal-title": "Commun. Biometry Crop Sci."
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "first-page": "1265925",
+        "DOI": "10.3389\/fpls.2023.1265925",
+        "article-title": "Genetic characterization of root architectural traits in barley (Hordeum vulgare L.) using SNP markers",
+        "volume": "14",
+        "author": "Farooqi",
+        "year": "2023",
+        "journal-title": "Front Plant Sci"
+      },
+      {
+        "key": "ref_50",
+        "first-page": "467",
+        "article-title": "Morphological and farmers cognitive diversity of barley (Hordeum vulgare L. [Poaceae]) at Bale and North Shewa of Ethiopia",
+        "volume": "48",
+        "author": "Kebebew",
+        "year": "2001",
+        "journal-title": "Genet. Resour."
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.5586\/aa.7343",
+        "article-title": "Assessment of genetic diversity and population structure of Tunisian barley accessions (Hordeum vulgare L.) using SSR markers",
+        "volume": "73",
+        "author": "Marzougui",
+        "year": "2020",
+        "journal-title": "Acta Agrobot."
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mohamed, A.H., Omar, A.A., Attya, A.M., Elashtokhy, M.M., Zayed, E.M., and Rizk, R.M. (2021). Morphological and molecular characterization of some Egyptian six-rowed barley (Hordeum vulgare L.). Plants, 10.",
+        "DOI": "10.3390\/plants10112527"
+      },
+      {
+        "key": "ref_53",
+        "first-page": "1188627",
+        "article-title": "Genetic Diversity and Population Structure of Barley Cultivars Released in Turkey and Bulgaria using iPBS-retrotransposon and SCoT markers",
+        "volume": "14",
+        "author": "Filiz",
+        "year": "2022",
+        "journal-title": "J. Agric. Sci."
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "first-page": "589",
+        "DOI": "10.15625\/1811-4989\/18\/4\/15326",
+        "article-title": "Molecular markers for analysis of plant genetic diversity",
+        "volume": "18",
+        "author": "Nam",
+        "year": "2020",
+        "journal-title": "Vietnam J. Biotechnol."
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "first-page": "1070",
+        "DOI": "10.1016\/j.ygeno.2021.02.007",
+        "article-title": "Integrated genomic selection for rapid improvement of crops",
+        "volume": "113",
+        "author": "Krishnappa",
+        "year": "2021",
+        "journal-title": "Genomics"
+      },
+      {
+        "key": "ref_56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brbakli\u0107, L., Trkulja, D., Miki\u0107, S., Mirosavljevi\u0107, M., Mom\u010dilovi\u0107, V., Dudi\u0107, B., Proch\u00e1zkov\u00e1, L., and A\u0107in, V.J.A. (2021). Genetic diversity and population structure of Serbian barley (Hordeum vulgare L.) collection during a 40-year long breeding period. Agronomy, 11.",
+        "DOI": "10.3390\/agronomy11010118"
+      },
+      {
+        "key": "ref_57",
+        "doi-asserted-by": "crossref",
+        "first-page": "145",
+        "DOI": "10.1088\/0031-9155\/39\/1\/009",
+        "article-title": "Non-invasive bone biopsy: A new method to analyse and display the three-dimensional structure of trabecular bone",
+        "volume": "39",
+        "author": "Muller",
+        "year": "1994",
+        "journal-title": "Phys. Med. Biol."
+      },
+      {
+        "key": "ref_58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Malysheva-Otto, L.V., Ganal, M.W., and Roder, M.S. (2006). Analysis of molecular diversity, population structure and linkage disequilibrium in a worldwide survey of cultivated barley germplasm (Hordeum vulgare L.). BMC Genet., 7.",
+        "DOI": "10.1186\/1471-2156-7-6"
+      },
+      {
+        "key": "ref_59",
+        "doi-asserted-by": "crossref",
+        "first-page": "309",
+        "DOI": "10.1007\/s11032-007-9093-y",
+        "article-title": "Temporal trends of genetic diversity in European barley cultivars (Hordeum vulgare L.)",
+        "volume": "20",
+        "author": "Ganal",
+        "year": "2007",
+        "journal-title": "Mol. Breed."
+      },
+      {
+        "key": "ref_60",
+        "doi-asserted-by": "crossref",
+        "first-page": "881",
+        "DOI": "10.1007\/s00299-014-1564-0",
+        "article-title": "Population structure and association mapping of yield contributing agronomic traits in foxtail millet",
+        "volume": "33",
+        "author": "Prasad",
+        "year": "2014",
+        "journal-title": "Plant Cell Rep."
+      },
+      {
+        "key": "ref_61",
+        "doi-asserted-by": "crossref",
+        "first-page": "272",
+        "DOI": "10.1007\/s001220050736",
+        "article-title": "The potential for cross-taxa simple-sequence repeat (SSR) amplification between Arabidopsis thaliana L. and crop brassicas",
+        "volume": "96",
+        "author": "Westman",
+        "year": "1998",
+        "journal-title": "Theor. Appl. Genet."
+      }
+    ],
+    "container-title": [
+      "Agronomy"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https:\/\/www.mdpi.com\/2073-4395\/14\/8\/1716\/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          7
+        ]
+      ],
+      "date-time": "2024-08-07T13:39:09Z",
+      "timestamp": 1723037949000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https:\/\/www.mdpi.com\/2073-4395\/14\/8\/1716"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          4
+        ]
+      ]
+    },
+    "references-count": 61,
+    "journal-issue": {
+      "issue": "8",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "agronomy14081716"
+    ],
+    "URL": "https:\/\/doi.org\/10.3390\/agronomy14081716",
+    "relation": {},
+    "ISSN": [
+      "2073-4395"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2073-4395"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          4
+        ]
+      ]
+    }
+  }
+}

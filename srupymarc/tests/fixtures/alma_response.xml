@@ -1,0 +1,1803 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/">
+  <version>1.2</version>
+  <numberOfRecords>46</numberOfRecords>
+  <records>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>02699nab a2200565 u 4500</leader>
+          <controlfield tag="001">9915912272807426</controlfield>
+          <controlfield tag="005">20240622024329.0</controlfield>
+          <controlfield tag="008">141109e20120320xx |||||o|||||||||||eng||</controlfield>
+          <datafield ind1="7" ind2=" " tag="016">
+            <subfield code="a">IND601102520</subfield>
+            <subfield code="2">DNAL</subfield>
+          </datafield>
+          <datafield ind1="7" ind2=" " tag="024">
+            <subfield code="a">10.1016/j.tca.2011.09.010</subfield>
+            <subfield code="2">doi</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">agid:1102520-01nal_inst</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">AGL</subfield>
+            <subfield code="b">eng</subfield>
+            <subfield code="c">AGL</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Nakazato, Tadashi</subfield>
+            <subfield code="e">author</subfield>
+            <subfield code="u">Nakadai Junior High School, 1-56-23 Nakadai Itabashi-ku, Tokyo 174-0064, Japan</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Analysis of plant function as bio-thermal-conditioner using Pothos (Epipremnum aureum)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">p. 49-55.</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">Plants absorb carbon dioxide by photosynthesis using solar energy and use thermal energy in the atmosphere by transpiration. Paying attention to the excellent functions that plants perform, we have measured the daily variation of the temperature and humidity on plant circumference of an individual level using Pothos (Epipremnum aureum), and have investigated the thermal conditioning effect of the plant irradiated white LED in a closed space covered with thermal insulation at the incubator adjusted temperature. The air-cooling effect of Pothos in a closed space at the incubator adjusted 23°C was about 1°C. High correlation between air temperature and that of soil was shown in the air-cooling effect, and long-time white light irradiation increased the air-cooling effect.</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="592">
+            <subfield code="a">Publisher supplied data</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="593">
+            <subfield code="a">PubAg article</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="593">
+            <subfield code="f">Agricola IND</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">Epipremnum pinnatum</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">air temperature</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">carbon dioxide</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">energy</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">humidity</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">insulating materials</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">irradiation</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">photosynthesis</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">soil</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">solar energy</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">transpiration</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">white light</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Inagaki, Terumi</subfield>
+            <subfield code="e">author</subfield>
+            <subfield code="u">Department of Mechanical Engineering, Ibaraki University, 4 Chome, Nakanarusawa 12-1, Hitachi, Ibaraki 316-8511, Japan</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="773">
+            <subfield code="t">Thermochimica acta.</subfield>
+            <subfield code="g">2012 Mar. 20, v. 532 p.49-55</subfield>
+            <subfield code="d">Elsevier B.V.</subfield>
+            <subfield code="x">0040-6031</subfield>
+            <subfield code="7">nnas</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">islandora_article_repository</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">product_pubag</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">(Journal)11747</subfield>
+          </datafield>
+          <datafield ind1="4" ind2="0" tag="856">
+            <subfield code="u">http://dx.doi.org/10.1016/j.tca.2011.09.010</subfield>
+            <subfield code="3">Available from publisher's site</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="912">
+            <subfield code="a">Article</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="914">
+            <subfield code="a">Journal:11747</subfield>
+            <subfield code="b">0040-6031</subfield>
+            <subfield code="c">532</subfield>
+            <subfield code="e">49</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="914">
+            <subfield code="f">Thermochimica acta</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="916">
+            <subfield code="a">Batch:1172</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="917">
+            <subfield code="a">issued</subfield>
+          </datafield>
+          <datafield ind1="2" ind2=" " tag="918">
+            <subfield code="a">Elsevier B.V.</subfield>
+            <subfield code="e">provider</subfield>
+            <subfield code="5">DNAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="935">
+            <subfield code="a">IND601102520</subfield>
+            <subfield code="9">ExL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="949">
+            <subfield code="a">2016-01-22</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="953">
+            <subfield code="a">NAL25950004060310532000C.xml</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="962">
+            <subfield code="a">Batch:1172 reviewed on 2016-01-22T04:00:02Z</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="974">
+            <subfield code="a">agid:1102520</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="983">
+            <subfield code="a">2014-11-09</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="984">
+            <subfield code="a">2016-01-22</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915475548407426</subfield>
+            <subfield code="8">22166415540007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">Stacks</subfield>
+            <subfield code="d">QD511.T5</subfield>
+            <subfield code="e">check_holdings</subfield>
+            <subfield code="j">stacks</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">1</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+            <subfield code="t">104-105;]</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>9915912272807426</recordIdentifier>
+      <recordPosition>1</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>02778nab a2200493 u 4500</leader>
+          <controlfield tag="001">9916209524207426</controlfield>
+          <controlfield tag="005">20240623122921.0</controlfield>
+          <controlfield tag="008">930317e199203  xx |||||o|||||||||||eng||</controlfield>
+          <datafield ind1="7" ind2=" " tag="016">
+            <subfield code="a">IND93016027</subfield>
+            <subfield code="2">DNAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">agid:1640824-01nal_inst</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">AGL</subfield>
+            <subfield code="b">eng</subfield>
+            <subfield code="c">AGL</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Wang, Y.T.</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Antitranspirant, water stress, and growth retardant influence growth of golden pothos</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">p. 222-225.</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">Cuttings of Epipremnum aureum (Linden &amp; Andre) Bunt. were soaked for 5 seconds in 5% Folicote or Stressguard antitranspirant solution, planted immediately or after 6 hours, and misted or not misted during the daylight hours for 2 weeks. Neither antitranspirant affected the growth of misted cuttings. However, in nonmisted cuttings, Folicote resulted in delayed first leaf unfolding and small plants. Misting improved shoot growth relative to not misting. In a second experiment, Stressguard sprayed on leaves of stock plants resulted in slow growth of cuttings taken from them, while Folicote had no effect. Water stress induced by delayed planting resulted in water loss and slow lateral shoot growth in both experiments. Application of uniconazole at the four-leaf stage at 0.05 to 0.4 mg/0.5-liter pot reduced stem elongation, leaf count, and the length of nodal roots. Uniconazole increased individual leaf size on the main shoot and promoted the growth of basal lateral shoots. While stem and total plant dry weights were reduced, total leaf dry weight was not affected by uniconazole. Uniconazole continued to provide good control on the elongation of newly emerged lateral shoots and promoted the production of more and larger leaves when evaluated 4 weeks after the main shoot was severed above the fourth basal node.</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="593">
+            <subfield code="f">Agricola IND</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">potted foliage plants</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">Epipremnum pinnatum</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">growth retardation</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">uniconazole</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">antitranspirants</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">water stress</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">plant morphology</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">vegetative propagation</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">plant cuttings</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">growth rate</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Hsiao, K.H.</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Gregg, L.L.</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="773">
+            <subfield code="t">HortScience.</subfield>
+            <subfield code="g">1992 Mar., v. 27, no. 3 p.222-225</subfield>
+            <subfield code="x">0018-5345</subfield>
+            <subfield code="7">nnas</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">islandora_article_repository</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">(Journal)1941</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="a">DNAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="912">
+            <subfield code="a">Article</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="914">
+            <subfield code="a">Journal:1941</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="914">
+            <subfield code="f">HortScience</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="917">
+            <subfield code="a">issued</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="935">
+            <subfield code="a">IND93016027</subfield>
+            <subfield code="9">ExL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="939">
+            <subfield code="a">00000000</subfield>
+            <subfield code="b">19931102</subfield>
+            <subfield code="c">00000000</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="946">
+            <subfield code="a">Other US</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="952">
+            <subfield code="a">00000000 19931102 00000000</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="974">
+            <subfield code="a">agid:1640824</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="984">
+            <subfield code="a">2014-12-25</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="985">
+            <subfield code="a">Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl (Revision 1.95 2014/04/23)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="986">
+            <subfield code="a">2952778</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915504702107426</subfield>
+            <subfield code="8">22174203890007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">Stacks</subfield>
+            <subfield code="d">SB1.H6</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">84</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="v">from:19 (5) 1976 Apr. | 1976 until:v. 47, no. 2 g</subfield>
+            <subfield code="j">stacks</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">1</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915504702107426</subfield>
+            <subfield code="8">22174203040007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">Stacks</subfield>
+            <subfield code="d">SB1.H6</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">27</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">stacks</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">2</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+            <subfield code="t">Holding: v. 13 no. 6</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915504702107426</subfield>
+            <subfield code="8">22174203900007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">ARS National Arboretum (NON-CIRCULATING)</subfield>
+            <subfield code="d">SB1.H6 DNAr</subfield>
+            <subfield code="e">check_holdings</subfield>
+            <subfield code="j">arboretum</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">3</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915504702107426</subfield>
+            <subfield code="8">22174203910007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">ASERL</subfield>
+            <subfield code="d">SB1 .H6</subfield>
+            <subfield code="e">check_holdings</subfield>
+            <subfield code="j">ASERL</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">4</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>9916209524207426</recordIdentifier>
+      <recordPosition>2</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>01653nab a2200565 u 4500</leader>
+          <controlfield tag="001">9916245091607426</controlfield>
+          <controlfield tag="005">20240623153812.0</controlfield>
+          <controlfield tag="008">951025e199503  ne |||||o|||||||||||eng||</controlfield>
+          <datafield ind1="7" ind2=" " tag="016">
+            <subfield code="a">IND20484551</subfield>
+            <subfield code="2">DNAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">agid:2863571-01nal_inst</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">AGL</subfield>
+            <subfield code="b">eng</subfield>
+            <subfield code="c">AGL</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Sabanadovic, S.</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Characterization of a pothos (Scindapsus aureus) virus with unusual properties</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">p. 171-182.</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="593">
+            <subfield code="f">Agricola IND</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">Epipremnum pinnatum</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">Tombusvirus</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">RNA</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">DNA</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">coat proteins</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">Carmovirus</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">epidemiology</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">host range</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">Pothos latent virus</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">symptoms</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">serological relationships</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">characterization</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">symptomatology</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Boscia, D.</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Saldarelli, P.</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Martelli, G.P.</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Lafortezza, R.</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Koenig, R.</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="773">
+            <subfield code="t">European journal of plant pathology.</subfield>
+            <subfield code="g">1995 Mar., v. 101, no. 2 p.171-182</subfield>
+            <subfield code="x">0929-1873</subfield>
+            <subfield code="7">nnas</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">islandora_article_repository</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">(Journal)jnl51791</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="a">DNAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="912">
+            <subfield code="a">Article</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="914">
+            <subfield code="a">Journal:jnl51791</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="914">
+            <subfield code="f">Eur. j. plant pathol</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="917">
+            <subfield code="a">issued</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="930">
+            <subfield code="a">19951102</subfield>
+            <subfield code="b">19951108</subfield>
+            <subfield code="c">00000000</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="935">
+            <subfield code="a">IND20484551</subfield>
+            <subfield code="9">ExL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="945">
+            <subfield code="a">IND</subfield>
+            <subfield code="d">LJS</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="946">
+            <subfield code="a">Non-US</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="952">
+            <subfield code="a">19951102 19951108 00000000</subfield>
+            <subfield code="b">IND LJS</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="974">
+            <subfield code="a">agid:2863571</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="984">
+            <subfield code="a">2014-12-25</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="985">
+            <subfield code="a">Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl (Revision 1.95 2014/04/23)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="986">
+            <subfield code="a">3134100</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915515219507426</subfield>
+            <subfield code="8">22177073760007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">Stacks</subfield>
+            <subfield code="d">SB599 .E97</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">28</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="v">from:v.104, no.7-9 1998 | 1998 until:v. 113, no. 4 2005 | 2005</subfield>
+            <subfield code="j">stacks</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">1</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915515219507426</subfield>
+            <subfield code="8">22177073770007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">Stacks</subfield>
+            <subfield code="d">SB599 .E97</subfield>
+            <subfield code="e">check_holdings</subfield>
+            <subfield code="j">stacks</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">2</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+            <subfield code="t">missing:vol.100 no.3-5,1994;vol.102 no.8-9,1996;vol.105 no.1,1999;</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>9916245091607426</recordIdentifier>
+      <recordPosition>3</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>02754nab a2200529 u 4500</leader>
+          <controlfield tag="001">9915814791207426</controlfield>
+          <controlfield tag="005">20240621123532.0</controlfield>
+          <controlfield tag="008">941213e199403  vau|||||o|||||||||||eng||</controlfield>
+          <datafield ind1="7" ind2=" " tag="016">
+            <subfield code="a">IND20436783</subfield>
+            <subfield code="2">DNAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">agid:2445326-01nal_inst</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">AGL</subfield>
+            <subfield code="b">eng</subfield>
+            <subfield code="c">AGL</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Wang, Y.T.</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Chemical regulators affect growth, postproduction performance, and propagation of golden pothos</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">p. 183-185.</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">Drench paclobutrazol or uniconazole applications (0.1-1.0 mg/0.5-liter pot or 0.05-0.2 mg/pot, respectively) were effective in suppressing stem elongation of golden pothos [Epipremnum aureum (Linden &amp; Andre) Bunt.]. Although the leaf production rate was reduced by both retardants, treated plants produced larger leaves than the controls, resulting in greater total leaf areas. Response to foliar paclobutrazol or uniconazole applications (0-200 and 0-100 mg.liter-1, respectively) was similar to the soil drench patterns, except that the leaf production rate was unaffected. Following 10 weeks in an interior environment, plants previously treated with either retardant produced shorter stems, fewer but larger leaves, and lower fresh weights than the nontreated plants. Cuttings collected from stock plants previously treated with a paclobutrazol or uniconazole soil drench (0.1 or 0.05 mg/0.5-liter pot, respectively) produced longer stemmed shoots, more and larger leaves, and heavier shoot fresh weights than cuttings from the nontreated plants. Foliar paclobutrazol application (0-200 mg liter-1) to stock plants resulted in cuttings producing larger leaves and heavier shoot fresh weights than controls.</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="593">
+            <subfield code="f">Agricola IND</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">Epipremnum pinnatum</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">paclobutrazol</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">uniconazole</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">growth retardation</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">leaves</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">foliar application</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">soil treatment</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">crop quality</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">application rate</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">vegetative propagation</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">shoot cuttings</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">growth rate</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">pot plants</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Gregg, L.L.</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="773">
+            <subfield code="t">HortScience.</subfield>
+            <subfield code="g">1994 Mar., v. 29, no. 3 p.183-185</subfield>
+            <subfield code="x">0018-5345</subfield>
+            <subfield code="7">nnas</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">islandora_article_repository</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">(Journal)1941</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="a">DNAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="912">
+            <subfield code="a">Article</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="914">
+            <subfield code="a">Journal:1941</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="914">
+            <subfield code="f">HortScience</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="917">
+            <subfield code="a">issued</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="930">
+            <subfield code="a">19950110</subfield>
+            <subfield code="b">19950113</subfield>
+            <subfield code="c">00000000</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="935">
+            <subfield code="a">IND20436783</subfield>
+            <subfield code="9">ExL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="945">
+            <subfield code="a">IND</subfield>
+            <subfield code="d">LJS</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="946">
+            <subfield code="a">Other US</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="952">
+            <subfield code="a">19950110 19950113 00000000</subfield>
+            <subfield code="b">IND LJS</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="974">
+            <subfield code="a">agid:2445326</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="984">
+            <subfield code="a">2014-12-25</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="985">
+            <subfield code="a">Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl (Revision 1.95 2014/04/23)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="986">
+            <subfield code="a">3089459</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915504702107426</subfield>
+            <subfield code="8">22174203890007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">Stacks</subfield>
+            <subfield code="d">SB1.H6</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">84</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="v">from:19 (5) 1976 Apr. | 1976 until:v. 47, no. 2 g</subfield>
+            <subfield code="j">stacks</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">1</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915504702107426</subfield>
+            <subfield code="8">22174203040007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">Stacks</subfield>
+            <subfield code="d">SB1.H6</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">27</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">stacks</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">2</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+            <subfield code="t">Holding: v. 13 no. 6</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915504702107426</subfield>
+            <subfield code="8">22174203900007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">ARS National Arboretum (NON-CIRCULATING)</subfield>
+            <subfield code="d">SB1.H6 DNAr</subfield>
+            <subfield code="e">check_holdings</subfield>
+            <subfield code="j">arboretum</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">3</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915504702107426</subfield>
+            <subfield code="8">22174203910007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">ASERL</subfield>
+            <subfield code="d">SB1 .H6</subfield>
+            <subfield code="e">check_holdings</subfield>
+            <subfield code="j">ASERL</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">4</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>9915814791207426</recordIdentifier>
+      <recordPosition>4</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>01284nab a2200373 u 4500</leader>
+          <controlfield tag="001">9916270883507426</controlfield>
+          <controlfield tag="005">20221118042358.0</controlfield>
+          <controlfield tag="008">831202e198309  xx |||||o|||||||||||eng||</controlfield>
+          <datafield ind1="7" ind2=" " tag="016">
+            <subfield code="a">IND83121934</subfield>
+            <subfield code="2">DNAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">agid:4314827-01nal_inst</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">AGL</subfield>
+            <subfield code="b">eng</subfield>
+            <subfield code="c">AGL</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">McConnell, D.B.</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Comparative production of 'Gold Dust' croton, 'Baby Doll' Cordyline , golden pothos and Cordatum</subfield>
+          </datafield>
+          <datafield ind1="3" ind2=" " tag="246">
+            <subfield code="a">Comparative production of 'Gold Dust' croton, 'Baby Doll' Cordyline , golden pothos and Cordatum [Florida]</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">p. 6-7.</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">p. 6-7. ill.</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="651">
+            <subfield code="a">Florida</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Garvey, E.J.</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="773">
+            <subfield code="t">Foliage digest.</subfield>
+            <subfield code="g">1983 Sept., v. 6, no. 9 p.6-7</subfield>
+            <subfield code="x">0740-2694</subfield>
+            <subfield code="7">nnas</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">islandora_article_repository</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">(Journal)21026</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="a">DNAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="912">
+            <subfield code="a">Article</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="914">
+            <subfield code="a">Journal:21026</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="914">
+            <subfield code="f">Foliage Dig</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="917">
+            <subfield code="a">title-only</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="935">
+            <subfield code="a">IND83121934</subfield>
+            <subfield code="9">ExL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="939">
+            <subfield code="a">00000000</subfield>
+            <subfield code="b">19831202</subfield>
+            <subfield code="c">00000000</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="946">
+            <subfield code="a">Other US</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="952">
+            <subfield code="a">00000000 19831202 00000000</subfield>
+            <subfield code="c">NALT auto-assigned from title enrichment</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="974">
+            <subfield code="a">agid:4314827</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="984">
+            <subfield code="a">2015-01-01</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="985">
+            <subfield code="a">Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl (Revision 1.95 2014/04/23)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="986">
+            <subfield code="a">2200195</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915427425907426</subfield>
+            <subfield code="8">22153938130007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">Stacks</subfield>
+            <subfield code="d">SB431.F6</subfield>
+            <subfield code="e">check_holdings</subfield>
+            <subfield code="j">stacks</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">1</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+            <subfield code="t">Missing Vol 5 No 8; Vol 6 No 3,8,10-11; Vol 7 No 1-4,6-9,11-12</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>9916270883507426</recordIdentifier>
+      <recordPosition>5</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>02528nab a2200805 u 4500</leader>
+          <controlfield tag="001">9915813966507426</controlfield>
+          <controlfield tag="005">20240621152743.0</controlfield>
+          <controlfield tag="008">050323e200502  xx |||||o|||||||||||eng||</controlfield>
+          <datafield ind1="7" ind2=" " tag="016">
+            <subfield code="a">IND43678713</subfield>
+            <subfield code="2">DNAL</subfield>
+          </datafield>
+          <datafield ind1="7" ind2=" " tag="024">
+            <subfield code="a">15688236</subfield>
+            <subfield code="2">pmid</subfield>
+          </datafield>
+          <datafield ind1="7" ind2=" " tag="024">
+            <subfield code="a">10.1007/s00299-004-0882-z</subfield>
+            <subfield code="2">doi</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">agid:1967710-01nal_inst</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">AGL</subfield>
+            <subfield code="b">eng</subfield>
+            <subfield code="c">AGL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="072">
+            <subfield code="a">F110</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="072">
+            <subfield code="a">F600</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Zhang, Q.</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Direct somatic embryogenesis and plant regeneration from leaf, petiole, and stem explants of Golden Pothos</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">p. 587-595.</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="500">
+            <subfield code="a">2019-12-04</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="593">
+            <subfield code="a">PubAg article</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="593">
+            <subfield code="f">Agricola IND</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">ornamental plants</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">kinetin</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">petioles</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">stems</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">herbaceous plants</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">explants</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">somatic embryogenesis</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">benzyladenine</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">Epipremnum pinnatum</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">micropropagation</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">naphthaleneacetic acid</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">2,4-D</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">culture media</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">somatic embryos</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="2" tag="650">
+            <subfield code="a">Araceae</subfield>
+            <subfield code="x">embryology</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="2" tag="650">
+            <subfield code="a">Culture Media</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="2" tag="650">
+            <subfield code="a">Germination</subfield>
+            <subfield code="x">physiology</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="2" tag="650">
+            <subfield code="a">Phenylurea Compounds</subfield>
+            <subfield code="x">chemistry</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="2" tag="650">
+            <subfield code="a">Plant Growth Regulators</subfield>
+            <subfield code="x">chemistry</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="2" tag="650">
+            <subfield code="a">Plant Leaves</subfield>
+            <subfield code="x">embryology</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="2" tag="650">
+            <subfield code="a">Plant Shoots</subfield>
+            <subfield code="x">embryology</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="2" tag="650">
+            <subfield code="a">Plant Stems</subfield>
+            <subfield code="x">embryology</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="2" tag="650">
+            <subfield code="a">Regeneration</subfield>
+            <subfield code="x">physiology</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">plant regeneration</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">N-phenyl-N'-1,2,3-thiadiazol-5-ylurea</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">N-(2-chloro-4-pyridyl)-N'-phenylurea</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">Araceae</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">leaves</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Chen, J.</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Henny, R.J.</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="773">
+            <subfield code="t">Plant cell reports.</subfield>
+            <subfield code="g">2005 Feb., v. 23, no. 9 p.587-595</subfield>
+            <subfield code="x">0721-7714</subfield>
+            <subfield code="7">nnas</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">islandora_article_repository</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">product_pubag</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">(Journal)jnl33565</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="a">DNAL</subfield>
+          </datafield>
+          <datafield ind1="4" ind2="0" tag="856">
+            <subfield code="u">http://dx.doi.org/10.1007/s00299-004-0882-z</subfield>
+            <subfield code="3">Available from publisher's Web site</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="912">
+            <subfield code="a">Article</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="914">
+            <subfield code="a">Journal:jnl33565</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="914">
+            <subfield code="f">Plant cell reports</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="917">
+            <subfield code="a">issued</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="930">
+            <subfield code="a">20050430</subfield>
+            <subfield code="b">20050501</subfield>
+            <subfield code="c">00000000</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="935">
+            <subfield code="a">IND43678713</subfield>
+            <subfield code="9">ExL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="945">
+            <subfield code="a">IND</subfield>
+            <subfield code="d">RSC</subfield>
+            <subfield code="e">2005/04/30</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="946">
+            <subfield code="a">Non-US</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="952">
+            <subfield code="a">20050430 20050501 00000000</subfield>
+            <subfield code="b">IND RSC 2005/04/30</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="974">
+            <subfield code="a">agid:1967710</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="984">
+            <subfield code="a">2014-12-22</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="985">
+            <subfield code="a">Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl (Revision 1.95 2014/04/23)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="986">
+            <subfield code="a">3678713</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915534375707426</subfield>
+            <subfield code="8">22182624720007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">Stacks</subfield>
+            <subfield code="d">QK725.P54</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">36</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">stacks</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">1</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+            <subfield code="t">Missing: v. 7 #8-12 1988/89; v. 1 # 2 1981; v. 24 #11 2005</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>9915813966507426</recordIdentifier>
+      <recordPosition>6</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>03440nab a2200685 u 4500</leader>
+          <controlfield tag="001">9915899036507426</controlfield>
+          <controlfield tag="005">20240621201312.0</controlfield>
+          <controlfield tag="008">990415e199806  onc|||||o|||||||||||eng||</controlfield>
+          <datafield ind1="7" ind2=" " tag="016">
+            <subfield code="a">IND21981651</subfield>
+            <subfield code="2">DNAL</subfield>
+          </datafield>
+          <datafield ind1="7" ind2=" " tag="024">
+            <subfield code="a">10.1080/07060669809500423</subfield>
+            <subfield code="2">doi</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">agid:1427690-01nal_inst</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">AGL</subfield>
+            <subfield code="b">eng</subfield>
+            <subfield code="c">AGL</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Norman, D.J.</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="2" tag="245">
+            <subfield code="a">A distinct pathotype of Ralstonia (Pseudomonas) solanacearum race 1, biovar 1 entering Florida in pothos (Epipremnum aureum) cuttings</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">p. 171-175.</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="500">
+            <subfield code="a">Summary in French.</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="500">
+            <subfield code="a">2019-12-04</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">Ralstonia solanacearum was isolated from diseased pothos (Epipremnum aureum) cuttings imported to Florida from Costa Rica. Epipremnum aureum has not previously been described as a host of R. solanacearum. Bacterial isolates were identified by standard bacteriological tests, FAME analysis (MIDI), metabolic profile (Biolog), and by PCR using species-specific primers. All isolates were biovar 1, Gram-negative, oxidase negative, catalase positive, motile, strictly aerobic, and accumulated poly-beta-hydroxybutyrate. Similarity indices using MIDI matched in most cases to R. solanacearum; however, low similarity indices were obtained with the Biolog data base. PCR amplification and electrophoretic analysis revealed a 148 bp product for all pothos isolates, identical to that in R. solanacearum control strains. Pathogenicity of isolates from pothos were compared with tomato and potato isolates from Florida on tomato, potato, pothos, tobacco, and triploid banana. Isolates from pothos caused wilt of tomato and potato, variable symptoms on tobacco, and mild symptoms on banana; they were identified as race 1. Ralstonia solanacearum isolates from pothos represent a distinct pathotype of race 1, biovar 1 and differ from other race 1, biovar 1 strains by being pathogenic on pothos.</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="593">
+            <subfield code="a">PubAg article</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="593">
+            <subfield code="f">Agricola IND</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">plant pathogenic bacteria</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">chemical composition</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">host range</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">introduced species</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">strain differences</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">polymerase chain reaction</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">new host records</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">Solanum tuberosum</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">Musa acuminata</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">Epipremnum pinnatum</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">Ralstonia solanacearum</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">pathotypes</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">molecular weight</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">virulence</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">Solanum lycopersicum var. lycopersicum</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="651">
+            <subfield code="a">Costa Rica</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="651">
+            <subfield code="a">Florida</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">identification</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">symptoms</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">pathogenicity</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Yuen, J.M.F.</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="773">
+            <subfield code="t">Canadian journal of plant pathology.</subfield>
+            <subfield code="g">1998 June, v. 20, no. 2 p.171-175</subfield>
+            <subfield code="x">0706-0661</subfield>
+            <subfield code="7">nnas</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">islandora_article_repository</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">product_pubag</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">(Journal)jnl43214</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="a">DNAL</subfield>
+          </datafield>
+          <datafield ind1="4" ind2="0" tag="856">
+            <subfield code="u">http://dx.doi.org/10.1080/07060669809500423</subfield>
+            <subfield code="3">Available from publisher's Web site</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="912">
+            <subfield code="a">Article</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="914">
+            <subfield code="a">Journal:jnl43214</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="914">
+            <subfield code="f">Can. J. plant pathol</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="917">
+            <subfield code="a">issued</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="930">
+            <subfield code="a">19990503</subfield>
+            <subfield code="b">19990512</subfield>
+            <subfield code="c">00000000</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="935">
+            <subfield code="a">IND21981651</subfield>
+            <subfield code="9">ExL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="945">
+            <subfield code="a">IND</subfield>
+            <subfield code="d">CTR</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="946">
+            <subfield code="a">Non-US</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="952">
+            <subfield code="a">19990503 19990512 00000000</subfield>
+            <subfield code="b">IND CTR</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="974">
+            <subfield code="a">agid:1427690</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="984">
+            <subfield code="a">2014-12-25</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="985">
+            <subfield code="a">Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl (Revision 1.95 2014/04/23)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="986">
+            <subfield code="a">3021157</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915515204707426</subfield>
+            <subfield code="8">22177103370007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">Stacks</subfield>
+            <subfield code="d">SB599.C35</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">36</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">stacks</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">1</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+            <subfield code="t">Missing: v. 7 no. 5-12</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915515204707426</subfield>
+            <subfield code="8">22177103380007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">ASERL</subfield>
+            <subfield code="d">SB599 .C35</subfield>
+            <subfield code="e">check_holdings</subfield>
+            <subfield code="j">ASERL</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">2</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>9915899036507426</recordIdentifier>
+      <recordPosition>7</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>01458nab a2200505 u 4500</leader>
+          <controlfield tag="001">9915791150407426</controlfield>
+          <controlfield tag="005">20240621104456.0</controlfield>
+          <controlfield tag="008">880429e198804  xx |||||o|||||||||||eng||</controlfield>
+          <datafield ind1="7" ind2=" " tag="016">
+            <subfield code="a">IND88001994</subfield>
+            <subfield code="2">DNAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">agid:1915065-01nal_inst</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">AGL</subfield>
+            <subfield code="b">eng</subfield>
+            <subfield code="c">AGL</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Wang, Y.T.</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Effect of nodal position, cutting length, and root retention on the propagation of golden pothos</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">p. 347-349.</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="500">
+            <subfield code="a">2019-12-04</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="593">
+            <subfield code="f">Agricola IND</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">potted foliage plants</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">Epipremnum pinnatum</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">length</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">plant cuttings</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">roots</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">shoots</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">nodes (plant)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">leaf cuttings</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">plant propagation</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">position</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">retention</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="653">
+            <subfield code="a">growth</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Boogher, C.A.</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="773">
+            <subfield code="t">HortScience.</subfield>
+            <subfield code="g">1988 Apr., v. 23, no. 2 p.347-349</subfield>
+            <subfield code="x">0018-5345</subfield>
+            <subfield code="7">nnas</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">islandora_article_repository</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">(Journal)1941</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="a">DNAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="912">
+            <subfield code="a">Article</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="914">
+            <subfield code="a">Journal:1941</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="914">
+            <subfield code="f">Hortscience</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="917">
+            <subfield code="a">issued</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="935">
+            <subfield code="a">IND88001994</subfield>
+            <subfield code="9">ExL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="939">
+            <subfield code="a">00000000</subfield>
+            <subfield code="b">19880429</subfield>
+            <subfield code="c">00000000</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="946">
+            <subfield code="a">Other US</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="952">
+            <subfield code="a">00000000 19880429 00000000</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="974">
+            <subfield code="a">agid:1915065</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="984">
+            <subfield code="a">2015-01-01</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="985">
+            <subfield code="a">Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl (Revision 1.95 2014/04/23)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="986">
+            <subfield code="a">2415263</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915504702107426</subfield>
+            <subfield code="8">22174203890007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">Stacks</subfield>
+            <subfield code="d">SB1.H6</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">84</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="v">from:19 (5) 1976 Apr. | 1976 until:v. 47, no. 2 g</subfield>
+            <subfield code="j">stacks</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">1</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915504702107426</subfield>
+            <subfield code="8">22174203040007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">Stacks</subfield>
+            <subfield code="d">SB1.H6</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">27</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">stacks</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">2</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+            <subfield code="t">Holding: v. 13 no. 6</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915504702107426</subfield>
+            <subfield code="8">22174203900007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">ARS National Arboretum (NON-CIRCULATING)</subfield>
+            <subfield code="d">SB1.H6 DNAr</subfield>
+            <subfield code="e">check_holdings</subfield>
+            <subfield code="j">arboretum</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">3</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915504702107426</subfield>
+            <subfield code="8">22174203910007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">ASERL</subfield>
+            <subfield code="d">SB1 .H6</subfield>
+            <subfield code="e">check_holdings</subfield>
+            <subfield code="j">ASERL</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">4</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>9915791150407426</recordIdentifier>
+      <recordPosition>8</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>01432nab a2200409 u 4500</leader>
+          <controlfield tag="001">9916196227907426</controlfield>
+          <controlfield tag="005">20240703172720.0</controlfield>
+          <controlfield tag="008">800714e19800601xx |||||o|||||||||||eng||</controlfield>
+          <datafield ind1="7" ind2=" " tag="016">
+            <subfield code="a">IND80086506</subfield>
+            <subfield code="2">DNAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">agid:3696689-01nal_inst</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">AGL</subfield>
+            <subfield code="b">eng</subfield>
+            <subfield code="c">AGL</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Lehman, P.S.</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Effect of the root-knot nematode, Meloidogyne incognita, on pothos</subfield>
+          </datafield>
+          <datafield ind1="3" ind2=" " tag="246">
+            <subfield code="a">Effect of the root-knot nematode, Meloidogyne incognita, on pothos [Epipremnum aureum]</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">p. 343-345.</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">p. 343-345. ill.</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="593">
+            <subfield code="f">Agricola IND</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">Epipremnum pinnatum</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="7" tag="655">
+            <subfield code="a">conference publication</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Stokes, D.E.</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="773">
+            <subfield code="t">Proceedings of the ... annual meeting of the Florida State Horticultural Society.</subfield>
+            <subfield code="g">1980 June 1, v. 92 p.343-345</subfield>
+            <subfield code="x">0097-1219</subfield>
+            <subfield code="7">nnas</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">islandora_article_repository</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">(Journal)20054</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="a">DNAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="912">
+            <subfield code="a">Article</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="914">
+            <subfield code="a">Journal:20054</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="914">
+            <subfield code="f">Proc Annu Meet Fla State Hortic Soc</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="917">
+            <subfield code="a">reindex</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="935">
+            <subfield code="a">IND80086506</subfield>
+            <subfield code="9">ExL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="939">
+            <subfield code="a">00000000</subfield>
+            <subfield code="b">19800714</subfield>
+            <subfield code="c">00000000</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="945">
+            <subfield code="a">IND</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="946">
+            <subfield code="a">Other US</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="952">
+            <subfield code="a">00000000 19800714 00000000</subfield>
+            <subfield code="b">IND</subfield>
+            <subfield code="c">NALT auto-assigned from title enrichment</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="974">
+            <subfield code="a">agid:3696689</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="984">
+            <subfield code="a">2014-12-29</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="985">
+            <subfield code="a">Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl (Revision 1.95 2014/04/23)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="986">
+            <subfield code="a">1745964</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915516389407426</subfield>
+            <subfield code="8">22177553050007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">Stacks</subfield>
+            <subfield code="d">81 F66</subfield>
+            <subfield code="e">check_holdings</subfield>
+            <subfield code="j">stacks</subfield>
+            <subfield code="k">dnal</subfield>
+            <subfield code="p">1</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>9916196227907426</recordIdentifier>
+      <recordPosition>9</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>01212nab a2200397 u 4500</leader>
+          <controlfield tag="001">9916261463107426</controlfield>
+          <controlfield tag="005">20240623180659.0</controlfield>
+          <controlfield tag="008">870827e198708  xx |||||o|||||||||||eng||</controlfield>
+          <datafield ind1="7" ind2=" " tag="016">
+            <subfield code="a">IND87055283</subfield>
+            <subfield code="2">DNAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">agid:1939242-01nal_inst</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">AGL</subfield>
+            <subfield code="b">eng</subfield>
+            <subfield code="c">AGL</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Wang, Y.T.</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Effect of warm medium, light intensity, BA, and parent leaf on propagation of golden pothos</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">p. 597-599.</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="593">
+            <subfield code="f">Agricola IND</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">Epipremnum pinnatum</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">growing media</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">benzyladenine</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="650">
+            <subfield code="a">vegetative propagation</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="3" tag="651">
+            <subfield code="a">Texas</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="773">
+            <subfield code="t">HortScience.</subfield>
+            <subfield code="g">1987 Aug., v. 22, no. 4 p.597-599</subfield>
+            <subfield code="x">0018-5345</subfield>
+            <subfield code="7">nnas</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">islandora_article_repository</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="787">
+            <subfield code="o">(Journal)1941</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="a">DNAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="912">
+            <subfield code="a">Article</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="914">
+            <subfield code="a">Journal:1941</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="914">
+            <subfield code="f">Hortscience</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="917">
+            <subfield code="a">issued</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="935">
+            <subfield code="a">IND87055283</subfield>
+            <subfield code="9">ExL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="939">
+            <subfield code="a">00000000</subfield>
+            <subfield code="b">19870827</subfield>
+            <subfield code="c">00000000</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="946">
+            <subfield code="a">Other US</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="952">
+            <subfield code="a">00000000 19870827 00000000</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="974">
+            <subfield code="a">agid:1939242</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="984">
+            <subfield code="a">2015-01-01</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="985">
+            <subfield code="a">Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl (Revision 1.95 2014/04/23)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="986">
+            <subfield code="a">2511620</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915504702107426</subfield>
+            <subfield code="8">22174203890007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">Stacks</subfield>
+            <subfield code="d">SB1.H6</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">84</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="v">from:19 (5) 1976 Apr. | 1976 until:v. 47, no. 2 g</subfield>
+            <subfield code="j">stacks</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">1</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915504702107426</subfield>
+            <subfield code="8">22174203040007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">Stacks</subfield>
+            <subfield code="d">SB1.H6</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">27</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">stacks</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">2</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+            <subfield code="t">Holding: v. 13 no. 6</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915504702107426</subfield>
+            <subfield code="8">22174203900007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">ARS National Arboretum (NON-CIRCULATING)</subfield>
+            <subfield code="d">SB1.H6 DNAr</subfield>
+            <subfield code="e">check_holdings</subfield>
+            <subfield code="j">arboretum</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">3</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">9915504702107426</subfield>
+            <subfield code="8">22174203910007426</subfield>
+            <subfield code="a">01NAL_INST</subfield>
+            <subfield code="b">NAL</subfield>
+            <subfield code="c">ASERL</subfield>
+            <subfield code="d">SB1 .H6</subfield>
+            <subfield code="e">check_holdings</subfield>
+            <subfield code="j">ASERL</subfield>
+            <subfield code="k">0</subfield>
+            <subfield code="p">4</subfield>
+            <subfield code="q">National Agricultural Library</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>9916261463107426</recordIdentifier>
+      <recordPosition>10</recordPosition>
+    </record>
+  </records>
+  <nextRecordPosition>11</nextRecordPosition>
+  <extraResponseData xmlns:xb="http://www.exlibris.com/repository/search/xmlbeans/">
+    <xb:exact>true</xb:exact>
+    <xb:responseDate>2024-10-02T17:13:32-0400</xb:responseDate>
+  </extraResponseData>
+</searchRetrieveResponse>

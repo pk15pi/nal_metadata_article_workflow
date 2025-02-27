@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE article PUBLIC
+        "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN" "JATS-journalpublishing1.dtd">
+<article dtd-version="1.2" xml:lang="en" article-type="research-article">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="publisher-id">BJN</journal-id>
+            <journal-title-group>
+                <journal-title>British Journal of Nutrition</journal-title>
+                <abbrev-journal-title abbrev-type="publisher">Br J Nutr</abbrev-journal-title>
+            </journal-title-group>
+            <issn publication-format="print">0007-1145</issn>
+            <issn publication-format="electronic">1475-2662</issn>
+            <publisher>
+                <publisher-name>Cambridge University Press</publisher-name>
+                <publisher-loc>Cambridge, UK</publisher-loc>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="manuscript">BJN-23-0849</article-id>
+            <article-id pub-id-type="pii">S0007114524000722</article-id>
+            <article-id pub-id-type="doi">10.1017/S0007114524000722</article-id>
+            <article-categories>
+                <subj-group subj-group-type="section">
+                    <subject>Microbiology</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>Effect of different doses of camelina cake inclusion as a substitute of dietary soyabean
+                    meal on growth performance and gut health of weaned pigs
+                </article-title>
+            </title-group>
+            <contrib-group content-type="authors">
+                <contrib contrib-type="author" id="contrib1">
+                    <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0001-7864-7822
+                    </contrib-id>
+                    <name>
+                        <surname>Luise</surname>
+                        <given-names>Diana</given-names>
+                    </name>
+                    <xref rid="a1" ref-type="aff">
+                        <sup>1</sup>
+                    </xref>
+                    <role degree-contribution="supporting" vocab="credit" vocab-identifier="http://credit.niso.org/">
+                        Conceptualization
+                    </role>
+                    <role degree-contribution="lead" vocab="credit" vocab-identifier="http://credit.niso.org/">Data
+                        curation
+                    </role>
+                    <role degree-contribution="lead" vocab="credit" vocab-identifier="http://credit.niso.org/">Formal
+                        analysis
+                    </role>
+                    <role degree-contribution="lead" vocab="credit" vocab-identifier="http://credit.niso.org/">
+                        Investigation
+                    </role>
+                    <role degree-contribution="lead" vocab="credit" vocab-identifier="http://credit.niso.org/">
+                        Methodology
+                    </role>
+                    <role degree-contribution="lead" vocab="credit" vocab-identifier="http://credit.niso.org/">Writing –
+                        original draft
+                    </role>
+                </contrib>
+                <contrib contrib-type="author" id="contrib2">
+                    <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-8558-6503</contrib-id>
+                    <name>
+                        <surname>Correa</surname>
+                        <given-names>Federico</given-names>
+                    </name>
+                    <xref rid="a1" ref-type="aff">
+                        <sup>1</sup>
+                    </xref>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Data
+                        curation
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Formal
+                        analysis
+                    </role>
+                    <role degree-contribution="supporting" vocab="credit" vocab-identifier="http://credit.niso.org/">
+                        Investigation
+                    </role>
+                </contrib>
+                <contrib contrib-type="author" id="contrib3">
+                    <name>
+                        <surname>Cestonaro</surname>
+                        <given-names>Giulia</given-names>
+                    </name>
+                    <xref rid="a2" ref-type="aff">
+                        <sup>2</sup>
+                    </xref>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">
+                        Resources
+                    </role>
+                </contrib>
+                <contrib contrib-type="author" id="contrib4">
+                    <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-6785-9624</contrib-id>
+                    <name>
+                        <surname>Sattin</surname>
+                        <given-names>Eleonora</given-names>
+                    </name>
+                    <xref rid="a3" ref-type="aff">
+                        <sup>3</sup>
+                    </xref>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">
+                        Resources
+                    </role>
+                    <role degree-contribution="supporting" vocab="credit" vocab-identifier="http://credit.niso.org/">
+                        Writing – review &amp; editing
+                    </role>
+                </contrib>
+                <contrib contrib-type="author" id="contrib5">
+                    <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-7257-4762</contrib-id>
+                    <name>
+                        <surname>Conte</surname>
+                        <given-names>Giuseppe</given-names>
+                    </name>
+                    <xref rid="a4" ref-type="aff">
+                        <sup>4</sup>
+                    </xref>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Formal
+                        analysis
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">
+                        Methodology
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Writing
+                        – review &amp; editing
+                    </role>
+                </contrib>
+                <contrib contrib-type="author" id="contrib6">
+                    <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-7896-012X</contrib-id>
+                    <name>
+                        <surname>Mele</surname>
+                        <given-names>Marcello</given-names>
+                    </name>
+                    <xref rid="a4" ref-type="aff">
+                        <sup>4</sup>
+                    </xref>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Formal
+                        analysis
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">
+                        Methodology
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Writing
+                        – review &amp; editing
+                    </role>
+                </contrib>
+                <contrib contrib-type="author" id="contrib7">
+                    <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-1653-0490</contrib-id>
+                    <name>
+                        <surname>Archetti</surname>
+                        <given-names>Ivonne</given-names>
+                    </name>
+                    <xref rid="a5" ref-type="aff">
+                        <sup>5</sup>
+                    </xref>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Formal
+                        analysis
+                    </role>
+                </contrib>
+                <contrib contrib-type="author" id="contrib8">
+                    <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-4251-3328</contrib-id>
+                    <name>
+                        <surname>Virdis</surname>
+                        <given-names>Sara</given-names>
+                    </name>
+                    <xref rid="a1" ref-type="aff">
+                        <sup>1</sup>
+                    </xref>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Data
+                        curation
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Formal
+                        analysis
+                    </role>
+                </contrib>
+                <contrib contrib-type="author" id="contrib9">
+                    <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-0895-0070</contrib-id>
+                    <name>
+                        <surname>Negrini</surname>
+                        <given-names>Clara</given-names>
+                    </name>
+                    <xref rid="a1" ref-type="aff">
+                        <sup>1</sup>
+                    </xref>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Data
+                        curation
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Formal
+                        analysis
+                    </role>
+                </contrib>
+                <contrib contrib-type="author" id="contrib10">
+                    <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-7034-1076</contrib-id>
+                    <name>
+                        <surname>Galasso</surname>
+                        <given-names>Incoronata</given-names>
+                    </name>
+                    <xref rid="a6" ref-type="aff">
+                        <sup>6</sup>
+                    </xref>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Data
+                        curation
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Formal
+                        analysis
+                    </role>
+                </contrib>
+                <contrib contrib-type="author" id="contrib11">
+                    <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-5864-2178</contrib-id>
+                    <name>
+                        <surname>Stefanelli</surname>
+                        <given-names>Claudio</given-names>
+                    </name>
+                    <xref rid="a7" ref-type="aff">
+                        <sup>7</sup>
+                    </xref>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Data
+                        curation
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Formal
+                        analysis
+                    </role>
+                </contrib>
+                <contrib contrib-type="author" id="contrib12">
+                    <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-7384-5990</contrib-id>
+                    <name>
+                        <surname>Mazzoni</surname>
+                        <given-names>Maurizio</given-names>
+                    </name>
+                    <xref rid="a8" ref-type="aff">
+                        <sup>8</sup>
+                    </xref>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Data
+                        curation
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Formal
+                        analysis
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Writing
+                        – review &amp; editing
+                    </role>
+                </contrib>
+                <contrib contrib-type="author" id="contrib13">
+                    <name>
+                        <surname>Nataloni</surname>
+                        <given-names>Luigi</given-names>
+                    </name>
+                    <xref rid="a2" ref-type="aff">
+                        <sup>2</sup>
+                    </xref>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Data
+                        curation
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">
+                        Resources
+                    </role>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes" id="contrib14">
+                    <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-7019-6828</contrib-id>
+                    <name>
+                        <surname>Trevisi</surname>
+                        <given-names>Paolo</given-names>
+                    </name>
+                    <xref rid="a1" ref-type="aff">
+                        <sup>1</sup>
+                    </xref>
+                    <xref rid="cor1" ref-type="corresp">*</xref>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">
+                        Conceptualization
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Data
+                        curation
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Funding
+                        acquisition
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">
+                        Investigation
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">
+                        Methodology
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Project
+                        administration
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">
+                        Resources
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">
+                        Supervision
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Writing
+                        – review &amp; editing
+                    </role>
+                </contrib>
+                <contrib contrib-type="author" id="contrib15">
+                    <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-9521-556X</contrib-id>
+                    <name>
+                        <surname>Costanzo</surname>
+                        <given-names>Enrico</given-names>
+                    </name>
+                    <xref rid="a2" ref-type="aff">
+                        <sup>2</sup>
+                    </xref>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">
+                        Conceptualization
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">
+                        Investigation
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Project
+                        administration
+                    </role>
+                    <role degree-contribution="equal" vocab="credit" vocab-identifier="http://credit.niso.org/">Writing
+                        – review &amp; editing
+                    </role>
+                </contrib>
+            </contrib-group>
+            <aff id="a1">
+                <label>
+                    <sup>1</sup>
+                </label>
+                Department of Agricultural and Food Sciences (DISTAL), <institution>University of Bologna</institution>,
+                Viale G Fanin, <city>Bologna</city>
+                <postal-code>40127</postal-code>,
+                <country>Italy</country>
+            </aff>
+            <aff id="a2">
+                <label>
+                    <sup>2</sup>
+                </label>
+                Cereal Docks S.p.A – Dipartimento Ricerca &amp; Innovazione (E. Costanzo, G. Cestonaro), Cereal Docks
+                S.p.A (L. Nataloni) via Innovazione 1, <city>Camisano Vicentino</city>, <postal-code>36043</postal-code>,
+                <country>Italy</country>
+            </aff>
+            <aff id="a3">
+                <label>
+                    <sup>3</sup>
+                </label>
+                BMR Genomics, Via della repubblica, <city>Padova</city>, <postal-code>35131</postal-code>,
+                <country>Italy</country>
+            </aff>
+            <aff id="a4">
+                <label>
+                    <sup>4</sup>
+                </label>
+                Department of Agriculture, Food and Environment (DAFE), <institution>University of Pisa</institution>,
+                Via del Borghetto, 80, <city>Pisa</city>, <postal-code>56124</postal-code>,
+                <country>Italy</country>
+            </aff>
+            <aff id="a5">
+                <label>
+                    <sup>5</sup>
+                </label>
+                <institution>Istituto Zooprofilattico Sperimentale della Lombardia e dell’Emilia Romagna Bruno
+                    Ubertini</institution>, V. Bianchi 9, <postal-code>25124</postal-code>, <city>Brescia</city>,
+                <country>Italy</country>
+            </aff>
+            <aff id="a6">
+                <label>
+                    <sup>6</sup>
+                </label>
+                <institution>Institute of Agricultural Biology and Biotechnology</institution>, CNR, via Alfonso Corti
+                12, <city>Milan</city>,
+                <country>Italy</country>
+            </aff>
+            <aff id="a7">
+                <label>
+                    <sup>7</sup>
+                </label>
+                Department for Life Quality Studies, Alma Mater Studiorum, <institution>University of
+                Bologna</institution>, Corso D’Augusto 237, <postal-code>47921</postal-code>
+                <city>Rimini</city>,
+                <country>Italy</country>
+            </aff>
+            <aff id="a8">
+                <label>
+                    <sup>8</sup>
+                </label>
+                Department of Veterinary Science, <institution>University of Bologna</institution>, Via Tolara di Sopra,
+                50, <postal-code>40064</postal-code>, <city>Ozzano dell’Emilia</city>,
+                <country>Italy</country>
+            </aff>
+            <author-notes>
+                <corresp id="cor1">
+                    <label>*</label>
+                    <bold>Corresponding author:</bold>
+                    Paolo Trevisi, email
+                    <email>paolo.trevisi@unibo.it</email>
+                </corresp>
+            </author-notes>
+            <pub-date iso-8601-date="2024-06-28" date-type="pub" publication-format="print">
+                <day>28</day>
+                <month>06</month>
+                <year>2024</year>
+            </pub-date>
+            <pub-date iso-8601-date="2024-04-12" date-type="pub" publication-format="electronic">
+                <day>12</day>
+                <month>04</month>
+                <year>2024</year>
+            </pub-date>
+            <volume>131</volume>
+            <issue seq="4">12</issue>
+            <fpage>1962</fpage>
+            <lpage>1974</lpage>
+            <history>
+                <date date-type="received">
+                    <day>14</day>
+                    <month>09</month>
+                    <year>2023</year>
+                </date>
+                <date date-type="rev-recd">
+                    <day>01</day>
+                    <month>02</month>
+                    <year>2024</year>
+                </date>
+                <date date-type="accepted">
+                    <day>13</day>
+                    <month>03</month>
+                    <year>2024</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-statement>© The Author(s), 2024. Published by Cambridge University Press on behalf of The
+                    Nutrition Society
+                </copyright-statement>
+                <copyright-year>2024</copyright-year>
+                <copyright-holder>The Author(s)</copyright-holder>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <license-p>This is an Open Access article, distributed under the terms of the Creative Commons
+                        Attribution licence (<uri xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                            http://creativecommons.org/licenses/by/4.0/</uri>), which permits unrestricted re-use,
+                        distribution and reproduction, provided the original article is properly cited.
+                    </license-p>
+                </license>
+            </permissions>
+            <abstract abstract-type="normal">
+                <title>Abstract</title>
+                <p>Camelina cake (CAM) is a co-product proposed as an alternative protein source; however, piglet data
+                    are still limited. This study aimed to evaluate the effect of different doses of CAM in substitution
+                    of soyabean meal on the growth, health and gut health of weaned pigs. At 14 d post-weaning (d0),
+                    sixty-four piglets were assigned either to a standard diet or to a diet with 4 %, 8 % or 12 % of
+                    CAM. Piglets were weighed weekly. At d7 and d28, faeces were collected for microbiota and polyamine
+                    and blood for reactive oxygen metabolites (ROM) and thyroxine analysis. At d28, pigs were
+                    slaughtered, organs were weighed, pH was recorded on gut, colon was analysed for volatile fatty
+                    acids (VFA) and jejunum was used for morphological and gene expression analysis. Data analysis was
+                    carried out using a mixed model including diet, pen and litter as factors; linear and quadratic
+                    contrasts were tested. CAM linearly reduced the average daily gain from d0–d7, d0–d14, d0–d21 and
+                    d0–d28 (<italic>P</italic> ≤ 0·01). From d0–d7 increasing CAM linearly decreased feed intake (<italic>
+                        P
+                    </italic> = 0·04) and increased linearly the feed to gain (<italic>P</italic> = 0·004). CAM
+                    increased linearly the liver weight (<italic>P</italic> &lt; 0·0001) and affected the cadaverine (<italic>
+                        P
+                    </italic> &lt; 0·001). The diet did not affect the ROM, thyroxine, intestinal pH, VFA and
+                    morphology. All doses of CAM increased the α diversity indices at d28 (<italic>P</italic> &lt;
+                    0·05). CAM at 4 % promoted the abundance of Butyricicoccaceae_UCG-008. Feeding with CAM enhanced
+                    resilience in the gut microbiome and can be evaluated as a potential alternative protein source with
+                    dose-dependent limitations on piglet growth performance.
+                </p>
+            </abstract>
+            <kwd-group>
+                <title>Keywords:</title>
+                <kwd>Alternative protein</kwd>
+                <kwd>Microbiota</kwd>
+                <kwd>Feed digestibility</kwd>
+                <kwd>Livestock sustainability</kwd>
+                <kwd>Farm-to-fork</kwd>
+            </kwd-group>
+            <kwd-group kwd-group-type="abbreviations">
+                <title>Abbreviations:</title>
+                <compound-kwd>
+                    <compound-kwd-part content-type="abbrev">AA</compound-kwd-part>
+                    <compound-kwd-part content-type="expansion">amino acids</compound-kwd-part>
+                </compound-kwd>
+                <compound-kwd>
+                    <compound-kwd-part content-type="abbrev">ADG</compound-kwd-part>
+                    <compound-kwd-part content-type="expansion">average daily gain</compound-kwd-part>
+                </compound-kwd>
+                <compound-kwd>
+                    <compound-kwd-part content-type="abbrev">BW</compound-kwd-part>
+                    <compound-kwd-part content-type="expansion">body weight</compound-kwd-part>
+                </compound-kwd>
+                <compound-kwd>
+                    <compound-kwd-part content-type="abbrev">CAM</compound-kwd-part>
+                    <compound-kwd-part content-type="expansion">camelina cake</compound-kwd-part>
+                </compound-kwd>
+                <compound-kwd>
+                    <compound-kwd-part content-type="abbrev">Ct</compound-kwd-part>
+                    <compound-kwd-part content-type="expansion">cycle threshold</compound-kwd-part>
+                </compound-kwd>
+                <compound-kwd>
+                    <compound-kwd-part content-type="abbrev">d</compound-kwd-part>
+                    <compound-kwd-part content-type="expansion">day</compound-kwd-part>
+                </compound-kwd>
+                <compound-kwd>
+                    <compound-kwd-part content-type="abbrev">FCR</compound-kwd-part>
+                    <compound-kwd-part content-type="expansion">feed conversion ratio</compound-kwd-part>
+                </compound-kwd>
+                <compound-kwd>
+                    <compound-kwd-part content-type="abbrev">FI</compound-kwd-part>
+                    <compound-kwd-part content-type="expansion">feed intake</compound-kwd-part>
+                </compound-kwd>
+                <compound-kwd>
+                    <compound-kwd-part content-type="abbrev">LDA</compound-kwd-part>
+                    <compound-kwd-part content-type="expansion">linear discriminant analysis</compound-kwd-part>
+                </compound-kwd>
+                <compound-kwd>
+                    <compound-kwd-part content-type="abbrev">Lys</compound-kwd-part>
+                    <compound-kwd-part content-type="expansion">lysine</compound-kwd-part>
+                </compound-kwd>
+                <compound-kwd>
+                    <compound-kwd-part content-type="abbrev">M</compound-kwd-part>
+                    <compound-kwd-part content-type="expansion">mucosal-serosal amplification</compound-kwd-part>
+                </compound-kwd>
+                <compound-kwd>
+                    <compound-kwd-part content-type="abbrev">Met</compound-kwd-part>
+                    <compound-kwd-part content-type="expansion">methionine</compound-kwd-part>
+                </compound-kwd>
+                <compound-kwd>
+                    <compound-kwd-part content-type="abbrev">SID</compound-kwd-part>
+                    <compound-kwd-part content-type="expansion">standardised digestible</compound-kwd-part>
+                </compound-kwd>
+                <compound-kwd>
+                    <compound-kwd-part content-type="abbrev">T4</compound-kwd-part>
+                    <compound-kwd-part content-type="expansion">thyroxine</compound-kwd-part>
+                </compound-kwd>
+                <compound-kwd>
+                    <compound-kwd-part content-type="abbrev">Thr</compound-kwd-part>
+                    <compound-kwd-part content-type="expansion">threonine</compound-kwd-part>
+                </compound-kwd>
+                <compound-kwd>
+                    <compound-kwd-part content-type="abbrev">VFA</compound-kwd-part>
+                    <compound-kwd-part content-type="expansion">volatile fatty acids</compound-kwd-part>
+                </compound-kwd>
+                <compound-kwd>
+                    <compound-kwd-part content-type="abbrev">ZO-1</compound-kwd-part>
+                    <compound-kwd-part content-type="expansion">zonulin</compound-kwd-part>
+                </compound-kwd>
+            </kwd-group>
+            <counts>
+                <fig-count count="4"/>
+                <table-count count="6"/>
+                <ref-count count="60"/>
+                <page-count count="13"/>
+            </counts>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>pdf</meta-name>
+                    <meta-value>S0007114524000722a.pdf</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </article-meta>
+    </front>
+
+
+</article>

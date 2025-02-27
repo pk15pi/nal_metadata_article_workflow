@@ -1,0 +1,16 @@
+setup.py
+citation/__init__.py
+citation/citation.py
+mapper/__init__.py
+mapper/errors.py
+mapper/map_from_crossref_api.py
+mapper/map_from_submit_site.py
+mapper/mapper.py
+mapper/utils.py
+metadata_routines.egg-info/PKG-INFO
+metadata_routines.egg-info/SOURCES.txt
+metadata_routines.egg-info/dependency_links.txt
+metadata_routines.egg-info/requires.txt
+metadata_routines.egg-info/top_level.txt
+splitter/__init__.py
+splitter/splitter.py

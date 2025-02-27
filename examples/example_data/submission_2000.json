@@ -1,0 +1,61 @@
+{
+  "submission_node_id": 2000,
+  "submitter_email": "kj4@illinois.edu",
+  "submitter_name": "Keith William Jarosinski",
+  "title": "Attenuation of Marek\u0027s Disease Virus by Deletion of Open Reading Frame RLORF1 but NOT RLORF5a ",
+  "doi": "10.1128\/jvi.79.18.11647-11659.2005",
+  "authors": [
+    {
+      "first_name": "Keith W.",
+      "last_name": "Jarosinski",
+      "name_suffix": "",
+      "orcid": "0000-0002-0391-9018",
+      "affiliation": "Department of Microbiology and Immunology, College of Veterinary Medicine, Cornell University, Ithaca, New York"
+    },
+    {
+      "first_name": "Nikolaus",
+      "last_name": "Osterrieder",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "Department of Microbiology and Immunology, College of Veterinary Medicine, Cornell University, Ithaca, New York"
+    },
+    {
+      "first_name": "Venugopal K.",
+      "last_name": "Nair",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "Viral Oncogenesis Group, Institute for Animal Health, Compton, Berkshire, United Kingdom"
+    },
+    {
+      "first_name": "Karel A.",
+      "last_name": "Schat",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "Department of Microbiology and Immunology, College of Veterinary Medicine, Cornell University, Ithaca, New York"
+    }
+  ],
+  "funding_agencies": [
+    {
+      "name": "National Institute of Food and Agriculture (NIFA)",
+      "award_number": "2002-35204-11615;2001-35204- 10152;2004-35204-14214;2003-02234",
+      "project_number": ""
+    }
+  ],
+  "journal": "Journal of Virology",
+  "issn": "0022-538X",
+  "abstract": "Marek\u0027s disease (MD) in chickens is caused by the alphaherpesvirus MD virus (MDV) and is characterized by the development of lymphoblastoid tumors in multiple organs. The recent identification and cloning of RLORF4 and the finding that four of six attenuated strains of MDV contained deletions within RLORF4 suggested that it is involved in the attenuation process of MDV. To assess the role of RLORF4 in MD pathogenesis, its coding sequence was deleted in the pRB-1B bacterial artificial chromosome clone. Additionally, RLORF5a was deleted separately to examine its importance for oncogenesis. The sizes of plaques produced by MDV reconstituted from pRB-1B\u0394RLORF5a (rRB-1B\u0394RLORF5a) were similar to those produced by the parental pRB-1B virus (rRB-1B). In contrast, virus reconstituted from pRB-1B\u0394RLORF4 (rRB-1B\u0394RLORF4) produced significantly larger plaques. Replication of the latter virus in cultured cells was higher than that of rRB-1B or rRB-1B\u0394RLORF5a using quantitative PCR (qPCR) assays. In vivo, both deletion mutants and rRB-1B replicated at comparable levels at 4, 7, and 10 days postinoculation (p.i.), as determined by virus isolation and qPCR assays. At 14 days p.i., the number of PFU of virus isolated from chickens infected with rRB-1B\u0394RLORF4 was comparable to that from chickens infected with highly attenuated RB-1B and significantly lower than that from rRB-1B-infected birds. The number of tumors and kinetics of tumor production in chickens infected with rRB-1B\u0394RLORF5a were similar to those of P2a chickens infected with rRB-1B. In stark contrast, none of the chickens inoculated with rRB-1B\u0394RLORF4 died up to 13 weeks p.i.; however, two chickens had tumors at the termination of the experiment. The data indicate that RLORF4 is involved in attenuation of MDV, although the function of RLORF4 is still unknown.",
+  "publication_date": "2005-09-15",
+  "date_other": "",
+  "volume": 79,
+  "issue": 18,
+  "first_page": 11647,
+  "last_page": 11659,
+  "manuscript_file": "https:\/\/submit.nal.usda.gov\/sites\/default\/files\/manuscripts\/JarosinskiEtalJVI2005.pdf",
+  "manuscript_version": "publisher_vor",
+  "supplementary_files": "",
+  "accession_number": "",
+  "log_number": "",
+  "mms_id": "",
+  "created": 1717611977,
+  "changed": 1722608065
+}

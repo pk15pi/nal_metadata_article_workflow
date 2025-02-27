@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+./venv/
+./test_venv/
+./reports/reports_venv/
+./.pytest_cache
+./.idea/*
+reports/reports_venv/
+venv/
+./srupymarc/tests/*
+./srupymarc/examples/*

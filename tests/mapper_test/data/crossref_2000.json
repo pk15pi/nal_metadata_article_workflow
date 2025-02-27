@@ -1,0 +1,496 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          27
+        ]
+      ],
+      "date-time": "2024-07-27T09:58:31Z",
+      "timestamp": 1722074311121
+    },
+    "reference-count": 45,
+    "publisher": "American Society for Microbiology",
+    "issue": "18",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2005,
+              9,
+              15
+            ]
+          ],
+          "date-time": "2005-09-15T00:00:00Z",
+          "timestamp": 1126742400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https:\/\/journals.asm.org\/non-commercial-tdm-license"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.asm.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "J Virol"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2005,
+          9,
+          15
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT<\/jats:title>\n          <jats:p>\n            Marek's disease (MD) in chickens is caused by the alphaherpesvirus MD virus (MDV) and is characterized by the development of lymphoblastoid tumors in multiple organs. The recent identification and cloning of\n            <jats:italic>RLORF4<\/jats:italic>\n            and the finding that four of six attenuated strains of MDV contained deletions within\n            <jats:italic>RLORF4<\/jats:italic>\n            suggested that it is involved in the attenuation process of MDV. To assess the role of\n            <jats:italic>RLORF4<\/jats:italic>\n            in MD pathogenesis, its coding sequence was deleted in the pRB-1B bacterial artificial chromosome clone. Additionally,\n            <jats:italic>RLORF5a<\/jats:italic>\n            was deleted separately to examine its importance for oncogenesis. The sizes of plaques produced by MDV reconstituted from pRB-1B\u0394RLORF5a (rRB-1B\u0394RLORF5a) were similar to those produced by the parental pRB-1B virus (rRB-1B). In contrast, virus reconstituted from pRB-1B\u0394RLORF4 (rRB-1B\u0394RLORF4) produced significantly larger plaques. Replication of the latter virus in cultured cells was higher than that of rRB-1B or rRB-1B\u0394RLORF5a using quantitative PCR (qPCR) assays. In vivo, both deletion mutants and rRB-1B replicated at comparable levels at 4, 7, and 10 days postinoculation (p.i.), as determined by virus isolation and qPCR assays. At 14 days p.i., the number of PFU of virus isolated from chickens infected with rRB-1B\u0394RLORF4 was comparable to that from chickens infected with highly attenuated RB-1B and significantly lower than that from rRB-1B-infected birds. The number of tumors and kinetics of tumor production in chickens infected with rRB-1B\u0394RLORF5a were similar to those of P2a chickens infected with rRB-1B. In stark contrast, none of the chickens inoculated with rRB-1B\u0394RLORF4 died up to 13 weeks p.i.; however, two chickens had tumors at the termination of the experiment. The data indicate that\n            <jats:italic>RLORF4<\/jats:italic>\n            is involved in attenuation of MDV, although the function of\n            <jats:italic>RLORF4<\/jats:italic>\n            is still unknown.\n          <\/jats:p>",
+    "DOI": "10.1128\/jvi.79.18.11647-11659.2005",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2005,
+          9,
+          1
+        ]
+      ],
+      "date-time": "2005-09-01T04:37:57Z",
+      "timestamp": 1125549477000
+    },
+    "page": "11647-11659",
+    "update-policy": "http:\/\/dx.doi.org\/10.1128\/asmj-crossmark-policy-page",
+    "source": "Crossref",
+    "is-referenced-by-count": 98,
+    "title": [
+      "Attenuation of Marek's Disease Virus by Deletion of Open Reading Frame\n            <i>RLORF4<\/i>\n            but Not\n            <i>RLORF5a<\/i>"
+    ],
+    "prefix": "10.1128",
+    "volume": "79",
+    "author": [
+      {
+        "given": "Keith W.",
+        "family": "Jarosinski",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Microbiology and Immunology, College of Veterinary Medicine, Cornell University, Ithaca, New York"
+          }
+        ]
+      },
+      {
+        "given": "Nikolaus",
+        "family": "Osterrieder",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Microbiology and Immunology, College of Veterinary Medicine, Cornell University, Ithaca, New York"
+          }
+        ]
+      },
+      {
+        "given": "Venugopal K.",
+        "family": "Nair",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Viral Oncogenesis Group, Institute for Animal Health, Compton, Berkshire, United Kingdom"
+          }
+        ]
+      },
+      {
+        "given": "Karel A.",
+        "family": "Schat",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Microbiology and Immunology, College of Veterinary Medicine, Cornell University, Ithaca, New York"
+          }
+        ]
+      }
+    ],
+    "member": "235",
+    "reference": [
+      {
+        "key": "e_1_3_2_2_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128\/jvi.63.6.2534-2542.1989"
+      },
+      {
+        "key": "e_1_3_2_3_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128\/jvi.63.10.4129-4135.1989"
+      },
+      {
+        "key": "e_1_3_2_4_2",
+        "first-page": "25",
+        "volume": "255",
+        "year": "2001",
+        "unstructured": "Calnek, B. W. 2001. Pathogenesis of Marek's disease virus infection. Curr. Top. Microbiol. Immunol.255:25-55.",
+        "journal-title": "Curr. Top. Microbiol. Immunol."
+      },
+      {
+        "key": "e_1_3_2_5_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1099\/0022-1317-4-4-557"
+      },
+      {
+        "key": "e_1_3_2_6_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1637\/7050"
+      },
+      {
+        "key": "e_1_3_2_7_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128\/JVI.78.9.4753-4760.2004"
+      },
+      {
+        "key": "e_1_3_2_8_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073\/pnas.120163297"
+      },
+      {
+        "key": "e_1_3_2_9_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073\/pnas.82.3.751"
+      },
+      {
+        "key": "e_1_3_2_10_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089\/vim.2005.18.148"
+      },
+      {
+        "key": "e_1_3_2_11_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023\/A:1024447230464"
+      },
+      {
+        "key": "e_1_3_2_12_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1637\/0005-2086(2002)046[0636:IOGROT]2.0.CO;2"
+      },
+      {
+        "key": "e_1_3_2_13_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073\/pnas.89.9.4042"
+      },
+      {
+        "key": "e_1_3_2_14_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128\/JVI.79.11.6984-6996.2005"
+      },
+      {
+        "key": "e_1_3_2_15_2",
+        "first-page": "191",
+        "volume": "37",
+        "year": "1993",
+        "unstructured": "Kopacek, J., L. J. Ross, V. Zelnik, and J. Pastorek. 1993. The 132 bp repeats are present in RNA transcripts from 1.8 kb gene family of Marek disease virus-transformed cells. Acta Virol.37:191-195.",
+        "journal-title": "Acta Virol."
+      },
+      {
+        "key": "e_1_3_2_16_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006\/geno.2000.6451"
+      },
+      {
+        "key": "e_1_3_2_17_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128\/JVI.77.23.12841-12851.2003"
+      },
+      {
+        "key": "e_1_3_2_18_2",
+        "first-page": "94",
+        "volume": "43",
+        "year": "1999",
+        "unstructured": "Liu, J. L., S. F. Lin, L. Xia, P. Brunovskis, D. Li, I. Davidson, L. F. Lee, and H. J. Kung. 1999. MEQ and V-IL8: cellular genes in disguise? Acta Virol.43:94-101.",
+        "journal-title": "Acta Virol."
+      },
+      {
+        "key": "e_1_3_2_19_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128\/JVI.72.1.388-395.1998"
+      },
+      {
+        "key": "e_1_3_2_20_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073\/pnas.0404508101"
+      },
+      {
+        "key": "e_1_3_2_21_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128\/jvi.68.2.1191-1195.1994"
+      },
+      {
+        "key": "e_1_3_2_22_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128\/jvi.69.12.7888-7898.1995"
+      },
+      {
+        "key": "e_1_3_2_23_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128\/JVI.75.11.5159-5173.2001"
+      },
+      {
+        "key": "e_1_3_2_24_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006\/viro.1995.0031"
+      },
+      {
+        "key": "e_1_3_2_25_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128\/JVI.78.23.13376-13380.2004"
+      },
+      {
+        "key": "e_1_3_2_26_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1099\/0022-1317-64-12-2785"
+      },
+      {
+        "key": "e_1_3_2_27_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007\/BF01702347"
+      },
+      {
+        "key": "e_1_3_2_28_2",
+        "first-page": "1.1",
+        "volume": "1",
+        "year": "2001",
+        "unstructured": "Sambrook, J., and D. W. Russell (ed.). 2001. Plasmids and their usefulness in molecular cloning, p. 1.1-1.162. In Molecular cloning: a laboratory manual, 3rd ed., vol. 1. Cold Spring Harbor Laboratory Press, Cold Spring Harbor, N.Y.",
+        "journal-title": "Plasmids and their usefulness in molecular cloning"
+      },
+      {
+        "key": "e_1_3_2_29_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002\/ijc.2910440119"
+      },
+      {
+        "key": "e_1_3_2_30_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080\/03079458208436134"
+      },
+      {
+        "key": "e_1_3_2_31_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080\/03079458508436213"
+      },
+      {
+        "key": "e_1_3_2_32_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1099\/0022-1317-79-4-841"
+      },
+      {
+        "key": "e_1_3_2_33_2",
+        "first-page": "223",
+        "year": "1998",
+        "unstructured": "Schat, K. A., and H. G. Purchase. 1998. Cell-culture methods, p. 223-234. In D. E. Swayne, J. R. Glisson, M. W. Jackwood, J. E. Pearson, and W. M. Reed (ed.), A laboratory manual for the isolation and identification of avian pathogens, 4th ed. American Association of Avian Pathologists, Kennett Square, Pa.",
+        "journal-title": "A laboratory manual for the isolation and identification of avian pathogens"
+      },
+      {
+        "key": "e_1_3_2_34_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128\/JVI.74.23.11088-11098.2000"
+      },
+      {
+        "key": "e_1_3_2_35_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128\/JVI.78.2.733-740.2004"
+      },
+      {
+        "key": "e_1_3_2_36_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128\/JVI.79.10.5889-5899.2005"
+      },
+      {
+        "key": "e_1_3_2_37_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128\/JVI.74.17.7980-7988.2000"
+      },
+      {
+        "key": "e_1_3_2_38_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080\/03079457509353859"
+      },
+      {
+        "key": "e_1_3_2_39_2",
+        "first-page": "253",
+        "volume": "238",
+        "year": "1987",
+        "unstructured": "Weinstock, D., and K. A. Schat. 1987. Virus specific syngeneic killing of reticuloendotheliosis virus transformed cell line target cells by spleen cells. Prog. Clin. Biol. Res.238:253-263.",
+        "journal-title": "Prog. Clin. Biol. Res."
+      },
+      {
+        "key": "e_1_3_2_40_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006\/viro.1994.1137"
+      },
+      {
+        "key": "e_1_3_2_41_2",
+        "first-page": "111",
+        "year": "1972",
+        "unstructured": "Witter, R. L. 1972. Epidemiology of Marek's disease: a review, p. 111-122. In P. M. Biggs, G. de The, and L. N. Payne (ed.), Oncogenesis and herpesviruses. IARC, Lyon, France.",
+        "journal-title": "Oncogenesis and herpesviruses"
+      },
+      {
+        "key": "e_1_3_2_42_2",
+        "first-page": "57",
+        "volume": "255",
+        "year": "2001",
+        "unstructured": "Witter, R. L. 2001. Protective efficacy of Marek's disease vaccines. Curr. Top. Microbiol. Immunol.255:57-90.",
+        "journal-title": "Curr. Top. Microbiol. Immunol."
+      },
+      {
+        "key": "e_1_3_2_43_2",
+        "first-page": "143",
+        "volume": "62",
+        "year": "1979",
+        "unstructured": "Witter, R. L., and L. Offenbecker. 1979. Nonprotective and temperature-sensitive variants of Marek's disease vaccine viruses. JNCI62:143-151.",
+        "journal-title": "JNCI"
+      },
+      {
+        "key": "e_1_3_2_44_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046\/j.1365-2567.2000.00008.x"
+      },
+      {
+        "key": "e_1_3_2_45_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128\/JVI.74.21.10176-10186.2000"
+      },
+      {
+        "key": "e_1_3_2_46_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016\/j.virol.2004.07.017"
+      }
+    ],
+    "container-title": [
+      "Journal of Virology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https:\/\/journals.asm.org\/doi\/pdf\/10.1128\/JVI.79.18.11647-11659.2005",
+        "content-type": "application\/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https:\/\/journals.asm.org\/doi\/pdf\/10.1128\/JVI.79.18.11647-11659.2005",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          5
+        ]
+      ],
+      "date-time": "2022-03-05T09:29:38Z",
+      "timestamp": 1646472578000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https:\/\/journals.asm.org\/doi\/10.1128\/JVI.79.18.11647-11659.2005"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2005,
+          9,
+          15
+        ]
+      ]
+    },
+    "references-count": 45,
+    "journal-issue": {
+      "issue": "18",
+      "published-print": {
+        "date-parts": [
+          [
+            2005,
+            9,
+            15
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1128\/JVI.79.18.11647-11659.2005"
+    ],
+    "URL": "https:\/\/doi.org\/10.1128\/jvi.79.18.11647-11659.2005",
+    "relation": {},
+    "ISSN": [
+      "0022-538X",
+      "1098-5514"
+    ],
+    "issn-type": [
+      {
+        "value": "0022-538X",
+        "type": "print"
+      },
+      {
+        "value": "1098-5514",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2005,
+          9,
+          15
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2005-02-07",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2005-06-29",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2005-09-15",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

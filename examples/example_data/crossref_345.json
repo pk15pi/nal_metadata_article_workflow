@@ -1,0 +1,590 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          15
+        ]
+      ],
+      "date-time": "2024-08-15T13:52:58Z",
+      "timestamp": 1723729978615
+    },
+    "reference-count": 36,
+    "publisher": "MDPI AG",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              9
+            ]
+          ],
+          "date-time": "2023-05-09T00:00:00Z",
+          "timestamp": 1683590400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https:\/\/creativecommons.org\/licenses\/by\/4.0\/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Cotton Incorporated",
+        "award": [
+          "17-533"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Agronomy"
+    ],
+    "abstract": "<jats:p>Knowledge of cotton fiber length uniformity is important for the cotton industry. The accurate and reliable measurement of fiber length uniformity would allow cotton breeders to release new cotton varieties with improved fiber length variation. This knowledge would also help spinning mills to optimize their machine setup, which would improve yarn processing performance. Currently, the high volume instrument (HVI) is most commonly used to characterize the cotton fiber length variation. The HVI length measurement is based on the fibrogram principle. The HVI length measurement characterizes 2 points, 1.8% as the upper half mean length (UHML) and 7.8% span length as the mean length (ML) from the fibrogram, and reports UHML and uniformity index (UI). The ratio of ML to the UHML is used to calculate the UI and is expressed as a percentage. UI measurement does not represent the shorter fibers as the above two span lengths only represent the longest fibers within a sample. We propose to calculate the uniformity of the cotton fiber length using the complete fibrogram as an alternative. First, the area of the measured fibrogram curve is calculated. Second, the area of a theoretical mono-length fibrogram with a length equal to the maximum length of the fibers for the same sample is calculated. Finally, we calculate a new length uniformity as the ratio of the measured fibrogram area to the mono-length fibrogram area expressed as a percentage. Based on the results obtained using a set of 991 commercial samples, the new length uniformity shows promise. We also applied this new length uniformity to a set of 60 commercial-like samples and developed partial least square regression (PLSR) prediction models to predict yarn quality. The results obtained demonstrate that the new length uniformity predicts yarn quality better than the current UI.<\/jats:p>",
+    "DOI": "10.3390\/agronomy13051326",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          10
+        ]
+      ],
+      "date-time": "2023-05-10T05:40:02Z",
+      "timestamp": 1683697202000
+    },
+    "page": "1326",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "A New Method to Calculate Cotton Fiber Length Uniformity Using the HVI Fibrogram"
+    ],
+    "prefix": "10.3390",
+    "volume": "13",
+    "author": [
+      {
+        "ORCID": "http:\/\/orcid.org\/0000-0001-8354-2056",
+        "authenticated-orcid": false,
+        "given": "Md Abu",
+        "family": "Sayeed",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Plant and Soil Science, Texas Tech University, Lubbock, TX 79409, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "http:\/\/orcid.org\/0000-0003-0255-2012",
+        "authenticated-orcid": false,
+        "given": "Christopher",
+        "family": "Turner",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Plant and Soil Science, Texas Tech University, Lubbock, TX 79409, USA"
+          }
+        ]
+      },
+      {
+        "given": "Brendan R.",
+        "family": "Kelly",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Plant and Soil Science, Texas Tech University, Lubbock, TX 79409, USA"
+          },
+          {
+            "name": "Texas A&M Agrilife Research Extension, Lubbock, TX 79403, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "http:\/\/orcid.org\/0000-0002-5086-1947",
+        "authenticated-orcid": false,
+        "given": "John",
+        "family": "Wanjura",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "USDA-ARS Cotton Production and Processing Research Unit, Lubbock, TX 79403, USA"
+          }
+        ]
+      },
+      {
+        "given": "Wayne",
+        "family": "Smith",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Soil and Crop Sciences, Texas A&M University, College Station, TX 77843, USA"
+          }
+        ]
+      },
+      {
+        "given": "Mitchell",
+        "family": "Schumann",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Soil and Crop Sciences, Texas A&M University, College Station, TX 77843, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "http:\/\/orcid.org\/0000-0002-8922-3459",
+        "authenticated-orcid": false,
+        "given": "Eric F.",
+        "family": "Hequet",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Plant and Soil Science, Texas Tech University, Lubbock, TX 79409, USA"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          9
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "723",
+        "DOI": "10.1002\/j.1537-2197.1975.tb14105.x",
+        "article-title": "Fiber Initiation on Cotton Ovule (Gossypium-hirsutum)",
+        "volume": "62",
+        "author": "Stewart",
+        "year": "1975",
+        "journal-title": "Am. J. Bot."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "523",
+        "DOI": "10.13031\/2013.38199",
+        "article-title": "Evaluation of Modern Cotton Harvest Systems on Irrigated Cotton: Yarn Quality",
+        "volume": "27",
+        "author": "Faulkner",
+        "year": "2011",
+        "journal-title": "Appl. Eng. Agric."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.1016\/j.indcrop.2017.03.004",
+        "article-title": "The impact of fiber maturity on estimating the number of cotton (Gossypium hirsutum L.) fibers per seed surface area",
+        "volume": "102",
+        "author": "Ayele",
+        "year": "2017",
+        "journal-title": "Ind. Crop Prod."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "564",
+        "DOI": "10.2135\/cropsci2014.01.0077",
+        "article-title": "Evaluating Intraplant Cotton Fiber Variability",
+        "volume": "55",
+        "author": "Kothari",
+        "year": "2015",
+        "journal-title": "Crop Sci."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1305",
+        "DOI": "10.2134\/agronj2002.1305",
+        "article-title": "Variability in cotton fiber yield, fiber quality, and soil properties in a Southeastern Coastal Plain",
+        "volume": "94",
+        "author": "Johnson",
+        "year": "2002",
+        "journal-title": "Agron. J."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "351",
+        "DOI": "10.1081\/CSS-100103012",
+        "article-title": "Variability of cotton yield and quality",
+        "volume": "32",
+        "author": "Elms",
+        "year": "2001",
+        "journal-title": "Commun. Soil Sci. Plan."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "127",
+        "DOI": "10.2135\/cropsci1969.0011183X000900020004x",
+        "article-title": "Influence of Night Temperature on Growth and Development of Cotton (Gossypium hirsutum L.).3. Fiber Elongation",
+        "volume": "9",
+        "author": "Gipson",
+        "year": "1969",
+        "journal-title": "Crop Sci."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "537",
+        "DOI": "10.1177\/0040517519871942",
+        "article-title": "Effects of harvesting and ginning practices on Southern High Plains cotton: Textile quality",
+        "volume": "90",
+        "author": "Delhom",
+        "year": "2020",
+        "journal-title": "Text Res. J."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "4938",
+        "DOI": "10.1177\/0040517519844215",
+        "article-title": "Effects of harvesting and ginning practices on Southern High Plains cotton: Fiber quality",
+        "volume": "89",
+        "author": "Wanjura",
+        "year": "2019",
+        "journal-title": "Text Res. J."
+      },
+      {
+        "key": "ref_10",
+        "unstructured": "Behery, H. (1993). Short Fiber Content and Uniformity Index in Cotton, International Cotton Advisory Committee, CABI International. Article 4."
+      },
+      {
+        "key": "ref_11",
+        "unstructured": "Cranmer, L.M. (2004). A Better Understanding of the Number of Fibers per Seed in Cotton. [Master\u2019s Thesis, Texas Tech University]."
+      },
+      {
+        "key": "ref_12",
+        "unstructured": "Faulkner, B. (2008). Comparison of Picker and Stripper Harvesters on Irrigated Cotton on the High Plains of Texas. [Ph.D. Thesis, Texas A&M University]."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "66",
+        "DOI": "10.56454\/BEES5030",
+        "article-title": "How current cotton ginning practices affect fiber length uniformity index",
+        "volume": "23",
+        "author": "Armijo",
+        "year": "2019",
+        "journal-title": "J. Cotton Sci."
+      },
+      {
+        "key": "ref_14",
+        "first-page": "115",
+        "article-title": "Upland fiber changes due to ginning and lint cleaning",
+        "volume": "17",
+        "author": "Hughs",
+        "year": "2013",
+        "journal-title": "J. Cotton Sci."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "687",
+        "DOI": "10.1177\/004051755902900903",
+        "article-title": "The Effect of the Short Fibers in a Cotton on its Processing Efficiency and Product Quality Part 1. Affecting the Short Fiber Content by the Addition of cut cotton fibers",
+        "volume": "2",
+        "author": "Tallant",
+        "year": "1959",
+        "journal-title": "Text. Res. J."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "112",
+        "DOI": "10.1177\/004051758605600207",
+        "article-title": "Effect of Short Fiber Content in Cotton on Plant Performance and Quality",
+        "volume": "56",
+        "author": "Backe",
+        "year": "1986",
+        "journal-title": "Text. Res. J."
+      },
+      {
+        "key": "ref_17",
+        "first-page": "368",
+        "article-title": "The impact of short fiber content on the quality of cotton ring spun yarn",
+        "volume": "12",
+        "author": "Thibodeaux",
+        "year": "2008",
+        "journal-title": "J. Cotton Sci."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "961",
+        "DOI": "10.1177\/0040517512468821",
+        "article-title": "A comparative study of the effects of cotton fiber length parameters on modeling yarn properties",
+        "volume": "83",
+        "author": "Cai",
+        "year": "2013",
+        "journal-title": "Text. Res. J."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "422",
+        "DOI": "10.1177\/004051755502500509",
+        "article-title": "Cotton Fiber Length Distribution\u2014An Important Quality Factor",
+        "volume": "25",
+        "author": "Wakeham",
+        "year": "1955",
+        "journal-title": "Text. Res. J."
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "754",
+        "DOI": "10.1177\/0040517516688628",
+        "article-title": "Variation in the advanced fiber information system cotton fiber length-by-number distribution captured by high volume instrument fiber length parameters",
+        "volume": "88",
+        "author": "Kelly",
+        "year": "2018",
+        "journal-title": "Text. Res. J."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "10",
+        "DOI": "10.1186\/s42397-020-00053-5",
+        "article-title": "Stability, variation, and application of AFIS fiber length distributions",
+        "volume": "3",
+        "author": "Hinds",
+        "year": "2020",
+        "journal-title": "J. Cotton Res."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "1377",
+        "DOI": "10.1080\/00405000.2020.1816684",
+        "article-title": "Assessment of cotton fibre length measurement methods",
+        "volume": "112",
+        "author": "Delhom",
+        "year": "2021",
+        "journal-title": "J. Text. Ins."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "78",
+        "DOI": "10.1080\/15440478.2020.1727816",
+        "article-title": "Preliminary Study on the Effect of Short Fiber Content on Drafting Force and its Variability",
+        "volume": "19",
+        "author": "Siddiqui",
+        "year": "2022",
+        "journal-title": "J. Nat. Fib."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "175",
+        "DOI": "10.1177\/0040517520935212",
+        "article-title": "Characterizing the total within-sample variation in cotton fiber length using the High Volume Instrument fibrogram",
+        "volume": "91",
+        "author": "Sayeed",
+        "year": "2021",
+        "journal-title": "Text. Res. J."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "866",
+        "DOI": "10.1177\/004051756403401009",
+        "article-title": "Factors affecting fiber length-scanning measurements",
+        "volume": "34",
+        "author": "Hertel",
+        "year": "1964",
+        "journal-title": "Text. Res. J."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "897",
+        "DOI": "10.1177\/004051759706701206",
+        "article-title": "New interpretation of the fibrogram",
+        "volume": "67",
+        "author": "Chu",
+        "year": "1997",
+        "journal-title": "Text. Res. J."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1651",
+        "DOI": "10.1177\/00405175221135161",
+        "article-title": "Reconstruction of the cotton fiber length distribution from a High Volume Instrument\u00ae fibrogram",
+        "volume": "93",
+        "author": "Turner",
+        "year": "2022",
+        "journal-title": "Text. Res. J."
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "378",
+        "DOI": "10.2135\/cropsci1984.0011183X002400020044x",
+        "article-title": "An Examination of the Digital Fibrograph Length Uniformity Index",
+        "volume": "24",
+        "author": "Krowicki",
+        "year": "1984",
+        "journal-title": "Crop Sci."
+      },
+      {
+        "key": "ref_29",
+        "unstructured": "(2023, March 23). Available online: https:\/\/www.cottoninc.com\/cotton-production\/quality\/efs-system-software\/uscrop-software\/."
+      },
+      {
+        "key": "ref_30",
+        "unstructured": "(2023, March 23). Available online: https:\/\/www.fsa.usda.gov\/Assets\/USDA-FSA-Public\/usdafiles\/Price-Support\/pdf\/Cotton-2022-rates\/2022%20Cotton%20Premiums%20and%20Discounts%204-18-2022.pdf."
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.1080\/00405009608659117",
+        "article-title": "The technological and economic impact of high volume instrument (HVI) systems on the cotton and cotton textile industries",
+        "volume": "87",
+        "author": "Suh",
+        "year": "1996",
+        "journal-title": "J. Text. Ins."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gunaydin, G.K., and Soydan, A.S. (2017). Vortex Spinning System and Vortex Yarn Structure. Vortex Structures in Fluid Dynamic Problems, Intech. Hector Perez-de-Tehada.",
+        "DOI": "10.5772\/67076"
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sayeed, M.A., Kelly, B.R., Turner, C., and Hequet, E.F. (2022). Investigation of a Multivariate Correction Method for HVI Fibrogram Measurements. Agronomy, 12.",
+        "DOI": "10.3390\/agronomy12020460"
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tesema, A.F., Sayeed, M.A., Turner, C., Kelly, B.R., and Hequet, E.F. (2022). An Approach for Obtaining Stable, Reproducible, and Accurate Fibrogram Measurements from High Volume Instruments. Agronomy, 12.",
+        "DOI": "10.3390\/agronomy12051120"
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "first-page": "383",
+        "DOI": "10.1177\/004051759006000703",
+        "article-title": "Holding length: Effect on digital fibrograph span length",
+        "volume": "60",
+        "author": "Krowicki",
+        "year": "1990",
+        "journal-title": "Text. Res. J."
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "24",
+        "DOI": "10.1007\/s10681-019-2536-9",
+        "article-title": "Effects of non-lint material on heritability estimates of cotton fiber length parameters",
+        "volume": "216",
+        "author": "Kelly",
+        "year": "2020",
+        "journal-title": "Euphytica"
+      }
+    ],
+    "container-title": [
+      "Agronomy"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https:\/\/www.mdpi.com\/2073-4395\/13\/5\/1326\/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          10
+        ]
+      ],
+      "date-time": "2023-05-10T06:30:22Z",
+      "timestamp": 1683700222000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https:\/\/www.mdpi.com\/2073-4395\/13\/5\/1326"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          9
+        ]
+      ]
+    },
+    "references-count": 36,
+    "journal-issue": {
+      "issue": "5",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "agronomy13051326"
+    ],
+    "URL": "https:\/\/doi.org\/10.3390\/agronomy13051326",
+    "relation": {},
+    "ISSN": [
+      "2073-4395"
+    ],
+    "issn-type": [
+      {
+        "value": "2073-4395",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          9
+        ]
+      ]
+    }
+  }
+}

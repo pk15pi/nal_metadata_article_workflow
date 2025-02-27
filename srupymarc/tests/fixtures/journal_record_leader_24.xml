@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/">
+  <version>1.2</version>
+  <numberOfRecords>16735</numberOfRecords>
+  <records>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>01140nas a2200349  44500</leader>
+          <controlfield tag="001">9916339353407426</controlfield>
+          <controlfield tag="005">20240318125627.0</controlfield>
+          <controlfield tag="008">030523|19291992dk |||||o|||||||||||dan||</controlfield>
+          <datafield ind1=" " ind2=" " tag="022">
+            <subfield code="a">0040-9111</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="022">
+            <subfield code="l">0040-9111</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(Journal)19474</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">AGL</subfield>
+            <subfield code="b">eng</subfield>
+            <subfield code="c">AGL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="044">
+            <subfield code="c">DNK</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="082">
+            <subfield code="a">630</subfield>
+            <subfield code="2">[orig. ed.]</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="210">
+            <subfield code="a">12mandsbladet</subfield>
+            <subfield code="b">(Kbh., 1929)</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">12mandsbladet</subfield>
+          </datafield>
+          <datafield ind1="3" ind2=" " tag="246">
+            <subfield code="a">12mandsbladet</subfield>
+            <subfield code="b">(København. 1929)</subfield>
+          </datafield>
+          <datafield ind1="3" ind2=" " tag="246">
+            <subfield code="a">Tolvmandsbladet(København. 1929)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="260">
+            <subfield code="a">Frederiksberg</subfield>
+            <subfield code="b">Tolvmandsforeningerne.</subfield>
+            <subfield code="c">1929-1992</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="4" tag="655">
+            <subfield code="a">text</subfield>
+            <subfield code="2">marccategory</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="4" tag="655">
+            <subfield code="a">regular print</subfield>
+            <subfield code="2">marcsmd</subfield>
+          </datafield>
+          <datafield ind1="2" ind2=" " tag="711">
+            <subfield code="a">Tolvmandsforeningerne</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="720">
+            <subfield code="a">Centralforeningen af Tolvmandsforeninger og Større Landbrugere i Danmark</subfield>
+          </datafield>
+          <datafield ind1="0" ind2="0" tag="785">
+            <subfield code="t">Jordbrugs-nyt.</subfield>
+            <subfield code="x">0907-2594</subfield>
+            <subfield code="7">nnas</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="900">
+            <subfield code="a">Journal:19474</subfield>
+            <subfield code="b">12mandsbladet</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="901">
+            <subfield code="a">Pending</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="902">
+            <subfield code="a">Pending</subfield>
+            <subfield code="b">Unassigned</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="912">
+            <subfield code="a">Journal</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="984">
+            <subfield code="a">2004-11-16</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="985">
+            <subfield code="a">Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5_XSL2-0_ISSN.xsl (Revision 2.25 2015/03/03)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="986">
+            <subfield code="a">vtls000040911</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="990">
+            <subfield code="a">Journal repository</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>9916339353407426</recordIdentifier>
+      <recordPosition>1</recordPosition>
+    </record>
+  </records>
+  <nextRecordPosition>2</nextRecordPosition>
+  <extraResponseData xmlns:xb="http://www.exlibris.com/repository/search/xmlbeans/">
+    <xb:exact>true</xb:exact>
+    <xb:responseDate>2025-01-07T16:14:19-0500</xb:responseDate>
+  </extraResponseData>
+</searchRetrieveResponse>

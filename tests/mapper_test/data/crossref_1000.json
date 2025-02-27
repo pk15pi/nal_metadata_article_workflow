@@ -1,0 +1,603 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          19
+        ]
+      ],
+      "date-time": "2024-11-19T18:28:05Z",
+      "timestamp": 1732040885020
+    },
+    "reference-count": 37,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              25
+            ]
+          ],
+          "date-time": "2021-10-25T00:00:00Z",
+          "timestamp": 1635120000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https:\/\/creativecommons.org\/licenses\/by\/4.0\/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Physiol."
+    ],
+    "abstract": "<jats:p>The objective of the present study was to evaluate the effect of protected organic acids (OA) and essential oils (EO) [P(OA + EO)] on the intestinal health of broiler chickens raised under field conditions. The study was conducted on four commercial farms. Each farm consisted of four barns, two barns under a control diet and two tested barns supplemented with P(OA + EO), totaling 16 barns [8 control and 8 under P(OA + EO)]. The control group was supplemented with antibiotic growth promoters [AGP; Bacitracin Methylene Disalicylate (50 g\/ton) during starter, grower and finisher 1, and flavomycin (2 g\/ton) during finisher 2]. The tested group was supplemented with 636, 636, 454, and 454 g\/ton of P(OA + EO) during starter, grower, finisher 1 and 2, respectively. Eighty birds were necropsied (40\/treatment; 20\/farm; and 5\/barn) to collect blood, jejunal tissue, and cecal contents. The data were submitted to analysis of variance (ANOVA) (<jats:italic>P<\/jats:italic> &amp;lt; 0.05) or Kruskal-Wallis\u2019 test and the frequency of antimicrobial resistant (AMR) genes was analyzed by Chi-Square test (<jats:italic>P<\/jats:italic> &amp;lt; 0.05). It was observed that the supplementation of P(OA + EO) reduced (<jats:italic>P<\/jats:italic> &amp;lt; 0.05) the histopathology scores, such as the infiltration of inflammatory cells in the epithelium and lamina propria and tended (<jats:italic>P<\/jats:italic> = 0.09) to reduce the serum concentration of calprotectin (CALP). The supplementation of P(OA + EO) reduced the serum concentration of IL-12 (<jats:italic>P<\/jats:italic> = 0.0001), IL-16 (<jats:italic>P<\/jats:italic> = 0.001), and Pentraxin-3 (<jats:italic>P<\/jats:italic> = 0.04). Additionally, P(OA + EO) maintained a cecal microbiota similar to birds receiving AGP. The substitution of AGP by P(OA + EO) reduced (<jats:italic>P<\/jats:italic> &amp;lt; 0.05) the frequency of four AMR genes, related to gentamicin (three genes), and aminoglycoside (one gene). Overall, the inclusion of P(OA + EO), and removal of AGP, in the diets of commercially raised broiler chickens beneficially changed the phenotype of the jejunum as shown by the lowered ISI scores which characterizes an improved intestinal health. Furthermore, P(OA + EO) significantly reduced the serum concentration of several inflammatory biomarkers, while maintaining the diversity and composition of the cecal microbiota similar to AGP fed chickens and reducing the prevalence of AMR genes.<\/jats:p>",
+    "DOI": "10.3389\/fphys.2021.722339",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          25
+        ]
+      ],
+      "date-time": "2021-10-25T05:46:36Z",
+      "timestamp": 1635140796000
+    },
+    "update-policy": "http:\/\/dx.doi.org\/10.3389\/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "title": [
+      "Protected Organic Acid and Essential Oils for Broilers Raised Under Field Conditions: Intestinal Health Biomarkers and Cecal Microbiota"
+    ],
+    "prefix": "10.3389",
+    "volume": "12",
+    "author": [
+      {
+        "given": "Cristiano",
+        "family": "Bortoluzzi",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Ludovic",
+        "family": "Lahaye",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jarred",
+        "family": "Oxford",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Derek",
+        "family": "Detzler",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Cinthia",
+        "family": "Eyng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nicolle Lima",
+        "family": "Barbieri",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Elizabeth",
+        "family": "Santin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael Henry",
+        "family": "Kogut",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          25
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "B1",
+        "doi-asserted-by": "publisher",
+        "first-page": "100004",
+        "DOI": "10.1016\/j.vpoa.2019.100004",
+        "article-title": "Applying I see inside histological methodology to evaluate gut health in broilers challenged with Eimeria.",
+        "volume": "1",
+        "author": "Belote",
+        "year": "2019",
+        "journal-title": "Vet. Parasitol."
+      },
+      {
+        "key": "B2",
+        "doi-asserted-by": "publisher",
+        "first-page": "72",
+        "DOI": "10.3389\/fsufs.2018.00072",
+        "article-title": "Supplementation of protected sodium butyrate alone or in combination with essential oils modulated the cecal microbiota of broiler chickens challenged with Coccidia and Clostridium perfringens.",
+        "volume": "2",
+        "author": "Bortoluzzi",
+        "year": "2018",
+        "journal-title": "Front. Sustain. Food Syst."
+      },
+      {
+        "key": "B3",
+        "doi-asserted-by": "publisher",
+        "first-page": "3104",
+        "DOI": "10.3382\/ps\/pex114",
+        "article-title": "The sub-inhibitory theory for antibiotic growth promoters.",
+        "volume": "96",
+        "author": "Broom",
+        "year": "2017",
+        "journal-title": "Poult. Sci."
+      },
+      {
+        "key": "B4",
+        "doi-asserted-by": "publisher",
+        "first-page": "510",
+        "DOI": "10.3382\/ps\/pex314",
+        "article-title": "Inflammation: friend or foe for animal production?",
+        "volume": "97",
+        "author": "Broom",
+        "year": "2018",
+        "journal-title": "Poult. Sci."
+      },
+      {
+        "key": "B5",
+        "doi-asserted-by": "publisher",
+        "first-page": "124",
+        "DOI": "10.3389\/fimmu.2019.00124",
+        "article-title": "The long pentraxin PTX3 is of major importance among acute phase proteins in chickens.",
+        "volume": "10",
+        "author": "Burkhardt",
+        "year": "2019",
+        "journal-title": "Front. Immunol."
+      },
+      {
+        "key": "B6",
+        "doi-asserted-by": "publisher",
+        "first-page": "1492",
+        "DOI": "10.12688\/f1000research.8986.2",
+        "article-title": "Bioconductor workflow for microbiome data analysis: from raw reads to community analyses.",
+        "volume": "5",
+        "author": "Callahan",
+        "year": "2016",
+        "journal-title": "F1000Research"
+      },
+      {
+        "key": "B7",
+        "doi-asserted-by": "publisher",
+        "first-page": "335",
+        "DOI": "10.1038\/nmeth.f.303",
+        "article-title": "QIIME allows analysis of high-throughput community sequencing data.",
+        "volume": "7",
+        "author": "Caporaso",
+        "year": "2010",
+        "journal-title": "Nat. Methods"
+      },
+      {
+        "key": "B8",
+        "doi-asserted-by": "publisher",
+        "first-page": "e10571",
+        "DOI": "10.7717\/peerj.10571",
+        "article-title": "Bacterial meta-analysis of chicken cecal microbiota.",
+        "volume": "9",
+        "author": "Chica Cardenas",
+        "year": "2021",
+        "journal-title": "PeerJ"
+      },
+      {
+        "key": "B9",
+        "doi-asserted-by": "publisher",
+        "first-page": "411",
+        "DOI": "10.1093\/tas\/txz176",
+        "article-title": "Evaluation of lipid matrix microencapsulation for intestinal delivery of thymol in weaned pigs.",
+        "volume": "4",
+        "author": "Choi",
+        "year": "2020",
+        "journal-title": "J. Anim. Sci."
+      },
+      {
+        "key": "B10",
+        "doi-asserted-by": "publisher",
+        "first-page": "1616",
+        "DOI": "10.3382\/ps.2009-00119",
+        "article-title": "Effect of citric acid, avilamycin, and their combination on the performance, tibia ash, and immune status of broiler chickens.",
+        "volume": "88",
+        "author": "Chowdhury",
+        "year": "2009",
+        "journal-title": "Poult. Sci."
+      },
+      {
+        "key": "B11",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0676628",
+        "DOI": "10.3389\/fimmu.2021.676628",
+        "article-title": "Novel models for chronic intestinal inflammation in chickens: intestinal inflammation pattern and biomarkers.",
+        "volume": "12",
+        "author": "Dal Pont",
+        "year": "2021",
+        "journal-title": "Front. Immunol."
+      },
+      {
+        "key": "B12",
+        "doi-asserted-by": "publisher",
+        "first-page": "226",
+        "DOI": "10.1186\/s40168-018-0605-2",
+        "article-title": "Simple statistical identification and removal of contaminant sequences in marker-gene and metagenomics data.",
+        "volume": "6",
+        "author": "Davis",
+        "year": "2018",
+        "journal-title": "Microbiome"
+      },
+      {
+        "key": "B13",
+        "doi-asserted-by": "publisher",
+        "first-page": "4371",
+        "DOI": "10.4049\/jimmunol.172.7.4371",
+        "article-title": "Identification and molecular cloning of functional chicken IL-12.",
+        "volume": "172",
+        "author": "Degen",
+        "year": "2004",
+        "journal-title": "J. Immunol."
+      },
+      {
+        "key": "B14",
+        "doi-asserted-by": "publisher",
+        "first-page": "2460",
+        "DOI": "10.1093\/bioinformatics\/btq461",
+        "article-title": "Search and clustering orders of magnitude faster than BLAST.",
+        "volume": "26",
+        "author": "Edgar",
+        "year": "2010",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "B15",
+        "doi-asserted-by": "publisher",
+        "first-page": "105",
+        "DOI": "10.3923\/ajava.2012.105.116",
+        "article-title": "Herbal plants as new immune-stimulator in poultry industry: a review.",
+        "volume": "7",
+        "author": "Hashemi",
+        "year": "2012",
+        "journal-title": "Asian J. Anim. Vet. Adv."
+      },
+      {
+        "key": "B16",
+        "doi-asserted-by": "publisher",
+        "first-page": "363",
+        "DOI": "10.1016\/j.cyto.2010.12.009",
+        "article-title": "Modulation of chicken macrophage effector function by TH1\/TH2 cytokines.",
+        "volume": "53",
+        "author": "He",
+        "year": "2011",
+        "journal-title": "Cytokine"
+      },
+      {
+        "key": "B17",
+        "doi-asserted-by": "publisher",
+        "first-page": "104",
+        "DOI": "10.1017\/S0043933912000116",
+        "article-title": "Use of citric acid in broiler diets.",
+        "volume": "68",
+        "author": "Islam",
+        "year": "2012",
+        "journal-title": "World Poult. Sci. J."
+      },
+      {
+        "key": "B18",
+        "doi-asserted-by": "publisher",
+        "first-page": "8096",
+        "DOI": "10.1038\/srep08096",
+        "article-title": "Dysbiosis gut microbiota associated with inflammation and impaired mucosal immune function in intestine of humans with non-alcoholic fatty liver disease.",
+        "volume": "5",
+        "author": "Jiang",
+        "year": "2015",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "B19",
+        "doi-asserted-by": "publisher",
+        "first-page": "7043",
+        "DOI": "10.1128\/AEM.01395-08",
+        "article-title": "Comparison of extraintestinal pathogenic Escherichia coli strains from human and avian sources reveals a mixed subset representing potential zoonotic pathogens.",
+        "volume": "74",
+        "author": "Johnson",
+        "year": "2008",
+        "journal-title": "Appl. Environ. Microbiol."
+      },
+      {
+        "key": "B20",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0362-18",
+        "DOI": "10.1128\/AEM.00362-18",
+        "article-title": "A consistent and predictable commercial broiler chicken bacterial microbiota in antibiotic-free production displays strong correlations with performance.",
+        "volume": "84",
+        "author": "Johnson",
+        "year": "2018",
+        "journal-title": "Appl. Environ. Microbiol."
+      },
+      {
+        "key": "B21",
+        "doi-asserted-by": "publisher",
+        "first-page": "235",
+        "DOI": "10.3389\/fmicb.2018.00235",
+        "article-title": "Host and environmental factors affecting the intestinal microbiota in chickens.",
+        "volume": "9",
+        "author": "Kers",
+        "year": "2018",
+        "journal-title": "Front. Microbiol."
+      },
+      {
+        "key": "B22",
+        "doi-asserted-by": "publisher",
+        "first-page": "e47713",
+        "DOI": "10.1371\/journal.pone.0047713",
+        "article-title": "High fat diet-induced gut microbiota exacerbates inflammation and obesity in mice via the TLR4 signaling pathway.",
+        "volume": "7",
+        "author": "Kim",
+        "year": "2012",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "B23",
+        "doi-asserted-by": "publisher",
+        "first-page": "e1",
+        "DOI": "10.1093\/nar\/gks808",
+        "article-title": "Evaluation of general 16S ribosomal RNA gene PCR primers for classical and next-generation sequencing-based diversity studies.",
+        "volume": "41",
+        "author": "Klindworth",
+        "year": "2013",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "key": "B24",
+        "doi-asserted-by": "publisher",
+        "first-page": "1078",
+        "DOI": "10.3382\/ps\/pew397",
+        "article-title": "Effect of aflatoxin experimental ingestion and Eimeira vaccine challenges on intestinal histopathology and immune cellular dynamic of broilers: applying an Intestinal Health Index.",
+        "volume": "96",
+        "author": "Kraieski",
+        "year": "2016",
+        "journal-title": "Poult. Sci."
+      },
+      {
+        "key": "B25",
+        "doi-asserted-by": "publisher",
+        "first-page": "31",
+        "DOI": "10.1186\/1471-2105-13-31",
+        "article-title": "PANDAseq: paired-end assembler for illumina sequences.",
+        "volume": "13",
+        "author": "Masella",
+        "year": "2012",
+        "journal-title": "BMC Bioinform."
+      },
+      {
+        "key": "B26",
+        "doi-asserted-by": "publisher",
+        "first-page": "e61217",
+        "DOI": "10.1371\/journal.pone.0061217",
+        "article-title": "phyloseq: an R package for reproducible interactive analysis and graphics of microbiome census data.",
+        "volume": "8",
+        "author": "McMurdie",
+        "year": "2013",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "B27",
+        "doi-asserted-by": "crossref",
+        "first-page": "2371",
+        "DOI": "10.1002\/jsfa.3358",
+        "article-title": "In vitro degradation and in vivo passage kinetics of carvacrol, thymol, eugenol and trans-cinnamaldehyde along the gastrointestinal tract of piglets.",
+        "volume": "88",
+        "author": "Michiels",
+        "year": "2008",
+        "journal-title": "J. Sci. Food Agric."
+      },
+      {
+        "key": "B28",
+        "doi-asserted-by": "publisher",
+        "first-page": "126",
+        "DOI": "10.3389\/fvets.2017.00126",
+        "article-title": "Antimicrobial resistance in bacterial poultry pathogens: a review.",
+        "volume": "4",
+        "author": "Nhung",
+        "year": "2017",
+        "journal-title": "Front. Vet. Sci."
+      },
+      {
+        "key": "B29",
+        "doi-asserted-by": "publisher",
+        "first-page": "605",
+        "DOI": "10.1093\/ps\/86.4.605",
+        "article-title": "The nonantibiotic anti-inflammatory effect of antimicrobial growth promoters, the real mode of action? a hypothesis.",
+        "volume": "86",
+        "author": "Niewold",
+        "year": "2007",
+        "journal-title": "Poult. Sci."
+      },
+      {
+        "key": "B30",
+        "doi-asserted-by": "publisher",
+        "first-page": "632",
+        "DOI": "10.1093\/ps\/82.4.632",
+        "article-title": "Perspectives on the use of organic acids and short chain fatty acids as antimicrobials.",
+        "volume": "82",
+        "author": "Ricke",
+        "year": "2003",
+        "journal-title": "Poult. Sci."
+      },
+      {
+        "key": "B31",
+        "doi-asserted-by": "publisher",
+        "first-page": "2675",
+        "DOI": "10.4049\/jimmunol.173.4.2675",
+        "article-title": "Cloning and characterization of chicken IL-10 and its role in the immune response to Eimeria maxima.",
+        "volume": "173",
+        "author": "Rothwell",
+        "year": "2004",
+        "journal-title": "J. Immunol."
+      },
+      {
+        "key": "B32",
+        "doi-asserted-by": "publisher",
+        "first-page": "499",
+        "DOI": "10.3390\/ani9080499",
+        "article-title": "Effect of acute heat stress on the mRNA levels of cytokines in broiler chickens subjected to embryonic thermal manipulation.",
+        "volume": "9",
+        "author": "Saleh",
+        "year": "2019",
+        "journal-title": "Animals"
+      },
+      {
+        "key": "B33",
+        "doi-asserted-by": "publisher",
+        "first-page": "512",
+        "DOI": "10.3389\/fvets.2019.00512",
+        "article-title": "Basal and infectious enteritis in broilers under the i see inside methodology: a chronological evaluation.",
+        "volume": "6",
+        "author": "Sanches",
+        "year": "2020",
+        "journal-title": "Front. Vet. Sci."
+      },
+      {
+        "key": "B34",
+        "doi-asserted-by": "publisher",
+        "first-page": "491",
+        "DOI": "10.3389\/fvets.2019.00491",
+        "article-title": "Protected blend of organic acids and essential oils improves growth performance, nutrient digestibility, and intestinal health of broiler chickens undergoing an intestinal challenge.",
+        "volume": "6",
+        "author": "Stefanello",
+        "year": "2019",
+        "journal-title": "Front. Vet. Sci."
+      },
+      {
+        "key": "B35",
+        "doi-asserted-by": "publisher",
+        "first-page": "3428",
+        "DOI": "10.1016\/j.psj.2020.03.031",
+        "article-title": "A microencapsulated feed additive containing organic acids, thymol, and vanillin increases in vitro functional activity of peripheral blood leukocytes from broiler chicks.",
+        "volume": "99",
+        "author": "Swaggerty",
+        "year": "2020",
+        "journal-title": "Poult. Sci."
+      },
+      {
+        "key": "B36",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1590\/S1516-635X2003000100001",
+        "article-title": "Avian cytokines in health and disease.",
+        "volume": "5",
+        "author": "Wigley",
+        "year": "2003",
+        "journal-title": "Rev. Bras. Cienc. Avic."
+      },
+      {
+        "key": "B37",
+        "doi-asserted-by": "publisher",
+        "first-page": "2858",
+        "DOI": "10.3382\/ps\/pez031",
+        "article-title": "Effects of encapsulated organic acids and essential oils on intestinal barrier, microbial count, and bacterial metabolites in broiler chickens.",
+        "volume": "98",
+        "author": "Yang",
+        "year": "2019",
+        "journal-title": "Poult. Sci."
+      }
+    ],
+    "container-title": [
+      "Frontiers in Physiology"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https:\/\/www.frontiersin.org\/articles\/10.3389\/fphys.2021.722339\/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          25
+        ]
+      ],
+      "date-time": "2021-10-25T05:46:38Z",
+      "timestamp": 1635140798000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https:\/\/www.frontiersin.org\/articles\/10.3389\/fphys.2021.722339\/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          25
+        ]
+      ]
+    },
+    "references-count": 37,
+    "alternative-id": [
+      "10.3389\/fphys.2021.722339"
+    ],
+    "URL": "https:\/\/doi.org\/10.3389\/fphys.2021.722339",
+    "relation": {},
+    "ISSN": [
+      "1664-042X"
+    ],
+    "issn-type": [
+      {
+        "value": "1664-042X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          25
+        ]
+      ]
+    }
+  }
+}

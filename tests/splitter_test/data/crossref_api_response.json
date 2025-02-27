@@ -1,0 +1,173 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          13
+        ]
+      ],
+      "date-time": "2024-01-13T05:25:43Z",
+      "timestamp": 1705123543452
+    },
+    "reference-count": 0,
+    "publisher": "Czech Academy of Agricultural Sciences",
+    "issue": "No. 1",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Plant Protect. Sci."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2001,
+          1,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>From 1997 to 2000 the distribution of Apple stem grooving virus (ASGV) in selected intensive apple orchards was investigated at six sites in the Czech Republic. Detection of ASGV was by ELISA. The virus was found to be commonly distributed; it was detected in over 50 % of the tested trees. Some cultivars were infected up to 100 %, while several were found to be virus-free. A high incidence of infected trees appeared in both older (20 years) and younger (7 to 8 years) orchards. This emphasizes the necessity to initiate the certification of the health condition of nursery material according to the system recommended by the EPPO.<\/jats:p>",
+    "DOI": "10.17221\/8360-pps",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          2,
+          11
+        ]
+      ],
+      "date-time": "2018-02-11T03:26:58Z",
+      "timestamp": 1518319618000
+    },
+    "page": "1-4",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Distribution of Apple stem grooving virus in apple trees in the Czech Republic"
+    ],
+    "prefix": "10.17221",
+    "volume": "37",
+    "author": [
+      {
+        "given": "J.",
+        "family": "Pol\u00e1k",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "J.",
+        "family": "Zieglerov\u00e1",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "6895",
+    "published-online": {
+      "date-parts": [
+        [
+          2001,
+          1,
+          1
+        ]
+      ]
+    },
+    "container-title": [
+      "Plant Protection Science"
+    ],
+    "original-title": [
+      "Distribution of Apple stem grooving virus in apple trees in the Czech Republic"
+    ],
+    "link": [
+      {
+        "URL": "http:\/\/www.agriculturejournals.cz\/publicFiles\/207494.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          4,
+          18
+        ]
+      ],
+      "date-time": "2018-04-18T11:14:34Z",
+      "timestamp": 1524050074000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http:\/\/www.agriculturejournals.cz\/web\/pps.htm?volume=37&firstPage=1&type=publishedArticle"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2001,
+          1,
+          1
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "No. 1",
+      "published-online": {
+        "date-parts": [
+          [
+            2001,
+            1,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2001,
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "http:\/\/dx.doi.org\/10.17221\/8360-pps",
+    "relation": {},
+    "ISSN": [
+      "1212-2580",
+      "1805-9341"
+    ],
+    "issn-type": [
+      {
+        "value": "1212-2580",
+        "type": "print"
+      },
+      {
+        "value": "1805-9341",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2001,
+          1,
+          1
+        ]
+      ]
+    }
+  }
+}

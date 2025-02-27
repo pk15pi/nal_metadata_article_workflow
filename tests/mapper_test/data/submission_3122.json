@@ -1,0 +1,143 @@
+{
+  "submission_node_id": 3122,
+  "submitter_email": "tlowepower@ucdavis.edu",
+  "submitter_name": "Tiffany M Lowe-Power",
+  "title": "Genotypic and Phenotypic Analyses Show \ud835\ude19\ud835\ude22\ud835\ude2d\ud835\ude34\ud835\ude35\ud835\ude30\ud835\ude2f\ud835\ude2a\ud835\ude22 \ud835\ude34\ud835\ude30\ud835\ude2d\ud835\ude22\ud835\ude2f\ud835\ude22\ud835\ude24\ud835\ude26\ud835\ude22\ud835\ude33\ud835\ude36\ud835\ude2e Cool Virulence is a Quantitative Trait Not Restricted to \u201cRace 3 biovar 2\u201d ",
+  "doi": "10.1094/phyto-06-24-0187-r",
+  "authors": [
+    {
+      "first_name": "Ronnie J.",
+      "last_name": "Dewberry",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "Department of Plant Pathology, University of Wisconsin-Madison, Madison, WI 53706, U.S.A."
+    },
+    {
+      "first_name": "Parul",
+      "last_name": "Sharma",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "School of Plant and Environmental Sciences, Virginia Tech, Blacksburg, VA 24061, U.S.A., Graduate Program in Genetics, Bioinformatics and Computational Biology, Virginia Tech, Blacksburg, VA 24061, U.S.A."
+    },
+    {
+      "first_name": "Jessica L.",
+      "last_name": "Prom",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "Department of Plant Pathology, University of Wisconsin-Madison, Madison, WI 53706, U.S.A."
+    },
+    {
+      "first_name": "Noah A.",
+      "last_name": "Kinscherf",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "Department of Plant Pathology, University of Wisconsin-Madison, Madison, WI 53706, U.S.A."
+    },
+    {
+      "first_name": "Tiffany",
+      "last_name": "Lowe-Power",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "Department of Plant Pathology, University of California, Davis, CA 95616, U.S.A."
+    },
+    {
+      "first_name": "Reza",
+      "last_name": "Mazloom",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "Department of Computer Science, Virginia Tech, Blacksburg, VA 24061, U.S.A."
+    },
+    {
+      "first_name": "Xuemei",
+      "last_name": "Zhang",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "School of Plant and Environmental Sciences, Virginia Tech, Blacksburg, VA 24061, U.S.A."
+    },
+    {
+      "first_name": "Haijie",
+      "last_name": "Liu",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "School of Plant and Environmental Sciences, Virginia Tech, Blacksburg, VA 24061, U.S.A."
+    },
+    {
+      "first_name": "Mohammad",
+      "last_name": "Arif",
+      "name_suffix": "",
+      "orcid": "0000-0002-5887-2050",
+      "affiliation": "University of Hawaii, Manoa, HI 96822, U.S.A."
+    },
+    {
+      "first_name": "Michael",
+      "last_name": "Stulberg",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "U.S. Department of Agriculture-APHIS PPQ Science and Technology, Beltsville, MD 20705, U.S.A."
+    },
+    {
+      "first_name": "Lenwood S.",
+      "last_name": "Heath",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "Department of Computer Science, Virginia Tech, Blacksburg, VA 24061, U.S.A."
+    },
+    {
+      "first_name": "Kellye",
+      "last_name": "Eversole",
+      "name_suffix": "",
+      "orcid": "0000-0002-8784-4913",
+      "affiliation": "International Alliance for Phytobiomes Research, Eau Claire, WI 54701, U.S.A., and Eversole Associates, Arlington, MA 02474, U.S.A."
+    },
+    {
+      "first_name": "Gwyn A.",
+      "last_name": "Beattie",
+      "name_suffix": "",
+      "orcid": "0000-0002-0531-6843",
+      "affiliation": "Department of Plant Pathology, Entomology &amp; Microbiology, Iowa State University, Ames, IA 50011, U.S.A."
+    },
+    {
+      "first_name": "Boris A.",
+      "last_name": "Vinatzer",
+      "name_suffix": "",
+      "orcid": "0000-0003-4612-225X",
+      "affiliation": "School of Plant and Environmental Sciences, Virginia Tech, Blacksburg, VA 24061, U.S.A."
+    },
+    {
+      "first_name": "Caitilyn",
+      "last_name": "Allen",
+      "name_suffix": "",
+      "orcid": "0000-0001-5805-8000",
+      "affiliation": "Department of Plant Pathology, University of Wisconsin-Madison, Madison, WI 53706, U.S.A."
+    }
+  ],
+  "funding_agencies": [
+    {
+      "name": "National Institute of Food and Agriculture (NIFA)",
+      "award_number": "2022-67013-36272",
+      "project_number": ""
+    },
+    {
+      "name": "Animal and Plant Health Inspection Service (APHIS)",
+      "award_number": "PPA7721",
+      "project_number": ""
+    }
+  ],
+  "journal": "Phytopathology\u00ae",
+  "issn": "0031-949X",
+  "abstract": "Most Ralstonia solanacearum species complex strains cause bacterial wilts in tropical or subtropical zones, but the group known as race 3 biovar 2 (R3bv2) is cool virulent and causes potato brown rot at lower temperatures. R3bv2 has invaded potato-growing regions around the world but is not established in the United States. Phylogenetically, R3bv2 corresponds to a subset of the R. solanacearum phylotype IIB clade, but little is known about the distribution of the cool virulence phenotype within phylotype IIB. Therefore, genomes of 76 potentially cool virulent phylotype IIB strains and 30 public genomes were phylogenetically analyzed. A single clonal lineage within the sequevar 1 subclade of phylotype IIB that originated in South America has caused nearly all brown rot outbreaks worldwide. To correlate genotypes with relevant phenotypes, we quantified virulence of 10 Ralstonia strains on tomato and potato at both 22 and 28\u00b0C. Cool virulence on tomato did not predict cool virulence on potato. We found that cool virulence is a quantitative trait. Strains in the sequevar 1 pandemic clonal lineage caused the most disease, whereas other R3bv2 strains were only moderately cool virulent. However, some non-R3bv2 strains were highly cool virulent and aggressively colonized potato tubers. Thus, cool virulence is not consistently correlated with strains historically classified as the R3bv2 group. To aid in the detection of sequevar 1 strains, this group was genomically delimited in the LINbase web server, and a sequevar 1 diagnostic primer pair was developed and validated. We discuss implications of these results for the R3bv2 definition.",
+  "publication_date": "2024-12-05",
+  "date_other": "",
+  "volume": 114,
+  "issue": 12,
+  "first_page": 2468,
+  "last_page": 2480,
+  "manuscript_file": "https://submit.nal.usda.gov/sites/default/files/manuscripts/2024.06.13.598915.full_.pdf",
+  "manuscript_version": "accepted_manuscript",
+  "supplementary_files": "",
+  "accession_number": "",
+  "log_number": "",
+  "mms_id": "",
+  "created": 1731368795,
+  "changed": 1736218145
+}

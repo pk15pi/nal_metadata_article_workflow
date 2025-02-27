@@ -1,0 +1,61 @@
+{
+  "submission_node_id": 2500,
+  "submitter_email": "kristina.adams@usda.gov",
+  "submitter_name": "KRISTINA M. ADAMS",
+  "title": "A diverse diet increases animal growth performance and carcass yield of grazing lambs ",
+  "doi": "10.1093\/tas\/txae103",
+  "authors": [
+    {
+      "first_name": "Matthew R.",
+      "last_name": "Beck",
+      "name_suffix": "",
+      "orcid": "0000-0001-8571-5184",
+      "affiliation": "Conservation and Production Research Laboratory, USDA-ARS, Bushland, TX 79012, USA"
+    },
+    {
+      "first_name": "Konagh",
+      "last_name": "Garrett",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "Faculty of Agriculture and Life Sciences, Lincoln University, Lincoln 7647, New Zealand"
+    },
+    {
+      "first_name": "Cameron J.",
+      "last_name": "Marshall",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "Faculty of Agriculture and Life Sciences, Lincoln University, Lincoln 7647, New Zealand"
+    },
+    {
+      "first_name": "Pablo",
+      "last_name": "Gregorini",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "Faculty of Agriculture and Life Sciences, Lincoln University, Lincoln 7647, New Zealand"
+    }
+  ],
+  "funding_agencies": [
+    {
+      "name": "Agricultural Research Service (ARS)",
+      "award_number": "",
+      "project_number": "3090-31630-006-000D"
+    }
+  ],
+  "journal": "Translational Animal Science",
+  "issn": "2573-2102",
+  "abstract": "The current experiments were conducted across two lamb finishing seasons (2019 [experiment 1; Exp1] and 2020 [experiment 2; Exp2]). In both experiments lambs were provided a monotonous (MON) diet (annual ryegrass [Lolium multiflorum L.] during 2019 and perennial ryegrass [L. perenne L.] and white clover [Trifolium repens L.] during 2020) or a diverse (DIV) diet composed of spatially separated strips sown to chicory (Chicorium intybus L.), plantain (Plantago lanceolata L.), perennial ryegrass, lucerne (Medicago sativa L.), and dock (Rumex obtusifolius). During Exp1, the DIV lambs had a stocking rate (SR) of either 80, 95, 100, or 110 m\u00b2\/lamb\/wk, whereas the MON lambs had a 100 m\u00b2\/lamb\/wk SR. In Exp2, the SR aimed to allocate the MON lambs with twice the forage allowance (kg DM\/lamb\/d) as DIV lambs. In Exp1, all lambs provided DIV had a greater (P\u2005\u0026lt;\u20050.01) average daily gain (ADG;\u2005+\u2005130%) than MON rams, independent of the SR. Accordingly, DIV had greater (P\u2005\u0026lt;\u20050.05) hot carcass weight (HCW;\u2005+\u200526%) and aged carcass weight (CW;\u2005+\u200527%) compared with MON, across all SR. The 80 m\u00b2\/lamb\/wk SR tended to have a greater (P\u2005=\u20050.10) dressing percentage and had similar (P\u2005=\u20050.29) drip loss percentage to the MON lambs, while the other DIV lamb SR all had greater (P\u2005\u0026lt;\u20050.05; +12%) dressing percentages and lower (P\u2005\u0026lt;\u20050.05) drip loss percentage than MON lambs. In Exp2, DIV lambs had greater (P\u2005\u0026lt;\u20050.01) ADG (+37%), HCW (+15%), and dressing percentage (+6%) compared with MON lambs. This improved animal performance occurred despite being offered 57% less (P\u2005=\u20050.01) dry matter (DM), 56% less (P\u2005\u0026lt;\u20050.01) digestible DM, and 57% less (P\u2005=\u20050.02) metabolizable energy per lamb per day. Ultimately, these experiments demonstrate that providing growing lambs a functionally diverse diet improves animal growth performance and carcass weight compared with a monotonous diet of annual ryegrass or a mixed sward containing perennial ryegrass with white clover.",
+  "publication_date": "2024-07-10",
+  "date_other": "",
+  "volume": 8,
+  "issue": "",
+  "first_page": "txae103",
+  "last_page": "",
+  "manuscript_file": "https:\/\/submit.nal.usda.gov\/sites\/default\/files\/manuscripts\/Log%20413627%20-%2003%20413627.Accepted%20Manuscript.Beck.2024-03-07.pdf",
+  "manuscript_version": "accepted_manuscript",
+  "supplementary_files": "",
+  "accession_number": 441154,
+  "log_number": 413627,
+  "mms_id": "",
+  "created": 1723556153,
+  "changed": 1727109137
+}

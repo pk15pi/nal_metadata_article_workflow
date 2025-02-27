@@ -1,0 +1,478 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          28
+        ]
+      ],
+      "date-time": "2024-08-28T15:02:03Z",
+      "timestamp": 1724857323749
+    },
+    "reference-count": 29,
+    "publisher": "Oxford University Press (OUP)",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT<\/jats:title>\n               <jats:p>The current experiments were conducted across two lamb finishing seasons (2019 [experiment 1; Exp1] and 2020 [experiment 2; Exp2]). In both experiments lambs were provided a monotonous (MON) diet (annual ryegrass [Lolium multiflorum L.] during 2019 and perennial ryegrass [L. perenne L.] and white clover [Trifolium repens L.] during 2020) or a diverse (DIV) diet composed of spatially separated strips sown to chicory (Chicorium intybus L.), plantain (Plantago lanceolata L.), perennial ryegrass, lucerne (Medicago sativa L.), and dock (Rumex obtusifolius). During Exp1, the DIV lambs had a stocking rate (SR) of either 80, 95, 100, or 110 m2\/lamb\/wk, whereas the MON lambs had a 100 m2\/lamb\/wk SR. In Exp2, the SR aimed to allocate the MON lambs with twice the forage allowance (kg DM\/lamb\/d) as DIV lambs. In Exp1, all lambs provided DIV had a greater (P\u2005&amp;lt;\u20050.01) average daily gain (ADG;\u2005+\u2005130%) than MON rams, independent of the SR. Accordingly, DIV had greater (P\u2005&amp;lt;\u20050.05) hot carcass weight (HCW;\u2005+\u200526%) and aged carcass weight (CW;\u2005+\u200527%) compared with MON, across all SR. The 80 m2\/lamb\/wk SR tended to have a greater (P\u2005=\u20050.10) dressing percentage and had similar (P\u2005=\u20050.29) drip loss percentage to the MON lambs, while the other DIV lamb SR all had greater (P\u2005&amp;lt;\u20050.05; +12%) dressing percentages and lower (P\u2005&amp;lt;\u20050.05) drip loss percentage than MON lambs. In Exp2, DIV lambs had greater (P\u2005&amp;lt;\u20050.01) ADG (+37%), HCW (+15%), and dressing percentage (+6%) compared with MON lambs. This improved animal performance occurred despite being offered 57% less (P\u2005=\u20050.01) dry matter (DM), 56% less (P\u2005&amp;lt;\u20050.01) digestible DM, and 57% less (P\u2005=\u20050.02) metabolizable energy per lamb per day. Ultimately, these experiments demonstrate that providing growing lambs a functionally diverse diet improves animal growth performance and carcass weight compared with a monotonous diet of annual ryegrass or a mixed sward containing perennial ryegrass with white clover.<\/jats:p>",
+    "DOI": "10.1093\/tas\/txae103",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          9
+        ]
+      ],
+      "date-time": "2024-07-09T13:15:44Z",
+      "timestamp": 1720530944000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "A diverse diet increases animal growth performance and carcass yield of grazing lambs"
+    ],
+    "prefix": "10.1093",
+    "volume": "8",
+    "author": [
+      {
+        "ORCID": "http:\/\/orcid.org\/0000-0001-8571-5184",
+        "authenticated-orcid": false,
+        "given": "Matthew R",
+        "family": "Beck",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Conservation and Production Research Laboratory, USDA-ARS , Bushland, TX 79012 , USA"
+          }
+        ]
+      },
+      {
+        "given": "Konagh",
+        "family": "Garrett",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Agriculture and Life Sciences, Lincoln University , Lincoln 7647 , New Zealand"
+          }
+        ]
+      },
+      {
+        "given": "Cameron J",
+        "family": "Marshall",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Agriculture and Life Sciences, Lincoln University , Lincoln 7647 , New Zealand"
+          }
+        ]
+      },
+      {
+        "given": "Pablo",
+        "family": "Gregorini",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Agriculture and Life Sciences, Lincoln University , Lincoln 7647 , New Zealand"
+          }
+        ]
+      }
+    ],
+    "member": "286",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          10
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2024072915421150400_CIT0001",
+        "first-page": "70",
+        "article-title": "Liveweight gain and urinary nitrogen excretion of lambs grazing diverse (plantain, Italian ryegrass and red clover) or ryegrass-white clover pasture in autumn",
+        "volume": "80",
+        "author": "Al-Marashdeh",
+        "year": "2020",
+        "journal-title": "New Zeal. Soc. Anim. Prod"
+      },
+      {
+        "key": "2024072915421150400_CIT0002",
+        "volume-title": "Official methods of analysis",
+        "author": "AOAC",
+        "year": "1995",
+        "edition": "16th ed"
+      },
+      {
+        "volume-title": "Dietary phytochemical diversity to enhance health, welfare and production of grazing ruminants, while reducing environmental impact",
+        "year": "2020",
+        "author": "Beck",
+        "key": "2024072915421150400_CIT0003"
+      },
+      {
+        "key": "2024072915421150400_CIT0004",
+        "doi-asserted-by": "crossref",
+        "first-page": "105336",
+        "DOI": "10.1016\/j.applanim.2021.105336",
+        "article-title": "Speaking from experience: reduced dietary neophobia of lambs through early life experience",
+        "volume": "239",
+        "author": "Beck",
+        "year": "2021",
+        "journal-title": "Appl. Anim. Behav. Sci"
+      },
+      {
+        "key": "2024072915421150400_CIT0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "115103",
+        "DOI": "10.1016\/j.anifeedsci.2021.115103",
+        "article-title": "Lactobacillus fermented plant extracts provided to yearling ewes improves their lambs\u2019 antioxidant status at weaning",
+        "volume": "281",
+        "author": "Beck",
+        "year": "2021",
+        "journal-title": "Anim. Feed Sci. Technol"
+      },
+      {
+        "key": "2024072915421150400_CIT0006",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1093\/jas\/skab069",
+        "article-title": "Negative effects of energy supplementation at peak lactation of sheep can be offset by the addition of Lactobacillus fermented plant extracts",
+        "volume": "99",
+        "author": "Beck",
+        "year": "2021",
+        "journal-title": "J. Anim. Sci"
+      },
+      {
+        "key": "2024072915421150400_CIT0007",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1093\/tas\/txaa160",
+        "article-title": "Plantain (Plantago lanceolata) reduces the environmental impact of farmed red deer (Cervus elaphus)",
+        "volume": "4",
+        "author": "Beck",
+        "year": "2020",
+        "journal-title": "Transl. Anim. Sci"
+      },
+      {
+        "key": "2024072915421150400_CIT0008",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.3389\/fvets.2020.00191",
+        "article-title": "How dietary diversity enhances hedonic and eudaimonic well-being in grazing ruminants",
+        "volume": "7",
+        "author": "Beck",
+        "year": "2020",
+        "journal-title": "Front. Vet. Sci"
+      },
+      {
+        "key": "2024072915421150400_CIT0009",
+        "doi-asserted-by": "crossref",
+        "first-page": "546581",
+        "DOI": "10.3389\/fsufs.2021.546581",
+        "article-title": "Animal design through functional dietary diversity for future productive landscapes",
+        "volume": "5",
+        "author": "Beck",
+        "year": "2021",
+        "journal-title": "Front. Sustain. Food Syst"
+      },
+      {
+        "key": "2024072915421150400_CIT0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "1971",
+        "DOI": "10.1071\/AN14563",
+        "article-title": "The potential of diverse pastures to reduce nitrogen leaching on New Zealand dairy farms",
+        "volume": "54",
+        "author": "Beukes",
+        "year": "2014",
+        "journal-title": "Anim. Prod. Sci"
+      },
+      {
+        "key": "2024072915421150400_CIT0011",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.1016\/j.applanim.2013.07.005",
+        "article-title": "The importance of diet choice on stress related responses by lambs",
+        "volume": "148",
+        "author": "Catanese",
+        "year": "2013",
+        "journal-title": "Appl. Anim. Behav. Sci"
+      },
+      {
+        "key": "2024072915421150400_CIT0012",
+        "doi-asserted-by": "crossref",
+        "first-page": "89",
+        "DOI": "10.33584\/jnzg.2015.77.475",
+        "article-title": "A review of the use of chicory, plantain, red clover and white clover in a sward mix for increased sheep and beef production",
+        "volume": "77",
+        "author": "Cranston",
+        "year": "2015",
+        "journal-title": "J. N. Z. Grassl"
+      },
+      {
+        "volume-title": "Functional dietary diversity as opposed to monotony: effect on animal production, welfare, and environmental impact",
+        "year": "2021",
+        "author": "Garrett",
+        "key": "2024072915421150400_CIT0013"
+      },
+      {
+        "key": "2024072915421150400_CIT0014",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1093\/jas\/skab058",
+        "article-title": "Functional diversity vs monotony: the effect of a multi-forage diet as opposed to a single forage diet on animal intake, performance, welfare, and urinary nitrogen excretion",
+        "volume": "99",
+        "author": "Garrett",
+        "year": "2021",
+        "journal-title": "J. Anim. Sci"
+      },
+      {
+        "key": "2024072915421150400_CIT0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1093\/jas\/skab334",
+        "article-title": "Varied diets: implications for lamb performance, rumen characteristics, total antioxidant status, and welfare",
+        "volume": "99",
+        "author": "Garrett",
+        "year": "2021",
+        "journal-title": "J. Anim. Sci"
+      },
+      {
+        "key": "2024072915421150400_CIT0016",
+        "doi-asserted-by": "crossref",
+        "first-page": "104954",
+        "DOI": "10.1016\/j.livsci.2022.104954",
+        "article-title": "It is not just what is fed but how we serve it through time \u2014 a varied pasture-based diet increases intake of lambs",
+        "volume": "261",
+        "author": "Garrett",
+        "year": "2022",
+        "journal-title": "Livest. Sci"
+      },
+      {
+        "key": "2024072915421150400_CIT0018",
+        "doi-asserted-by": "crossref",
+        "first-page": "885436",
+        "DOI": "10.3389\/fsufs.2022.885436",
+        "article-title": "A diverse diet as an alternative to ryegrass can improve the total antioxidant status of dams at lambing",
+        "volume": "6",
+        "author": "Garrett",
+        "year": "2022",
+        "journal-title": "Front. Sustain. Food Syst"
+      },
+      {
+        "key": "2024072915421150400_CIT0019",
+        "doi-asserted-by": "crossref",
+        "first-page": "247",
+        "DOI": "10.1071\/AN14481",
+        "article-title": "Feeding behaviour in ruminants: a consequence of interactions between a reward system and the regulation of metabolic homeostasis",
+        "volume": "55",
+        "author": "Ginane",
+        "year": "2015",
+        "journal-title": "Anim. Prod. Sci"
+      },
+      {
+        "key": "2024072915421150400_CIT0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "711",
+        "DOI": "10.1002\/jsfa.2740260518",
+        "article-title": "The effect of pepsin pretreatment of herbage on the prediction of dry matter digestibility from solubility in fungal cellulase solutions",
+        "volume": "26",
+        "author": "Iowerth",
+        "year": "1975",
+        "journal-title": "J. Sci. Food Agric"
+      },
+      {
+        "volume-title": "emmeans: estimated marginal means, aka Least-Squares Means",
+        "year": "2018",
+        "author": "Lenth",
+        "key": "2024072915421150400_CIT0021"
+      },
+      {
+        "key": "2024072915421150400_CIT0022",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1016\/j.anifeedsci.2019.04.001",
+        "article-title": "Forage herbs as an alternative to ryegrass-white clover to alter urination patterns in grazing dairy systems",
+        "volume": "252",
+        "author": "Mangwe",
+        "year": "2019",
+        "journal-title": "Anim. Feed Sci. Technol"
+      },
+      {
+        "key": "2024072915421150400_CIT0023",
+        "doi-asserted-by": "crossref",
+        "first-page": "611",
+        "DOI": "10.3390\/plants9050611",
+        "article-title": "Functional traits, morphology, and herbage production of vernalised and non-vernalised chicory cv. Choice (Cichorium intybus L.) in response to defoliation frequency and height",
+        "volume": "9",
+        "author": "Mangwe",
+        "year": "2020",
+        "journal-title": "Plants"
+      },
+      {
+        "article-title": "The national climate database",
+        "year": "2020",
+        "author": "NIWA",
+        "key": "2024072915421150400_CIT0024"
+      },
+      {
+        "key": "2024072915421150400_CIT0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "893",
+        "DOI": "10.1071\/AN14816",
+        "article-title": "Simple versus diverse pastures: opportunities and challenges in dairy systems",
+        "volume": "55",
+        "author": "Pembleton",
+        "year": "2015",
+        "journal-title": "Anim. Prod. Sci"
+      },
+      {
+        "key": "2024072915421150400_CIT0026",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1071\/9780643095106",
+        "volume-title": "Nutrient requirements of domesticated ruminants",
+        "author": "Primary Industries Standing Committee",
+        "year": "2007"
+      },
+      {
+        "key": "2024072915421150400_CIT0027",
+        "doi-asserted-by": "crossref",
+        "first-page": "382",
+        "DOI": "10.2135\/cropsci2006.02.0083",
+        "article-title": "The value to herbivores of plant physical and chemical diversity in time and space",
+        "volume": "47",
+        "author": "Provenza",
+        "year": "2007",
+        "journal-title": "Crop Sci"
+      },
+      {
+        "volume-title": "R: A language and environment for statistical computing",
+        "year": "2023",
+        "author": "R Core Team",
+        "key": "2024072915421150400_CIT0028"
+      },
+      {
+        "key": "2024072915421150400_CIT0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "3583",
+        "DOI": "10.3168\/jds.S0022-0302(91)78551-2",
+        "article-title": "Methods for dietary fiber, neutral detergent fiber, and nonstarch polysaccharides in relation to animal nutrition",
+        "volume": "74",
+        "author": "Van Soest",
+        "year": "1991",
+        "journal-title": "J. Dairy Sci"
+      },
+      {
+        "key": "2024072915421150400_CIT0031",
+        "doi-asserted-by": "crossref",
+        "first-page": "1360",
+        "DOI": "10.1017\/S1751731107000134",
+        "article-title": "Self-medication and homeostatic behaviour in herbivores: learning about the benefits of nature\u2019s pharmacy",
+        "volume": "1",
+        "author": "Villalba",
+        "year": "2007",
+        "journal-title": "Animal"
+      }
+    ],
+    "container-title": [
+      "Translational Animal Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https:\/\/academic.oup.com\/tas\/advance-article-pdf\/doi\/10.1093\/tas\/txae103\/58487185\/txae103.pdf",
+        "content-type": "application\/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https:\/\/academic.oup.com\/tas\/article-pdf\/doi\/10.1093\/tas\/txae103\/58679076\/txae103.pdf",
+        "content-type": "application\/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https:\/\/academic.oup.com\/tas\/article-pdf\/doi\/10.1093\/tas\/txae103\/58679076\/txae103.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          29
+        ]
+      ],
+      "date-time": "2024-07-29T23:51:27Z",
+      "timestamp": 1722297087000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https:\/\/academic.oup.com\/tas\/article\/doi\/10.1093\/tas\/txae103\/7710180"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          1
+        ]
+      ]
+    },
+    "references-count": 29,
+    "URL": "https:\/\/doi.org\/10.1093\/tas\/txae103",
+    "relation": {},
+    "ISSN": [
+      "2573-2102"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2573-2102"
+      }
+    ],
+    "subject": [],
+    "published-other": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          1
+        ]
+      ]
+    }
+  }
+}

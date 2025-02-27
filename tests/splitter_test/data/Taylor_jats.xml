@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/archiving/3.0/archivearticle3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink"
+         xml:lang="en"
+         article-type="editorial"><!--
+input file: RWIN_A_2374623_J.xml
+processed with: d3p_header_nlm3_from_jats12.xsl
+version: 2.0
+darts-xml-transformations-20240209T083504 git hash: db97ba8e3a
+-->
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="publisher-id">rwin20</journal-id>
+         <journal-id journal-id-type="publisher-acronym">RWIN</journal-id>
+         <journal-title-group>
+            <journal-title>Water International</journal-title>
+         </journal-title-group>
+         <issn pub-type="ppub">0250-8060</issn>
+         <issn pub-type="epub">1941-1707</issn>
+         <publisher>
+            <publisher-name>Routledge</publisher-name>
+         </publisher>
+      </journal-meta>
+      <article-meta>
+         <article-id pub-id-type="doi">10.1080/02508060.2024.2374623</article-id>
+         <article-id pub-id-type="publisher-id">2374623</article-id>
+         <article-categories>
+            <subj-group subj-group-type="article-type">
+               <subject>Editorial</subject>
+            </subj-group>
+            <subj-group subj-group-type="heading">
+               <subject>Editorial</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Editors&#x2019; introduction</article-title>
+            <alt-title alt-title-type="left-running-head">EDITORIAL</alt-title>
+            <alt-title alt-title-type="right-running-head">WATER INTERNATIONAL</alt-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names initials="R. M.">Raya Marina</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Stephan</surname>
+               </string-name>
+               <xref ref-type="aff" rid="aff0001">
+                  <sup>a</sup>
+               </xref>
+               <xref ref-type="corresp" rid="an0001">
+                  <sup>*</sup>
+               </xref>
+               <x xml:space="preserve"> &amp; </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names initials="J. E.">James E.</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Nickum</surname>
+               </string-name>
+               <xref ref-type="aff" rid="aff0002">
+                  <sup>b</sup>
+               </xref>
+            </contrib>
+            <aff id="aff0001">
+               <label>a </label>
+               <institution>IWRA</institution>, <country>France</country>
+            </aff>
+            <aff id="aff0002">
+               <label>b </label>
+               <institution>IWRA</institution>, <named-content content-type="city">Tokyo</named-content>, <country>Japan</country>
+            </aff>
+         </contrib-group>
+         <author-notes>
+            <corresp id="an0001">
+               <email xlink:href="mailto:iwrawin@gmail.com">iwrawin@gmail.com</email>
+            </corresp>
+         </author-notes>
+         <pub-date pub-type="ppub">
+            <day>03</day>
+            <month>07</month>
+            <year>2024</year>
+            <string-date>July 2024</string-date>
+         </pub-date>
+         <volume>49</volume>
+         <issue>5</issue>
+         <fpage seq="1">573</fpage>
+         <lpage>574</lpage>
+         <permissions>
+            <copyright-statement>&#xa9; 2024 International Water Resources Association</copyright-statement>
+            <copyright-year>2024</copyright-year>
+            <copyright-holder>International Water Resources Association</copyright-holder>
+         </permissions>
+         <counts>
+            <fig-count count="0"/>
+            <page-count count="2"/>
+         </counts>
+      </article-meta>
+   </front>
+</article>

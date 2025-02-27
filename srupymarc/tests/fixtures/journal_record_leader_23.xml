@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/">
+  <version>1.2</version>
+  <numberOfRecords>16735</numberOfRecords>
+  <records>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>     nas a22       4500</leader>
+          <controlfield tag="001">9916338324907426</controlfield>
+          <controlfield tag="005">20100604000000.0</controlfield>
+          <controlfield tag="008">100604|20109999ko |||||o|||||||||||eng||</controlfield>
+          <datafield ind1=" " ind2=" " tag="022">
+            <subfield code="a">2092-6731</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="022">
+            <subfield code="l">2092-6731</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(Journal)6189</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">AGL</subfield>
+            <subfield code="b">eng</subfield>
+            <subfield code="c">AGL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="044">
+            <subfield code="c">KOR</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="082">
+            <subfield code="a">006.7</subfield>
+            <subfield code="2">[original]</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="210">
+            <subfield code="a">3D res</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">3D research</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="260">
+            <subfield code="a">Seoul</subfield>
+            <subfield code="b">3D Research Center</subfield>
+            <subfield code="c">2010-9999</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="310">
+            <subfield code="a">Quarterly</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="4" tag="655">
+            <subfield code="a">electronic resource</subfield>
+            <subfield code="2">marccategory</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="4" tag="655">
+            <subfield code="a">remote</subfield>
+            <subfield code="2">marcsmd</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="720">
+            <subfield code="a">3D Display Research Center</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="787">
+            <subfield code="7">nnas</subfield>
+          </datafield>
+          <datafield ind1="4" ind2="0" tag="856">
+            <subfield code="u">http://www.springerlink.com/content/2092-6731</subfield>
+            <subfield code="3">electronic resource</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="900">
+            <subfield code="a">Journal:6189</subfield>
+            <subfield code="b">3D RESEARCH</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="901">
+            <subfield code="a">Rejected</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="902">
+            <subfield code="a">Rejected</subfield>
+            <subfield code="b">Unassigned</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="912">
+            <subfield code="a">Journal</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="983">
+            <subfield code="a">2010-06-04</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="984">
+            <subfield code="a">2010-06-04</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="985">
+            <subfield code="a">Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5_XSL2-0_ISSN.xsl (Revision 2.25 2015/03/03)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="986">
+            <subfield code="a">vtls002118741</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="990">
+            <subfield code="a">Journal repository</subfield>
+            <subfield code="k">Non-PubAg journals</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>9916338324907426</recordIdentifier>
+      <recordPosition>4</recordPosition>
+    </record>
+  </records>
+  <nextRecordPosition>5</nextRecordPosition>
+  <extraResponseData xmlns:xb="http://www.exlibris.com/repository/search/xmlbeans/">
+    <xb:exact>true</xb:exact>
+    <xb:responseDate>2025-01-07T16:14:20-0500</xb:responseDate>
+  </extraResponseData>
+</searchRetrieveResponse>

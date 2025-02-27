@@ -1,0 +1,123 @@
+{
+  "DOI": "10.26508/lsa.202302241",
+  "URL": "http://dx.doi.org/10.26508/lsa.202302241",
+  "publisher": "Life Science Alliance, LLC",
+  "authors": [
+    {
+      "author": "Maria Naomi I",
+      "affiliation": "Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of Medicine at Northwell Health, Hempstead, NY, USA"
+    },
+    {
+      "author": "Papoin Julien",
+      "affiliation": "Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of Medicine at Northwell Health, Hempstead, NY, USA"
+    },
+    {
+      "author": "Raparia Chirag",
+      "affiliation": "Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of Medicine at Northwell Health, Hempstead, NY, USA"
+    },
+    {
+      "author": "Sun Zeguo",
+      "affiliation": "Department of Medicine, Mount Sinai Medical Center, New York, NY, USA"
+    },
+    {
+      "author": "Josselsohn Rachel",
+      "affiliation": "Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA"
+    },
+    {
+      "author": "Lu Ailing",
+      "affiliation": "Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA"
+    },
+    {
+      "author": "Katerji Hani",
+      "affiliation": "Department of Pathology, University of Rochester, Rochester, NY, USA"
+    },
+    {
+      "author": "Syeda Mahrukh M",
+      "affiliation": "The Ronald O. Perelman Department of Dermatology, New York University Grossman School of Medicine, New York, NY, USA"
+    },
+    {
+      "author": "Polsky David",
+      "affiliation": "The Ronald O. Perelman Department of Dermatology, New York University Grossman School of Medicine, New York, NY, USA"
+    },
+    {
+      "author": "Paulson Robert",
+      "affiliation": "Department of Veterinary and Biomedical Sciences, Penn State College of Agricultural Sciences, University Park, PA, USA"
+    },
+    {
+      "author": "Kalfa Theodosia",
+      "affiliation": "Cincinnati Children\u2019s Hospital Medical Center, Cincinnati, OH, USA"
+    },
+    {
+      "author": "Barnes Betsy J",
+      "affiliation": "Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of Medicine at Northwell Health, Hempstead, NY, USA"
+    },
+    {
+      "author": "Zhang Weijia",
+      "affiliation": "Department of Medicine, Mount Sinai Medical Center, New York, NY, USA"
+    },
+    {
+      "author": "Blanc Lionel",
+      "affiliation": "Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of Medicine at Northwell Health, Hempstead, NY, USA"
+    },
+    {
+      "author": "Davidson Anne",
+      "affiliation": "Institute of Molecular Medicine, Feinstein Institutes for Medical Research, Manhasset, NY, USA, Donald and Barbara Zucker School of Medicine at Northwell Health, Hempstead, NY, USA"
+    }
+  ],
+  "title": "Human TLR8 induces inflammatory bone marrow erythromyeloblastic islands and anemia in SLE-prone mice",
+  "journal_name": "Life Science Alliance",
+  "last_audited_on": null,
+  "publicly_accessible_on_publisher_site": "7/26/2023",
+  "license_type": "VOR",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "grant_ids": [
+    "HL152099",
+    "HL146528",
+    "PEN04771"
+  ],
+  "updated": "7/19/2024",
+  "added": "8/4/2023",
+  "orcid_profile": [
+    {
+      "ORCID": "http://orcid.org/0000-0002-5361-1257",
+      "_id": "65aedf3a128bf637334c5a87",
+      "family": "Raparia",
+      "given": "Chirag ",
+      "source": "orcid",
+      "updatedAt": "2024-01-22"
+    },
+    {
+      "ORCID": "http://orcid.org/0000-0002-3452-2515",
+      "_id": "65aedf3a128bf637334c5a86",
+      "family": "MARIA",
+      "given": "Dr. Naomi I.",
+      "source": "orcid",
+      "updatedAt": "2024-01-22"
+    }
+  ],
+  "member_id": "",
+  "published_print": "10/2023",
+  "published_online": "7/26/2023",
+  "reuse_license_start_date": "07/26/2023",
+  "type": "journal-article",
+  "archived_status": "Yes",
+  "datasets": null,
+  "agency_portal_url": null,
+  "funders": [
+    "HHS | NIH | National Heart, Lung, and Blood Institute",
+    "Lupus Research Alliance",
+    "USDA"
+  ],
+  "funderIDs": [
+    "10.13039/100000050",
+    "10.13039/100012051",
+    "10.13039/100000199"
+  ],
+  "RORID": [
+    "https://ror.org/012pb6c26",
+    "https://ror.org/02hkvsj16",
+    "https://ror.org/01na82s61"
+  ],
+  "auditSource": "",
+  "Funder Source": "Crossref"
+}

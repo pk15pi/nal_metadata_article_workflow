@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc:document xmlns:doc="http://www.elsevier.com/xml/document/schema"
+              xmlns:dp="http://www.elsevier.com/xml/common/doc-properties/schema"
+              xmlns:cps="http://www.elsevier.com/xml/common/consyn-properties/schema"
+              xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dct="http://purl.org/dc/terms/"
+              xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/"
+              xmlns:oa="http://vtw.elsevier.com/data/ns/properties/OpenAccess-1/"
+              xmlns:bam="http://vtw.elsevier.com/data/voc/ns/bam-vtw-1/"
+              xmlns:cp="http://vtw.elsevier.com/data/ns/properties/Copyright-1/"
+              xmlns:cja="http://www.elsevier.com/xml/cja/schema" xmlns:ja="http://www.elsevier.com/xml/ja/schema"
+              xmlns:bk="http://www.elsevier.com/xml/bk/schema" xmlns:ce="http://www.elsevier.com/xml/common/schema"
+              xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:cals="http://www.elsevier.com/xml/common/cals/schema"
+              xmlns:tb="http://www.elsevier.com/xml/common/table/schema"
+              xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/schema"
+              xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/schema"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+    <rdf:RDF>
+        <rdf:Description rdf:about="http://dx.doi.org/10.1016/j.etran.2024.100338">
+            <dct:format>application/xml</dct:format>
+            <dct:title>Towards real-world state of health estimation, Part 1: Cell-level method using lithium-ion
+                battery laboratory data
+            </dct:title>
+            <dct:creator>Yufang Lu</dct:creator>
+            <dct:creator>Jiazhen Lin</dct:creator>
+            <dct:creator>Dongxu Guo</dct:creator>
+            <dct:creator>Jingzhao Zhang</dct:creator>
+            <dct:creator>Chen Wang</dct:creator>
+            <dct:creator>Guannan He</dct:creator>
+            <dct:creator>Minggao Ouyang</dct:creator>
+            <dct:subject>
+                <rdf:Bag>
+                    <rdf:li>Lithium-ion battery</rdf:li>
+                    <rdf:li>State of health</rdf:li>
+                    <rdf:li>Model-Agnostic Meta-Learning</rdf:li>
+                    <rdf:li>Gated convolutional neural networks</rdf:li>
+                    <rdf:li>Few-shot learning</rdf:li>
+                </rdf:Bag>
+            </dct:subject>
+            <dct:description>eTransportation 21 (2024). doi:10.1016/j.etran.2024.100338</dct:description>
+            <prism:aggregationType>journal</prism:aggregationType>
+            <prism:publicationName>eTransportation</prism:publicationName>
+            <prism:copyright>&#169; 2024 Published by Elsevier B.V.</prism:copyright>
+            <dct:publisher>Elsevier B.V.</dct:publisher>
+            <prism:issn>2590-1168</prism:issn>
+            <prism:volume>21</prism:volume>
+            <prism:coverDisplayDate>September 2024</prism:coverDisplayDate>
+            <prism:doi>10.1016/j.etran.2024.100338</prism:doi>
+            <prism:url>http://dx.doi.org/10.1016/j.etran.2024.100338</prism:url>
+            <dct:identifier>doi:10.1016/j.etran.2024.100338</dct:identifier>
+            <bam:articleNumber>100338</bam:articleNumber>
+            <dp:availableOnlineInformation>
+                <bam:availableOnline xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2024-05-17T00:00:00.000Z
+                </bam:availableOnline>
+                <bam:vorAvailableOnline xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </dp:availableOnlineInformation>
+        </rdf:Description>
+    </rdf:RDF>
+    <dp:document-properties>
+        <dp:aggregation-type>Journals</dp:aggregation-type>
+        <dp:version-number>S250.1</dp:version-number>
+    </dp:document-properties>
+    <ja:article docsubtype="fla" version="5.6" xml:lang="en">
+        <ja:item-info>
+            <ja:jid>ETRAN</ja:jid>
+            <ja:aid>100338</ja:aid>
+            <ce:article-number>100338</ce:article-number>
+            <ce:pii>S2590-1168(24)00028-6</ce:pii>
+            <ce:doi>10.1016/j.etran.2024.100338</ce:doi>
+            <ce:copyright type="unknown" year="2024"/>
+            <ce:associated-resource>
+                <ce:inter-ref id="interref1" xlink:href="https://1drv.ms/f/s%21AuAiTLYEMUuKbLRMwP_d3RbUFs4?e=LL44SK"
+                              xlink:role="http://www.elsevier.com/xml/linking-roles/research-data" xlink:type="simple">
+                    https://1drv.ms/f/s!AuAiTLYEMUuKbLRMwP_d3RbUFs4?e=LL44SK
+                </ce:inter-ref>
+            </ce:associated-resource>
+        </ja:item-info>
+        <ja:head>
+            <ce:title id="d1e863">Towards real-world state of health estimation, Part 1: Cell-level method using
+                lithium-ion battery laboratory data
+            </ce:title>
+            <ce:author-group id="d1e866">
+                <ce:author author-id="S2590116824000286-e3d29ca6441c68236601460b3a0c1693" id="au000001"
+                           orcid="0000-0001-9830-224X">
+                    <ce:given-name>Yufang</ce:given-name>
+                    <ce:surname>Lu</ce:surname>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/writing-original-draft">Writing
+                        &#x2013; original draft
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/visualization">Visualization
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/methodology">Methodology
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/investigation">Investigation
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/formal-analysis">Formal
+                        analysis
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/conceptualization">
+                        Conceptualization
+                    </ce:contributor-role>
+                    <ce:cross-ref refid="aff1">
+                        <ce:sup loc="post">a</ce:sup>
+                    </ce:cross-ref>
+                    <ce:cross-ref refid="fn1">
+                        <ce:sup loc="post">1</ce:sup>
+                    </ce:cross-ref>
+                </ce:author>
+                <ce:author author-id="S2590116824000286-c5f0d187f098480ed325c3c2335bc26f" id="au000002">
+                    <ce:given-name>Jiazhen</ce:given-name>
+                    <ce:surname>Lin</ce:surname>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/writing-review-editing">Writing
+                        &#x2013; review &amp; editing
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/investigation">Investigation
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/formal-analysis">Formal
+                        analysis
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/data-curation">Data curation
+                    </ce:contributor-role>
+                    <ce:cross-ref refid="aff2">
+                        <ce:sup loc="post">b</ce:sup>
+                    </ce:cross-ref>
+                    <ce:cross-ref refid="aff6">
+                        <ce:sup loc="post">f</ce:sup>
+                    </ce:cross-ref>
+                    <ce:cross-ref refid="aff7">
+                        <ce:sup loc="post">g</ce:sup>
+                    </ce:cross-ref>
+                    <ce:cross-ref refid="fn1">
+                        <ce:sup loc="post">1</ce:sup>
+                    </ce:cross-ref>
+                </ce:author>
+                <ce:author author-id="S2590116824000286-c1df3b8f5710594bb5f6c2e0638f55f1" id="au000003"
+                           orcid="0000-0003-3697-6913">
+                    <ce:given-name>Dongxu</ce:given-name>
+                    <ce:surname>Guo</ce:surname>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/supervision">Supervision
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/project-administration">Project
+                        administration
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/methodology">Methodology
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/funding-acquisition">Funding
+                        acquisition
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/data-curation">Data curation
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/conceptualization">
+                        Conceptualization
+                    </ce:contributor-role>
+                    <ce:cross-ref refid="aff1">
+                        <ce:sup loc="post">a</ce:sup>
+                    </ce:cross-ref>
+                    <ce:cross-ref refid="aff7">
+                        <ce:sup loc="post">g</ce:sup>
+                    </ce:cross-ref>
+                    <ce:cross-ref refid="cor1">
+                        <ce:sup loc="post">&#x204e;</ce:sup>
+                    </ce:cross-ref>
+                    <ce:e-address id="ea1" type="email" xlink:href="mailto:guodx12@gmail.com">guodx12@gmail.com
+                    </ce:e-address>
+                </ce:author>
+                <ce:author author-id="S2590116824000286-8de82696841db770c1bca03f9c6da58c" id="au000004">
+                    <ce:given-name>Jingzhao</ce:given-name>
+                    <ce:surname>Zhang</ce:surname>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/supervision">Supervision
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/investigation">Investigation
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/conceptualization">
+                        Conceptualization
+                    </ce:contributor-role>
+                    <ce:cross-ref refid="aff3">
+                        <ce:sup loc="post">c</ce:sup>
+                    </ce:cross-ref>
+                </ce:author>
+                <ce:author author-id="S2590116824000286-c45a04392e6068207363d8f23185aba4" id="au000005">
+                    <ce:given-name>Chen</ce:given-name>
+                    <ce:surname>Wang</ce:surname>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/project-administration">Project
+                        administration
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/methodology">Methodology
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/formal-analysis">Formal
+                        analysis
+                    </ce:contributor-role>
+                    <ce:cross-ref refid="aff4">
+                        <ce:sup loc="post">d</ce:sup>
+                    </ce:cross-ref>
+                </ce:author>
+                <ce:author author-id="S2590116824000286-605e213ef8775c50da6aeea5918d4a09" id="au000006"
+                           orcid="0000-0002-5055-076X">
+                    <ce:given-name>Guannan</ce:given-name>
+                    <ce:surname>He</ce:surname>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/supervision">Supervision
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/project-administration">Project
+                        administration
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/investigation">Investigation
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/funding-acquisition">Funding
+                        acquisition
+                    </ce:contributor-role>
+                    <ce:cross-ref refid="aff2">
+                        <ce:sup loc="post">b</ce:sup>
+                    </ce:cross-ref>
+                    <ce:cross-ref refid="aff5">
+                        <ce:sup loc="post">e</ce:sup>
+                    </ce:cross-ref>
+                    <ce:cross-ref refid="aff6">
+                        <ce:sup loc="post">f</ce:sup>
+                    </ce:cross-ref>
+                    <ce:cross-ref refid="cor1">
+                        <ce:sup loc="post">&#x204e;</ce:sup>
+                    </ce:cross-ref>
+                    <ce:e-address id="ea2" type="email" xlink:href="mailto:gnhe@pku.edu.cn">gnhe@pku.edu.cn
+                    </ce:e-address>
+                </ce:author>
+                <ce:author author-id="S2590116824000286-45abf53f750f02ff21617f470ee08e33" id="au000007">
+                    <ce:given-name>Minggao</ce:given-name>
+                    <ce:surname>Ouyang</ce:surname>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/supervision">Supervision
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/investigation">Investigation
+                    </ce:contributor-role>
+                    <ce:contributor-role role="http://credit.niso.org/contributor-roles/funding-acquisition">Funding
+                        acquisition
+                    </ce:contributor-role>
+                    <ce:cross-ref refid="aff1">
+                        <ce:sup loc="post">a</ce:sup>
+                    </ce:cross-ref>
+                    <ce:cross-ref refid="cor1">
+                        <ce:sup loc="post">&#x204e;</ce:sup>
+                    </ce:cross-ref>
+                    <ce:e-address id="ea3" type="email" xlink:href="mailto:ouymg@tsinghua.edu.cn">
+                        ouymg@tsinghua.edu.cn
+                    </ce:e-address>
+                </ce:author>
+                <ce:affiliation affiliation-id="S2590116824000286-aaf2dfdfb4c571b71b6d6bbe6140b673" id="aff1">
+                    <ce:label>a</ce:label>
+                    <ce:textfn>Key Laboratory of Intelligent Green Vehicle and Mobility, School of Vehicle and Mobility,
+                        Tsinghua University, Beijing, 10084, PR China
+                    </ce:textfn>
+                    <sa:affiliation>
+                        <sa:organization>Key Laboratory of Intelligent Green Vehicle and Mobility, School of Vehicle and
+                            Mobility, Tsinghua University
+                        </sa:organization>
+                        <sa:city>Beijing</sa:city>
+                        <sa:postal-code>10084</sa:postal-code>
+                        <sa:country>PR China</sa:country>
+                    </sa:affiliation>
+                    <ce:source-text id="afs49">organization=Key Laboratory of Intelligent Green Vehicle and Mobility,
+                        School of Vehicle and Mobility, Tsinghua University, city=Beijing, postcode=10084, country=P.R
+                        China
+                    </ce:source-text>
+                </ce:affiliation>
+                <ce:affiliation affiliation-id="S2590116824000286-795066c66e23a24f6947abeac82cb9dc" id="aff2">
+                    <ce:label>b</ce:label>
+                    <ce:textfn>Department of Industrial Engineering and Management, College of Engineering, Peking
+                        University, Beijing, 100871, PR China
+                    </ce:textfn>
+                    <sa:affiliation>
+                        <sa:organization>Department of Industrial Engineering and Management, College of Engineering,
+                            Peking University
+                        </sa:organization>
+                        <sa:city>Beijing</sa:city>
+                        <sa:postal-code>100871</sa:postal-code>
+                        <sa:country>PR China</sa:country>
+                    </sa:affiliation>
+                    <ce:source-text id="afs50">organization=Department of Industrial Engineering and Management, College
+                        of Engineering, Peking University, city=Beijing, postcode=100871, country=P.R China
+                    </ce:source-text>
+                </ce:affiliation>
+                <ce:affiliation affiliation-id="S2590116824000286-e3b77c2ba0b7f32b305a0bb11c0fbd6a" id="aff3">
+                    <ce:label>c</ce:label>
+                    <ce:textfn>IIIS, Tsinghua University, Beijing, 10084, PR China</ce:textfn>
+                    <sa:affiliation>
+                        <sa:organization>IIIS, Tsinghua University</sa:organization>
+                        <sa:city>Beijing</sa:city>
+                        <sa:postal-code>10084</sa:postal-code>
+                        <sa:country>PR China</sa:country>
+                    </sa:affiliation>
+                    <ce:source-text id="afs51">organization=IIIS, Tsinghua University, city=Beijing, postcode=10084,
+                        country=P.R China
+                    </ce:source-text>
+                </ce:affiliation>
+                <ce:affiliation affiliation-id="S2590116824000286-45793d710b42b6a591c5dab4c19038b1" id="aff4">
+                    <ce:label>d</ce:label>
+                    <ce:textfn>School of Automation Science and Electrical Engineering, Beihang University, Beijing,
+                        100191, PR China
+                    </ce:textfn>
+                    <sa:affiliation>
+                        <sa:organization>School of Automation Science and Electrical Engineering, Beihang University
+                        </sa:organization>
+                        <sa:city>Beijing</sa:city>
+                        <sa:postal-code>100191</sa:postal-code>
+                        <sa:country>PR China</sa:country>
+                    </sa:affiliation>
+                    <ce:source-text id="afs52">organization=School of Automation Science and Electrical Engineering,
+                        Beihang University, city=Beijing, postcode=100191, country=P.R China
+                    </ce:source-text>
+                </ce:affiliation>
+                <ce:affiliation affiliation-id="S2590116824000286-40740b4dfab351b7f56f23e8cd3c55c4" id="aff5">
+                    <ce:label>e</ce:label>
+                    <ce:textfn>National Engineering Laboratory for Big Data Analysis and Applications, Peking
+                        University, Beijing, 100871, PR China
+                    </ce:textfn>
+                    <sa:affiliation>
+                        <sa:organization>National Engineering Laboratory for Big Data Analysis and Applications, Peking
+                            University
+                        </sa:organization>
+                        <sa:city>Beijing</sa:city>
+                        <sa:postal-code>100871</sa:postal-code>
+                        <sa:country>PR China</sa:country>
+                    </sa:affiliation>
+                    <ce:source-text id="afs53">organization=National Engineering Laboratory for Big Data Analysis and
+                        Applications, Peking University, city=Beijing, postcode=100871, country=P.R China
+                    </ce:source-text>
+                </ce:affiliation>
+                <ce:affiliation affiliation-id="S2590116824000286-20444cf58fc287f037ff3d3292732d5d" id="aff6">
+                    <ce:label>f</ce:label>
+                    <ce:textfn>Peking University Changsha Institute for Computing and Digital Economy, Changsha, 410000,
+                        PR China
+                    </ce:textfn>
+                    <sa:affiliation>
+                        <sa:organization>Peking University Changsha Institute for Computing and Digital Economy
+                        </sa:organization>
+                        <sa:city>Changsha</sa:city>
+                        <sa:postal-code>410000</sa:postal-code>
+                        <sa:country>PR China</sa:country>
+                    </sa:affiliation>
+                    <ce:source-text id="afs54">organization=Peking University Changsha Institute for Computing and
+                        Digital Economy, city=Changsha, postcode=410000, country=P.R China
+                    </ce:source-text>
+                </ce:affiliation>
+                <ce:affiliation affiliation-id="S2590116824000286-3621bd642b0be49c8505c7ab3cb5106f" id="aff7">
+                    <ce:label>g</ce:label>
+                    <ce:textfn>Beijing Circue Energy Technology Co., Ltd., Beijing, 100085, PR China</ce:textfn>
+                    <sa:affiliation>
+                        <sa:organization>Beijing Circue Energy Technology Co., Ltd.</sa:organization>
+                        <sa:city>Beijing</sa:city>
+                        <sa:postal-code>100085</sa:postal-code>
+                        <sa:country>PR China</sa:country>
+                    </sa:affiliation>
+                    <ce:source-text id="afs55">organization=Beijing Circue Energy Technology Co., Ltd., city=Beijing,
+                        postcode=100085, country=P.R China
+                    </ce:source-text>
+                </ce:affiliation>
+                <ce:correspondence id="cor1">
+                    <ce:label>&#x204e;</ce:label>
+                    <ce:text>Corresponding authors.</ce:text>
+                </ce:correspondence>
+                <ce:footnote id="fn1">
+                    <ce:label>1</ce:label>
+                    <ce:note-para id="d1e1139" view="all">These authors contributed equally.</ce:note-para>
+                </ce:footnote>
+            </ce:author-group>
+            <ce:date-received day="15" month="2" year="2024"/>
+            <ce:date-revised day="18" month="4" year="2024"/>
+            <ce:date-accepted day="13" month="5" year="2024"/>
+            <ce:abstract class="author" id="d1e1145" view="all">
+                <ce:section-title id="d1e1146">Abstract</ce:section-title>
+                <ce:abstract-sec id="d1e1148" view="all">
+                    <ce:simple-para id="d1e1149" view="all">Accurate and rapid state of health (SOH) estimation is
+                        crucial for battery management systems (BMS) in lithium-ion batteries (LIBs). Given the
+                        variability in battery types and operating conditions, along with limited data samples,
+                        conventional data-driven methods are inadequate to meet the requirements, especially in
+                        real-world applications, e.g., electric vehicles and energy storage systems. To this end, we
+                        develop a meta-learning-based method with a Gated Convolutional Neural Networks-Model-Agnostic
+                        Meta-Learning (GCNNs-MAML) model to seek proper initial parameters that can rapidly adapt to new
+                        given teat samples with few-shot training. It uses multiple existing historical datasets for
+                        meta-training, and then the initial parameters of the trained model are used for meta-testing on
+                        new small-scale data. With only random 800 s charging segments from 5% of the cycling data
+                        employed for training, the GCNNs-MAML model yields a SOH estimation with a mean RMSE of 1.8% and
+                        a minimal RMSE of 1.3% on the remaining 95% testing samples. The results indicate that it
+                        remarkably outperforms the feature-based and learning-based methods. The meta-learning-based
+                        method exhibits high precision, robustness, and strong generalization capacity, implying its
+                        enormous potential for real-world applications and few-shot conditions.
+                    </ce:simple-para>
+                </ce:abstract-sec>
+            </ce:abstract>
+            <ce:abstract class="author-highlights" id="d1e1151" view="all">
+                <ce:section-title id="d1e1152">Highlights</ce:section-title>
+                <ce:abstract-sec id="d1e1154" view="all">
+                    <ce:simple-para id="d1e1155" view="all">
+                        <ce:list id="d1e1157">
+                            <ce:list-item id="d1e1158">
+                                <ce:label>&#x2022;</ce:label>
+                                <ce:para id="d1e1161" view="all">A novel meta-learning-based method with GCNNs-MAML is
+                                    proposed for the SOH estimation of LIBs.
+                                </ce:para>
+                            </ce:list-item>
+                            <ce:list-item id="d1e1163">
+                                <ce:label>&#x2022;</ce:label>
+                                <ce:para id="d1e1166" view="all">Accurate SOH estimation is achieved on five lab
+                                    datasets with arbitrary random charging segments of 800 s.
+                                </ce:para>
+                            </ce:list-item>
+                            <ce:list-item id="d1e1168">
+                                <ce:label>&#x2022;</ce:label>
+                                <ce:para id="d1e1171" view="all">The method exhibits strong precision and generality in
+                                    experimental results.
+                                </ce:para>
+                            </ce:list-item>
+                            <ce:list-item id="d1e1173">
+                                <ce:label>&#x2022;</ce:label>
+                                <ce:para id="d1e1176" view="all">The method outperforms other data-driven methods in
+                                    few-shot learning tasks.
+                                </ce:para>
+                            </ce:list-item>
+                        </ce:list>
+                    </ce:simple-para>
+                </ce:abstract-sec>
+            </ce:abstract>
+            <ce:keywords class="keyword" id="d1e1178" view="all" xml:lang="en">
+                <ce:section-title id="d1e1179">Keywords</ce:section-title>
+                <ce:keyword id="d1e1181">
+                    <ce:text>Lithium-ion battery</ce:text>
+                </ce:keyword>
+                <ce:keyword id="d1e1184">
+                    <ce:text>State of health</ce:text>
+                </ce:keyword>
+                <ce:keyword id="d1e1187">
+                    <ce:text>Model-Agnostic Meta-Learning</ce:text>
+                </ce:keyword>
+                <ce:keyword id="d1e1190">
+                    <ce:text>Gated convolutional neural networks</ce:text>
+                </ce:keyword>
+                <ce:keyword id="d1e1193">
+                    <ce:text>Few-shot learning</ce:text>
+                </ce:keyword>
+            </ce:keywords>
+            <ce:data-availability id="da1" view="all">
+                <ce:section-title id="d1e1197">Data availability</ce:section-title>
+                <ce:para id="d1e1199" view="all">The data generated in this paper are available at <ce:inter-ref
+                        id="interref2" xlink:href="https://1drv.ms/f/s%21AuAiTLYEMUuKbLRMwP_d3RbUFs4?e=LL44SK"
+                        xlink:role="http://www.elsevier.com/xml/linking-roles/research-data" xlink:type="simple">
+                    https://1drv.ms/f/s!AuAiTLYEMUuKbLRMwP_d3RbUFs4?e=LL44SK</ce:inter-ref>.
+                </ce:para>
+            </ce:data-availability>
+        </ja:head>
+    </ja:article>
+</doc:document>
