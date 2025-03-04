@@ -3,39 +3,6 @@ import mysql.connector
 from mysql.connector import Error
 
 
-# connect to the article database
-def connect_article_db():
-    # Fetch database credentials from environment variables
-    db_name = os.getenv("ARTICLE_DB_NAME")
-    db_user = os.getenv("ARTICLE_DB_USER")
-    db_password = os.getenv("ARTICLE_DB_PASSWORD")
-    db_host = os.getenv("ARTICLE_DB_HOST")
-    db_port = os.getenv("ARTICLE_DB_PORT")
-
-    try:
-        # Establish the database connection
-        connection = mysql.connector.connect(
-            host=db_host,
-            user=db_user,
-            password=db_password,
-            database=db_name,
-            port=db_port
-        )
-
-        # if connection is successful
-        if connection.is_connected():
-            print("Successfully connected to the database")
-            return connection
-        else:
-            return None
-        
-    # return none if connection is not successful
-    except Error as e:
-        print(f"Error while connecting to MySQL: {e}")
-        return None
-
-
-
 # connect to the pid database
 def connect_pid_db():
     # Fetch database credentials from environment variables
@@ -68,13 +35,12 @@ def connect_pid_db():
 
 
 
-def pid_minter(citation_object, article):
+def pid_minter(citation_object):
     result = []
-    article_db_connection = connect_article_db()
     pid_db_connection = connect_pid_db()
 
-    if pid_db_connection and article_db_connection:
-        article_db = article_db_connection.cursor(dictionary=True)
+    # if pid_db_connection and article_db_connection:
+    if pid_db_connection:
         pid_db = pid_db_connection.cursor()
 
         # generate the new PID
@@ -82,26 +48,19 @@ def pid_minter(citation_object, article):
         next_pid = pid_db.fetchone()
         next_pid = next_pid[0] 
 
-        if article['pid']:
-            result = [citation_object , "PID Already Assinged"]
-        else:
-            if article['type_of_recod'] == 'journal-article':
-                article['pid'] = next_pid
-                article['last_step'] = 7
-                article['note'] = 'N/A'
-                query = 'UPDATE model_article SET pid = %s WHERE ID=%s'
-                article_db.execute(query, next_pid, article['ID'])
-                article_db.commit()
-                result =[citation_object , "New PID Assinged"]
-            else:
-                result = [citation_object , "Article is not a journal-article"]
-    
-    else:
-        result = citation_object , "Database connection error occured"
+        if citation_object['type'] is not 'journal-article':
+            result =[citation_object , "Non Article", None]
 
-    # close the database connections
-    if article_db_connection:
-        article_db_connection.close()
+        else:
+            if citation_object['local']['identifier']['pid']:
+                result = [citation_object , "PID Already Assinged", None]
+            else:
+                citation_object['local']['identifier']['pid'] = next_pid
+                result = [citation_object , "PID Assinged", next_pid]
+
+    else:
+        result = [citation_object , "Database connection error occured", None]
+
     if pid_db_connection:
         pid_db_connection.close()
     
