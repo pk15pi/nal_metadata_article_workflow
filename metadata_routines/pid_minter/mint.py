@@ -1,7 +1,7 @@
 import os
 import mysql.connector
 from mysql.connector import Error
-import pickle
+
 
 # connect to the article database
 def connect_article_db():
@@ -33,6 +33,7 @@ def connect_article_db():
     except Error as e:
         print(f"Error while connecting to MySQL: {e}")
         return None
+
 
 
 # connect to the pid database
@@ -67,45 +68,36 @@ def connect_pid_db():
 
 
 
-def pid_minter():
+def pid_minter(citation_object, article):
+    result = []
     article_db_connection = connect_article_db()
     pid_db_connection = connect_pid_db()
 
-    if article_db_connection and pid_db_connection:
+    if pid_db_connection and article_db_connection:
         article_db = article_db_connection.cursor(dictionary=True)
         pid_db = pid_db_connection.cursor()
 
-        # Update the article record with the new PID
-        article_result_query = "SELECT * FROM model_article where last_step=6" 
-        article_db.execute(article_result_query)
-        article_records = article_db.fetchall()
+        # generate the new PID
+        pid_db.execute("SELECT * AUTO_INCREMENT FROM PID")
+        next_pid = pid_db.fetchone()
+        next_pid = next_pid[0] 
 
-        unpickle_content = None
-
-        # iterate over the article records and generate / update PIDs
-        for x in article_records:
-            # generate the new PID
-            pid_db.execute("SELECT * AUTO_INCREMENT FROM PID")
-            next_pid = pid_db.fetchone()
-            next_pid = next_pid[0]
-
-            citation_object_path = x['citation_pickle'] 
-
-            if x['pid']:
-                print('PID Already Assinged')
+        if article['pid']:
+            result = [citation_object , "PID Already Assinged"]
+        else:
+            if article['type_of_recod'] == 'journal-article':
+                article['pid'] = next_pid
+                article['last_step'] = 7
+                article['note'] = 'N/A'
+                query = 'UPDATE model_article SET pid = %s WHERE ID=%s'
+                article_db.execute(query, next_pid, article['ID'])
+                article_db.commit()
+                result =[citation_object , "New PID Assinged"]
             else:
-                try:
-                    with open(citation_object_path, 'rb') as file:
-                        unpickle_content = pickle.load(file)
-                except Exception as e:
-                    print('Error loading pickle file', e)
-                    continue
-
-                unpickle_content = unpickle_content.__dict__
-                if x['type_of_recod'] == 'journal-article':
-                    query = 'UPDATE model_article SET pid = %s WHERE ID=%s'
-                    article_db.execute(query, next_pid, x['ID'])
-                    article_db.commit()
+                result = [citation_object , "Article is not a journal-article"]
+    
+    else:
+        result = citation_object , "Database connection error occured"
 
     # close the database connections
     if article_db_connection:
@@ -113,5 +105,5 @@ def pid_minter():
     if pid_db_connection:
         pid_db_connection.close()
     
-    return None
+    return result
 
