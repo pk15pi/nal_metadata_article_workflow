@@ -34,8 +34,10 @@ def connect_pid_db():
         return None
 
 
-
-def pid_minter(citation_object):
+'''
+This function will take citation_object as input and return the updated citation object with PID, success / error message and the PID
+'''
+def pid_minter(citation_object) -> list:
     result = []
     pid_db_connection = connect_pid_db()
 
@@ -49,7 +51,7 @@ def pid_minter(citation_object):
         next_pid = next_pid[0] 
 
         if citation_object['type'] is not 'journal-article':
-            result =[citation_object , "Non Article", None]
+            result = [citation_object , "Non Article", None]
 
         else:
             if citation_object['local']['identifier']['pid']:
