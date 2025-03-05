@@ -35,7 +35,7 @@ def connect_pid_db():
 
 
 '''
-This function will take citation_object as input and return the updated citation object with PID, success / error message and the PID
+This function will take input citation_object as dictionary and return the updated citation object with PID, success / error message and the PID
 '''
 def pid_minter(citation_object) -> list:
     result = []
