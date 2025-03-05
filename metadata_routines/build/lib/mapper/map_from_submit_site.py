@@ -98,7 +98,9 @@ def map_from_submit_site(submit_str):
         modification_date=utils.clean_dict_key(data,"changed"),
         date_other=utils.clean_dict_key(data,"date_other"),
         identifiers=ids,
-        USDA="yes"
+        USDA="yes",
+        submitter_email=utils.clean_dict_key(data, "submitter_email"),
+        submitter_name=utils.clean_dict_key(data, "submitter_name")
     )
 
     new_citation.local = new_local

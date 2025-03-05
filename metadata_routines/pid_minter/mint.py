@@ -50,7 +50,7 @@ def pid_minter(citation_object) -> list:
         next_pid = pid_db.fetchone()
         next_pid = next_pid[0] 
 
-        if citation_object['type'] is not 'journal-article':
+        if citation_object['type'] != 'journal-article':
             result = [citation_object , "Non Article", None]
 
         else:
