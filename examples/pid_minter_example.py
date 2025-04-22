@@ -1,4 +1,4 @@
-from pid_minter import mint
+from pid_minter import pid_minter
 import pickle
 
 # Path to pkl file
@@ -20,7 +20,7 @@ def mint_pid():
     citation_object = read_pkl_file()
     
     # calling the existing function
-    result = mint.pid_minter(citation_object)
+    result = pid_minter.pid_minter(citation_object)
     print("message : ", result[1])
     print("PID number is :", result[2])
     update_pkl_file(result[1])
