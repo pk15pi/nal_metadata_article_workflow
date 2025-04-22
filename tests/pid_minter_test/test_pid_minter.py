@@ -4,7 +4,7 @@ from pid_minter.pid_minter import pid_minter
 
 
 
-@patch('pid_minter.pid_minter.connect_pid_db')
+@patch('pid_minter.connect_pid_db')
 def test_pid_minter_no_pid(mock_connect, citation_object_no_pid):
     mock_connection = MagicMock()
     mock_cursor = MagicMock()
@@ -16,7 +16,7 @@ def test_pid_minter_no_pid(mock_connect, citation_object_no_pid):
     assert result == [citation_object_no_pid, "PID Assinged", 5]
     assert citation_object_no_pid.local.identifiers['pid'] == 5
 
-@patch('pid_minter.pid_minter.connect_pid_db')
+@patch('pid_minter.connect_pid_db')
 def test_pid_minter_with_pid(mock_connect, citation_object_with_pid):
     mock_connection = MagicMock()
     mock_cursor = MagicMock()
@@ -27,7 +27,7 @@ def test_pid_minter_with_pid(mock_connect, citation_object_with_pid):
     result = pid_minter(citation_object_with_pid)
     assert result == [citation_object_with_pid, "PID Already Assinged", None]
 
-@patch('pid_minter.pid_minter.connect_pid_db')
+@patch('pid_minter.connect_pid_db')
 def test_pid_minter_non_article(mock_connect, non_article_citation_object):
     mock_connection = MagicMock()
     mock_cursor = MagicMock()
@@ -38,7 +38,7 @@ def test_pid_minter_non_article(mock_connect, non_article_citation_object):
     result = pid_minter(non_article_citation_object)
     assert result == [non_article_citation_object, "Non Article", None]
 
-@patch('pid_minter.pid_minter.connect_pid_db')
+@patch('pid_minter.connect_pid_db')
 def test_pid_minter_db_connection_error(mock_connect, citation_object_no_pid):
     mock_connect.return_value = None
 
