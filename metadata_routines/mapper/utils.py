@@ -1,4 +1,6 @@
 import html
+from mapper import errors
+
 
 def replace_hyphens_with_underscores(original_dict):
     """Recursively replaces hyphens with underscores in dictionary keys.
@@ -20,11 +22,14 @@ def replace_hyphens_with_underscores(original_dict):
 
     return new_dict
 
+
 def to_utf8(text):
     try:
-        return html.unescape(text.encode('utf-8').decode())
-    except UnicodeEncodeError:
-        raise UnicodeEncodeError(f"Error encoding {text} to utf-8")
+        utf8_string = text.encode('utf-8').decode('utf-8')
+    except UnicodeEncodeError as e:
+        raise errors.FaultyRecordError(str(e))
+    return html.unescape(utf8_string)
+
 
 def str_utf8_or_none(dict, key):
     try:
@@ -32,6 +37,7 @@ def str_utf8_or_none(dict, key):
     except KeyError:
         return None
     return to_utf8(text)
+
 
 def remove_smart_quotes(text):
     """
@@ -53,11 +59,13 @@ def remove_smart_quotes(text):
 
     return text
 
+
 def clean_dict_key(dict, key):
     text = str_utf8_or_none(dict, key)
     if not isinstance(text, str):
         text = str(text)
     return remove_smart_quotes(text)
+
 
 def clean_str(text):
     text = to_utf8(text)

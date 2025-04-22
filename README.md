@@ -13,14 +13,23 @@ This module supports mapping single metadata record documents into the same form
 
 ## Citation
 
-This module supports a Citation object to hold record information in a standardized format. 
+This module provides a Citation object to hold record information in a standardized format. 
 The mapper function from the mapper module maps input record strings to Citation objects.
 The citation module includes the overarching Citation, as well as the following objects for subfield information: License, Author, Funder, and Local.
 The Local field is used for fields that do not map directly into the CrossRef JSON format.
 
-## Importation
+## type_and_match
 
-The `mapper` and `splitter` functions, and the necessary classes from the `citation` module can be imported locally as follows.
+This module is responsible for determining the type of a citation object based on its title, and matching it against existing records. This module connects to the PubAg SOLR index and Alma to find records with matching DOIs or MMSIDs.
+
+#### Note: The `type_and_match` function in this module requires connection to the VPN (if running locally), and requires the `SOLR_SERVER` environment variable to be set to the PubAg SOLR server URL.
+
+## metadata_quality_review
+
+The `metadata_quality_review` subpackage provides functions to review and validate the quality of metadata in citation records. It includes checks for various fields such as volume, issue, page, title, author, primary author, issue date, and abstract. The subpackage ensures that the metadata meets certain quality standards and provides feedback through cataloguer notes.
+
+## Importation
+The `mapper` and `splitter` functions, the necessary classes from the `citation` module, and the `ArticleTyperMatcher` class can be imported locally as follows.
 
 First, create and activate a virtual environment.
 
@@ -38,6 +47,7 @@ Finally, import the `mapper()` and `splitter()` functions from their respective 
 from mapper import mapper
 from splitter import splitter
 from citation import *
+from type_and_match.type_and_match import ArticleTyperMatcher
 ```
 Now the functions `mapper()` and `splitter()` are accessible. You can confirm that they are accessible by running these functions in the python console.
 ```python
@@ -53,6 +63,12 @@ Citation()
 ```
 The console will print out a Citation object with empty fields.
 
+Finally, we can confirm that the `ArticleTyperMatcher` class from the `type_and_match` module has been imported correctly by creating an instance of the class in the python console:
+
+```python
+ArticleTyperMatcher()
+```
+
 You can uninstall the `metadata_routines` package as follows.
 ```bash
 pip uninstall metadata_routines
@@ -60,44 +76,29 @@ pip uninstall metadata_routines
 ## Testing
 To run the `pytest` tests, first ensure that the `mapper_splitter_venv` environment is still active. If not, follow the instructions under [Importation](#importation) to create the virtual environment and install the packages.
 
-Next, install `pytest` and the `pytest-datadir` plugin.
+Now we can test our code. When you run the `pytest` command, `pytest` will run all tests in the current directory or in any subdirectories. So, we can run the `pytest` command from the `tests/` directory to run all the tests in subdirectories of `tests/`. Alternatively, we can run the `pytest` command in a subdirectory to run just the tests for that respective module. 
 
-```bash
-pip install pytest
-pip install pytest-datadir
-```
-Now we can test our code. When you run the `pytest` command, `pytest` will run all tests in the current directory or in any subdirectories. So, we can run the `pytest` command from the `tests/` directory to run all the tests in both `tests/mapper_test/` and `tests/splitter_test/`, or we can run the `pytest` command in either subdirectory to run just the tests for the mapper or splitter code respectively. 
-
-Test both mapper and splitter code:
+Test code in all modules:
 ```bash
 cd tests
 pytest
 ```
 
-Test just mapper code:
+Test just one module, e.g., the mapper module:
 ```bash
 cd tests/mapper_test
 pytest
 ```
 
-Test just splitter code:
-```bash
-cd tests/splitter_test
-pytest
-```
-
-Alternatively, we can use the `--ignore` option to tell pytest to ignore a subdirectory. Here's another way we could run just the mapper tests:
+Alternatively, we can use the `--ignore` option to tell pytest to ignore a subdirectory. Here's another way we could all tests except for the `splitter` tests:
 ```bash
 cd tests
 pytest --ignore=splitter_test
 ```
 
-##### Warning!
-While you can run the `pytest` command from the root directory of this repository, that would cause `pytest` to try to run the tests within the `srupymarc` repository. These tests will fail when the `pytest` command is run from the root directory. If you wish to run `pytest` from the root of this repo, use the `--ignore` option to tell `pytest` not to run the tests within `srupymarc`.
-
 ## Updating code
 
-Since we installed `metadata_routines` to our virtual environment with the `--editable` option, when we change our source code, those changes will be reflected in our virtual environment. Thus, we can update our source code and immediately run tests on our source code without having to build wheels and reinstall `metadata_routines` to our enviornment. 
+Since we installed `metadata_routines` to our virtual environment with the `--editable` option, when we change our source code, those changes will be reflected in our virtual environment. Thus, we can update our source code and immediately run tests on our source code without having to build wheels and reinstall `metadata_routines` to our environment. 
 
 ## Updating Distribution
 
@@ -110,6 +111,10 @@ python -m build
 ```
 
 This will build both the .whl and .tar.gz distribution files and store them in the `metadata_routines/dist/` directory.
+
+## GitHub Actions
+
+When a PR is created, a github action will lint the code with flake8, build the distribution files, and test the code in the `tests/` directory with pytest.
 
 ## Installing from wheels
 

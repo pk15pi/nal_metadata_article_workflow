@@ -1,6 +1,3 @@
-import os
-import pytest
-import pytest_datadir
 from splitter import splitter
 
 pytest_plugins = ["pytest_datadir"]
@@ -32,7 +29,8 @@ def test_split_chorus_json(chorus_api_response):
 
 
 def test_split_submit_site_json(submission_api_collection):
-    generic_split_test(submission_api_collection, "successful", 25, "submission_node_id")
+    generic_split_test(submission_api_collection, "successful", 25,
+                       "submission_node_id")
 
 
 def test_split_json(unknown_json):
@@ -68,7 +66,8 @@ def test_split_wiley_xml(wiley_pubmed):
 
 
 def test_broken_xml(broken_xml):
-    message = 'XML Error: Premature end of data in tag Article line 4, line 6, column 1 (<string>, line 6)'
+    message = 'XML Error: Premature end of data in tag Article line 4, ' + \
+              'line 6, column 1 (<string>, line 6)'
     generic_split_test(broken_xml, message, 0)
 
 

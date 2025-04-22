@@ -8,7 +8,13 @@ __pycache__/
 ./reports/reports_venv/
 ./.pytest_cache
 ./.idea/*
+.idea
 reports/reports_venv/
 venv/
 ./srupymarc/tests/*
 ./srupymarc/examples/*
+
+*.swp
+*.bak
+
+metadata_routines/metadata_routines.egg-info/*

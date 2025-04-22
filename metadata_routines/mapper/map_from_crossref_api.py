@@ -1,26 +1,47 @@
 import json
-import pprint
-from citation import *
+from citation import Citation, Author, Funder, License, Local, Resource
 from mapper import utils
 from mapper.errors import FaultyRecordError
+
 
 def value_or_none(dict, key):
     try:
         return dict[key]
-    except:
+    except (KeyError, TypeError):
         return None
+
 
 def str_value_or_none(dict, key):
     try:
         return str(dict[key])
-    except:
+    except (KeyError, TypeError):
         return None
+
 
 def first_value_or_none(dict, key):
     try:
         return dict[key][0]
-    except:
+    except (KeyError, TypeError, IndexError):
         return None
+
+
+def parse_date_data(date_dict):
+    out_dict = {}
+    if "date_parts" in date_dict.keys():
+        if len(date_dict["date_parts"]) == 1 and \
+                len(date_dict["date_parts"][0]) == 3:
+            out_dict["year"] = date_dict["date_parts"][0][0]
+            out_dict["month"] = date_dict["date_parts"][0][1]
+            out_dict["day"] = date_dict["date_parts"][0][2]
+        elif len(date_dict["date_parts"]) == 1 and \
+                len(date_dict["date_parts"][0]) == 1:
+            out_dict["year"] = date_dict["date_parts"][0][0]
+    if "date_time" in date_dict.keys():
+        out_dict["string"] = date_dict["date_time"]
+    elif "timestamp" in date_dict.keys():
+        out_dict["string"] = date_dict["timestamp"]
+    return out_dict
+
 
 def map_from_crossref_api(crossref_str):
     try:
@@ -35,8 +56,8 @@ def map_from_crossref_api(crossref_str):
 
     # Instantiate Citation object with high-level data
     new_citation = Citation(
-        title=value_or_none(data,'title'),
-        subtitle=value_or_none(data,'subtitle'),
+        title=value_or_none(data, 'title'),
+        subtitle=value_or_none(data, 'subtitle'),
         original_title=value_or_none(data, 'original_title'),
         publisher=value_or_none(data, 'publisher'),
         DOI=value_or_none(data, 'DOI'),
@@ -58,6 +79,19 @@ def map_from_crossref_api(crossref_str):
     if isinstance(new_citation.original_title, list):
         new_citation.original_title = ' '.join(new_citation.original_title)
 
+    # Add date data
+    if "published_print" in data.keys():
+        new_citation.date["published-print"] = \
+            parse_date_data(data["published_print"])
+    if "published" in data.keys():
+        new_citation.date["published"] = parse_date_data(data["published"])
+    if "published_online" in data.keys():
+        new_citation.date["published-online"] = \
+            parse_date_data(data["published_online"])
+    if "published_other" in data.keys():
+        new_citation.date["published-other"] = \
+            parse_date_data(data["published_other"])
+
     # Specify e-issn and p-issn if provided
     if "issn_type" in data.keys():
         issn_type = data["issn_type"]
@@ -72,7 +106,6 @@ def map_from_crossref_api(crossref_str):
         elif isinstance(data["ISSN"], str):
             new_citation.ISSN["issn"] = data["ISSN"]
 
-
     # Set page data. Crossref provides a page string for all page data.
     if "page" in data.keys():
         new_citation.page_str = data["page"]
@@ -84,7 +117,9 @@ def map_from_crossref_api(crossref_str):
         for i, funder in enumerate(data["funder"]):
             new_funder = Funder(
                 name=data["funder"][i].get("name", None),
-                award=data["funder"][i].get("award", None)
+                award=data["funder"][i].get("award", None),
+                DOI=data["funder"][i].get("DOI", None),
+                ROR=data["funder"][i].get("ROR", None)
             )
             new_citation.funder.append(new_funder)
 
@@ -92,8 +127,8 @@ def map_from_crossref_api(crossref_str):
     if "license" in data.keys():
         for i, license in enumerate(data["license"]):
             new_license = License(
-                version = value_or_none(license, 'content-version'),
-                url = value_or_none(license, 'URL')
+                version=value_or_none(license, 'content-version'),
+                url=value_or_none(license, 'URL')
             )
             new_citation.license.append(new_license)
 
@@ -101,11 +136,11 @@ def map_from_crossref_api(crossref_str):
     if "author" in data.keys():
         for auth in data["author"]:
             new_author = Author(
-                given=value_or_none(auth, "given"), # Required, throws key error if DNE
-                family=value_or_none(auth, "family"), # Required, throws key error if DNE
+                given=value_or_none(auth, "given"),
+                family=value_or_none(auth, "family"),
                 orcid=value_or_none(auth, "ORCID"),
                 affiliation=value_or_none(auth, "affiliation"),
-                sequence=value_or_none(auth,"sequence")
+                sequence=value_or_none(auth, "sequence")
             )
             new_citation.author = new_author
 
@@ -116,5 +151,9 @@ def map_from_crossref_api(crossref_str):
     )
     new_citation.local = new_local
 
+    new_citation.resource = Resource(
+        primary={},
+        secondary=[]
+    )
 
     return (new_citation, 'success')

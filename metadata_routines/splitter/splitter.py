@@ -12,7 +12,8 @@ def split_json(json_data) -> tuple[list[str], str]:
     Returns
         :returns: result (tuple)
             article_json_list (list[str]) - list of strings:
-            message (str) - if successful returns 'successful', otherwise JSON parsing error message
+            message (str) - if successful returns 'successful',
+            otherwise JSON parsing error message
 
     """
 
@@ -27,7 +28,8 @@ def split_json(json_data) -> tuple[list[str], str]:
         """ Chorus article single"""
         article_json_str = json.dumps(json_data)
         result = ([article_json_str], 'successful')
-    elif isinstance(json_data, list) and len(json_data) > 0 and 'submission_node_id' in json_data[0]:
+    elif isinstance(json_data, list) and len(json_data) > 0 and \
+            'submission_node_id' in json_data[0]:
         """submit site article collection"""
         submission_string_list: list[str] = []
         for submission in json_data:
@@ -52,7 +54,8 @@ def split_pubmed(xml_data) -> tuple[list[str], str]:
     """
     pubmed_doctype = ''''
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Article PUBLIC "-//NLM//DTD PubMed 3.0//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/in/PubMed.dtd">
+<!DOCTYPE Article PUBLIC "-//NLM//DTD PubMed 3.0//EN" \
+"https://dtd.nlm.nih.gov/ncbi/pubmed/in/PubMed.dtd">
 '''
 
     list_of_articles: list[str] = []
@@ -65,7 +68,8 @@ def split_pubmed(xml_data) -> tuple[list[str], str]:
 
 
 def split_xml(xml_data, document_string) -> tuple[list[str], str]:
-    """Read an article collection in XML document string and split it into a list of single record XML strings.
+    """Read an article collection in XML document string and split it into a
+    list of single record XML strings.
     The XML namespaces and declaration are preserved.
 
     Args
@@ -113,17 +117,22 @@ def get_xml(my_string: str) -> tuple[lxml.etree.ElementTree, str]:
 
 
 def splitter(document_string: str) -> tuple[list[str], str]:
-    """Receives a JSON or XML document string containing a single or collection of article records and
-       returns a list of strings with a message string.
+    """Receives a JSON or XML document string containing a single or
+       collection of article records and returns a list of strings
+       with a message string.
 
     Args
-        :param document_string (str) - String containing the JSON or XML document
+        :param document_string (str) - String containing the JSON or XML
+        document
     Returns
         :returns result (tuple):
-            list_of_articles (list): list of article strings with JSON or XML documents
-            message (str) - if successful is 'successful', otherwise error message
+            list_of_articles (list): list of article strings with JSON or
+            XML documents
+            message (str) - if successful is 'successful', otherwise error
+            message
     Notes
-        :note Requires XML strings to start with "<?xml version="1.0" encoding="UTF-8"?>"
+        :note Requires XML strings to start with "<?xml version="1.0"
+        encoding="UTF-8"?>"
         :note Requires JSON strings to start with "{" or "["
     """
 

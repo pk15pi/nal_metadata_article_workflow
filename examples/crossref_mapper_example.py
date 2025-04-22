@@ -1,11 +1,8 @@
 from mapper import mapper
-import json
-from citation import *
 
-with open('example_data/faulty_record.json', 'r') as f:
-    submission_data = f.read()
+with open('example_data/crossref_2600.json', 'r') as f:
+    crossref_data = f.read()
 
-cit, msg = mapper(submission_data, "crossref_json")
+cit, msg = mapper(crossref_data, "crossref_json")
 
-print("Message: ", msg)
-print("Object:", cit)
+print("Funder info: ", cit.funder)

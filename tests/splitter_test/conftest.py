@@ -25,9 +25,11 @@ def load_data(shared_datadir, data_name):
 def crossref_api_response(shared_datadir):
     return load_data(shared_datadir, "crossref_api_response")
 
+
 @pytest.fixture()
 def chorus_api_response(shared_datadir):
     return load_data(shared_datadir, "chorus_api_response")
+
 
 @pytest.fixture()
 def submission_api_collection(shared_datadir):
@@ -77,7 +79,8 @@ def simple_text():
 @pytest.fixture(scope="session")
 def broken_xml():
     text = '''<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE ArticleSet PUBLIC "-//NLM//DTD PubMed 2.8//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/in/PubMed.dtd">
+<!DOCTYPE ArticleSet PUBLIC "-//NLM//DTD PubMed 2.8//EN" \
+"https://dtd.nlm.nih.gov/ncbi/pubmed/in/PubMed.dtd">
 <ArticleSet>
    <Article>
       <Journal>Journal of camping</Journal>

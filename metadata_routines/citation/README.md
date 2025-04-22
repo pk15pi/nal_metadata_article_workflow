@@ -2,18 +2,19 @@
 
 ## General description
 
-- The Citation object is main data object in the Article Citation workflow.
-- It is the working expression of the article citation metadata record. 
-- The structure of Citation object's [Python dataclass](https://realpython.com/python-data-classes/) will be based on the Crossref schema.
-- For an interactive list of Citation elements see the in Crossref's Swagger UI at: https://api.crossref.org/swagger-ui/index.html
+- The Citation object is the main data object in the Article Citation workflow. 
+It is the working expression of the article citation metadata record. 
+- The structure of the Citation object's [Python dataclass](https://realpython.com/python-data-classes/) is based on the Crossref schema.
+- For an interactive list of crossref elements see the Crossref's Swagger UI at: 
+https://api.crossref.org/swagger-ui/index.html
 
 
 ## Installation
 
-The Citation object install as part of the metadata_routines package, which is installed directly from a wheel package.
+The Citation object is installed as part of the `metadata_routines` package, which is installed directly from a wheel package.
 
 ```
-pip install /app/nal_metadata_article_workflow/dist/metadata_routines-0.0.0-py3-none-any.whl
+pip install /app/nal_metadata_article_workflow/metadata_routines/dist/metadata_routines-0.0.0-py3-none-any.whl
 ```
 
 ## Usage 
@@ -27,7 +28,7 @@ To use the `Citation` object, follow these steps:
    Ensure you have imported the `Citation` class and the relevant subfield classes from the `citation` module.
 
    ```python
-   from citation import *
+   from citation import Citation, Author, License, Funder, Local, Resource
    ```
 
 2. **Create a new `Citation` object**:
@@ -39,10 +40,12 @@ To use the `Citation` object, follow these steps:
        title="Sample Title",
        original_title="Original Sample Title",
        subtitle="Sample Subtitle",
+       publisher="Sample Publisher"
        container_title="Sample Journal Name",
        abstract="This is a sample abstract.",
        volume="1",
        issue="1",
+       issn={"e-issn": "1234-5678", "p-issn": "8765-4321"},
    )
    ```
    
@@ -80,7 +83,9 @@ To use the `Citation` object, follow these steps:
    These methods allow you to flexibly add page number information to the `Citation` object.
 
 4. **Add authors**:
-   Create `Author` objects and append them to the `author` field of the `Citation` object.
+   Create `Author` objects and append them to the `author` field of the `Citation` object. When
+adding an author, simply set `cit.author` to the author object you would like to amend. This will
+add the author to the list of authors stored in the citation object.
 
    ```python
    author1 = Author(
@@ -90,7 +95,7 @@ To use the `Citation` object, follow these steps:
        affiliation="Sample University",
        sequence="first"
    )
-   new_citation.author.append(author1)
+   new_citation.author = author1
    ```
 
 5. **Add licenses**:
@@ -114,27 +119,53 @@ To use the `Citation` object, follow these steps:
    )
    new_citation.funder.append(funder1)
    ```
+   
+7. **Add date information**:
+   Various input schemas contain various date elements. The `date` attribute of the Citation
+object is a nested dictionary. Each high-level key is the name of the date (ie 'published',
+'created', 'changed', etc). Each of these keys points to a dictionary containing the keys 
+'year', 'month', 'day', and 'string'.
 
-7. **Add local information**:
+```python
+date={
+    "published": {
+        "year": "2016",
+        "month": "03",
+        "day": "14",
+        "string": "2016-03-14"
+    }
+},
+```
+
+8. **Add local information**:
    Create a `Local` object and assign it to the `local` field of the `Citation` object.
    This field can contain additional information that is not part of the CrossRef schema.
 
    ```python
    local_info = Local(
-       identifiers={"provider_rec": "10.1000/xyz123"},
-       files=[
-           {
-               "label": "manuscript",
-               "location": "https://example.com/manuscript.pdf",
-               "version": "pre-publication",
-               "mime_type": "text/pdf"
-           }
-       ]
+       identifiers={
+            "provider_rec": "10.1000/xyz123",
+            "mms_id": "1234567890",
+    },
+       usda="no"
    )
    new_citation.local = local_info
    ```
+   
+9. **Add subject terms**:
 
-8. **Access and manipulate the `Citation` object**:
+
+The `subjects` dictionary contains structured subject terms associated with the citation.
+See the `flexible_subelement_structure.md` document for more information.
+
+
+10. **Add resources**:
+
+The `resource` attribute contains an object of type `Resource`, which is designed to
+support manuscript and supplemental files. See the `flexible_subelement_structure.md`
+document for more information.
+
+11. **Access and manipulate the `Citation` object**:
    You can now access and manipulate the `Citation` object as needed.
 
    ```python
@@ -178,33 +209,16 @@ page = {
 }
 ```
 
+### Date
+
+Unlike in the CrossRef schema, we implement one top-level `date` dict, which contains all dict elements.
+The structure of each individual date dict also differs from the CrossRef schema's date dicts in that the
+CrossRef schema's date dicts include a `date_parts` list, which is a list of integers in the form `[year, month, day]`.
+The Citation object's date dicts specifically point to `day`, `month`, and `year` independently.
+
 ### Local elements for manuscript and supplementary files
 
-Both manuscripts file and supplementary files with be stored in a list called `files` within `local`. The `files` list will contain one dictionary per file, and will list the file label (ie manuscript, dataset, etc), location, mime type, and if applicable, the version.
-
-```python
-
-local = {
-    "files":[
-         {
-              "label": "manuscript",
-              "location": 	"https://submit.nal.usda.gov/sites/default/files/manuscripts/Schumacher.pdf",
-              "version": "pre-publication",
-              "mime_type": "text/pdf"
-         },
-         {
-              "label": "supplement part A",
-              "location": "file://data/file_storage/a0405563a.pdf",
-              "version": "publisher"     
-         },
-         {
-              "label": "supplement part B",
-              "location": "file://data/file_storage/a0405563b.pdf",
-              "version": "publisher"     
-         },        
-    ]
-}
-```
+Both manuscripts file and supplementary files with be stored in the `Resource` subelement.
 
 ### Local identifier element
 

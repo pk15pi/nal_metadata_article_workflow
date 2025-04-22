@@ -1,0 +1,75 @@
+[
+  {
+    "submission_node_id": 1192,
+    "submitter_email": "alj0043@auburn.edu",
+    "submitter_name": "Alana  Jacobson",
+    "title": "Seasonal Dynamics of Aphid Flights and Cotton Leafroll Dwarf Virus Spread in Alabama ",
+    "doi": "10.3390\/insects14070604",
+    "authors": [
+      {
+        "first_name": "Jessica B.",
+        "last_name": "Mahas",
+        "name_suffix": "",
+        "orcid": "0000-0002-3984-0707",
+        "affiliation": "Department of Entomology and Plant Pathology, Auburn University, 301 Funchess Hall, Auburn, AL 36849, USA"
+      },
+      {
+        "first_name": "Charles",
+        "last_name": "Ray",
+        "name_suffix": "",
+        "orcid": "",
+        "affiliation": "Department of Entomology and Plant Pathology, Auburn University, 301 Funchess Hall, Auburn, AL 36849, USA"
+      },
+      {
+        "first_name": "Adam",
+        "last_name": "Kesheimer",
+        "name_suffix": "",
+        "orcid": "",
+        "affiliation": "Department of Entomology and Plant Pathology, Auburn University, 301 Funchess Hall, Auburn, AL 36849, USA"
+      },
+      {
+        "first_name": "Kassie",
+        "last_name": "Conner",
+        "name_suffix": "",
+        "orcid": "0000-0001-5654-673X",
+        "affiliation": "Alabama Cooperative Extension, 961 S. Donahue Dr., Auburn, AL 36849, USA"
+      },
+      {
+        "first_name": "Alana L.",
+        "last_name": "Jacobson",
+        "name_suffix": "",
+        "orcid": "0000-0002-1296-4654",
+        "affiliation": "Department of Entomology and Plant Pathology, Auburn University, 301 Funchess Hall, Auburn, AL 36849, USA"
+      }
+    ],
+    "funding_agencies": [
+      {
+        "name": "Agricultural Research Service (ARS)",
+        "award_number": "58-6010-0-011",
+        "project_number": ""
+      },
+      {
+        "name": "National Institute of Food and Agriculture (NIFA)",
+        "award_number": "2019-70006-30441",
+        "project_number": ""
+      }
+    ],
+    "journal": "Insects",
+    "issn": "2075-4450",
+    "abstract": "Cotton leafroll dwarf virus (CLRDV) is an introduced Polerovirus (Family: Solemoviridae) of cotton, Gossypium hirsutum L., in the U.S. The only vector known to transmit this virus to cotton is the cotton aphid, Aphis gossypii Glover; however, there are seven other species of aphids (Hemiptera: Aphididae) reported to colonize cotton in the southeastern U.S.: Protaphis middletonii (Thomas), Rhopalosiphum rufiabdominale (Sasaki), Aphis craccivora Koch, Macrosiphum euphorbiae Thomas, Myzus persicae (Sulzer), Smythurodes betae Westwood, and Aphis fabae Scopoli. Little to no information is available on annual population dynamics of these species in the southeastern U.S. The timing of CLRDV spread to cotton plantings is also unknown. The objective of this study was to monitor the population dynamics of eight cotton-feeding aphid species concurrent with the spread of CLRDV at three different locations in Alabama. Aphids were monitored weekly for two years with yellow pan traps, and sentinel plants were deployed weekly to monitor CLRDV spread throughout the cotton-growing season. During the two years, most CLRDV spread at all locations occurred when A. gossypii was actively dispersing in the field. Early season spread at sites in south and central Alabama, when A. gossypii was not abundant, suggests additional aphid vectors are possible. ",
+    "publication_date": "2023-07-04",
+    "date_other": "Corrected 12\/05\/2023",
+    "volume": 14,
+    "issue": 7,
+    "first_page": 604,
+    "last_page": "",
+    "manuscript_file": "https:\/\/submit.nal.usda.gov\/sites\/default\/files\/manuscripts\/2023%20-%20seasonal%20dynamics%20of%20aphids%20and%20CLRDV%20spread%20in%20Alabama.pdf",
+    "manuscript_version": "openaccess_vor",
+    "supplementary_files": "",
+    "accession_number": "",
+    "log_number": "",
+    "mms_id": 9916416829507426,
+    "created": 1705099845,
+    "changed": 1721313459
+  }
+]

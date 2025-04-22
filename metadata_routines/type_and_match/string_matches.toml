@@ -1,0 +1,83 @@
+############################################################################
+# The following sections contain strings look-up used to detect corrections,
+# retractions, erratum in titles of incoming articles:
+#
+# matching will be case-instinctive
+# values:
+#     "beginning" - string found at beginning of title
+#     "title"     - string matches title
+#     "anywhere"  - anywhere in the title
+#
+#   Meta-characters need to be escaped or substituted
+#
+#   spaces      ' ' => '.'
+#   brackets    ']' => '\]'
+#   brackets    '[' => '\['
+#   parentheses '(' => '\('
+############################################################################
+
+[correction]
+    "Author.correction:" = "beginning"
+    "Correction:" = "beginning"
+    "Correction" = "title"
+    "Corrections" = "title"
+    "Correction.to:" = "beginning"
+    "Publisher.correction:" = "beginning"
+    "Publisher.correction.to:" = "beginning"
+    '\[correction\]' = "anywhere"
+    "Corrected:" = "beginning"
+
+[retraction]
+    "Publisher.retraction:" = "beginning"
+    "Retracted:" = "beginning"
+    "Retracted.article:" = "beginning"
+    "Retraction:" = "beginning"
+    "Retraction.note:" = "beginning"
+    "Retraction.note.to:" = "beginning"
+    "Retraction.notice:" = "beginning"
+    # "\(Retracted\)" = "anywhere"
+    "THIS.ARTICLE.HAS.BEEN.RETRACTED" = "beginning"
+    "Notice.of.RETRACTION:" = "beginning"
+
+[erratum]
+    "erratum" = "beginning"
+    "errata"  = "beginning"
+
+[withdrawn]
+    "withdrawn:" = "beginning"
+    "WITHDRAWN:" = "beginning"
+
+
+[notice]
+    "Editorial" = "beginning"
+    "Review:"    = "beginning"
+    "Comments"  = "beginning"
+    "In.memory.of" = "beginning"
+    "Book.review" = "beginning"
+    "Book.list" = "beginning"
+    "Comment.on" = "beginning"
+    "In.memoriam" = "beginning"
+    "Letter.to.the.editor" = "beginning"
+    "Response.to" = "beginning"
+    "Reply.to" = "beginning"
+    "Interpretive.summaries" = "beginning"
+    "Graphical.abstract.TOC" = "beginning"
+    "Content.continued" = "beginning"
+    "Table.of.contents" = "beginning"
+    "News" = "beginning"
+    "Special.issue.for.{person.name}" = "beginning" #??
+    "Outside.Front.Cover" = "beginning"
+    "Outside.Back.Cover" = "beginning"
+    "Award.Recipients" = "beginning"
+    "Tribute.to" = "beginning"
+    "In.Memorium" = "beginning"
+    "Cover" = "beginning"
+    "Announcement" = "beginning"
+    "Announcements" = "beginning"
+    "Standards.Official.Notice" = "beginning"
+    "Awardees.of.the.20??" = "beginning" #Regex?
+    "Full.issue" = "beginning"
+    "Call.For.Applications" = "beginning"
+
+[corrigendum]
+    "corrigendum" = "beginning"

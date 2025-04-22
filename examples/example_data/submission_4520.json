@@ -1,0 +1,47 @@
+{
+  "submission_node_id": 4520,
+  "submitter_email": "moonhill.jonathan@gmail.com",
+  "submitter_name": "JONATHAN LYNCH",
+  "title": "Did Crop Domestication Change the Fitness Landscape of Root Response to Soil Mechanical Impedance? An \ud835\ude2a\ud835\ude2f \ud835\ude34\ud835\ude2a\ud835\ude2d\ud835\ude2a\ud835\ude24\ud835\ude30 Analysis ",
+  "doi": "10.1093/aob/mcae201",
+  "authors": [
+    {
+      "first_name": "Harini",
+      "last_name": "Rangarajan",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "Department of Plant Science, The Pennsylvania State University, University Park, PA 16802, USA"
+    },
+    {
+      "first_name": "Jonathan P.",
+      "last_name": "Lynch",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "Department of Plant Science, The Pennsylvania State University, University Park, PA 16802, USA"
+    }
+  ],
+  "funding_agencies": [
+    {
+      "name": "National Institute of Food and Agriculture (NIFA)",
+      "award_number": "2021-67013-33723",
+      "project_number": ""
+    }
+  ],
+  "journal": "Annals of Botany",
+  "issn": "0305-7364",
+  "abstract": "Root axes with greater penetration ability are often considered to be beneficial in hard soils. We hypothesized that maize root phenotypes with greater plasticity (meaning reduced elongation in response to mechanical impedance, i.e. a \u2018stop signal\u2019) have fitness advantages over phenotypes with reduced plasticity (i.e. unimpeded root elongation) in native (virgin, uncultivated) soils, by reallocating root foraging to softer, presumably wetter, soil domains, and that the value of the stop signal reduced with soil cultivation and crop domestication. We used OpenSimRoot to simulate native and cultivated soils and evaluated maize root phenotypes with varying axial and lateral root penetration ability in water, nitrogen (N) and impedance regimes associated with Neolithic agriculture. The stop signal was advantageous in native soils but was less beneficial in cultivated, irrigated soils. Reduced root foraging in hard, dry topsoil enabled root growth in deeper domains where water is available, resulting in an improved balance of resource expenditure and acquisition. The value of the stop signal declined during crop domestication with the advent of irrigation, which increased water availability in the topsoil. Soil cultivation reduced N availability, while irrigation increased N leaching, resulting in a shift in the fitness landscape, with greater lateral root length (i.e. reduced plasticity) being advantageous by colocalizing root foraging with N availability. The importance of the stop signal is evident in modern high-input systems in which drought is a limiting factor. Our results support the hypotheses that the reduction of lateral root growth by mechanical impedance is adaptive in native soil, but became less adaptive with soil cultivation and irrigation associated with Neolithic agriculture.",
+  "publication_date": "2025-01-24",
+  "date_other": "",
+  "volume": "",
+  "issue": "",
+  "first_page": "mcae201",
+  "last_page": "",
+  "manuscript_file": "https://submit.nal.usda.gov/sites/default/files/manuscripts/mcae201.pdf",
+  "manuscript_version": "accepted_manuscript",
+  "supplementary_files": "",
+  "accession_number": "",
+  "log_number": "",
+  "mms_id": "",
+  "created": 1736433280,
+  "changed": 1741381663
+}

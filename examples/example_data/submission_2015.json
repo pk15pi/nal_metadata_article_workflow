@@ -1,0 +1,47 @@
+{
+  "submission_node_id": 2015,
+  "submitter_email": "Dylan.Turner2@usda.gov",
+  "submitter_name": "DYLAN A. TURNER",
+  "title": "Flood Risk Perceptions: Accuracy, Determinants, and the Role of Probability Weighting",
+  "doi": "10.3368/le.100.3.120722-0101r",
+  "authors": [
+    {
+      "first_name": "Dylan",
+      "last_name": "Turner",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "Economic Research Service, U.S. Department of Agriculture, Washington, D.C."
+    },
+    {
+      "first_name": "Craig E.",
+      "last_name": "Landry",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "Department of Agricultural and Applied Economics, University of Georgia, Athens"
+    }
+  ],
+  "funding_agencies": [
+    {
+      "name": "Economic Research Service (ERS)",
+      "award_number": "",
+      "project_number": ""
+    }
+  ],
+  "journal": "Land Economics",
+  "issn": "1543-8325",
+  "abstract": "This study analyzes survey data of U.S. East Coast homeowners to characterize accuracy and determinants of homeowner flood risk (mis)perceptions. Using an array of instruments, we assess subjective risk perceptions and compare them with objective risk estimates. Reduced-form regressions suggest flood experience, worry, and flood zone classification influence relative perceptions of risk. Common probability weighting functions do not fit the divergence in risk perceptions, suggesting that the source of the probability distortions is most likely due to misperceiving the true risk rather than a widespread behavioral heuristic.",
+  "publication_date": "2024-08-01",
+  "date_other": "",
+  "volume": 100,
+  "issue": 3,
+  "first_page": 478,
+  "last_page": 504,
+  "manuscript_file": "https://submit.nal.usda.gov/sites/default/files/manuscripts/manuscript.pdf",
+  "manuscript_version": "accepted_manuscript",
+  "supplementary_files": "https://submit.nal.usda.gov/sites/default/files/supplementary/appendix.pdf",
+  "accession_number": "",
+  "log_number": "",
+  "mms_id": "",
+  "created": 1717694288,
+  "changed": 1722609608
+}

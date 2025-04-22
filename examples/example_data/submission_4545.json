@@ -1,0 +1,47 @@
+{
+  "submission_node_id": 4545,
+  "submitter_email": "gj32@cornell.edu",
+  "submitter_name": "Georg Jander",
+  "title": "Serine proteinase inhibitors from \ud835\ude15\ud835\ude2a\ud835\ude24\ud835\ude30\ud835\ude35\ud835\ude2a\ud835\ude22\ud835\ude2f\ud835\ude22 \ud835\ude23\ud835\ude26\ud835\ude2f\ud835\ude35\ud835\ude29\ud835\ude22\ud835\ude2e\ud835\ude2a\ud835\ude22\ud835\ude2f\ud835\ude22, a nonpreferred host plant, inhibit the growth of \ud835\ude14\ud835\ude3a\ud835\ude3b\ud835\ude36\ud835\ude34 \ud835\ude31\ud835\ude26\ud835\ude33\ud835\ude34\ud835\ude2a\ud835\ude24\ud835\ude22\ud835\ude26 (green peach aphid) ",
+  "doi": "10.1002/ps.8148",
+  "authors": [
+    {
+      "first_name": "Honglin",
+      "last_name": "Feng",
+      "name_suffix": "",
+      "orcid": "0000-0001-6803-3413",
+      "affiliation": "Boyce Thompson Institute, Ithaca, NY, USA, Department of Entomology, Louisiana State University AgCenter, Baton Rouge, LA, USA"
+    },
+    {
+      "first_name": "Georg",
+      "last_name": "Jander",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "Boyce Thompson Institute, Ithaca, NY, USA"
+    }
+  ],
+  "funding_agencies": [
+    {
+      "name": "National Institute of Food and Agriculture (NIFA)",
+      "award_number": "2021-67013-33565",
+      "project_number": ""
+    }
+  ],
+  "journal": "Pest Management Science",
+  "issn": "1526-498X",
+  "abstract": "The green peach aphid (Myzus persicae) is a severe agricultural crop pest that has developed resistance to most current control methods, requiring the urgent development of novel strategies. Plant proteinase inhibitors (PINs) are small proteins that protect plants against pathogens and/or herbivores, likely by preventing efficient protein digestion. We identified 67 protease genes in the transcriptomes of three M.\u2009persicae lineages (USDA-Red, G002 and G006). Comparison of gene expression levels in aphid guts and whole aphids showed that several proteases, including a highly expressed serine protease, are significantly overexpressed in the guts. Furthermore, we identified three genes encoding serine protease inhibitors (SerPIN-II1, 2 and 3) in Nicotiana benthamiana, which is a nonpreferred host for M.\u2009persicae. Using virus-induced gene silencing (VIGS) with a tobacco rattle virus (TRV) vector and overexpression with a turnip mosaic virus (TuMV) vector, we demonstrated that N.\u2009benthamiana SerPIN-II1 and SerPIN-II2 cause reduced survival and growth, but do not affect aphid protein content. Likewise, SerPIN-II3 overexpression reduced survival and growth, and serpin-II3 knockout mutations, which we generated using CRISPR/Cas9, increased survival and growth. Protein content was significantly increased in aphids fed on SerPIN-II3 overexpressing plants, yet it was decreased in aphids fed on serpin-II3 mutants. Our results show that three PIN-IIs from N.\u2009benthamiana, a nonpreferred host plant, effectively inhibit M.\u2009persicae survival and growth, thereby representing a new resource for the development of aphid-resistant crop plants.",
+  "publication_date": "2024-09-01",
+  "date_other": "",
+  "volume": 80,
+  "issue": 9,
+  "first_page": 4470,
+  "last_page": 4481,
+  "manuscript_file": "https://submit.nal.usda.gov/sites/default/files/manuscripts/2024%20Feng%20and%20Jander.pdf",
+  "manuscript_version": "publisher_vor",
+  "supplementary_files": "",
+  "accession_number": "",
+  "log_number": "",
+  "mms_id": 9916523938107426,
+  "created": 1736537523,
+  "changed": 1741976688
+}

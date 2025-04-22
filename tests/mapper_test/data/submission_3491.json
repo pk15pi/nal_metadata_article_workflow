@@ -1,0 +1,47 @@
+{
+  "submission_node_id": 3491,
+  "submitter_email": "fengqi.you@cornell.edu",
+  "submitter_name": "Fengqi You",
+  "title": "Artificial intelligence can regulate light and climate systems to reduce energy use in plant factories and support sustainable food production ",
+  "doi": "10.1038/s43016-024-01045-3",
+  "authors": [
+    {
+      "first_name": "Benjamin",
+      "last_name": "Decardi-Nelson",
+      "name_suffix": "",
+      "orcid": "",
+      "affiliation": "Systems Engineering, Cornell University, Ithaca, NY, USA"
+    },
+    {
+      "first_name": "Fengqi",
+      "last_name": "You",
+      "name_suffix": "",
+      "orcid": "0000-0001-9609-4299",
+      "affiliation": "Systems Engineering, Cornell University, Ithaca, NY, USA, Robert Frederick Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY, USA, Cornell Institute for Digital Agriculture, Cornell University, Ithaca, NY, USA"
+    }
+  ],
+  "funding_agencies": [
+    {
+      "name": "National Institute of Food and Agriculture (NIFA)",
+      "award_number": "2022-51181-38324",
+      "project_number": ""
+    }
+  ],
+  "journal": "Nature Food",
+  "issn": "2662-1355",
+  "abstract": "Plant factories with artificial lighting (PFALs) can boost food production per unit area but require resources such as carbon dioxide and energy to maintain optimal plant growth conditions. Here we use computational modelling and artificial intelligence (AI) to examine plant\u2013environment interactions across ten diverse global locations with distinct climates. AI reduces energy use by optimizing lighting and climate regulation systems, with energy use in PFALs ranging from 6.42\u2009kWh\u2009kg\u207b\u00b9 in cooler climates to 7.26\u2009kWh\u2009kg\u207b\u00b9 in warmer climates, compared to 9.5\u201310.5\u2009kWh\u2009kg\u207b\u00b9 in PFALs using existing, non-AI-based technology. Outdoor temperatures between 0\u2009\u00b0C and 25\u2009\u00b0C favour ventilation-related energy use reduction, with outdoor humidity showing no clear pattern or effect on energy use. Ventilation-related energy savings negatively impact other resource utilization such as carbon dioxide use. AI can substantially enhance energy savings in PFALs and support sustainable food production.",
+  "publication_date": "2024-09-09",
+  "date_other": "",
+  "volume": 5,
+  "issue": 10,
+  "first_page": 869,
+  "last_page": 881,
+  "manuscript_file": "https://submit.nal.usda.gov/sites/default/files/manuscripts/main_0.pdf",
+  "manuscript_version": "accepted_manuscript",
+  "supplementary_files": "https://submit.nal.usda.gov/sites/default/files/supplementary/Decardi-Nelson_SI.pdf, https://submit.nal.usda.gov/sites/default/files/supplementary/Decardi-Nelson_ED_Fig1.jpg, https://submit.nal.usda.gov/sites/default/files/supplementary/Decardi-Nelson_ED_Fig2.jpg, https://submit.nal.usda.gov/sites/default/files/supplementary/Decardi-Nelson_ED_Fig3.jpg, https://submit.nal.usda.gov/sites/default/files/supplementary/Decardi-Nelson_ED_Fig4.jpg",
+  "accession_number": "",
+  "log_number": "",
+  "mms_id": "",
+  "created": 1733339279,
+  "changed": 1738866275
+}
