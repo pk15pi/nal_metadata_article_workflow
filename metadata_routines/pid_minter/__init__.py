@@ -1,1 +1,1 @@
-from pid_minter.pid_minter import pid_minter
+from pid_minter.pid_minter import pid_minter, connect_pid_db
