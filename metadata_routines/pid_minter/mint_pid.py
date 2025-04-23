@@ -52,6 +52,7 @@ def pid_minter(citation_object) -> list:
 
         # Fetch the result
         row = pid_db.fetchone()
+        print("ROW: ", row)
         next_pid = row[0] if row else None
 
         if not next_pid:
@@ -63,10 +64,10 @@ def pid_minter(citation_object) -> list:
         else:
             citation_object.local.identifiers.setdefault('pid', None)
             if citation_object.local.identifiers['pid']:
-                result = [citation_object, "PID Already Assinged", None]
+                result = [citation_object, "PID Already Assigned", None]
             else:
                 citation_object.local.identifiers['pid'] = next_pid
-                result = [citation_object, "PID Assinged", next_pid]
+                result = [citation_object, "PID Assigned", next_pid]
 
     else:
         result = [citation_object, "Database connection error occured", None]
