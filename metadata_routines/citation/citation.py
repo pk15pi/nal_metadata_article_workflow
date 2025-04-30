@@ -43,6 +43,7 @@ class Citation:
     title: str = None
     subtitle: str = None
     original_title: str = None
+    translated_title: str = None
     publisher: str = None
     DOI: str = None
     container_title: list[str] = field(default_factory=list)

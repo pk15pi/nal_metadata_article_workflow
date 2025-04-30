@@ -9,6 +9,7 @@ def test_citation_creation(citation_object):
     assert citation_object.container_title_str() == 'Translational Animal Science'
     assert citation_object.ISSN == {"issn": "2573-2102"}
     assert citation_object.type == "article"
+    assert citation_object.translated_title is None
     assert citation_object.abstract[0:23] == "The current experiments"
     assert citation_object.date['published'] == {
         "string": "2024-07-10",

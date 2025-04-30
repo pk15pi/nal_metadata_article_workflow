@@ -4,7 +4,7 @@ setup(
     name="metadata_routines",
     packages=['mapper', 'splitter', 'citation',
               'metadata_quality_review', 'type_and_match',
-              'pid_minter'],
+              'pid_minter', 'citation_to_marc'],
     url='https://github.com/USDA-REE-ARS/nal_metadata_article_workflow',
     license='Government Purpose Rights',
     author='Chuck Schoppet',

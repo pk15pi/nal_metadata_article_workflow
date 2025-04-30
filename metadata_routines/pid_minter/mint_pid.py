@@ -40,7 +40,7 @@ def connect_pid_db():
 This function will take input citation_object as dictionary and return the 
 updated citation object with PID, success / error message and the PID
 '''
-def pid_minter(citation_object) -> list:
+def pid_minter(citation_object, is_usda_funded=False) -> list:
     pid_db_connection = connect_pid_db()
 
     # if pid_db_connection and article_db_connection:
@@ -52,7 +52,6 @@ def pid_minter(citation_object) -> list:
 
         # Fetch the result
         row = pid_db.fetchone()
-        print("ROW: ", row)
         next_pid = row[0] if row else None
 
         if not next_pid:
@@ -67,6 +66,12 @@ def pid_minter(citation_object) -> list:
                 result = [citation_object, "PID Already Assigned", None]
             else:
                 citation_object.local.identifiers['pid'] = next_pid
+
+                # Set Handle indentifier in case the article is usda funded
+                citation_object.local.identifiers.setdefault('handle', None)
+                if not citation_object.local.identifiers['handle'] and is_usda_funded:
+                    citation_object.local.identifiers['handle'] = '10113/'+ str(next_pid)
+
                 result = [citation_object, "PID Assigned", next_pid]
 
     else:
