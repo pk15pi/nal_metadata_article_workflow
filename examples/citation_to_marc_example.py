@@ -8,7 +8,8 @@ with open('example_data/cit1.pkl', 'rb') as f:
 # Map the citation object to a marcxml record
 output_path = "example_data/marc_record1.xml"
 format = "xml"
-citation_to_marc(cit1, format, output_path)
+msg1 = citation_to_marc(cit1, format, output_path)
+print(msg1)
 
 # Read in pickle 2
 with open('example_data/cit2.pkl', 'rb') as f:
@@ -17,7 +18,8 @@ with open('example_data/cit2.pkl', 'rb') as f:
 # Map the citation object to a marcxml record
 output_path = "example_data/marc_record2.xml"
 format = "xml"
-citation_to_marc(cit2, format, output_path)
+msg2 = citation_to_marc(cit2, format, output_path)
+print(msg2)
 
 # Read in pickle 3
 with open('example_data/cit3.pkl', 'rb') as f:
@@ -26,7 +28,8 @@ with open('example_data/cit3.pkl', 'rb') as f:
 # Map the citation object to a marcxml record
 output_path = "example_data/marc_record3.xml"
 format = "xml"
-citation_to_marc(cit3, format, output_path)
+msg3 = citation_to_marc(cit3, format, output_path)
+print(msg3)
 
 # Read in pickle 4
 with open('example_data/cit4.pkl', 'rb') as f:
@@ -35,7 +38,8 @@ with open('example_data/cit4.pkl', 'rb') as f:
 # Map the citation object to a marcxml record
 output_path = "example_data/marc_record4.xml"
 format = "xml"
-citation_to_marc(cit4, format, output_path)
+msg4 = citation_to_marc(cit4, format, output_path)
+print(msg4)
 
 # Read in pickle 5
 with open('example_data/cit5.pkl', 'rb') as f:
@@ -44,7 +48,8 @@ with open('example_data/cit5.pkl', 'rb') as f:
 # Map the citation object to a marcxml record
 output_path = "example_data/marc_record5.xml"
 format = "xml"
-citation_to_marc(cit5, format, output_path)
+msg5 = citation_to_marc(cit5, format, output_path)
+print(msg5)
 
 # Read in pickle 6
 with open('example_data/cit6.pkl', 'rb') as f:
@@ -53,4 +58,5 @@ with open('example_data/cit6.pkl', 'rb') as f:
 # Map the citation object to a marcxml record
 output_path = "example_data/marc_record6.xml"
 format = "xml"
-citation_to_marc(cit6, format, output_path)
+msg6 = citation_to_marc(cit6, format, output_path)
+print(msg6)
