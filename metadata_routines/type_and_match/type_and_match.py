@@ -9,6 +9,8 @@ import os
 import srupymarc
 from citation import Citation
 from difflib import SequenceMatcher
+import doi
+import urllib
 
 
 class Methods(Enum):
@@ -263,19 +265,47 @@ class ArticleTyperMatcher:
 
         return []
 
+    def doi_status(self, cit) -> str:
+        # Check if the DOI is valid
+        if cit.local.USDA == "yes":
+            return "valid"
+        doi_str = cit.DOI
+        if doi_str is None or doi_str == "":
+            return "missing"
+        else:
+            try:
+                valid_doi = doi.validate_doi(doi_str)
+                if not valid_doi or valid_doi == []:
+                    return "invalid"
+            except ValueError:
+                return "invalid"
+            except urllib.error.URLError as e:
+                return "network error"
+        return "valid"
+
     def type_and_match(
             self, citation_object: Citation
     ) -> tuple[Citation, str]:
+
+        # First check if the doi is valid. If it is invalid, return the message
+        # "review" and add "invalid doi" to the cataloger note.
+        # If there is a network error, return the message "network error"
+
+        status = self.doi_status(citation_object)
+        if status == "missing":
+            citation_object.local.cataloger_notes.append("Missing DOI")
+            return citation_object, "Missing DOI, review"
+        elif status == "invalid":
+            citation_object.local.cataloger_notes.append("Invalid DOI")
+            return citation_object, "Invalid DOI, review"
+        elif status == "network error":
+            return citation_object, "Network error, re-run"
 
         ATM = ArticleTyperMatcher()
 
         if citation_object.type == "journal-article":
             citation_object.type = ATM.get_record_type(citation_object.title)
 
-        types_to_reject = []
-
-        if citation_object.type in types_to_reject:
-            return citation_object, "dropped"
         if citation_object.type == "notice":
             return citation_object, "notice"
 
@@ -324,7 +354,7 @@ class ArticleTyperMatcher:
                             record['title'] in article_matches
                         ]
                         if len(matching_mmsids) > 1:
-                            citation_object.cataloguer_notes.append(
+                            citation_object.cataloger_notes.append(
                                 "Multiple matching article records found in \
                                 Alma. See local identifiers for mmsids."
                             )

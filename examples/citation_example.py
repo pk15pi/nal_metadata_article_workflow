@@ -1,4 +1,4 @@
-from citation import Citation, Author, Funder, License, Local
+from citation import Citation, Author, Funder, License, Local, Resource
 import json
 
 '''
@@ -48,17 +48,12 @@ for funder in submission_data["funding_agencies"]:
 print("Funder info: \n", cit.funder, "\n")
 
 new_license = License(
-    version=submission_data["manuscript_version"]
+    content_version=submission_data["manuscript_version"]
 )
 cit.license = [new_license]
 print(cit.license)
 
 new_local = Local(
-    manuscript_file=submission_data["manuscript_file"],
-    supporting_files=submission_data["supplementary_files"],
-    submission_date=submission_data["created"],
-    modification_date=submission_data["changed"],
-    date_other=submission_data["date_other"],
     identifiers={
         "standard_number_aris": str(submission_data["log_number"]),
         "submission_node_id": str(submission_data["submission_node_id"]),
@@ -67,4 +62,13 @@ new_local = Local(
     }
 )
 cit.local = new_local
-print("Local info: \n ", cit.local)
+
+new_resource = Resource(
+    primary={
+        "URL": submission_data["manuscript_file"],
+        "label": "Accepted Manuscript"
+    },
+    secondary=[]
+
+)
+print("Citation object: \n ", cit)

@@ -1,4 +1,4 @@
-from metadata_quality_review import (check_doi, check_volume, check_issue,
+from metadata_quality_review import (check_volume, check_issue,
                                      check_page, check_title, check_name_elems,
                                      check_primary_author, check_abstract,
                                      check_submission_manuscript,
@@ -10,106 +10,6 @@ def test_metadata_quality_review(base_citation):
     cit, msg = metadata_quality_review(base_citation, "")
     assert msg == "active"
     assert len(cit.local.cataloger_notes) == 0
-
-
-# Test behavior for valid DOI
-def test_metadata_quality_review_valid_doi(base_citation):
-
-    # Valid DOI, status starts as active
-    cit, msg = check_doi(base_citation, "active", "")
-    assert msg == "active"
-    assert len(cit.local.cataloger_notes) == 0
-
-    # Valid DOI, status starts as review
-    cit, msg = check_doi(base_citation, "review", "")
-    assert msg == "review"
-    assert len(cit.local.cataloger_notes) == 0
-
-    # Valid DOI, overridden, status starts as dropped
-    cit, msg = check_doi(base_citation, "dropped", "doi")
-    assert msg == "dropped"
-    assert len(cit.local.cataloger_notes) == 0
-
-
-# Test behavior for invalid DOI
-def test_metadata_quality_review_invalid_doi(base_citation):
-    base_citation.DOI = "invalid"
-
-    # Invalid DOI, not overridden, status starts as active
-    cit, msg = check_doi(base_citation, "active", "")
-    assert msg == "review"
-    assert "Invalid DOI" in cit.local.cataloger_notes
-
-    # Invalid DOI, overridden, status starts as active
-    base_citation.local.cataloger_notes = []  # Clear cataloger notes
-    cit, msg = check_doi(base_citation, "active", "doi")
-    assert msg == "active"
-    assert "Invalid DOI" in cit.local.cataloger_notes
-
-    # Invalid DOI, not overridden, status starts as review
-    base_citation.local.cataloger_notes = []
-    cit, msg = check_doi(base_citation, "review", "")
-    assert msg == "review"
-    assert "Invalid DOI" in cit.local.cataloger_notes
-
-    # Invalid DOI, overridden, status starts as review
-
-    base_citation.local.cataloger_notes = []
-    cit, msg = check_doi(base_citation, "review", "doi")
-    assert msg == "review"
-    assert "Invalid DOI" in cit.local.cataloger_notes
-
-    # Invalid DOI, not overridden, status starts as dropped
-    base_citation.local.cataloger_notes = []
-    cit, msg = check_doi(base_citation, "dropped", "")
-    assert msg == "dropped"
-    assert "Invalid DOI" in cit.local.cataloger_notes
-
-    # Invalid DOI, overridden, status starts as dropped
-    base_citation.local.cataloger_notes = []
-    cit, msg = check_doi(base_citation, "dropped", "doi")
-    assert msg == "dropped"
-    assert "Invalid DOI" in cit.local.cataloger_notes
-
-
-# Test behavior for missing DOI
-def test_metadata_quality_review_missing_doi(base_citation):
-    base_citation.DOI = None
-
-    # No DOI, not overridden, active
-    cit, msg = check_doi(base_citation, "active", "")
-    assert msg == "review"
-    assert "No DOI" in cit.local.cataloger_notes
-
-    # No DOI, overridden, active
-    base_citation.local.cataloger_notes = []
-    cit, msg = check_doi(base_citation, "active", "doi")
-    assert msg == "active"
-    assert "No DOI" in cit.local.cataloger_notes
-
-    # No DOI, not overridden, review
-    base_citation.local.cataloger_notes = []
-    cit, msg = check_doi(base_citation, "review", "")
-    assert msg == "review"
-    assert "No DOI" in cit.local.cataloger_notes
-
-    # No DOI, overridden, review
-    base_citation.local.cataloger_notes = []
-    cit, msg = check_doi(base_citation, "review", "doi")
-    assert msg == "review"
-    assert "No DOI" in cit.local.cataloger_notes
-
-    # No DOI, not overridden, dropped
-    base_citation.local.cataloger_notes = []
-    cit, msg = check_doi(base_citation, "dropped", "")
-    assert msg == "dropped"
-    assert "No DOI" in cit.local.cataloger_notes
-
-    # No DOI, overridden, dropped
-    base_citation.local.cataloger_notes = []
-    cit, msg = check_doi(base_citation, "dropped", "doi")
-    assert msg == "dropped"
-    assert "No DOI" in cit.local.cataloger_notes
 
 
 # Test behavior for valid volume
@@ -649,7 +549,7 @@ def test_metadata_quality_review_non_english_abstract(base_citation):
 
 def test_metadata_quality_review_manuscript_file(base_citation):
     base_citation.resource.primary = {}
-    base_citation.local.USDA = True
+    base_citation.local.USDA = "yes"
 
     # Active, not overridden
     cit, msg = check_submission_manuscript(base_citation, "active", "")

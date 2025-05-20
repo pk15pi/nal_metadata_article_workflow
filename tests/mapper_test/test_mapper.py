@@ -190,10 +190,13 @@ def test_crossref_mapper(crossref_data, request):
                                 result.author[i], "family")
             assert_equal_or_DNE(data_dict_msg["author"][i], "ORCID",
                                 result.author[i], "orcid")
-            assert_equal_or_DNE(data_dict_msg["author"][i], "affiliation",
-                                result.author[i], "affiliation")
+            # assert_equal_or_DNE(data_dict_msg["author"][i], "affiliation",
+            #                     result.author[i], "affiliation")
             assert_equal_or_DNE(data_dict_msg["author"][i], "sequence",
                                 result.author[i], "sequence")
+            affiliation_list = [aff["name"] for aff in data_dict_msg["author"][i].get("affiliation")]
+            assert affiliation_list == result.author[i].affiliation
+
     else:
         assert result.author == []
 
@@ -201,7 +204,7 @@ def test_crossref_mapper(crossref_data, request):
     if "license" in data_dict_msg.keys():
         for i, license in enumerate(data_dict_msg["license"]):
             assert_equal_or_DNE(data_dict_msg["license"][i], "content-version",
-                                result.license[i], "version")
+                                result.license[i], "content_version")
             assert_equal_or_DNE(data_dict_msg["license"][i], "URL",
                                 result.license[i], "url")
     else:
@@ -322,7 +325,26 @@ def test_submit_site_mapper(submit_data, request):
 
     # Test license
     if "manuscript_version" in data_dict.keys():
-        assert data_dict["manuscript_version"] == result.license[0].version
+        if data_dict["manuscript_version"] == "accepted_manuscript":
+            assert result.license[0].content_version == "Accepted manuscript"
+            assert result.license[0].url == \
+                   "https://purl.org/eprint/accessRights/OpenAccess"
+            assert result.license[0].source_of_term == "star"
+            assert result.license[0].restrictions == \
+                   "Unrestricted online access"
+        elif data_dict["manuscript_version"] == "openaccess_vor":
+            assert result.license[0].content_version == "Version of Record"
+            assert result.license[0].url == \
+                   "https://purl.org/eprint/accessRights/OpenAccess"
+            assert result.license[0].source_of_term == "star"
+            assert result.license[0].start_date == data_dict["publication_date"]
+            assert result.license[0].restrictions == \
+                   "Unrestricted online access"
+        elif data_dict["manuscript_version"] == "publisher_vor":
+            assert result.license[0].content_version == "Version of Record"
+            assert result.license[0].url == \
+                   "https://purl.org/eprint/accessRights/RestrictedAccess"
+            assert result.license[0].source_of_term == "star"
 
     # Test resource
     if "manuscript_file" in data_dict.keys():

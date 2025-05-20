@@ -4,6 +4,7 @@ from mapper import utils
 from mapper.errors import FaultyRecordError
 from datetime import datetime
 import dateutil
+import re
 
 
 def value_or_none(dict, key):
@@ -83,19 +84,28 @@ def parse_ambiguous_date_to_dict(date: str):
     return out_dict
 
 
+def has_non_utf8(text):
+  """Checks if a string contains non-UTF-8 characters."""
+  try:
+    text.encode('utf-8').decode('unicode_escape').encode('utf-8')
+    return False  # It's valid UTF-8
+  except UnicodeEncodeError:
+    return True   # It contains non-UTF-8 characters
+
 def map_from_submit_site(submit_str):
+
+    # See if there are any non-utf8 characters:
+    if has_non_utf8(submit_str):
+        raise FaultyRecordError("Record contains non-utf8 characters")
+
+    # Read in as a dict
     try:
-        submit_str_unicode_unescaped = \
-            submit_str.encode('utf-8').decode('unicode_escape')
-    except UnicodeError as e:
-        raise FaultyRecordError(f"Unicode Error: {e}")
-    try:
-        data = json.loads(submit_str_unicode_unescaped)
+        data = json.loads(submit_str)
     except json.JSONDecodeError as e:
         raise FaultyRecordError(f"Error decoding JSON: {e}")
 
-    try:
 
+    try:
         # Submit site api returns a list, so index first and only element
         if isinstance(data, list):
             if len(data) == 1:
@@ -104,9 +114,7 @@ def map_from_submit_site(submit_str):
                 raise FaultyRecordError(
                     "Submit site data is a list with multiple elements"
                 )
-
         data = utils.replace_hyphens_with_underscores(data)
-
         # Instantiate Citation object with high-level data
         new_citation = Citation(
             title=utils.clean_dict_key(data, 'title'),
@@ -118,7 +126,6 @@ def map_from_submit_site(submit_str):
         )
         if "issn" in data.keys():
             new_citation.ISSN["issn"] = data["issn"]
-
         # Set date data
         publication_datestring = utils.clean_dict_key(data, "publication_date")
         if publication_datestring and publication_datestring != "":
@@ -134,7 +141,6 @@ def map_from_submit_site(submit_str):
         if creation_datestring and creation_datestring != "":
             new_citation.date["submission_created"] = \
                 date_timestamp_to_dict(creation_datestring)
-
         # Add page data. Submit site provides first and last pages.
         new_citation.page_first_last = (
             utils.clean_dict_key(data, "first_page"),
@@ -149,14 +155,39 @@ def map_from_submit_site(submit_str):
                     award=[utils.clean_dict_key(funder, "award_number")]
                 )
                 new_citation.funder.append(new_funder)
-
         # Add license data
-        new_license = License(
-            version=utils.clean_dict_key(data, "manuscript_version")
-        )
-        if new_license.version is not None:
-            new_citation.license = [new_license]
-
+        manuscript_version = utils.clean_dict_key(data, "manuscript_version")
+        if manuscript_version:
+            if manuscript_version == "accepted_manuscript":
+                new_citation.license = [
+                    License(
+                        terms_of_access="Open Access",
+                        content_version="Accepted manuscript",
+                        url="https://purl.org/eprint/accessRights/OpenAccess",
+                        source_of_term="star",
+                        restrictions="Unrestricted online access"
+                    )
+                ]
+            elif manuscript_version == "openaccess_vor":
+                new_citation.license = [
+                    License(
+                        terms_of_access="Open Access",
+                        content_version="Version of Record",
+                        url="https://purl.org/eprint/accessRights/OpenAccess",
+                        source_of_term="star",
+                        start_date=publication_datestring,
+                        restrictions="Unrestricted online access"
+                    )
+                ]
+            elif manuscript_version == "publisher_vor":
+                new_citation.license = [
+                    License(
+                        terms_of_access="Restricted Access",
+                        content_version="Version of Record",
+                        url="https://purl.org/eprint/accessRights/RestrictedAccess",
+                        source_of_term="star",
+                    )
+                ]
         # Add author data
         if "authors" in data.keys():
             for auth in data["authors"]:
@@ -176,7 +207,6 @@ def map_from_submit_site(submit_str):
                     sequence=None
                 )
                 new_citation.author = new_author
-
         # Create dict of identifiers
         ids = {"provider_rec": None}
         if "log_number" in data.keys():
@@ -196,7 +226,6 @@ def map_from_submit_site(submit_str):
             )
         if "mms_id" in data.keys():
             ids["mms_id"] = utils.clean_dict_key(data, "mms_id")
-
         # Add local data
         new_local = Local(
             identifiers=ids,

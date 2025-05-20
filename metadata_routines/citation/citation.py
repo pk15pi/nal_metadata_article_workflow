@@ -25,8 +25,13 @@ class Resource:
 
 @dataclass
 class License:
-    version: str = None
+    terms_of_access: str = None
+    content_version: str = None
     url: str = None
+    source_of_term: str = None
+    start_date: str = None
+    delay_in_days: int = None
+    restrictions: str = None
 
 
 @dataclass

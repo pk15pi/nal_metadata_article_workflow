@@ -22,20 +22,3 @@ def mapper(source_string: str, source_schema: str) -> Tuple[str, str]:
             return citation_object, message
         case _:
             return None, "Error: invalid source schema"
-
-
-if __name__ == '__main__':
-    crossref_string = '''
-     {
-        "indexed": {
-            "title": [
-                "Distribution of Apple stem grooving virus in apple \
-                trees in the Czech Republic"
-            ],
-            "DOI": "10.17221/8360-pps"
-        }
-    }
-    '''
-    output, my_message = mapper(crossref_string, 'crossref_api_json')
-    print(output)
-    print(my_message)

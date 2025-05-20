@@ -2,7 +2,8 @@
 
 The `metadata_quality_review` package provides functions to review and validate the quality of metadata in citation records. It includes checks for various fields such as volume, issue, page, title, author, primary author, issue date, and abstract. The package ensures that the metadata meets certain quality standards and provides feedback through cataloguer notes. If a field fails a check, the citation object's cataloguer notes will contain a message indicating the issue, and the status of the record will be returned as either "review" or "dropped". 
 
-The `metadata_quality_review(cit: Citation, override: str = None)` function returns a tuple of the form `(Citation, message)` where `Citation` is the reviewed citation object and `message` is a string indicating the review status. The reviewed status is either "active", "review", or "dropped" depending on whether the citation passed or failed the review. The `override` parameter is a space-separated string that specifies which checks to override. For example, `"volume issue"` will override the checks for volume and issue. See the table at the bottom of this documentation for a full description of the checks performed, the statuses triggered by various checks, and the override behavior.
+The `metadata_quality_review(cit: Citation, override: str = None)` function returns a tuple of the form `(Citation, message)` where `Citation` is the reviewed citation object and `message` is a string indicating the review status.
+The reviewed status is either "active", "review", or "dropped" depending on whether the citation passed or failed the review. The `override` parameter is a space-separated string that specifies which checks to override. For example, `"volume issue"` will override the checks for volume and issue. See the table at the bottom of this documentation for a full description of the checks performed, the statuses triggered by various checks, and the override behavior.
 
 ## Usage
 
@@ -46,8 +47,6 @@ To use the `metadata_quality_review` package, follow these steps:
 
 | Condition                                | Override word  | failed status | if overridden | local Catalog Note Text                     |
 |------------------------------------------|----------------|---------------|---------------|---------------------------------------------|
-| No DOI                                   | DOI            | review        | active        | No DOI                                      |
-| Invalid DOI                              |                | review        | review        | Invalid DOI                                 | 
 | No volume number                         | volume         | review        | active        | No volume number                            |
 | No issue number                          | issue          | review        | active        | No issue number                             |
 | No page number                           | page           | review        | active        | No page number                              |

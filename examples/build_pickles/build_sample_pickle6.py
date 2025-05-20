@@ -2,7 +2,7 @@ from citation import Citation, Funder, License, Author, Local, Resource
 import pickle
 
 # Citation 1 from
-cit5 = Citation(
+cit6 = Citation(
     title="Title",
     subtitle="Subtitle",
     original_title="Original title",
@@ -51,16 +51,7 @@ cit5 = Citation(
     volume="volume",
     issue="issue",
     _page={"first_page": "first", "last_page": "last", "page_str": "first-last"},
-    license=[
-        License(
-            version="License1 version",
-            url="License1 url"
-        ),
-        License(
-            version="License2 version",
-            url="License2 url"
-        )
-    ],
+    license=[],
     URL="url",
     container_DOI="Container DOI",
     subjects={
@@ -116,23 +107,23 @@ cit5 = Citation(
     }
 )
 
-cit5.author = Author(
+cit6.author = Author(
     family="Family name 1",
     given="Given name 1",
-    sequence="additional",
+    sequence="first",
     orcid="orcid",
     affiliation=["Affiliation 1", "Affiliation 2"],
 )
 
-cit5.author = Author(
+cit6.author = Author(
     family="Family name 2",
     given="Given name 2",
-    sequence="additional",
+    sequence="first",
     orcid="orcid",
     affiliation=["Affiliation 1", "Affiliation 2"],
 )
 
-cit5.local = Local(
+cit6.local = Local(
     identifiers={
         "mms_id": "mmsid",
         "nal_journal_id": "nal_journal_id",
@@ -145,5 +136,5 @@ cit5.local = Local(
 )
 
 # Save citation object to a pickle
-with open("example_data/cit5.pkl", "wb") as f:
-    pickle.dump(cit5, f)
+with open("../example_data/cit6.pkl", "wb") as f:
+    pickle.dump(cit6, f)

@@ -6,6 +6,7 @@ from citation import Citation, Local
 
 ATM = ArticleTyperMatcher()
 
+
 # Print out record types with strings designed to match regex
 print(ATM.get_record_type("Correction: title"))
 print(ATM.get_record_type("Retraction: title"))
@@ -49,6 +50,16 @@ citation4.DOI = "10.1016/j.copbio.2015.12.008"
 citation4.local = Local()
 citation4.local.identifiers["mms_id"] = "9915695874407426"
 
+# Record with no DOI
+citation5 = Citation()
+citation5.local = Local()
+citation5.DOI = None
+
+# Record with an invalid DOI
+citation6 = Citation()
+citation6.local = Local()
+citation6.DOI = "invalid_doi"
+
 
 # Find records matching the citation1 object
 # Note - the find_matching_records method is a helper method called by
@@ -63,3 +74,5 @@ print(ATM.type_and_match(citation1)[1])  # returns merge
 print(ATM.type_and_match(citation2)[1])  # returns new
 print(ATM.type_and_match(citation3)[1])  # returns review
 print(ATM.type_and_match(citation4)[1])  # returns merge
+print(ATM.type_and_match(citation5)[1])  # returns review
+print(ATM.type_and_match(citation6)[1])  # returns review

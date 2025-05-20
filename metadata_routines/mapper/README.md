@@ -19,8 +19,13 @@ pip install /app/nal_metadata_article_workflow/dist/metadata_routines-0.0.0-py3-
 
 ## Usage
 
+The mapper function takes two arguments: a string containing the metadata record and a string indicating the source schema. 
+As of the time of writing, the only supported source schemas are crossref json (designated by the string "crossref_json"), and submit site json (designated by the string "submit_json").
+
+The function returns a tuple containing the citation object and a message. If the mapper encounters any errors, such as non-utf8 characters in the input string, it will return a description of the error in the `message`. Otherwise, it will return a `message` of "success".
+
 ```python
-from metadata_routines.splitter import mapper
+from mapper import mapper
 
 crossref_string = '''
      {
@@ -32,6 +37,6 @@ crossref_string = '''
         }
     }
     '''
-citation_object, my_message = mapper(crossref_string, 'crossref_api_json')
+citation_object, my_message = mapper(crossref_string, "crossref_json")
 
 ```

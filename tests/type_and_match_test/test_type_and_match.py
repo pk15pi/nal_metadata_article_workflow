@@ -53,7 +53,6 @@ def test_find_matching_records_solr(mocker):
 
 def test_find_matching_records_alma_doi(mocker):
     def mock_response(url, query):
-        print("Query starts with alma.mms_id")
         mock_srupymarc_response = mocker.MagicMock()
         mock_srupymarc_response.count = 1
         returned_record = pymarc.Record()
@@ -128,20 +127,16 @@ def test_find_matching_records_alma_mmsid(mocker):
 # For brevity, "tam" is an abbreviation for "type_and_match"
 
 # Case 1: Incoming citation is of type 'notice'
-def test_tam_notice():
+def test_tam_notice(patch_doi_status_valid):
     ATM = ArticleTyperMatcher()
     citation = Citation()
     citation.type = "notice"
     result = ATM.type_and_match(citation)
     assert result[1] == "notice"
 
-
-# Case 2: Incoming citation is of a type that is rejected
-# Fill this in once we have a list of types to reject
-
-# Case 3: Incoming citation object matches an existing record with
+# Case 2: Incoming citation object matches an existing record with
 # identical title
-def test_tam_one_exact_match(mocker):
+def test_tam_one_exact_match(mocker, patch_doi_status_valid):
     matches = [
         {
             'title': 'Title 1',
@@ -165,8 +160,8 @@ def test_tam_one_exact_match(mocker):
     assert result1[1] == "merge"
 
 
-# Case 4: Record match identified with a similar but not identical title
-def test_tam_one_fuzzy_match(mocker):
+# Case 3: Record match identified with a similar but not identical title
+def test_tam_one_fuzzy_match(mocker, patch_doi_status_valid):
     matches = [
         {
             'title': 'This is the title of a journal article with a subtitle',
@@ -190,8 +185,8 @@ def test_tam_one_fuzzy_match(mocker):
     assert result1[1] == "merge"
 
 
-# Case 5: No match found in Solr or Alma
-def test_tam_no_matches(mocker):
+# Case 4: No match found in Solr or Alma
+def test_tam_no_matches(mocker, patch_doi_status_valid):
     matches = []
     mocker.patch(
         'type_and_match.type_and_match.ArticleTyperMatcher.' +
@@ -208,8 +203,8 @@ def test_tam_no_matches(mocker):
     assert result1[1] == "new"
 
 
-# Case 6: Matches found, but none of type 'journal-article'
-def test_tam_no_article_type_matches(mocker):
+# Case 5: Matches found, but none of type 'journal-article'
+def test_tam_no_article_type_matches(mocker, patch_doi_status_valid):
     matches = [
         {
             'title': 'Correction: Title 1',
@@ -239,8 +234,8 @@ def test_tam_no_article_type_matches(mocker):
     assert result1[1] == "new"
 
 
-# Case 7: Matches found, one of type 'journal-article' with a different title
-def test_tam_article_match_different_title(mocker):
+# Case 6: Matches found, one of type 'journal-article' with a different title
+def test_tam_article_match_different_title(mocker, patch_doi_status_valid):
     matches = [
         {
             'title': 'Journal article title',
@@ -264,8 +259,8 @@ def test_tam_article_match_different_title(mocker):
     assert result1[1] == "review"
 
 
-# Case 8: Citation is not of type 'journal-article', no record matches
-def test_tam_non_article_no_matches(mocker):
+# Case 7: Citation is not of type 'journal-article', no record matches
+def test_tam_non_article_no_matches(mocker, patch_doi_status_valid):
     matches = []
     mocker.patch(
         'type_and_match.type_and_match.ArticleTyperMatcher.' +
@@ -282,8 +277,8 @@ def test_tam_non_article_no_matches(mocker):
     assert result1[1] == "new"
 
 
-# Case 9: Citation is not of type 'journal-article', exact match found
-def test_tam_non_article_match(mocker):
+# Case 8: Citation is not of type 'journal-article', exact match found
+def test_tam_non_article_match(mocker, patch_doi_status_valid):
     matches = [
         {
             'title': 'Correction: Title 1',
@@ -309,7 +304,7 @@ def test_tam_non_article_match(mocker):
 
 # Case 9: Citation is not of type 'journal-article',
 # record matches but no title matches
-def test_tam_non_article_no_title_matches(mocker):
+def test_tam_non_article_no_title_matches(mocker, patch_doi_status_valid):
     matches = [
         {
             'title': 'Correction: the first correction to the journal article',
@@ -333,44 +328,8 @@ def test_tam_non_article_no_title_matches(mocker):
     print(result1[1])
     assert result1[1] == "new"
 
-def test_tam_no_doi_no_mmsid():
-
-    ATM = ArticleTyperMatcher()
-    citation1 = Citation()
-    citation1.title = "Title 1"
-    citation1.DOI = ""
-    citation1.local = Local()
-    citation1.local.identifiers["mms_id"] = ""
-    result1 = ATM.type_and_match(citation1)
-    print(result1[1])
-    assert result1[1] == "new"
-
-def test_tam_no_doi(mocker):
-
-    # Show that if there is no DOI, and no mmsid matches, there are no matches
-
-    matches_solr = []
-    matches_alma_mmsid = []
-
-    mocker.patch(
-        'type_and_match.type_and_match.ArticleTyperMatcher.' +
-        '_find_matching_records_solr', return_value=matches_solr)
-
-    mocker.patch(
-        'type_and_match.type_and_match.ArticleTyperMatcher.' +
-        '_find_matching_records_alma_mmsid', return_value=matches_alma_mmsid)
-
-    ATM = ArticleTyperMatcher()
-    citation1 = Citation()
-    citation1.title = "Title 1"
-    citation1.DOI = ""
-    citation1.local = Local()
-    citation1.local.identifiers["mms_id"] = "MMSID 1"
-    result1 = ATM.type_and_match(citation1)
-    print(result1[1])
-    assert result1[1] == "new"
-
-def test_tam_no_mmsid(mocker):
+# Case 10: No mmsid, no DOI matches
+def test_tam_no_mmsid(mocker, patch_doi_status_valid):
     # Show that if there is no mmsid, and no DOI matches, there are no matches
 
     matches_solr = []
@@ -393,5 +352,36 @@ def test_tam_no_mmsid(mocker):
     result1 = ATM.type_and_match(citation1)
     print(result1[1])
     assert result1[1] == "new"
+
+# Case 11: Missing DOI
+def test_tam_doi_missing():
+    ATM = ArticleTyperMatcher()
+    citation1 = Citation()
+    citation1.DOI = None
+    citation1.local = Local()
+    cit, msg = ATM.type_and_match(citation1)
+    assert msg == "Missing DOI, review"
+    assert cit.local.cataloger_notes == ["Missing DOI"]
+
+# Case 12: Invalid DOI
+def test_tam_doi_invalid(patch_doi_status_invalid):
+    ATM = ArticleTyperMatcher()
+    citation1 = Citation()
+    citation1.DOI = "invalid_doi"
+    citation1.local = Local()
+    cit, msg = ATM.type_and_match(citation1)
+    assert msg == "Invalid DOI, review"
+    assert cit.local.cataloger_notes == ["Invalid DOI"]
+
+# Case 13: Network error when attempting to resolve DOI
+def test_tam_doi_network_error(patch_doi_status_network_error):
+    ATM = ArticleTyperMatcher()
+    citation1 = Citation()
+    citation1.DOI = "placeholder"
+    citation1.local = Local()
+    cit, msg = ATM.type_and_match(citation1)
+    assert msg == "Network error, re-run"
+
+
 
 

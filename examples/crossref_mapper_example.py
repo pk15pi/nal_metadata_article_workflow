@@ -5,4 +5,5 @@ with open('example_data/crossref_2600.json', 'r') as f:
 
 cit, msg = mapper(crossref_data, "crossref_json")
 
-print("Funder info: ", cit.funder)
+print("Message: ", msg)
+print("Citation: ", cit)

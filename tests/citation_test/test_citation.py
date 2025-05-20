@@ -27,7 +27,7 @@ def test_citation_creation(citation_object):
     assert citation_object.funder[0].name == \
            'Agricultural Research Service (ARS)'
     assert citation_object.funder[0].award == ['']
-    assert citation_object.license[0].version == 'accepted_manuscript'
+    assert citation_object.license[0].content_version == 'accepted_manuscript'
     assert citation_object.page["first_page"] == "txae103"
     assert citation_object.page["last_page"] == ""
     assert citation_object.page["page_str"] is None

@@ -187,5 +187,5 @@ cit1.local = Local(
 )
 
 # Save citation object to a pickle
-with open("example_data/cit1.pkl", "wb") as f:
+with open("../example_data/cit1.pkl", "wb") as f:
     pickle.dump(cit1, f)

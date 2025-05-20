@@ -3,6 +3,7 @@ from citation import Citation
 import pymarc
 import tempfile
 from citation_to_marc import citation_to_marc
+import os
 
 
 @pytest.mark.parametrize(
@@ -28,10 +29,11 @@ def test_citation_to_marc(citation_fixture, marc_record_fixture, request):
     # Map the citation object to a temporary file
     with tempfile.NamedTemporaryFile() as tmpfile:
         msg = citation_to_marc(citation, "xml", tmpfile.name)
+        tmpfile.flush()
         tmpfile.seek(0)
         actual_marc_record = pymarc.marcxml.parse_xml_to_array(tmpfile)[0]
         assert isinstance(actual_marc_record, pymarc.record.Record)
         assert msg == "Successful"
 
-    # Compare the MARC records
-    assert actual_marc_record.as_dict() == expected_marc_record.as_dict()
+        # Compare the MARC records
+        assert actual_marc_record.as_dict() == expected_marc_record.as_dict()

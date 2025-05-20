@@ -53,12 +53,11 @@ cit3 = Citation(
     _page={"first_page": "first", "last_page": "last", "page_str": "first-last"},
     license=[
         License(
-            version="License1 version",
-            url="License1 url"
-        ),
-        License(
-            version="License2 version",
-            url="License2 url"
+            terms_of_access="Open Access",
+            content_version="Accepted manuscript",
+            url="https://purl.org/eprint/accessRights/OpenAccess",
+            source_of_term="star",
+            restrictions="Unrestricted online access"
         )
     ],
     URL="url",
@@ -145,5 +144,5 @@ cit3.local = Local(
 )
 
 # Save citation object to a pickle
-with open("example_data/cit3.pkl", "wb") as f:
+with open("../example_data/cit3.pkl", "wb") as f:
     pickle.dump(cit3, f)

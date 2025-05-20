@@ -47,7 +47,7 @@ def base_citation():
     base_citation.page_first_last = ("1", "10")
 
     license = License(
-        version="1.0",
+        content_version="1.0",
         url="https://www.example.com"
     )
 

@@ -127,7 +127,7 @@ def map_from_crossref_api(crossref_str):
     if "license" in data.keys():
         for i, license in enumerate(data["license"]):
             new_license = License(
-                version=value_or_none(license, 'content-version'),
+                content_version=value_or_none(license, 'content-version'),
                 url=value_or_none(license, 'URL')
             )
             new_citation.license.append(new_license)
@@ -135,11 +135,13 @@ def map_from_crossref_api(crossref_str):
     # Add author data
     if "author" in data.keys():
         for auth in data["author"]:
+            affiliation_list_of_dicts = value_or_none(auth, "affiliation")
+            aff_list = [aff["name"] for aff in affiliation_list_of_dicts]
             new_author = Author(
                 given=value_or_none(auth, "given"),
                 family=value_or_none(auth, "family"),
                 orcid=value_or_none(auth, "ORCID"),
-                affiliation=value_or_none(auth, "affiliation"),
+                affiliation=aff_list,
                 sequence=value_or_none(auth, "sequence")
             )
             new_citation.author = new_author

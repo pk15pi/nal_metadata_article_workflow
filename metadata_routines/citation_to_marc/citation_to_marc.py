@@ -5,6 +5,7 @@ import tomli
 import os
 import calendar
 import warnings
+from dateutil import parser
 
 
 def title_indicator(title: str) -> str:
@@ -104,8 +105,9 @@ def citation_to_marc(cit: Citation, format: str, output_path: str) -> str:
 
         # Add ISSN
         if cit.ISSN:
-            issn_set = set(cit.ISSN.values())
-            for issn in issn_set:
+            issn_seen = set()
+            issn_list = [issn for issn in cit.ISSN.values() if not (issn in issn_seen or issn_seen.add(issn))]
+            for issn in issn_list:
                 if not record.get_fields("773"):
                     record.add_ordered_field(
                         pymarc.Field(
@@ -149,8 +151,10 @@ def citation_to_marc(cit: Citation, format: str, output_path: str) -> str:
                     if author.orcid:
                         field_100.add_subfield('1', value=author.orcid)
                     if author.affiliation:
-                        for aff in author.affiliation:
-                            field_100.add_subfield('u', value=aff)
+                        affiliation_list = [aff for aff in author.affiliation]
+                        affiliation_str = " ``".join(affiliation_list)
+                        if affiliation_str != "":
+                            field_100.add_subfield('u', value=affiliation_str)
                 else:
                     new_700 = pymarc.Field(
                         tag='700',
@@ -164,8 +168,10 @@ def citation_to_marc(cit: Citation, format: str, output_path: str) -> str:
                     if author.orcid:
                         new_700.add_subfield('1', value=author.orcid)
                     if author.affiliation:
-                        for aff in author.affiliation:
-                            new_700.add_subfield('u', value=aff)
+                        affiliation_list = [aff for aff in author.affiliation]
+                        affiliation_str = " ``".join(affiliation_list)
+                        if affiliation_str != "":
+                            new_700.add_subfield('u', value=affiliation_str)
                     record.add_ordered_field(new_700)
         # Add publisher data
         if cit.publisher:
@@ -189,15 +195,69 @@ def citation_to_marc(cit: Citation, format: str, output_path: str) -> str:
 
         # Add funder info
         for funder in cit.funder:
-            for award in funder.award:
-                record.add_ordered_field(pymarc.Field(
-                    tag='596',
-                    indicators=Indicators(' ', ' '),
-                    subfields=[
-                        Subfield(code='c', value=funder.name),
-                        Subfield(code='a', value=award)
-                    ]
-                ))
+            if funder.award:
+                for award in funder.award:
+                    record.add_ordered_field(pymarc.Field(
+                        tag='596',
+                        indicators=Indicators(' ', ' '),
+                        subfields=[
+                            Subfield(code='c', value=funder.name),
+                            Subfield(code='a', value=award)
+                        ]
+                    ))
+
+        # Add license info
+        if cit.license and len(cit.license) > 0:
+            open_access = False
+            for license in cit.license:
+                new_506 = pymarc.Field(
+                    tag='506',
+                    indicators=Indicators('#', ' '),
+                )
+                if license.content_version:
+                    new_506.add_subfield(
+                        '3', value=license.content_version
+                    )
+                if license.terms_of_access:
+                    new_506.add_subfield(
+                        'a', value=license.terms_of_access
+                    )
+                    if license.terms_of_access == "Open Access":
+                        open_access = True
+                if license.source_of_term:
+                    new_506.add_subfield(
+                        '2', value=license.source_of_term
+                    )
+                if license.url:
+                    new_506.add_subfield(
+                        'u', value=license.url
+                    )
+                if license.start_date:
+                    try:
+                        formatted_date = parser.parse(license.start_date).strftime("%Y%m%d")
+                        new_506.add_subfield(
+                            'd', value=formatted_date
+                        )
+                    except parser._parser.ParserError:
+                        pass
+                if license.restrictions:
+                    new_506.add_subfield(
+                        'f', value=license.restrictions
+                    )
+                record.add_ordered_field(new_506)
+            if open_access:
+                record.add_ordered_field(
+                    pymarc.Field(
+                        tag='540',
+                        indicators=Indicators(' ', ' '),
+                        subfields=[
+                            Subfield(code='a', value="Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License"),
+                            Subfield(code='f', value="CC BY-NC-ND 4.0"),
+                            Subfield(code='2', value="cc"),
+                            Subfield(code='u', value="https://creativecommons.org/licenses/by-nc-nd/4.0/")
+                        ]
+                    )
+                )
 
         # Add date info from submission records
         if "submission_modification" in cit.date.keys() and \
@@ -268,29 +328,30 @@ def citation_to_marc(cit: Citation, format: str, output_path: str) -> str:
         # Update to ensure leading 'p.'
         if cit.page:
             page_str_to_record = cit.page['page_str']
-            if not page_str_to_record.startswith("p."):
-                page_str_to_record = "p." + page_str_to_record
-            record.add_ordered_field(pymarc.Field(
-                tag='300',
-                indicators=Indicators(' ', ' '),
-                subfields=[
-                    Subfield(code='a', value=page_str_to_record)
-                ]
-            ))
-            # Check if field 914 exists
-            field_914 = record.get_fields('914')
-            if field_914:
-                # Add page to existing field
-                field_914[0].add_subfield('e', value=page_str_to_record)
-            else:
-                # Create new field 914 with page
+            if page_str_to_record:
+                if not page_str_to_record.startswith("p."):
+                    page_str_to_record = "p." + page_str_to_record
                 record.add_ordered_field(pymarc.Field(
-                    tag='914',
+                    tag='300',
                     indicators=Indicators(' ', ' '),
                     subfields=[
-                        Subfield(code='e', value=page_str_to_record)
+                        Subfield(code='a', value=page_str_to_record)
                     ]
                 ))
+                # Check if field 914 exists
+                field_914 = record.get_fields('914')
+                if field_914:
+                    # Add page to existing field
+                    field_914[0].add_subfield('e', value=page_str_to_record)
+                else:
+                    # Create new field 914 with page
+                    record.add_ordered_field(pymarc.Field(
+                        tag='914',
+                        indicators=Indicators(' ', ' '),
+                        subfields=[
+                            Subfield(code='e', value=page_str_to_record)
+                        ]
+                    ))
 
         # Populate field 773$g
         # Check if field 773 exists
@@ -308,10 +369,14 @@ def citation_to_marc(cit: Citation, format: str, output_path: str) -> str:
                 )
             field_773 = record.get_fields("773")[0]
             field_773g_text = ""
-            if date and date["year"] and date["month"]:
+            if date and "year" in date.keys() and date["year"] and \
+                    "month" in date.keys() and date["month"]:
                 cal_month = calendar.month_name[int(date["month"])]
                 year = date["year"]
                 date_str = f"{year} {cal_month}."
+                field_773g_text += date_str
+            elif date and "year" in date.keys() and date["year"]:
+                date_str = f"{date['year']}."
                 field_773g_text += date_str
             if volume and not (volume.startswith("Vol.") or
                                volume.startswith("v.")):
@@ -521,7 +586,7 @@ def citation_to_marc(cit: Citation, format: str, output_path: str) -> str:
                 'w', value=cit.local.identifiers["nal_journal_id"]
             )
 
-        if cit.local.identifiers.get("aris"):
+        if cit.local.identifiers.get("agid"):
             record.add_ordered_field(pymarc.Field(
                 tag='016',
                 indicators=Indicators('7', ' '),
@@ -549,16 +614,15 @@ def citation_to_marc(cit: Citation, format: str, output_path: str) -> str:
 
         # Populate 008 with date published
         base_008 = "||||||||||||||||||||||||||||||||||||||||"
-        if cit.date and cit.date["published"]:
-            if cit.date["published"]["year"] and \
+        if cit.date and "published" in cit.date.keys() and \
+                cit.date["published"]:
+            if "year" in cit.date["published"].keys() and \
+                    cit.date["published"]["year"] and \
+                    "month" in cit.date["published"].keys() and \
                     cit.date["published"]["month"]:
                 year = str(cit.date["published"]["year"])
                 month = str(cit.date["published"]["month"])
-                day = cit.date["published"]["day"]
-                if day:
-                    day = str(day)
-                else:
-                    day = "  "
+                day = str(cit.date["published"]["day"]) if "day" in cit.date["published"].keys() else "  "
                 if len(year) == 4 and len(month) == 2:
                     base_008 = base_008[:6] + "e" + year + month + day + \
                         base_008[13:]

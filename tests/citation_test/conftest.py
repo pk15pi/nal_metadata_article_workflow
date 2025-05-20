@@ -73,7 +73,7 @@ def citation_object(submission_source):
         citation.funder.append(new_funder)
 
     new_license = License(
-        version=submission_source["manuscript_version"]
+        content_version=submission_source["manuscript_version"]
     )
     citation.license = [new_license]
 
