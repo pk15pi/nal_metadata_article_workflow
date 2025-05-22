@@ -359,8 +359,9 @@ def test_tam_doi_missing():
     citation1 = Citation()
     citation1.DOI = None
     citation1.local = Local()
+    citation1.local.usda = "no"
     cit, msg = ATM.type_and_match(citation1)
-    assert msg == "Missing DOI, review"
+    assert msg == "review"
     assert cit.local.cataloger_notes == ["Missing DOI"]
 
 # Case 12: Invalid DOI
@@ -369,8 +370,9 @@ def test_tam_doi_invalid(patch_doi_status_invalid):
     citation1 = Citation()
     citation1.DOI = "invalid_doi"
     citation1.local = Local()
+    citation1.local.usda = "no"
     cit, msg = ATM.type_and_match(citation1)
-    assert msg == "Invalid DOI, review"
+    assert msg == "review"
     assert cit.local.cataloger_notes == ["Invalid DOI"]
 
 # Case 13: Network error when attempting to resolve DOI

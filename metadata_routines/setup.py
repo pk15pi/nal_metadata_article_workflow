@@ -11,7 +11,8 @@ setup(
     author_email='chuck.schoppet@usda.gov',
     description='Metadata libraries for NAL article citation workflow',
     install_requires=["lxml", "mysql", "pymarc", "requests", "wheel", "pyyaml",
-                      "tomli", "python-dateutil", "pysolr", "langdetect"],
+                      "tomli", "python-dateutil", "pysolr", "langdetect",
+                      "python-doi"],
     package_data={'': ['*.toml']},
     include_package_data=True
 )

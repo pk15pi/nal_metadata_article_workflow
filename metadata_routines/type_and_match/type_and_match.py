@@ -294,10 +294,12 @@ class ArticleTyperMatcher:
         status = self.doi_status(citation_object)
         if status == "missing":
             citation_object.local.cataloger_notes.append("Missing DOI")
-            return citation_object, "Missing DOI, review"
+            if citation_object.local.USDA == "no":
+                return citation_object, "review"
         elif status == "invalid":
             citation_object.local.cataloger_notes.append("Invalid DOI")
-            return citation_object, "Invalid DOI, review"
+            if citation_object.local.USDA == "no":
+                return citation_object, "review"
         elif status == "network error":
             return citation_object, "Network error, re-run"
 
@@ -311,7 +313,7 @@ class ArticleTyperMatcher:
 
         matching_records = ATM.find_matching_records(
             citation_object.DOI,
-            citation_object.local.identifiers["mms_id"]
+            citation_object.local.identifiers.get("mms_id", None)
         )
 
         if citation_object.type == "journal-article":
