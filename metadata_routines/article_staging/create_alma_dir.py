@@ -13,24 +13,35 @@ def create_directory(path: str) -> None:
 
 
 # Determine top level directory
-def determine_top_level_directory(citation_object, base: dict) -> str:
+def determine_top_level_directory(citation_object, base: dict, article) -> str:
     # Determine the correct top-level folder based on citation source and status
-    is_usda = citation_object.local.USDA
-    has_mmsid = bool(citation_object.local.identifiers.get('mms_id'))
-
+    # is_usda = citation_object.local.USDA
+    # has_mmsid = bool(citation_object.local.identifiers.get('mms_id'))
 
     # Actions based on if article is usda_funded or not
-    if is_usda:
-        if has_mmsid:
-            return os.path.join(base, 'ARTICLE_STAGING/MERGE_USDA')  
-        else:
-            return os.path.join(base, 'ARTICLE_STAGING/NEW_USDA')
-    else:
-        if has_mmsid:
-            return os.path.join(base, 'ARTICLE_STAGING/MERGE_PUBLISHER')  
-        else:
-            return os.path.join(base, 'ARTICLE_STAGING/NEW_PUBLISHER')
+    # if is_usda:
+    #     if has_mmsid:
+    #         return os.path.join(base, 'ARTICLE_STAGING/MERGE_USDA')  
+    #     else:
+    #         return os.path.join(base, 'ARTICLE_STAGING/NEW_USDA')
+    # else:
+    #     if has_mmsid:
+    #         return os.path.join(base, 'ARTICLE_STAGING/MERGE_PUBLISHER')  
+    #     else:
+    #         return os.path.join(base, 'ARTICLE_STAGING/NEW_PUBLISHER')
 
+    if article.import_type == "new_usda":
+            return os.path.join(base, 'ARTICLE_STAGING/NEW_USDA')
+    
+    elif article.import_type == "merge_usda":
+            return os.path.join(base, 'ARTICLE_STAGING/MERGE_USDA') 
+    
+    elif article.import_type == "new_publisher":
+        return os.path.join(base, 'ARTICLE_STAGING/NEW_PUBLISHER') 
+     
+    elif article.import_type == "merge_publisher":
+        return os.path.join(base, 'ARTICLE_STAGING/MERGE_PUBLISHER')
+            
 
 
 # Function to copy file
@@ -93,10 +104,10 @@ def stage_metadata_files(citation_object, path_directory: dict, target_folder: s
     return message
 
 # Main function to create the Alma folder structure, and copy all article, citation, marc and manuscript file
-def create_alma_directory(citation_object, base: str, path_directory: dict) -> list:
+def create_alma_directory(citation_object, base: str, path_directory: dict, article) -> list:
 
     # Step 1: Determine top-level folder
-    top_level_folder = determine_top_level_directory(citation_object, base)
+    top_level_folder = determine_top_level_directory(citation_object, base, article)
 
     # Step 2: Build citation folder path with pid
     pid = citation_object.local.identifiers.get('pid')
