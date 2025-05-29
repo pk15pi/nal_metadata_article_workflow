@@ -11,6 +11,7 @@ from citation import Citation
 from difflib import SequenceMatcher
 import doi
 import urllib
+import requests
 
 
 class Methods(Enum):
@@ -159,7 +160,11 @@ class ArticleTyperMatcher:
         else:
             return []
 
-        results = solr.search(query)
+        try:
+            results = solr.search(query)
+        except pysolr.SolrError as e:
+            print("Pysolr returning network error")
+            return "network error"
         if results.hits > 0:
             # Create a list of dictionaries of the results,
             # including keys 'title', 'doi', and 'mmsid'
@@ -194,7 +199,12 @@ class ArticleTyperMatcher:
             "url": "https://na91.alma.exlibrisgroup.com/view/sru/01NAL_INST",
             "query": alma_query
         }
-        alma_response = srupymarc.searchretrieve(**params)
+        try:
+            alma_response = srupymarc.searchretrieve(**params)
+        except (OSError, requests.exceptions.ConnectTimeout, srupymarc.errors.SrupymarcError) as e:
+            print("Alma returning network error")
+            return "network error"
+
         if alma_response.count > 0:
             matching_records = []
             for record in alma_response:
@@ -220,7 +230,12 @@ class ArticleTyperMatcher:
             "url": "https://na91.alma.exlibrisgroup.com/view/sru/01NAL_INST",
             "query": alma_query
         }
-        alma_response = srupymarc.searchretrieve(**params)
+        try:
+            alma_response = srupymarc.searchretrieve(**params)
+        except (OSError, requests.exceptions.ConnectTimeout,
+                srupymarc.errors.SrupymarcError) as e:
+            return "network error"
+
         if alma_response.count > 0:
             matching_records = []
             for record in alma_response:
@@ -309,12 +324,15 @@ class ArticleTyperMatcher:
             citation_object.type = ATM.get_record_type(citation_object.title)
 
         if citation_object.type == "notice":
-            return citation_object, "notice"
+            return citation_object, "dropped"
 
         matching_records = ATM.find_matching_records(
             citation_object.DOI,
             citation_object.local.identifiers.get("mms_id", None)
         )
+
+        if matching_records == "network error":
+            return citation_object, "Network error, re-run"
 
         if citation_object.type == "journal-article":
             if len(matching_records) == 0:
