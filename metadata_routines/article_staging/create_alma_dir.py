@@ -15,21 +15,6 @@ def create_directory(path: str) -> None:
 # Determine top level directory
 def determine_top_level_directory(citation_object, base: dict, article) -> str:
     # Determine the correct top-level folder based on citation source and status
-    # is_usda = citation_object.local.USDA
-    # has_mmsid = bool(citation_object.local.identifiers.get('mms_id'))
-
-    # Actions based on if article is usda_funded or not
-    # if is_usda:
-    #     if has_mmsid:
-    #         return os.path.join(base, 'ARTICLE_STAGING/MERGE_USDA')  
-    #     else:
-    #         return os.path.join(base, 'ARTICLE_STAGING/NEW_USDA')
-    # else:
-    #     if has_mmsid:
-    #         return os.path.join(base, 'ARTICLE_STAGING/MERGE_PUBLISHER')  
-    #     else:
-    #         return os.path.join(base, 'ARTICLE_STAGING/NEW_PUBLISHER')
-
     if article.import_type == "new_usda":
             return os.path.join(base, 'ARTICLE_STAGING/NEW_USDA')
     
@@ -128,7 +113,7 @@ def create_alma_directory(citation_object, base: str, path_directory: dict, arti
         return message, citation_object, article_stage_dir
 
     # Step 5: Retrieve manuscript and support files (for USDA only)
-    if citation_object.local.USDA:
+    if citation_object.local.USDA == 'yes':
         manuscript_file = citation_object.resource.primary
         support_files = citation_object.resource.secondary
 
