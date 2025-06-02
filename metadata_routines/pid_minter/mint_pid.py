@@ -57,8 +57,8 @@ def pid_minter(citation_object, is_usda_funded=False) -> list:
         if not next_pid:
             return None
 
-        if citation_object.type != 'journal-article':
-            result = [citation_object, "Non Article", None]
+        # if citation_object.type != 'journal-article':
+        #     result = [citation_object, "Non Article", None]
 
         else:
             citation_object.local.identifiers.setdefault('pid', None)
