@@ -132,7 +132,7 @@ def test_tam_notice(patch_doi_status_valid):
     citation = Citation()
     citation.type = "notice"
     result = ATM.type_and_match(citation)
-    assert result[1] == "notice"
+    assert result[1] == "dropped"
 
 # Case 2: Incoming citation object matches an existing record with
 # identical title

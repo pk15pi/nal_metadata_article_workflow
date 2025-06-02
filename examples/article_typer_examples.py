@@ -70,9 +70,9 @@ matching_records = ATM.find_matching_records(
 print("Matching records for citation 1: ", matching_records)
 
 # Type and match all four records, print out associated message
-print(ATM.type_and_match(citation1)[1])  # returns merge
-print(ATM.type_and_match(citation2)[1])  # returns new
-print(ATM.type_and_match(citation3)[1])  # returns review
-print(ATM.type_and_match(citation4)[1])  # returns merge
-print(ATM.type_and_match(citation5)[1])  # returns review
-print(ATM.type_and_match(citation6)[1])  # returns review
+print("Citation 1 message: ", ATM.type_and_match(citation1)[1])  # returns merge
+print("Citation 2 message: ", ATM.type_and_match(citation2)[1])  # returns review because missing doi
+print("Citation 3 message: ", ATM.type_and_match(citation3)[1])  # returns review
+print("Citation 4 message: ", ATM.type_and_match(citation4)[1])  # returns merge
+print("Citation 5 message: ", ATM.type_and_match(citation5)[1])  # returns review because missing doi
+print("Citation 6 message: ", ATM.type_and_match(citation6)[1])  # returns review because invalid doi
