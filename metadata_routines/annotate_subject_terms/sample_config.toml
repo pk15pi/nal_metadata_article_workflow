@@ -1,0 +1,8 @@
+source_file      = '/path/to/nalt-full_dwn.rdf'
+database_file    = '/path/to/nalt.db'
+index_articles   = 1
+user_password    = 'automation:###########'
+annotation_plans = [ 'NAL-AP-2-clean', 'NAL-AP-3-No-Hiers', 'NALT-AP-4-rerunAP2-fuzzy' ]
+indexer_url      = 'https://cogito-discover.nal.usda.gov:8443/cogito/v1/annotation/'
+min_num_terms    = 3
+cogito_path      = '/data/cogito/'

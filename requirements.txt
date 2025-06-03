@@ -39,6 +39,7 @@ python-doi==0.2.0
 python-Levenshtein==0.27.1
 PyYAML==6.0.2
 RapidFuzz==3.12.2
+rdflib==7.1.4
 requests==2.32.3
 setuptools==75.8.0
 six==1.17.0

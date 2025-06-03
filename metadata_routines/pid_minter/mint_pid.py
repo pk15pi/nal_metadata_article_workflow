@@ -41,29 +41,37 @@ This function will take input citation_object as dictionary and return the
 updated citation object with PID, success / error message and the PID
 '''
 def pid_minter(citation_object, is_usda_funded=False) -> list:
-    pid_db_connection = connect_pid_db()
 
-    # if pid_db_connection and article_db_connection:
-    if pid_db_connection:
-        pid_db = pid_db_connection.cursor()
+    # get pid from citation_object, and if no key found add key 'pid' with default value as None
+    citation_object.local.identifiers.setdefault('pid', None)
 
-        # generate the new PID
-        pid_db.execute("SELECT nextval(pid) from pid")
+    pid = citation_object.local.identifiers['pid']
+    # if pid exists in db
+    if pid:
+        result = [citation_object, "PID Already Assigned", pid]
 
-        # Fetch the result
-        row = pid_db.fetchone()
-        next_pid = row[0] if row else None
+    # If pid is not set
+    else:
+        # establish pid_db connection
+        pid_db_connection = connect_pid_db()
 
-        if not next_pid:
-            return None
+        # if pid_db_connection is established
+        if pid_db_connection:
+            pid_db = pid_db_connection.cursor()
 
-        # if citation_object.type != 'journal-article':
-        #     result = [citation_object, "Non Article", None]
+            # generate the new PID
+            pid_db.execute("SELECT nextval(pid) from pid")
 
-        else:
-            citation_object.local.identifiers.setdefault('pid', None)
-            if citation_object.local.identifiers['pid']:
-                result = [citation_object, "PID Already Assigned", None]
+            # Fetch the result
+            row = pid_db.fetchone()
+            next_pid = row[0] if row else None
+
+            # If no pid received
+            if not next_pid:
+                pid_db_connection.close()
+                result = [citation_object, "No PID received from pid db", None]
+
+            # if pid received, assign it to citation object
             else:
                 citation_object.local.identifiers['pid'] = next_pid
 
@@ -74,10 +82,13 @@ def pid_minter(citation_object, is_usda_funded=False) -> list:
 
                 result = [citation_object, "PID Assigned", next_pid]
 
-    else:
-        result = [citation_object, "Database connection error occured", None]
 
-    if pid_db_connection:
-        pid_db_connection.close()
-    
+        # if db connection error occured.
+        else:
+            result = [citation_object, "Database connection error occured", None]
+
+        if pid_db_connection:
+            pid_db_connection.close()
+
+
     return result

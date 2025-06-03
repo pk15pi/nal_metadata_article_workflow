@@ -1,5 +1,4 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
+# Byte-compiled / optimized / DLL files__pycache__/
 *.py[cod]
 *$py.class
 
@@ -11,6 +10,7 @@ __pycache__/
 .idea
 reports/reports_venv/
 venv/
+venv3.10/
 ./srupymarc/tests/*
 ./srupymarc/examples/*
 
@@ -18,3 +18,7 @@ venv/
 *.bak
 
 metadata_routines/metadata_routines.egg-info/*
+metadata_routines/annotate_subject_terms/*.toml 
+!metadata_routines/annotate_subject_terms/sample_config.toml
+metadata_routines/build/
+examples/annotate_subjects/cogx_auto_save/*

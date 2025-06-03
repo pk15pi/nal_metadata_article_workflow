@@ -41,6 +41,7 @@ class Local:
     cataloger_notes: list = field(default_factory=list)
     submitter_email: str = None
     submitter_name: str = None
+    indexed_by: str = None
 
 
 @dataclass
