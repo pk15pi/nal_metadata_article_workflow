@@ -48,7 +48,7 @@ def pid_minter(citation_object, is_usda_funded=False) -> list:
     pid = citation_object.local.identifiers['pid']
     # if pid exists in db
     if pid:
-        result = [citation_object, "PID Already Assigned", pid]
+        result = [citation_object, "successful", "PID Already Assigned", pid]
 
     # If pid is not set
     else:
@@ -69,7 +69,7 @@ def pid_minter(citation_object, is_usda_funded=False) -> list:
             # If no pid received
             if not next_pid:
                 pid_db_connection.close()
-                result = [citation_object, "No PID received from pid db", None]
+                result = [citation_object, "unsuccessful", "No PID received from pid db", None]
 
             # if pid received, assign it to citation object
             else:
@@ -80,12 +80,12 @@ def pid_minter(citation_object, is_usda_funded=False) -> list:
                 if not citation_object.local.identifiers['handle'] and is_usda_funded:
                     citation_object.local.identifiers['handle'] = '10113/'+ str(next_pid)
 
-                result = [citation_object, "PID Assigned", next_pid]
+                result = [citation_object,"successful", "PID Assigned", next_pid]
 
 
         # if db connection error occured.
         else:
-            result = [citation_object, "Database connection error occured", None]
+            result = [citation_object, "unsuccessful", "Database connection error occured", None]
 
         if pid_db_connection:
             pid_db_connection.close()
