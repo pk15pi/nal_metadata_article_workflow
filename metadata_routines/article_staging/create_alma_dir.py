@@ -40,7 +40,7 @@ def copy_file(source: str, destination: str) -> None:
 # Function for staging metadata
 def stage_metadata_files(citation_object, path_directory: dict, target_folder: str, base: str) -> None:
     # Copy metadata files into the citation folder
-    is_usda = citation_object.local.USDA
+    is_usda = (citation_object.local.USDA == 'yes')
 
     message = ''
     # Get Citation pickle file

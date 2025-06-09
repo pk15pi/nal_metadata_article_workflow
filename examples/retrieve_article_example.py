@@ -2,6 +2,7 @@
 from article_staging import create_alma_dir
 import pickle
 import os
+from types import SimpleNamespace
 
 # Dictionary to store all the path required to store various files
 path_directory = {
@@ -9,6 +10,26 @@ path_directory = {
     'ARTICLE_FILE' : 'example_data/step10_article.json',
     'MARC_FILE' : 'example_data/step10_marc.xml'
 }
+
+# sample object queried from model_article
+article_dict = {
+    'id' : '66911',
+    'article_file' : 'example_data/step10_article.json',
+    'title' : 'Sample title',
+    'type_of_record' : 'article',
+    'last_step' : 9,
+    'note' : 'sample note',
+    'DOI' : '44444',
+    'PID' : '55555',
+    'MMSID' : '78456',
+    'archive_id' : 18528,
+    'provider_id' : 2,
+    'journal_id' : 5,
+    'citation_pickel' : 'example_data/step10_pickel.pkl',
+    'import_type' : 'sample'
+}
+
+article = SimpleNamespace(**article_dict)
 
 # Get the base path where python file exists to creat directory
 BASE_DIR = os.getcwd()
@@ -34,7 +55,7 @@ def perform_action():
         citation_object, and path to directory created for staging the article.
     '''
 
-    message, citation_object, article_stage_dir = create_alma_dir.create_alma_directory(citation_object, BASE_DIR, path_directory)
+    message, citation_object, article_stage_dir = create_alma_dir.create_alma_directory(citation_object, BASE_DIR, path_directory, article)
     print("Executed successfully")
 
 
