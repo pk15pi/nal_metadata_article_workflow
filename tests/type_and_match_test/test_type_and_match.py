@@ -24,7 +24,8 @@ def test_find_matching_records_solr(mocker):
                     'title': 'Title 1',
                     'doi': 'DOI 1',
                     'mmsid': 'MMSID 1',
-                    'agid': 'agid 1'
+                    'id': 'agid:pid',
+                    'handle': 'hdl 1',
                 },
             ],
             'numFound': 1,
@@ -46,7 +47,8 @@ def test_find_matching_records_solr(mocker):
             'title': 'Title 1',
             'doi': 'DOI 1',
             'mmsid': 'MMSID 1',
-            'agid': 'agid 1'
+            'agid': 'pid',
+            'hdl': 'hdl 1'
         }
     ]
 
@@ -67,6 +69,10 @@ def test_find_matching_records_alma_doi(mocker):
         returned_record.add_field(pymarc.Field(tag="974", subfields=[
             pymarc.Subfield(code="a", value="agid:agid 2")
         ]))
+        returned_record.add_field(pymarc.Field(tag='024', subfields=[
+            pymarc.Subfield(code='a', value='hdl 1'),
+            pymarc.Subfield(code='2', value='hdl')
+        ]))
         mock_srupymarc_response.__iter__.side_effect = \
             lambda: iter([returned_record])
         return mock_srupymarc_response
@@ -82,7 +88,8 @@ def test_find_matching_records_alma_doi(mocker):
             'title': 'Title 2',
             'doi': 'DOI 2',
             'mmsid': 'MMSID 2',
-            'agid': 'agid 2'
+            'agid': 'agid 2',
+            'hdl': 'hdl 1'
         }
     ]
 
@@ -103,6 +110,10 @@ def test_find_matching_records_alma_mmsid(mocker):
         returned_record.add_field(pymarc.Field(tag="974", subfields=[
             pymarc.Subfield(code="a", value="agid:agid 2")
         ]))
+        returned_record.add_field(pymarc.Field(tag='024', subfields=[
+            pymarc.Subfield(code='a', value='hdl 1'),
+            pymarc.Subfield(code='2', value='hdl')
+        ]))
         mock_srupymarc_response.__iter__.side_effect = \
             lambda: iter([returned_record])
         return mock_srupymarc_response
@@ -118,7 +129,8 @@ def test_find_matching_records_alma_mmsid(mocker):
             'title': 'Title 2',
             'doi': 'DOI 2',
             'mmsid': 'MMSID 2',
-            'agid': 'agid 2'
+            'agid': 'agid 2',
+            'hdl': 'hdl 1'
         }
     ]
 
@@ -130,6 +142,7 @@ def test_find_matching_records_alma_mmsid(mocker):
 def test_tam_notice(patch_doi_status_valid):
     ATM = ArticleTyperMatcher()
     citation = Citation()
+    citation.local = Local()
     citation.type = "notice"
     result = ATM.type_and_match(citation)
     assert result[1] == "dropped"
@@ -142,7 +155,8 @@ def test_tam_one_exact_match(mocker, patch_doi_status_valid):
             'title': 'Title 1',
             'doi': 'DOI 1',
             'mmsid': 'MMSID 1',
-            'agid': 'agid 1'
+            'agid': 'agid 1',
+            'hdl': 'hdl 1'
         }
     ]
     mocker.patch(
@@ -156,7 +170,7 @@ def test_tam_one_exact_match(mocker, patch_doi_status_valid):
     citation1.local = Local()
     citation1.local.identifiers["mms_id"] = "MMSID 1"
     result1 = ATM.type_and_match(citation1)
-    print(result1[1])
+    assert result1[0].local.identifiers["hdl"] == "hdl 1"
     assert result1[1] == "merge"
 
 
@@ -167,7 +181,8 @@ def test_tam_one_fuzzy_match(mocker, patch_doi_status_valid):
             'title': 'This is the title of a journal article with a subtitle',
             'doi': 'DOI 1',
             'mmsid': 'MMSID 1',
-            'agid': 'agid 1'
+            'agid': 'agid 1',
+            'hdl': 'hdl 1'
         }
     ]
     mocker.patch('type_and_match.type_and_match.ArticleTyperMatcher.' +
@@ -182,6 +197,7 @@ def test_tam_one_fuzzy_match(mocker, patch_doi_status_valid):
     citation1.local.identifiers["mms_id"] = "MMSID 1"
     result1 = ATM.type_and_match(citation1)
     print(result1[1])
+    assert result1[0].local.identifiers["hdl"] == "hdl 1"
     assert result1[1] == "merge"
 
 
@@ -210,13 +226,15 @@ def test_tam_no_article_type_matches(mocker, patch_doi_status_valid):
             'title': 'Correction: Title 1',
             'doi': 'DOI 1',
             'mmsid': 'MMSID 1',
-            'agid': 'agid 1'
+            'agid': 'agid 1',
+            'hdl': 'hdl 1'
         },
         {
             'title': 'Correction: Title 2',
             'doi': 'DOI 1',
             'mmsid': 'MMSID 2',
-            'agid': 'agid 2'
+            'agid': 'agid 2',
+            'hdl': 'hdl 2'
         }
     ]
     mocker.patch(
@@ -225,7 +243,7 @@ def test_tam_no_article_type_matches(mocker, patch_doi_status_valid):
 
     ATM = ArticleTyperMatcher()
     citation1 = Citation()
-    citation1.title = "Title 1"
+    citation1.title = "Journal article title that does not match the other titles"
     citation1.DOI = "DOI 1"
     citation1.local = Local()
     citation1.local.identifiers["mms_id"] = "MMSID 3"
@@ -241,7 +259,8 @@ def test_tam_article_match_different_title(mocker, patch_doi_status_valid):
             'title': 'Journal article title',
             'doi': 'DOI 1',
             'mmsid': 'MMSID 1',
-            'agid': 'agid 1'
+            'agid': 'agid 1',
+            'hdl': 'hdl 1'
         }
     ]
     mocker.patch(
@@ -250,7 +269,7 @@ def test_tam_article_match_different_title(mocker, patch_doi_status_valid):
 
     ATM = ArticleTyperMatcher()
     citation1 = Citation()
-    citation1.title = "A different, non-matching journal article title"
+    citation1.title = "A different, non-matching title"
     citation1.DOI = "DOI 1"
     citation1.local = Local()
     citation1.local.identifiers["mms_id"] = "MMSID 2"
@@ -284,7 +303,8 @@ def test_tam_non_article_match(mocker, patch_doi_status_valid):
             'title': 'Correction: Title 1',
             'doi': 'DOI 1',
             'mmsid': 'MMSID 1',
-            'agid': 'agid 1'
+            'agid': 'agid 1',
+            'hdl': 'hdl 1'
         }
     ]
     mocker.patch(
@@ -299,6 +319,7 @@ def test_tam_non_article_match(mocker, patch_doi_status_valid):
     citation1.local.identifiers["mms_id"] = "MMSID 1"
     result1 = ATM.type_and_match(citation1)
     print(result1[1])
+    assert result1[0].local.identifiers["hdl"] == "hdl 1"
     assert result1[1] == "merge"
 
 
@@ -310,7 +331,8 @@ def test_tam_non_article_no_title_matches(mocker, patch_doi_status_valid):
             'title': 'Correction: the first correction to the journal article',
             'doi': 'DOI 1',
             'mmsid': 'MMSID 1',
-            'agid': 'agid 1'
+            'agid': 'agid 1',
+            'hdl': 'hdl 1'
         }
     ]
     mocker.patch(
@@ -369,6 +391,17 @@ def test_tam_doi_invalid(patch_doi_status_invalid):
     ATM = ArticleTyperMatcher()
     citation1 = Citation()
     citation1.DOI = "invalid_doi"
+    citation1.local = Local()
+    citation1.local.usda = "no"
+    cit, msg = ATM.type_and_match(citation1)
+    assert msg == "review"
+    assert cit.local.cataloger_notes == ["Invalid DOI"]
+
+# Case 12: DOI with a space
+def test_tam_doi_space():
+    ATM = ArticleTyperMatcher()
+    citation1 = Citation()
+    citation1.DOI = " "
     citation1.local = Local()
     citation1.local.usda = "no"
     cit, msg = ATM.type_and_match(citation1)

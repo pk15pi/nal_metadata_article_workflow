@@ -29,7 +29,7 @@ def retrieve_manuscripts(path_name: str, manuscript_file: dict, support_files: l
                 if os.path.exists(local_path):
                     shutil.copy2(local_path, dest_path)
                 else:
-                    message += "Error occured while copyinh file from {manuscript_url}; "
+                    message += "Error occured while copying file from {manuscript_url}; "
             else:
                 message += "Unsupported manuscript URL scheme found. {parsed_url.path}; "
         except Exception as e:
@@ -49,7 +49,7 @@ def retrieve_manuscripts(path_name: str, manuscript_file: dict, support_files: l
     missing_supports = 0
 
     for support in support_files:
-        url = support.get('url')
+        url = support.get('URL')
         label = support.get('label', '')
         parsed_url = urlparse(url) if url else None
 

@@ -121,7 +121,8 @@ class Citation:
         obj["title"] = self.title
         obj["doi"] = self.DOI
         obj["type"] = self.type
-        obj["provider_rec"] = self.local.identifiers["provider_rec"]
+        obj["provider_rec"] = self.local.identifiers.get("provider_rec", None)
+        obj["mmsid"] = self.local.identifiers.get("mms_id", None)
         return obj
 
     def get_journal_info(self):

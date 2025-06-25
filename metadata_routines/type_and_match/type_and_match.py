@@ -131,6 +131,14 @@ class ArticleTyperMatcher:
                 return f.get("a").split("agid:")[1]
         return None
 
+    def _extract_hdl(self, record):
+        fields = record.get_fields("024")
+        for f in fields:
+            if f.get("2") is not None:
+                if f.get("2") == "hdl":
+                    return f.get("a")
+        return None
+
     def _extract_mmsid(self, record):
         return record.get("001").data
 
@@ -176,11 +184,17 @@ class ArticleTyperMatcher:
                 title_matched = result.get('title', None)
                 if isinstance(title_matched, list):
                     title_matched = title_matched[0]
+
+                agid = result.get('id', None)
+                pid = None
+                if agid:
+                    pid = agid.split('agid:')[1]
                 matching_records.append({
                     'title': title_matched,
                     'doi': doi_matched,
                     'mmsid': result.get('mmsid', None),
-                    'agid': result.get('agid', None)
+                    'agid': pid,
+                    'hdl': result.get('handle', None)
                 })
             return matching_records
         else:
@@ -212,7 +226,8 @@ class ArticleTyperMatcher:
                     'title': self._extract_title(record),
                     'doi': self._extract_doi(record),
                     'mmsid': mmsid,
-                    'agid': self._extract_agid(record)
+                    'agid': self._extract_agid(record),
+                    'hdl': self._extract_hdl(record)
                 })
             return matching_records
         return []
@@ -243,7 +258,8 @@ class ArticleTyperMatcher:
                     'title': self._extract_title(record),
                     'doi': doi,
                     'mmsid': record.get("001").data,
-                    'agid': self._extract_agid(record)
+                    'agid': self._extract_agid(record),
+                    'hdl': self._extract_hdl(record)
                 })
             return matching_records
         return []
@@ -281,12 +297,11 @@ class ArticleTyperMatcher:
         return []
 
     def doi_status(self, cit) -> str:
-        # Check if the DOI is valid
-        if cit.local.USDA == "yes":
-            return "valid"
         doi_str = cit.DOI
         if doi_str is None or doi_str == "":
             return "missing"
+        if " " in doi_str:
+            return "invalid"
         else:
             try:
                 valid_doi = doi.validate_doi(doi_str)
@@ -324,6 +339,7 @@ class ArticleTyperMatcher:
             citation_object.type = ATM.get_record_type(citation_object.title)
 
         if citation_object.type == "notice":
+            citation_object.local.cataloger_notes.append("Article of type 'notice'")
             return citation_object, "dropped"
 
         matching_records = ATM.find_matching_records(
@@ -341,47 +357,54 @@ class ArticleTyperMatcher:
                 matching_record_titles = [
                     record['title'] for record in matching_records
                 ]
-                title_match_ratios = [
-                    SequenceMatcher(None, citation_object.title, title).ratio()
-                    for title in matching_record_titles
+                # Ignore any non-journal article matches
+                journal_title_matches = [
+                    title for title in matching_record_titles if
+                    ATM.get_record_type(title) == "journal-article"
                 ]
-                # If the incoming title matches an existing title at least 90%
-                if any(ratio > 0.90 for ratio in title_match_ratios):
-                    # Pick the record that matches the incoming title the most
+
+                if len(journal_title_matches) == 0:
+                    # No matches of type journal-article, new
+                    return citation_object, "new"
+                elif len(journal_title_matches) == 1:
+                    # Only one match of type journal-article
+                    # Compare titles
+                    title_ratio = SequenceMatcher(None,
+                        citation_object.title, journal_title_matches[0]
+                    ).ratio()
                     matching_record = matching_records[
-                        title_match_ratios.index(max(title_match_ratios))
+                        matching_record_titles.index(journal_title_matches[0])
                     ]
-                    citation_object.local.identifiers["mms_id"] = \
-                        matching_record['mmsid']
-                    citation_object.local.identifiers["pid"] = \
-                        matching_record['agid']
-                    return citation_object, "merge"
-                else:
-                    match_types = [
-                        ATM.get_record_type(title)
-                        for title in matching_record_titles
-                    ]
-                    article_matches = [
-                        title for title, match_type in
-                        zip(matching_record_titles, match_types) if
-                        match_type == "journal-article"
-                    ]
-                    if len(article_matches) == 0:
-                        return citation_object, "new"
-                    else:
-                        matching_mmsids = [
-                            record['mmsid'] for record in matching_records if
-                            record['title'] in article_matches
-                        ]
-                        if len(matching_mmsids) > 1:
-                            citation_object.cataloger_notes.append(
-                                "Multiple matching article records found in \
-                                Alma. See local identifiers for mmsids."
-                            )
-                        matching_mmsids_concat = ','.join(matching_mmsids)
+                    matching_mmsid = matching_record['mmsid']
+                    if title_ratio > 0.5:
                         citation_object.local.identifiers["mms_id"] = \
-                            matching_mmsids_concat
+                            matching_mmsid
+                        citation_object.local.identifiers["pid"] = \
+                            matching_record['agid']
+                        citation_object.local.identifiers["hdl"] = \
+                            matching_record['hdl']
+                        return citation_object, "merge"
+                    else:
+                        # Title does not match, send to review with note
+                        citation_object.local.cataloger_notes.append(
+                            "Match found with a different title. See mmsid"
+                        )
+                        citation_object.local.identifiers["mms_id"] = \
+                            matching_mmsid
                         return citation_object, "review"
+                elif len(journal_title_matches) > 1:
+                # More than one match of type journal-article, review
+                    citation_object.local.cataloger_notes.append(
+                        "Multiple matching article records found. See mmsids"
+                    )
+                    matching_mmsids = [
+                        record['mmsid'] for record in matching_records if
+                        record['title'] in journal_title_matches
+                    ]
+                    matching_mmsids_concat = ','.join(matching_mmsids)
+                    citation_object.local.identifiers["mms_id"] = \
+                        matching_mmsids_concat
+                    return citation_object, "review"
         else:  # Not a journal article
             if len(matching_records) == 0:
                 return citation_object, "new"
@@ -395,6 +418,8 @@ class ArticleTyperMatcher:
                         matching_record['mmsid']
                     citation_object.local.identifiers["pid"] = \
                         matching_record['agid']
+                    citation_object.local.identifiers["hdl"] = \
+                        matching_record['hdl']
                     return citation_object, "merge"
                 else:
                     return citation_object, "new"

@@ -118,7 +118,7 @@ def map_from_submit_site(submit_str):
         # Instantiate Citation object with high-level data
         new_citation = Citation(
             title=utils.clean_dict_key(data, 'title'),
-            DOI=utils.clean_dict_key(data, "doi"),
+            DOI=utils.clean_dict_key(data, "doi").strip(),
             container_title=[utils.clean_dict_key(data, "journal")],
             abstract=utils.clean_dict_key(data, "abstract"),
             volume=utils.clean_dict_key(data, "volume"),
@@ -217,7 +217,7 @@ def map_from_submit_site(submit_str):
             ids["submission_node_id"] = utils.clean_dict_key(
                 data, "submission_node_id"
             )
-            ids["provider_rec"] = utils.clean_dict_key(
+            ids["provider_rec"] = "submit:" + utils.clean_dict_key(
                 data, "submission_node_id"
             )
         if "accession_number" in data.keys():

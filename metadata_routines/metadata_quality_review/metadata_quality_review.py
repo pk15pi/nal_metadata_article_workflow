@@ -38,7 +38,7 @@ def check_volume(cit, msg, override_str):
     if cit.volume is None or cit.volume == "":
         cataloger_note = "No volume number"
         cit.local.cataloger_notes.append(cataloger_note)
-        if not override and msg == "active":
+        if not override and msg == "active" and cit.local.USDA == "no":
             msg = "review"
     return cit, msg
 
@@ -51,7 +51,7 @@ def check_issue(cit, msg, override_str):
     if cit.issue is None or cit.issue == "":
         cataloger_note = "No issue number"
         cit.local.cataloger_notes.append(cataloger_note)
-        if not override and msg == "active":
+        if not override and msg == "active" and cit.local.USDA == "no":
             msg = "review"
     return cit, msg
 
@@ -65,7 +65,7 @@ def check_page(cit, msg, override_str):
             cit.page["page_str"] == "":
         cataloger_note = "No page number"
         cit.local.cataloger_notes.append(cataloger_note)
-        if not override and msg == "active":
+        if not override and msg == "active" and cit.local.USDA == "no":
             msg = "review"
     return cit, msg
 
@@ -78,9 +78,9 @@ def check_title(cit, msg, override_str):
     if cit.title is None or cit.title == "":
         cataloger_note = "No title"
         cit.local.cataloger_notes.append(cataloger_note)
-        if not override:
+        if not override and cit.local.USDA == "no":
             msg = "dropped"
-        elif override and msg != "dropped":
+        elif override and msg != "dropped" and cit.local.USDA == "no":
             msg = "review"
     return cit, msg
 
@@ -95,9 +95,9 @@ def check_name_elems(cit, msg, override_str):
     if cit.author is None or len(cit.author) == 0:
         cataloger_note = "No authors listed"
         cit.local.cataloger_notes.append(cataloger_note)
-        if not override:
+        if not override and cit.local.USDA == "no":
             msg = "dropped"
-        elif override and msg == "active":
+        elif override and msg == "active" and cit.local.USDA == "no":
             msg = "review"
 
     # Case 2: Author element defined, iterate through each element
@@ -106,9 +106,9 @@ def check_name_elems(cit, msg, override_str):
                 cit.author[0].family == "":
             cataloger_note = "No name elements"
             cit.local.cataloger_notes.append(cataloger_note)
-            if not override:
+            if not override and cit.local.USDA == "no":
                 msg = "dropped"
-            elif override and msg != "dropped":
+            elif override and msg != "dropped" and cit.local.USDA == "no":
                 msg = "review"
     return cit, msg
 
@@ -125,7 +125,7 @@ def check_primary_author(cit, msg, override_str):
         elif author.sequence == "first" and found_primary is True:
             cataloger_note = "Multiple primary authors"
             cit.local.cataloger_notes.append(cataloger_note)
-            if not override and msg == "active":
+            if not override and msg == "active" and cit.local.USDA == "no":
                 msg = "review"
             break
     return cit, msg
@@ -141,7 +141,7 @@ def check_issue_date(cit, msg, override_str):
             cit.date["published"]["year"] == "":
         cataloger_note = "No issue date"
         cit.local.cataloger_notes.append(cataloger_note)
-        if not override and msg != "dropped":
+        if not override and msg != "dropped" and cit.local.USDA == "no":
             msg = "review"
     return cit, msg
 
@@ -173,9 +173,9 @@ def check_abstract(cit, msg, override_str):
     if cit.abstract is None:
         cataloger_note = "missing abstract"
         cit.local.cataloger_notes.append(cataloger_note)
-        if not override_missing:
+        if not override_missing and cit.local.USDA == "no":
             msg = "dropped"
-        elif override_missing and msg != "dropped":
+        elif override_missing and msg != "dropped" and cit.local.USDA == "no":
             msg = "review"
         # No need to check for short, UTF8, or non-English abstract if missing
         return cit, msg
@@ -184,19 +184,19 @@ def check_abstract(cit, msg, override_str):
     if len(cit.abstract) <= 50:
         cataloger_note = "Abstract is empty or less than 50 character"
         cit.local.cataloger_notes.append(cataloger_note)
-        if not override_short:
+        if not override_short and cit.local.USDA == "no":
             msg = "dropped"
 
     if has_non_utf8_characters(cit.abstract):
         cataloger_note = "Non-UTF8 characters in abstract"
         cit.local.cataloger_notes.append(cataloger_note)
-        if not override_utf8 and msg != "dropped":
+        if not override_utf8 and msg != "dropped" and cit.local.USDA == "no":
             msg = "review"
 
     if cit.abstract and detect(cit.abstract) != "en":
         cataloger_note = "Non-English abstract"
         cit.local.cataloger_notes.append(cataloger_note)
-        if not override_non_english and msg != "dropped":
+        if not override_non_english and msg != "dropped" and cit.local.USDA == "no":
             msg = "review"
 
     return cit, msg

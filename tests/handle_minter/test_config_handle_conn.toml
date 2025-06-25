@@ -1,0 +1,31 @@
+[email_notification]
+ # submission email notification section
+  email_dev = 'noa.mills@usda.gov'
+  smtp_server = 'mailproxy1.usda.gov'
+  send_from = 'nal-pubag-curator@usda.gov'
+  bcc = '' # BCC email addresses for NAL staff
+  subject = "Manuscript Submission Published"
+  body_template = """
+
+Dear {},
+
+Your submission for the article titled "{}" is now available in PubAg.
+
+The agid for your article is: {}
+
+You can access the article using the following link: https://handle.nal.usda.gov/{}
+
+Sincerely,
+PubAg Curator
+
+USDA National Agricultural Library
+"""
+
+[debug]
+  testing_mode = 1 # if 1, will not make any connections to the handle service, handle database, or the pid database.
+  handle_service_conn = 1 # if 1, will connect to handle service to create handle. For testing purposes, this connection will be mocked.
+  email_submitter = 0 # if 1, will email the submitter. If 0, will either email the dev or print out the email
+  email_dev = 0 # if email_submitter is 1 and email_dev is 1, will email the dev. If 0, will not email the dev.
+  dev_address = 'noa.mills@usda.gov' # email address to send dev emails to if email_submitter is 0 and email_dev is 1
+  # If both email_submitter and email_dev are 0, will print out the email to the console.
+  # If both email_submitter and email_dev are 1, will email only the submitter

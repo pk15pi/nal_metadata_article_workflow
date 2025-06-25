@@ -71,7 +71,7 @@
     "Award.Recipients" = "beginning"
     "Tribute.to" = "beginning"
     "In.Memorium" = "beginning"
-    "Cover" = "beginning"
+    #"Cover" = "beginning"
     "Announcement" = "beginning"
     "Announcements" = "beginning"
     "Standards.Official.Notice" = "beginning"

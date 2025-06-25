@@ -55,7 +55,8 @@ def test_citation_creation(citation_object):
         'carcass yield of grazing lambs ',
         'doi': '10.1093/tas/txae103',
         'type': 'article',
-        'provider_rec': "2500"
+        'provider_rec': "2500",
+        'mmsid': None
     }
     assert citation_object.get_journal_info() == {
         'container_DOI': None,

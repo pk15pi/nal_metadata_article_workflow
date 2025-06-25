@@ -45,6 +45,7 @@ setuptools==75.8.0
 six==1.17.0
 ./nal_srupymarc
 tomli==2.2.1
+Unidecode==1.4.0
 urllib3==2.3.0
 wheel==0.45.1
 xmltodict==0.14.2

@@ -355,9 +355,7 @@ def test_submit_site_mapper(submit_data, request):
         if data_dict["supplementary_files"] == "":
             assert result.resource.secondary == []
         else:
-            print(data_dict["supplementary_files"])
             files = data_dict["supplementary_files"].split(", ")
-            print(files)
             for i, file in enumerate(files):
                 assert result.resource.secondary[i]["URL"] == file
                 assert result.resource.secondary[i]["label"] == \
@@ -422,7 +420,7 @@ def test_submit_site_mapper(submit_data, request):
     if "mms_id" in data_dict.keys():
         assert data_dict["mms_id"] == result.local.identifiers["mms_id"]
     assert "provider_rec" in result.local.identifiers
-    assert data_dict["submission_node_id"] == \
+    assert "submit:" + data_dict["submission_node_id"] == \
            result.local.identifiers["provider_rec"]
 
 

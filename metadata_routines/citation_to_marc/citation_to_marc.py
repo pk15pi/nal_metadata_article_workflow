@@ -586,6 +586,20 @@ def citation_to_marc(cit: Citation, format: str, output_path: str) -> str:
                 'w', value=cit.local.identifiers["nal_journal_id"]
             )
 
+        if cit.local.USDA == 'yes' and cit.local.identifiers.get('hdl'):
+            handle = cit.local.identifiers['hdl']
+            # Add handle to field 024 $a with $2 = 'hdl'
+            record.add_ordered_field(pymarc.Field(
+                tag='024',
+                indicators=Indicators('7', ' '),
+                subfields=[
+                    Subfield(code='a', value=handle),
+                    Subfield(code='2', value='hdl')
+                ]
+            ))
+
+
+
         if cit.local.identifiers.get("agid"):
             record.add_ordered_field(pymarc.Field(
                 tag='016',
