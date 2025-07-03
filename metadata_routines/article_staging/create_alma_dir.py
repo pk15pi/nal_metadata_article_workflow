@@ -48,7 +48,7 @@ def stage_metadata_files(citation_object, path_directory: dict, target_folder: s
         pickle_src = path_directory.get('citation_pickle')
         pickle_dst = os.path.join(
             target_folder,
-            'usda-citation.pkl.txt' if is_usda else 'publisher-citation.pkl.txt'
+            'submission-citation.json.txt' if is_usda else 'publisher-citation.pkl.txt'
         )
         copy_file(pickle_src, pickle_dst)
     except Exception as e:
@@ -59,7 +59,7 @@ def stage_metadata_files(citation_object, path_directory: dict, target_folder: s
         article_file = path_directory.get('article_file')
         article_dst = os.path.join(
             target_folder,
-            'usda-source.xml' if is_usda else 'publisher-source.xml'
+            'submission-source.xml.txt' if is_usda else 'publisher-source.xml'
         )
         copy_file(article_file, article_dst)
     except Exception as e:
