@@ -102,7 +102,7 @@ def create_alma_directory(citation_object, base: str, path_directory: dict, arti
     top_level_folder = determine_top_level_directory(base, article)
 
     if not top_level_folder:
-            return "Not a valid import type", citation_object, article_stage_dir
+            return "Not a valid import type", citation_object, None
 
     # Step 2: Build citation folder path with pid
     pid = citation_object.local.identifiers.get('pid')
