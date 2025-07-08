@@ -1,9 +1,7 @@
 import os
 import shutil
-from typing import Tuple
 from .retrieve_article_manuscript import retrieve_manuscripts
 import pprint
-from unidecode import unidecode
 
 # Function to created directory
 def create_directory(path: str) -> None:
