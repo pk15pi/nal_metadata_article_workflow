@@ -18,10 +18,10 @@ def determine_top_level_directory(citation_object, base: dict, article) -> str:
     ALMA_STAGING_DIR = os.environ.get('ALMA_STAGING_DIR')
 
     if article.import_type == "new_usda":
-            return os.path.join(base, ALMA_STAGING_DIR, 'NEW_USDA')
+        return os.path.join(base, ALMA_STAGING_DIR, 'NEW_USDA')
     
     elif article.import_type == "merge_usda":
-            return os.path.join(base, ALMA_STAGING_DIR, 'MERGE_USDA') 
+        return os.path.join(base, ALMA_STAGING_DIR, 'MERGE_USDA') 
     
     elif article.import_type == "new_publisher":
         return os.path.join(base, ALMA_STAGING_DIR, 'NEW_PUBLISHER') 
