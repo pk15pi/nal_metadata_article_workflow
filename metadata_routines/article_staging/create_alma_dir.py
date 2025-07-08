@@ -11,20 +11,24 @@ def create_directory(path: str) -> None:
 
 
 # Determine top level directory
-def determine_top_level_directory(citation_object, base: dict, article) -> str:
+def determine_top_level_directory(base: dict, article) -> str:
     # Determine the correct top-level folder based on citation source and status
     ALMA_STAGING_DIR = os.environ.get('ALMA_STAGING_DIR')
-
+    print("###########", article.import_type) 
     if article.import_type == "new_usda":
+        print(article.import_type)
         return os.path.join(base, ALMA_STAGING_DIR, 'NEW_USDA')
     
     elif article.import_type == "merge_usda":
+        print(article.import_type)
         return os.path.join(base, ALMA_STAGING_DIR, 'MERGE_USDA') 
     
     elif article.import_type == "new_publisher":
+        print(article.import_type)
         return os.path.join(base, ALMA_STAGING_DIR, 'NEW_PUBLISHER') 
      
     elif article.import_type == "merge_publisher":
+        print(article.import_type)
         return os.path.join(base, ALMA_STAGING_DIR, 'MERGE_PUBLISHER')
             
 
@@ -92,7 +96,7 @@ def stage_metadata_files(citation_object, path_directory: dict, target_folder: s
 def create_alma_directory(citation_object, base: str, path_directory: dict, article) -> list:
 
     # Step 1: Determine top-level folder
-    top_level_folder = determine_top_level_directory(citation_object, base, article)
+    top_level_folder = determine_top_level_directory(base, article)
 
     # Step 2: Build citation folder path with pid
     pid = citation_object.local.identifiers.get('pid')
