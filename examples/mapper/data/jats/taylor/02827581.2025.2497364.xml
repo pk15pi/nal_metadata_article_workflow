@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN" "https://jats.nlm.nih.gov/nlm-dtd/archiving/3.0/archivearticle3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink"
+         article-type="research-article"
+         xml:lang="en"><!--
+input file: SFOR_A_2497364_J.xml
+processed with: d3p_header_nlm3_from_jats12.xsl
+version: 2.0
+darts-xml-transformations-20250326T224308 git hash: 0183536115
+-->
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="publisher-acronym">SFOR</journal-id>
+         <journal-id journal-id-type="publisher-id">sfor20</journal-id>
+         <journal-title-group>
+            <journal-title>Scandinavian Journal of Forest Research</journal-title>
+         </journal-title-group>
+         <issn pub-type="ppub">0282-7581</issn>
+         <issn pub-type="epub">1651-1891</issn>
+         <publisher>
+            <publisher-name>Taylor &amp; Francis</publisher-name>
+         </publisher>
+      </journal-meta>
+      <article-meta>
+         <article-id pub-id-type="publisher-id">2497364</article-id>
+         <article-id pub-id-type="doi">10.1080/02827581.2025.2497364</article-id>
+         <article-id pub-id-type="submission-id">242297129</article-id>
+         <article-categories>
+            <subj-group subj-group-type="heading">
+               <subject>Research Articles</subject>
+            </subj-group>
+            <subj-group subj-group-type="article-type">
+               <subject>Research Article</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Tree-related microhabitat assemblages in boreal forests depend more on local environmental conditions and tree species than on tree size</article-title>
+            <alt-title alt-title-type="right-running-head">SCANDINAVIAN JOURNAL OF FOREST RESEARCH</alt-title>
+            <alt-title alt-title-type="left-running-head">R. B&#xdc;TLER ET AL.</alt-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Rita</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>B&#xfc;tler</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF1">a</xref>
+               <xref ref-type="aff" rid="AF2">b</xref>
+               <xref ref-type="corresp" rid="cor1">
+                  <sup>*</sup>
+               </xref>
+               <uri content-type="orcid">https://orcid.org/0000-0002-8865-8805</uri>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Laurent</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Larrieu</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF3">c</xref>
+               <xref ref-type="aff" rid="AF4">d</xref>
+               <uri content-type="orcid">https://orcid.org/0000-0002-9050-0281</uri>
+               <x xml:space="preserve"> &amp; </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Maxence</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Martin</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF5">e</xref>
+               <uri content-type="orcid">https://orcid.org/0000-0002-1384-0514</uri>
+            </contrib>
+            <aff id="AF1">
+               <label>a </label>
+               <institution>Swiss Federal Institute for Forest</institution>, <institution>Snow and Landscape Research WSL</institution>, <institution>Community Ecology Unit</institution>, <named-content content-type="city">Lausanne</named-content>, <country>Switzerland</country>
+            </aff>
+            <aff id="AF2">
+               <label>b </label>Ecole Polytechnique F&#xe9;d&#xe9;rale Lausanne, Plant Ecology Research Laboratory PERL, <institution>School of Architecture Civil &amp; Environmental Engineering ENAC</institution>
+               <named-content content-type="city">Lausanne</named-content>, <country>Switzerland</country>
+            </aff>
+            <aff id="AF3">
+               <label>c </label>
+               <institution>University of Toulouse</institution>, <institution>INRAE</institution>, <institution>UMR DYNAFOR</institution>, <country>France</country>
+            </aff>
+            <aff id="AF4">
+               <label>d </label>
+               <institution>CNPF-CRPF Occitanie</institution>, <named-content content-type="city">Tarbes</named-content>, <country>France</country>
+            </aff>
+            <aff id="AF5">
+               <label>e </label>
+               <institution>Institut de Recherche sur les For&#xea;ts</institution>, <institution>Universit&#xe9; du Qu&#xe9;bec en Abitibi-T&#xe9;miscamingue</institution>, <named-content content-type="city">Qu&#xe9;bec</named-content>, <country>Canada</country>
+            </aff>
+         </contrib-group>
+         <author-notes>
+            <corresp id="cor1">
+               <label>CONTACT </label> Rita B&#xfc;tler <email xlink:href="rita.buetler@wsl.ch">rita.buetler@wsl.ch</email>
+               <institution>Swiss Federal Institute for Forest</institution>, <institution>Snow and Landscape Research WSL</institution>, <institution>Community Ecology Unit</institution>, <named-content content-type="postal-code">CH-1015</named-content>
+               <named-content content-type="city">Lausanne</named-content>, <country>Switzerland</country>
+            </corresp>
+         </author-notes>
+         <pub-date pub-type="ppub">
+            <day>19</day>
+            <month>05</month>
+            <year>2025</year>
+            <string-date>April - June 2025</string-date>
+         </pub-date>
+         <volume>40</volume>
+         <issue>3-4</issue>
+         <fpage seq="3">177</fpage>
+         <lpage>187</lpage>
+         <supplementary-material id="SM4925"
+                                 mimetype="application"
+                                 mime-subtype="pdf"
+                                 xlink:href="sfor_a_2497364_sm4925.pdf">
+            <caption>
+               <title>Supplemental Material</title>
+            </caption>
+         </supplementary-material>
+         <history>
+            <date date-type="received">
+               <day>11</day>
+               <month>12</month>
+               <year>2024</year>
+            </date>
+            <date date-type="accepted">
+               <day>17</day>
+               <month>4</month>
+               <year>2025</year>
+            </date>
+         </history>
+         <permissions>
+            <copyright-statement>&#xa9; 2025 The Author(s). Published by Informa UK Limited, trading as Taylor &amp; Francis Group</copyright-statement>
+            <copyright-year>2025</copyright-year>
+            <copyright-holder>The Author(s)</copyright-holder>
+            <license license-type="open-access"
+                     xlink:href="http://creativecommons.org/licenses/by/4.0/">
+               <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri"
+                            xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. The terms on which this article has been published allow the posting of the Accepted Manuscript in a repository by the author(s) or with their consent.</license-p>
+            </license>
+         </permissions>
+         <abstract>
+            <title>ABSTRACT</title>
+            <p>Tree-related microhabitats (TreMs) are crucial for biodiversity, supporting thousands of species. Most TreM research has focused on temperate forests, prompting us to evaluate the TreM typology in the boreal biome. We aimed to: (i) identify factors influencing TreM occurrence on living trees, (ii) assess redundancy and complementarity of TreM supply among Scots pine, birch, and aspen in Fennoscandia, (iii) compare TreM occurrence between Fennoscandian and Canadian boreal forests, and (iv) determine the minimum sample size for assessing TreM diversity in large-scale inventories. We inventoried 1515 trees in long unmanaged forests across Fennoscandia and compared results with a Canadian dataset. Findings show that Scots pine, birch, and aspen support distinct and complementary TreM assemblages, emphasizing the importance of mixed stands for biodiversity. Over larger geographic areas, local plot context &#x2013; including climate, disturbance history, and biotic/abiotic factors &#x2013; was the main driver of TreM occurrence. Unlike temperate forests, tree diameter was not a significant driver in boreal forests. The variability of TreM assemblages within the boreal biome underscores the need for large sample sizes to accurately assess TreM diversity. Sampling 1000 trees is sufficient to assess the seven TreM forms, while a larger sample is required to capture all fifteen TreM groups.</p>
+         </abstract>
+         <kwd-group kwd-group-type="author">
+            <title>KEYWORDS</title>
+            <kwd>Tree-related microhabitats</kwd>
+            <kwd>TreMs</kwd>
+            <kwd>boreal forest</kwd>
+            <kwd>biodiversity</kwd>
+            <kwd>unmanaged forest</kwd>
+            <kwd>retention forestry</kwd>
+         </kwd-group>
+         <counts>
+            <fig-count count="1"/>
+            <table-count count="5"/>
+            <equation-count count="0"/>
+            <ref-count count="76"/>
+            <page-count count="11"/>
+            <word-count count="6482"/>
+         </counts>
+      </article-meta>
+   </front>
+</article>

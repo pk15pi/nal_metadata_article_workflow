@@ -1,0 +1,507 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Article PUBLIC "-//NLM//DTD PubMed 3.0//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/in/PubMed.dtd">
+<Article>
+    <Journal>
+      <PublisherName>Springer Berlin Heidelberg</PublisherName>
+      <JournalTitle>Eur. J. Wood Prod.</JournalTitle>
+      <Issn>0018-3768</Issn>
+      <Volume>83</Volume>
+      <Issue>3</Issue>
+      <PubDate PubStatus="ppublish">
+        <Year>2025</Year>
+        <Month>6</Month>
+      </PubDate>
+    </Journal>
+    <ArticleTitle>Identification of wood structure related vibrational characteristics of wooden plates from Norway spruce (Picea abies [L.] Karst.) by high resolution laser scans</ArticleTitle>
+    <FirstPage>98</FirstPage>
+    <LastPage>98</LastPage>
+    <Language>EN</Language>
+    <AuthorList>
+      <Author>
+        <FirstName>Oliver</FirstName>
+        <LastName>D&#252;nisch</LastName>
+        <AffiliationInfo>
+          <Affiliation>Master School for Carpentry and Cabinetmaking, Gleusdorfer Str. 14, D-96106, Ebern, Germany. duenisch@meisterschule-ebern.de</Affiliation>
+        </AffiliationInfo>
+      </Author>
+    </AuthorList>
+    <ArticleIdList>
+      <ArticleId IdType="doi">10.1007/s00107-025-02254-8</ArticleId>
+      <ArticleId IdType="pii">10.1007/s00107-025-02254-8</ArticleId>
+    </ArticleIdList>
+    <History>
+      <PubDate PubStatus="received">
+        <Year>2025</Year>
+        <Month>1</Month>
+        <Day>29</Day>
+      </PubDate>
+      <PubDate PubStatus="accepted">
+        <Year>2025</Year>
+        <Month>4</Month>
+        <Day>4</Day>
+      </PubDate>
+      <PubDate PubStatus="aheadofprint">
+        <Year>2025</Year>
+        <Month>4</Month>
+        <Day>19</Day>
+      </PubDate>
+    </History>
+    <Abstract>The vibrational behaviour of wooden plates of Norway spruce (Picea abies [L.] Karst.) was studied by means of a high resolution laser scanning system, which allowed vibration measurements with an accuracy of 0.6&#160;&#956;m, a spatial resolution of the measuring spots of 28.6&#160;&#956;m, and a sampling frequency of 10,000&#160;Hz. In total the vibration spectra of 10,760 measurement spots were analysed in terms of the number, frequencies, amplitudes, and damping of the overlapping natural oscillations. Special regard was given to the influence of the anatomical direction and the wood structure on the vibrational behaviour of the plates. In more than 70% of the vibration spectra two natural frequencies were present, while the other spectra showed indistinct vibration patterns. The anatomical direction of the wood had a significant influence on the vibrational behaviour in terms of the frequencies in absolute numbers as well as the amplitudes and the damping of the natural oscillations. Vibration spectra obtained from measurements in earlywood and latewood zones of the tree rings showed very similar characteristics, while measurements in zones with strong changes in tree ring widths and the presence of resin canals were often correlated with an increase of overlapping natural oscillations of indistinct frequencies, amplitudes, damping, and phase offset. The results indicate that the homogenous and highly organized cell structure in the wood of Norway spruce leads to distinct vibrational characteristics with two distinct overlapping natural frequencies. With regard to the use as resonance wood changes in tree ring widths and accumulations of resin canals are local defects, which have a negative impact on the vibrational properties of the wood.</Abstract>
+    <CopyrightInformation>&#169; 2025. The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature</CopyrightInformation>
+    <CoiStatement>Declarations. Competing interests: The authors declare no competing interests.</CoiStatement>
+    <ObjectList>
+      <Object Type="grant">
+        <Param Name="id">Digitalpakt Bayern</Param>
+        <Param Name="grantor">Bayerisches Staatsministerium f&#252;r Bildung und Kultus, Wissenschaft und Kunst</Param>
+      </Object>
+    </ObjectList>
+    <ReferenceList>
+      <Reference>
+        <Citation>Alkadri A, Carlier C, Wahyudi I, Gril J, Langbour P, Br&#233;maud I (2018) Relationships between anatomical and vibrational properties of wavy sycamore maple. IAWA J 39(1):63&#8211;86. 
+                  https://doi.org/10.1163/22941932-20170185
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1163/22941932-20170185</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Amabili M (2006) Theory and experiments of large-amplitude vibrations of rectangular plates with geometric imperfections. J Sound Vib 291:539&#8211;565. 
+                  https://doi.org/10.1016/j.jsv.2005.06.007
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.jsv.2005.06.007</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Aramaki M, Baill&#232;res H, Brancheriau L, Kronland-Martinet R, Ystad S (2007) Sound quality assessment of wood for xylophone bars. J Acoust Soc Am 121(4):2407&#8211;2420. 
+                  https://doi.org/10.1121/1.2697154
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1121/1.2697154</ArticleId>
+          <ArticleId IdType="pubmed">17471752</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Baar J, Tippner J, Gryc V (2013) The relation of fibre length and ray dimensions to sound propagation velocity in wood of selected hardwoods. IAWA J 34:49&#8211;60. 
+                  https://doi.org/10.1163/22941932-00000005
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1163/22941932-00000005</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Baar J, Tippner J, Gryc V (2016) Wood anatomy and acoustic properties of selected tropical hardwoods. IAWA J 37(1):69&#8211;83. 
+                  https://doi.org/10.1163/22941932-20160121
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1163/22941932-20160121</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Bader R, Plath N (2022) Impact of damping on Oscillation patterns on the plain piano soundboard. Acoustics 4:1013&#8211;1027. 
+                  https://doi.org/10.3390/acoustics4040062
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.3390/acoustics4040062</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Blossfeld O, Holz D (1984) &#220;ber die Aushaltung, sortierung und verwertung von Klangholz in der DDR (On the storage, sorting and utilisation of sound wood in the GDR). Sozial Forstw 34(3):90&#8211;91</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Br&#233;maud I (2006) Diversit&#233; des bois utilizes ou utilisables en facture d&#180;instruments de musique. &#201;tude exp&#233;rimentale des propri&#233;t&#233; vibratoires en direction axiale de types de bois contrast&#233;s en majorit&#233; tropicoux. Relations &#224; des determinants de microstructure et de composition chimique secondaire. (Diversity of woods used or usable in the manufacture of musical instruments. Experimental study of the vibrational properties in the axial direction of contrasting types of wood, most of which are tropical. Relationship to microstructure and secondary chemical composition determinants). PhD thesis, Universit&#233; Montpellier II</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Br&#233;maud I (2012) What do we know on resonance wood properties? Selective review and ongoing research. Societ&#233; Fran&#231;aise d&#180;Acoustique 2012, Nantes, France. 
+                  https://hal.archives-ouvertes.fr/hal-00811117
+                  
+                </Citation>
+      </Reference>
+      <Reference>
+        <Citation>Br&#233;maud I, ElKa&#239;m Y, Guibal D, Minato K, Thibaut B, Gril J (2012) Characterisation and categorisation in viscoelastic vibrational properties between 98 wood types. Ann Sci 69:373&#8211;386. 
+                  https://doi.org/10.1007/s13595-011-0166-z
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s13595-011-0166-z</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Br&#233;maud I, Ruelle J, Thibaut A, Thibaut B (2013) Changes in viscoelastic vibrational properties between compression and normal wood: roles of microfibril angle and of lignin. Holzforschung 67:75&#8211;85. 
+                  https://doi.org/10.1515/hf-2011-0186
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1515/hf-2011-0186</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Buchelt B, Kr&#252;ger R, Wagenf&#252;hr A (2023) The vibrational properties of native and thermally modified wood in dependence on its moisture content. Eur J Wood Prod 81(4):947&#8211;956. 
+                  https://doi.org/10.1007/s00107-022-01919-y
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00107-022-01919-y</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Bucur V (1980) Anatomical structure and some acoustical properties of resonance wood. Catgut Acoust Soc 33:24&#8211;29</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Bucur V (2006) Acoustics of wood. Springer, Berlin. 
+                  https://doi.org/10.1007/3-540-30594-7
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/3-540-30594-7</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Buksnowitz C, Teischinger A, M&#252;ller U, Pahler A, Evans R (2007) Resonance wood [Picea abies (L.) Karst.]&#8211; evaluation and prediction of violin makers&#180; quality grading. J Acoust Soc Am 121(4):2384&#8211;2395. 
+                  https://doi.org/10.1121/1.2434756
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1121/1.2434756</ArticleId>
+          <ArticleId IdType="pubmed">17471750</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Burckle L, Grissino-Mayer HD (2003) Stradivaris, violons, tree rings, and the Maunder minimum: a hypothesis. Dendrochronologia 21:41&#8211;45. 
+                  https://doi.org/10.1078/1125-7865-00033
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1078/1125-7865-00033</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Dumand P, Baddour N (2015) Experimental investigation on the mechanical properties and natural frequencies of simply supported Sitka Spruce plates. Wood Sci Technol 49(6):1137&#8211;1155. 
+                  https://doi.org/10.1007/s00226-015-0759-z
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00226-015-0759-z</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Dumont P, Monette D, Alladkani F, Akl J, Chikhaoui I (2019) Simplified setup for the vibration study of plates with simply-supported boundary conditions. MethodsX 6:2106&#8211;2117. 
+                  https://doi.org/10.1016/j.mex.2019.09.023
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.mex.2019.09.023</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>D&#252;nisch O (1993) &#220;ber die Bedeutung der Elementversorgung von Fichten (Picea abies [L.] Karst.) f&#252;r die Holzbildung (On the importance of the element supply for wood formation of spruce (Picea abies [L.] Karst.)). Dissertation Fachbereich Biologie Universit&#228;t Hamburg (PhD thesis), 204 p</Citation>
+      </Reference>
+      <Reference>
+        <Citation>D&#252;nisch O (2017) Relationship between anatomy and vibration behaviour of Softwoods and hardwoods. IAWA J 38(1):81&#8211;98. 
+                  https://doi.org/10.1163/22941932-20170158
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1163/22941932-20170158</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>D&#252;nisch O (2019) Frequencies in vibrating wood&#8211; Does cell organization matter? IAWA J 40:124&#8211;142. 
+                  https://doi.org/10.1163/22941932-40190239
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1163/22941932-40190239</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>D&#252;nisch O, Bauch J (1994) Influence of mineral elements on wood formation of old growth Spruce (Picea abies [L.] karst. Holzforschung 48:5&#8211;14. 
+                  https://doi.org/10.1515/hfsg.1994.48.s1.5
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1515/hfsg.1994.48.s1.5</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Endo K, Obataya E, Zeniya N, Matsuo M (2016) Effects of heating humidity on the physical properties of hydrothermally treated Spruce wood. Wood Sci Technol 50:1161&#8211;1179. 
+                  https://doi.org/10.1007/s00226-016-0822-4
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00226-016-0822-4</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Feng SY (1984) Some acoustical measurements on the Chinese musical instrument P&#180;i-P&#180;a. J Acoust Soc Am 75:599&#8211;602</Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1121/1.390533</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Fergus BJ, Procter AR, Scott JAN, Goring DAI (1969) The distribution of lignin in Sprucewood as determined by ultraviolet microscopy. Wood Sci Technol 3:117&#8211;138. 
+                  https://doi.org/10.1007/BF00639636
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/BF00639636</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Grabner M (2017) Werkholz: eigenschaften und historische nutzung 60 mitteleurop&#228;ischer Baum- und Straucharten (Timber: properties and historical use of 60 central European tree and shrub species). Kessel Verlag Remagen, p 160</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Haines ME (1979) On musical instrument wood. Catgut J Acoust Soc 31:23&#8211;32</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Haines D (2000) The essential mechanical properties of wood prepared for musical instruments. Catgut J Acoust Soc 4:20&#8211;32</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Jansson E (2002) Acoustics for violin and guitar makers. Chapter V: vibration properties of the wood and tuning of violin plates. Kungl Tekniska H&#246;gskolan, Stockholm, Sweden, p 38</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Kubojima Y, Okano T, Ohta M (1997) Effects of annual ring widths on structural and vibrational properties of wood. Mokuzai Gakkaishi 43(8):634&#8211;641</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Longui EL, de Lima I, Lombardi DR, Garcia N, Alves ES (2014) Woods with physical, mechanical and acoustic properties similar to those of Caesalpinia echinata have high potential as alternative woods for bow makers. Cerne 20(3):369&#8211;376. 
+                  https://doi.org/10.1590/01047760201420031345
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1590/01047760201420031345</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Manzo G, Tippner J, Zatloukal P (2021) Relationships between the macrostructure features and acoustic parameters of resonance Spruce for piano soundboards. Appl Sci 11(4):1749. 
+                  https://doi.org/10.3390/app11041749
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.3390/app11041749</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Michaelis W, Bauch J (1992) Luftverunreinigungen und Waldsch&#228;den am Standort Postturm, Forstamt Farchau/Ratzeburg (Air pollution and forest damage at the &#8216;Postturm&#8217; site, forest district Farchau/Ratzeburg). GKSS 100/E/92, 455 p</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Mih&#462;lcic&#462; M, Stanciu MD, Nastac SM, Dinulic&#462; F, Nauncef AM, Ro&#351;ca IC, Savin A (2021) Signature modes of old and new violins with symmetric anatomical wood structure. Appl Sci 11:11297. 
+                  https://doi.org/10.3390/app112311297
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.3390/app112311297</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Mork E (1928) Die qualit&#228;t des fichtenholzes unter besonderer R&#252;cksichtnahme auf Schliff- und Papierholz (The quality of Spruce wood with special regard to groundwood and pulpwood). Papier Fabr 26:741&#8211;747</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Neyses B, Sandberg D (2015) A new methodology to select hardwood species for wooden products. Wood Matter Sci Eng 10(4):344&#8211;352. 
+                  https://doi.org/10.1080/17480272.2015.1046919
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1080/17480272.2015.1046919</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Norimoto M (1982) Structure and properties of wood used for musical instruments. J Jap Wood Res Soc 28(7):407&#8211;413</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Obataya E, Ono T, Norimoto M (2000) Vibrational properties of wood along the grain. J Mater Sci 35:2993&#8211;3001. 
+                  https://doi.org/10.1023/A:1004782827844
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1023/A:1004782827844</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Phan NT, Auslender F, Grill J, Pitti RM (2024) Effects of cellulose fibril cross-linking on the mechanical behavior of wood at different scales. Wood Sci Technol 58:1555&#8211;1583. 
+                  https://doi.org/10.1007/s00226-024-01569-8
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00226-024-01569-8</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Richter HG (1988) Holz Als Rohstoff f&#252;r Den Musikinstrumentenbau (Wood as a Raw material for musical instruments). Moeck Verlag Celle, p 44</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Salm&#233;n L, Burgert I (2009) Cell wall features with regard to mechanical performance. A review. Holzforschung 63(2):121&#8211;129. 
+                  https://doi.org/10.1515/HF.2009.011
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1515/HF.2009.011</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Samusevich A, Lexa M, Vejpustkov&#225; M, Altmann J, Zeidler A (2020) Comparison of methods for the demarcation between earlywood and latewood in tree rings of Norway Spruce. Dendrochronologia 60:1&#8211;13. 
+                  https://doi.org/10.1016/j.dendro.2020.125686
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.dendro.2020.125686</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Schleske M (1990) Speed of sound and damping of Spruce in relation to the direction of grains and rays. J Catgut Acoust Soc 1:16&#8211;20</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Schwarze FWMR, Spycher M, Fink S (2008) Superior wood for violins&#8211; wood decay fungi as a substitute for cold climate. New Phytol 179:1095&#8211;1104. 
+                  https://doi.org/10.1111/j.1469-8137.2008.02524.x
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1111/j.1469-8137.2008.02524.x</ArticleId>
+          <ArticleId IdType="pubmed">18554266</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Sidonia Systems GmbH (2021): Schwingungsanalyse Version 1.0, Benutzerhandbuch und Software (Vibration analysis Version 1.0, user manual and software)</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Spycher M, Schwarze FWMR, Steiger R (2008) Assessement of resonance wood quality by comparing its physical and histological properties. Wood Sci Technol 42:325&#8211;342. 
+                  https://doi.org/10.1007/s00226-007-0170-5
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00226-007-0170-5</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Stanciu MD, Co&#351;ereanu C, Dinulic&#462; F, Bucur V (2020) Effect of wood species on vibration modes of violin plates. Eur J Wood Prod 78:785&#8211;799. 
+                  https://doi.org/10.1007/s00107-020-01538-5
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00107-020-01538-5</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Stanciu MD, Rosca IC, Mih&#462;lcic&#462; M, Bucur V (2022) Dynamic response of wooden plates in different stages of guitar manufacturing. Eur J Wood Prod 80:997&#8211;1013. 
+                  https://doi.org/10.1007/s00107-022-01817-3
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00107-022-01817-3</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Takabe K, Fukazawa K, Harada H (1989) Deposition of cell wall components in conifer tracheids. Plant Cell Wall Polymers: Biogenesis Biodegradation 399:47&#8211;66. 
+                  https://doi.org/10.2134/1993.foragecellwall.c24
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.2134/1993.foragecellwall.c24</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Viala R, Placet V, Cogan S (2021) Model-based evidence of the dominance of the guitar Brace design over material and Climatic variability for dynamic behaviors. Appl Acoust 182:108275. 
+                  https://doi.org/10.1016/j.apacoust.2021.108275
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.apacoust.2021.108275</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Viala R, Placet V, Folt&#519;te E, Cogan S (2024a) Model based ranking of the influence of geometry and materials on the dynamical behavior of the violin highlights predominance of geometrical choices. Sci Rep 14:29589. 
+                  https://doi.org/10.1038/s41598-024-79497-7
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1038/s41598-024-79497-7</ArticleId>
+          <ArticleId IdType="pubmed">39609457</ArticleId>
+          <ArticleId IdType="pmcid">11605094</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Viala R, Cabaret J, Sedighi-Gilani M, Placet V, Cogan S (2024b) Effect of indented growth rings on Spruce wood mechanical properties and subsequent violin dynamics. Holzforschung 78(3):189&#8211;201. 
+                  https://doi.org/10.1515/hf-2023-0090
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1515/hf-2023-0090</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Viljanen M, Ahvenainen P, Pentill&#228; P, Help H, Svedstr&#246;m K (2020) Ultrastuctural X-ray scattering studies of tropical and temperate hardwoods used as Tonewoods. IAWA J 41(3):301&#8211;319. 
+                  https://doi.org/10.1163/229441932-bja10010
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1163/229441932-bja10010</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Wagenf&#252;hr R, Wagenf&#252;hr A (2021) Holzatlas (Wood atlas). Carl Hanser Verlag GmbH &amp; Company KG</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Wegst UGK (2006) Wood for sound. Am J Bot 93(10):1439&#8211;1448. 
+                  https://doi.org/10.3732/ajb.93.10.1439
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.3732/ajb.93.10.1439</ArticleId>
+          <ArticleId IdType="pubmed">21642091</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Yano H, Minato K (1992) Improvement of the acoustic and hygroscopic properties of wood by a chemical treatment and application to the violin parts. J Acoust Soc Am 92(3):1222&#8211;1227. 
+                  https://doi.org/10.1121/1.403972
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1121/1.403972</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Yin F, Du Y, Li Z, Jiang J (2023) Water vapor sorption characteristics and hysteresis of earlywood and latewood within the same growth ring of Catalpa Bungei. Wood Sci Technol 57:507&#8211;521. 
+                  https://doi.org/10.1007/s00226-023-01457-7
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00226-023-01457-7</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Yoshikawa S (2007) Acoustical classification of woods for string instruments. J Acoust Soc Am 122(1):568&#8211;573. 
+                  https://doi.org/10.1121/1.2743162
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1121/1.2743162</ArticleId>
+          <ArticleId IdType="pubmed">17614512</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Yoshikawa S (2008) A comparison of string instruments based on wood properties. Biwa vs. cello. Acoust Sci Tech 29(1):41&#8211;50. 
+                  https://doi.org/10.1250/ast.29.41
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1250/ast.29.41</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Zauer M, Kowalewski A, Spro&#223;mann R, Stonjek H, Wagenf&#252;hr A (2016) Thermal modification of European Beech at relatively mild temperatures for the use in electric bass guitars. Eur J Wood Prod 74(1):43&#8211;48. 
+                  https://doi.org/10.1007/s00107-015-0973-2
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00107-015-0973-2</ArticleId>
+        </ArticleIdList>
+      </Reference>
+    </ReferenceList>
+  </Article>
+  

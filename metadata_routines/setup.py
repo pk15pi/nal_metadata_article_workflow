@@ -5,7 +5,7 @@ setup(
     packages=['mapper', 'splitter', 'citation',
               'metadata_quality_review', 'type_and_match',
               'pid_minter', 'citation_to_marc', 'annotate_subject_terms',
-              'article_staging', 'handle_minter'],
+              'article_staging', 'handle_minter', 'alma_s3'],
     url='https://github.com/USDA-REE-ARS/nal_metadata_article_workflow',
     license='Government Purpose Rights',
     author='Chuck Schoppet',

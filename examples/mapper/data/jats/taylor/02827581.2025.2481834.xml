@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN" "https://jats.nlm.nih.gov/nlm-dtd/archiving/3.0/archivearticle3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink"
+         article-type="research-article"
+         xml:lang="en"><!--
+input file: SFOR_A_2481834_J.xml
+processed with: d3p_header_nlm3_from_jats12.xsl
+version: 2.0
+darts-xml-transformations-20250326T224308 git hash: 0183536115
+-->
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="publisher-acronym">SFOR</journal-id>
+         <journal-id journal-id-type="publisher-id">sfor20</journal-id>
+         <journal-title-group>
+            <journal-title>Scandinavian Journal of Forest Research</journal-title>
+         </journal-title-group>
+         <issn pub-type="ppub">0282-7581</issn>
+         <issn pub-type="epub">1651-1891</issn>
+         <publisher>
+            <publisher-name>Taylor &amp; Francis</publisher-name>
+         </publisher>
+      </journal-meta>
+      <article-meta>
+         <article-id pub-id-type="publisher-id">2481834</article-id>
+         <article-id pub-id-type="doi">10.1080/02827581.2025.2481834</article-id>
+         <article-id pub-id-type="submission-id">249585749</article-id>
+         <article-categories>
+            <subj-group subj-group-type="heading">
+               <subject>Research Articles</subject>
+            </subj-group>
+            <subj-group subj-group-type="article-type">
+               <subject>Research Article</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Can extended rotations promote the reconciliation of multiple management goals set for production forests in Nordic countries?</article-title>
+            <alt-title alt-title-type="right-running-head">SCANDINAVIAN JOURNAL OF FOREST RESEARCH</alt-title>
+            <alt-title alt-title-type="left-running-head">J. HYNYNEN ET AL.</alt-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Jari</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Hynynen</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF1">a</xref>
+               <xref ref-type="corresp" rid="cor1">
+                  <sup>*</sup>
+               </xref>
+               <uri content-type="orcid">https://orcid.org/0000-0002-9132-8612</uri>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Narayanan</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Subramanian</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF2">b</xref>
+               <uri content-type="orcid">https://orcid.org/0000-0003-2777-3241</uri>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Clara</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Ant&#xf3;n-Fern&#xe1;ndez</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF3">c</xref>
+               <uri content-type="orcid">https://orcid.org/0000-0001-5545-3320</uri>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Soili</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Haikarainen</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF4">d</xref>
+               <uri content-type="orcid">https://orcid.org/0000-0001-8703-3689</uri>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Emma</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Holmstr&#xf6;m</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF2">b</xref>
+               <uri content-type="orcid">https://orcid.org/0000-0003-2025-1942</uri>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Micky</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Allen</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF5">e</xref>
+               <uri content-type="orcid">https://orcid.org/0000-0002-7824-2849</uri>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Saija</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Huuskonen</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF4">d</xref>
+               <uri content-type="orcid">https://orcid.org/0000-0001-8630-3982</uri>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Jouni</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Siipilehto</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF4">d</xref>
+               <uri content-type="orcid">https://orcid.org/0000-0002-5661-8972</uri>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Hannu</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Salminen</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF6">f</xref>
+               <uri content-type="orcid">https://orcid.org/0000-0002-6019-8165</uri>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Mika</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Lehtonen</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF4">d</xref>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Kjell</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Andreassen</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF3">c</xref>
+               <x xml:space="preserve"> &amp; </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Urban</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Nilsson</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF2">b</xref>
+               <uri content-type="orcid">https://orcid.org/0000-0002-7624-4031</uri>
+            </contrib>
+            <aff id="AF1">
+               <label>a </label>
+               <institution>Natural Resources Institute Finland (Luke)</institution>, <named-content content-type="city">Savonlinna</named-content>, <country>Finland</country>
+            </aff>
+            <aff id="AF2">
+               <label>b </label>
+               <institution>Southern Swedish Forest Research Centre</institution>, <institution>Swedish University of Agricultural Sciences (SLU)</institution>, <named-content content-type="city">Lomma</named-content>, <country>Sweden</country>
+            </aff>
+            <aff id="AF3">
+               <label>c </label>
+               <institution>Norwegian Institute of Bioeconomy Research (NIBIO)</institution>, <named-content content-type="city">&#xc5;s</named-content>, <country>Norway</country>
+            </aff>
+            <aff id="AF4">
+               <label>d </label>
+               <institution>Natural Resources Institute Finland (Luke)</institution>, <named-content content-type="city">Helsinki</named-content>, <country>Finland</country>
+            </aff>
+            <aff id="AF5">
+               <label>e </label>
+               <institution>Larson &amp; McGowin LLC</institution>, <named-content content-type="city">Mobile</named-content>, <named-content content-type="state">AL</named-content>, <country>USA</country>
+            </aff>
+            <aff id="AF6">
+               <label>f </label>
+               <institution>Natural Resources Institute Finland (Luke)</institution>, <named-content content-type="city">Rovaniemi</named-content>, <country>Finland</country>
+            </aff>
+         </contrib-group>
+         <author-notes>
+            <corresp id="cor1">
+               <label>CONTACT </label> Jari Hynynen <email xlink:href="jari.hynynen@luke.fi">jari.hynynen@luke.fi</email>
+               <institution>Natural Resources Institute Finland (Luke)</institution>, <addr-line>Vipusenkuja 5</addr-line>, <named-content content-type="city">Savonlinna</named-content>
+               <named-content content-type="postal-code">57200</named-content>, <country>Finland</country>
+            </corresp>
+         </author-notes>
+         <pub-date pub-type="ppub">
+            <day>19</day>
+            <month>05</month>
+            <year>2025</year>
+            <string-date>April - June 2025</string-date>
+         </pub-date>
+         <volume>40</volume>
+         <issue>3-4</issue>
+         <fpage seq="1">153</fpage>
+         <lpage>167</lpage>
+         <history>
+            <date date-type="received">
+               <day>14</day>
+               <month>3</month>
+               <year>2024</year>
+            </date>
+            <date date-type="accepted">
+               <day>15</day>
+               <month>3</month>
+               <year>2025</year>
+            </date>
+         </history>
+         <permissions>
+            <copyright-statement>&#xa9; 2025 The Author(s). Published by Informa UK Limited, trading as Taylor &amp; Francis Group</copyright-statement>
+            <copyright-year>2025</copyright-year>
+            <copyright-holder>The Author(s)</copyright-holder>
+            <license license-type="open-access"
+                     xlink:href="http://creativecommons.org/licenses/by/4.0/">
+               <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri"
+                            xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. The terms on which this article has been published allow the posting of the Accepted Manuscript in a repository by the author(s) or with their consent.</license-p>
+            </license>
+         </permissions>
+         <abstract>
+            <title>ABSTRACT</title>
+            <p>We studied the ability of extended rotations as a measure to promote sustainable management of production forests in Nordic countries. We carried out scenario analyses for three large forest regions in Southern Finland, Central Sweden, and South-Eastern Norway, where forestry has a high socioeconomic value. We analyzed the effects on wood production, carbon sequestration, and the amount of produced deadwood over the 50 years. In the reference scenario (BAU), the prevailing management of production forests was applied. In the scenario for extended rotations (EXT), rotation lengths were extended by 30 years, on average. We used data from national forest inventories to represent the current stage of the regions&#x2019; forests and produced future forecasts using local models, which have been widely applied in large-scale analyses. The increase in carbon sequestration and production of deadwood in production forests can be achieved by lengthening rotations but only at the expense of harvesting removals. The increase in annual carbon sequestration is between 0.7 and 1.6&#x2005;Mg&#x2005;CO<sub>2</sub>&#x2005;eq&#x2005;ha<sup>&#x2212;1</sup>. Natural mortality increases by 20&#x2013;30% along with the amount of deadwood by 0.15&#x2005;m<sup>3</sup>&#x2005;ha<sup>&#x2212;1</sup>&#x2005;a<sup>&#x2212;1</sup>, on average. The decrease in the mean annual harvesting removals varies from 0.4 to 1.6&#x2005;m<sup>3</sup>&#x2005;ha<sup>&#x2212;1</sup>&#x2005;a<sup>&#x2212;1</sup> from region to region.</p>
+         </abstract>
+         <kwd-group kwd-group-type="author">
+            <title>KEYWORDS</title>
+            <kwd>Forest management scenario</kwd>
+            <kwd>wood production</kwd>
+            <kwd>forest carbon storage</kwd>
+            <kwd>deadwood production</kwd>
+         </kwd-group>
+         <funding-group>
+            <award-group>
+               <funding-source>
+Nordic Forest Research (SNS)
+</funding-source>
+               <award-id>SNS-122</award-id>
+            </award-group>
+            <funding-statement>The research was initiated with the help of funding from the Nordic Forest Research (SNS) project &#x201c;Improving Simulation Tools for Assessing the Long-Term Responses of Forest Carbon Storage to Forest Management Alternatives in Nordic Countries&#x201d; [grant number SNS-122].</funding-statement>
+         </funding-group>
+         <counts>
+            <fig-count count="8"/>
+            <table-count count="2"/>
+            <equation-count count="0"/>
+            <ref-count count="75"/>
+            <page-count count="15"/>
+            <word-count count="7927"/>
+         </counts>
+      </article-meta>
+   </front>
+</article>

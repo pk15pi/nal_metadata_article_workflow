@@ -15,17 +15,19 @@ def create_directory(path: str) -> None:
 # Determine top level directory
 def determine_top_level_directory(citation_object, base: dict, article) -> str:
     # Determine the correct top-level folder based on citation source and status
+    ALMA_STAGING_DIR = os.environ.get('ALMA_STAGING_DIR')
+
     if article.import_type == "new_usda":
-            return os.path.join(base, 'ALMA_STAGING/NEW_USDA')
+            return os.path.join(base, ALMA_STAGING_DIR, 'NEW_USDA')
     
     elif article.import_type == "merge_usda":
-            return os.path.join(base, 'ALMA_STAGING/MERGE_USDA') 
+            return os.path.join(base, ALMA_STAGING_DIR, 'MERGE_USDA') 
     
     elif article.import_type == "new_publisher":
-        return os.path.join(base, 'ALMA_STAGING/NEW_PUBLISHER') 
+        return os.path.join(base, ALMA_STAGING_DIR, 'NEW_PUBLISHER') 
      
     elif article.import_type == "merge_publisher":
-        return os.path.join(base, 'ALMA_STAGING/MERGE_PUBLISHER')
+        return os.path.join(base, ALMA_STAGING_DIR, 'MERGE_PUBLISHER')
             
 
 

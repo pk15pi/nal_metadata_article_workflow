@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE issue-xml PUBLIC "-//Atypon//DTD Atypon JATS Journal Archiving and Interchange Issue XML DTD v1.0 20120831//EN" "JATS-1.0/Atypon-Issue-Xml.dtd">
+<issue-xml>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">zoos</journal-id>
+<journal-title-group>
+<journal-title>Zoosystema</journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1280-9551</issn>
+<publisher>
+<publisher-name>National Museum of Natural History</publisher-name>
+</publisher>
+</journal-meta>
+<issue-meta>
+<pub-date pub-type="ppub">
+<month>12</month>
+<year>2024</year>
+</pub-date>
+<volume>46</volume>
+<issue>31</issue>
+<issue-id pub-id-type="doi">10.5252/077.046.3100</issue-id>
+</issue-meta>
+</issue-xml>

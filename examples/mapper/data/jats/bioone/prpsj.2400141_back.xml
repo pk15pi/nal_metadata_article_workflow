@@ -1,0 +1,4124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/archiving/1.0/JATS-archivearticle1.dtd"[]>
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">jpal</journal-id>
+      <journal-title-group>
+        <journal-title>Paleontological Research</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1342-8144</issn>
+      <publisher>
+        <publisher-name>UniBio Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.2517/prpsj.2400141</article-id>
+      <title-group>
+        <article-title>Smithian-Aged (Early Triassic, Early Olenekian) Crinoid Ossicles from Exotic Limestone Blocks in the Lower Part of the Thaynes Formation at Crittenden Springs, Elko County, Nevada</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <string-name>
+            <given-names>Takumi</given-names>
+            <x></x>
+            <surname>Maekawa</surname>
+          </string-name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="corresp" rid="corr1">
+            <sup>*</sup>
+          </xref>
+          <x>, </x>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>
+            <given-names>James F.</given-names>
+            <x></x>
+            <surname>Jenks</surname>
+          </string-name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <aff id="aff1">
+          <label>
+            <sup>1</sup>
+          </label>Osaka Museum of Natural History, 1-23 Nagai Park, Higashi-sumiyoshi-ku, Osaka 546-0034, Japan</aff>
+        <aff id="aff2">
+          <label>
+            <sup>2</sup>
+          </label>1134 Johnson Ridge Lane, West Jordan, Utah 84084, United States of America</aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="corr1">
+          <label>
+            <sup>*</sup>
+          </label> Corresponding author: Takumi MAEKAWA (<email>t.m.127d@gmail.com</email>)</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>13</day>
+        <month>December</month>
+        <year>2024</year>
+      </pub-date>
+      <volume>29</volume>
+      <issue>1</issue>
+      <fpage>1</fpage>
+      <lpage>23</lpage>
+      <history>
+        <date date-type="received">
+          <day>19</day>
+          <month>June</month>
+          <year>2024</year>
+        </date>
+        <date date-type="accepted">
+          <day>2</day>
+          <month>September</month>
+          <year>2024</year>
+        </date>
+      </history>
+      <permissions>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p></license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="pdf" xlink:href="prpsj.2400141.pdf"></self-uri>
+      <abstract>
+        <title>ABSTRACT</title>
+        <p>We document the occurrence of Early Triassic (Olenekian) crinoid ossicles in exotic blocks contained within the black limestone unit of the Thaynes Formation, which overlies the Dinwoody Formation at the classic Crittenden Springs Smithian ammonoid locality. Crinoid ossicles include two species, i.e., <italic>Holocrinus</italic> sp. and Articulata ord., fam., gen. et sp. indet. Furthermore, two co-occurring, age diagnostic conodonts, i.e., <italic>Neospathodus pakistanensis</italic> and <italic>Ns</italic>. <italic>posterolongatus</italic>, constrain the age of the crinoids from the early Smithian to the earliest middle Smithian. This discovery represents the third report of Smithian Holocrinidae in the Panthalassan area and it provides important data for the study of crinoid recovery during the Early Triassic.</p>
+        <fig id="p01" position="float" fig-type="figure">
+          <graphic xlink:href="img-z1-12_01.jpg" />
+        </fig>
+      </abstract>
+      <kwd-group>
+        <title>Keywords<x>: </x></title>
+        <kwd>Conodont</kwd>
+        <x>, </x>
+        <kwd>Crinoid ossicles</kwd>
+        <x>, </x>
+        <kwd>Crittenden Springs</kwd>
+        <x>, </x>
+        <kwd>Smithian</kwd>
+        <x>, </x>
+        <kwd>Thaynes Formation</kwd>
+      </kwd-group>
+      <counts>
+        <page-count count="23" />
+      </counts>
+    </article-meta>
+  </front>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>Both authors acknowledge the kind support, encouragement and patience of Ruby Jenks (West Jordan, Utah) during this investigation. We thank Kevin G. Bylund (Spanish Fork, Utah), Daniel A. Stephen (Utah Valley University, Orem, Utah) and Noreen Kittrick (Salt Lake City, Utah) for their support on field trips. We are also grateful to Tatsuo Oji (Nagoya City Science Museum) and Frank Stiller (Nanjing Institute of Geology and Palaeontology, Chinese Academy of Sciences, Nanjing, China) and Atsushi Yabe (Editor-in-Chief of Paleontological Research) for their advanced comments on the draft. This research was financially supported by the 2015 annual research grant of the Tokyo Geographical Society, the 2019 annual research grant of the Fukada Geological Institute (Fukada Grant-in-Aid), the 2020 Nakatsuji Foresight Foundation Research Grant, and Grant-in-Aids for Young Research (KAKENHI) from the Japan Society for the promotion of Science (21K14036) to T. Maekawa. Fossil localities pertinent to this study at the classic Crittenden Springs site lie on US public land (Department of the Interior, Bureau of Land Management). This study was conducted under the auspices of BLM Paleontological Resources Use Permit N-97816. We thank the BLM for allowing access to the fossil sites.</p>
+      <p>This article is licensed under a Creative Commons [Attribution 4.0 International] license.</p>
+      <p>© 2024 The Authors.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="bibr01">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Abbate</surname>
+              <x>, </x>
+              <given-names>E.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Bortolotti</surname>
+              <x>, </x>
+              <given-names>V.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Passerini</surname>
+              <x>, </x>
+              <given-names>P.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1970</year>
+          <x>: </x>
+          <article-title>Olistostrome and olistoliths.</article-title>
+          <x></x>
+          <source>
+            <italic>Sedimentary Geology</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>4</volume>
+          <x>, p. </x>
+          <fpage>521</fpage>
+          <x>–</x>
+          <lpage>557</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr02">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Baud</surname>
+              <x>, </x>
+              <given-names>A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Brandner</surname>
+              <x>, </x>
+              <given-names>R.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Donofrio</surname>
+              <x>, </x>
+              <given-names>D. A.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1991</year>
+          <x>: </x>
+          <article-title>The Sefid Kuh Limestone–A late Lower Triassic carbonate ramp (Aghdarband, NE-Iran).</article-title>
+          <x></x>
+          <source>
+            <italic>Abhandlungen der Geologischen Bundesanstalt Wien</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>38</volume>
+          <x>, p. </x>
+          <fpage>111</fpage>
+          <x>–</x>
+          <lpage>123</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr03">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Beranek</surname>
+              <x>, </x>
+              <given-names>L. P.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Mortensen</surname>
+              <x>, </x>
+              <given-names>J. K.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Orchard</surname>
+              <x>, </x>
+              <given-names>M. J.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Ullrich</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2010</year>
+          <x>: </x>
+          <article-title>Provenance of North American Triassic strata from west-central and southeastern Yukon: correlations with coeval strata in the Western Canada Sedimentary Basin and Canadian Arctic Islands.</article-title>
+          <x></x>
+          <source>
+            <italic>Canadian Journal of Earth Science</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>47</volume>
+          <x>, p. </x>
+          <fpage>53</fpage>
+          <x>–</x>
+          <lpage>73</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr04">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Beyers</surname>
+              <x>, </x>
+              <given-names>J. N.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Orchard</surname>
+              <x>, </x>
+              <given-names>M. J.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1991</year>
+          <x>: </x>
+          <article-title>Upper Permian and Triassic conodont faunas from the type area of the Cache Creek Complex, south-central British Columbia, Canada.</article-title>
+          <x></x>
+          <source>
+            <italic>Geological Survey of Canada Bulletin</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>417</volume>
+          <x>, p. </x>
+          <fpage>269</fpage>
+          <x>–</x>
+          <lpage>297</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr05">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Bondarenko</surname>
+              <x>, </x>
+              <given-names>L. G.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Buryi</surname>
+              <x>, </x>
+              <given-names>G. I.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Zakharov</surname>
+              <x>, </x>
+              <given-names>Y. D.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Bushkareva</surname>
+              <x>, </x>
+              <given-names>X. Y.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Popov</surname>
+              <x>, </x>
+              <given-names>A. M.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2013</year>
+          <x>: </x>
+          <article-title>Late Smithian (Early Triassic) conodonts from Artyom, South Primorye, Russian Far East.</article-title>
+          <x></x>
+          <source>
+            <italic>Bulletin of the New Mexico Museum of Natural History and Science</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>61</volume>
+          <x>, p. </x>
+          <fpage>55</fpage>
+          <x>–</x>
+          <lpage>66</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr06">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Brayard</surname>
+              <x>, </x>
+              <given-names>A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Bucher</surname>
+              <x>, </x>
+              <given-names>H.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Escarguel</surname>
+              <x>, </x>
+              <given-names>G.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Fluteau</surname>
+              <x>, </x>
+              <given-names>F.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Bourquin</surname>
+              <x>, </x>
+              <given-names>S.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Galfetti</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2006</year>
+          <x>: </x>
+          <article-title>The Early Triassic ammonoid recovery: paleo-climatic significance of diversity gradients.</article-title>
+          <x></x>
+          <source>
+            <italic>Palaeogeography</italic>, <italic>Palaeoclimatology</italic>, <italic>Palaeoecology</italic></source>
+          <x>, vol. </x>
+          <volume>239</volume>
+          <x>, p. </x>
+          <fpage>374</fpage>
+          <x>–</x>
+          <lpage>395</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr07">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Brayard</surname>
+              <x>, </x>
+              <given-names>A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Bylund</surname>
+              <x>, </x>
+              <given-names>K. G.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Jenks</surname>
+              <x>, </x>
+              <given-names>J. F.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Stephen</surname>
+              <x>, </x>
+              <given-names>D. A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Olivier</surname>
+              <x>, </x>
+              <given-names>N.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Escarguel</surname>
+              <x>, </x>
+              <given-names>G.</given-names>
+            </string-name>
+          </person-group>
+          <x>
+            <italic>et al.</italic>, </x>
+          <year>2013</year>
+          <x>: </x>
+          <article-title>Smithian ammonoid faunas from Utah: implications for Early Triassic biostratigraphy, correlation and basinal paleogeography.</article-title>
+          <x></x>
+          <source>
+            <italic>Swiss Journal of Palaeontology</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>132</volume>
+          <x>, p. </x>
+          <fpage>141</fpage>
+          <x>–</x>
+          <lpage>219</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr08">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Brayard</surname>
+              <x>, </x>
+              <given-names>A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Escarguel</surname>
+              <x>, </x>
+              <given-names>G.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Bucher</surname>
+              <x>, </x>
+              <given-names>H.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Brühwiler</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2009</year>
+          <x>: </x>
+          <article-title>Smithian and Spathian (Early Triassic) ammonoid assemblages from terranes: paleoceanographic and paleogeographic implications.</article-title>
+          <x></x>
+          <source>
+            <italic>Journal of Asian Earth Sciences</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>36</volume>
+          <x>, p. </x>
+          <fpage>420</fpage>
+          <x>–</x>
+          <lpage>433</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr09">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Brayard</surname>
+              <x>, </x>
+              <given-names>A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Krumenacker</surname>
+              <x>, </x>
+              <given-names>L. J.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Botting</surname>
+              <x>, </x>
+              <given-names>J. P.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Jenks</surname>
+              <x>, </x>
+              <given-names>J. F.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Bylund</surname>
+              <x>, </x>
+              <given-names>K. G.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Fara</surname>
+              <x>, </x>
+              <given-names>E.</given-names>
+            </string-name>
+            <x></x>
+            <etal>
+              <italic>et al.</italic>
+            </etal>
+            <x>, </x>
+          </person-group>
+          <year>2017</year>
+          <x>: </x>
+          <article-title>Unexpected Early Triassic marine ecosystem and the rise of the Modern evolutionary fauna.</article-title>
+          <x></x>
+          <source>
+            <italic>Science Advances</italic>
+          </source>
+          <x>, </x>
+          <comment>doi:10.1126/sciadv.1602159</comment>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr10">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Brosse</surname>
+              <x>, </x>
+              <given-names>M.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Bucher</surname>
+              <x>, </x>
+              <given-names>H.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Baud</surname>
+              <x>, </x>
+              <given-names>A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Frisk</surname>
+              <x>, </x>
+              <given-names>A. M.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Goudemand</surname>
+              <x>, </x>
+              <given-names>N.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Hagdorn</surname>
+              <x>, </x>
+              <given-names>H.</given-names>
+            </string-name>
+          </person-group>
+          <x>
+            <italic>et al.</italic>, </x>
+          <year>2019</year>
+          <x>: </x>
+          <article-title>New data from Oman indicate benthic high biomass productivity coupled with low taxonomic diversity in the aftermath of the Permian-Triassic boundary mass extinction.</article-title>
+          <x></x>
+          <source>
+            <italic>Lethaia</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>52</volume>
+          <x>, p. </x>
+          <fpage>165</fpage>
+          <x>–</x>
+          <lpage>187</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr11">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Bui</surname>
+              <x>, </x>
+              <given-names>D. T.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1989</year>
+          <x>: </x>
+          <article-title>Lower Triassic conodonts from North Vietnam.</article-title>
+          <x></x>
+          <source>
+            <italic>Acta Palaeontologica Polonica</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>34</volume>
+          <x>, p. </x>
+          <fpage>391</fpage>
+          <x>–</x>
+          <lpage>416</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr12">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Buryi</surname>
+              <x>, </x>
+              <given-names>G. I.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1979</year>
+          <x>: </x>
+          <source>
+            <italic>Lower Triassic Conodonts of South Primorye</italic>
+          </source>
+          <x>, </x>
+          <fpage>144</fpage>
+          <x> p. </x>
+          <publisher-name>Akademiya Nauk SSSR, Sibirskoye Otdeleniye, Institut Geologii i Geofiziki</publisher-name>
+          <x>, </x>
+          <publisher-loc>Moskva</publisher-loc>
+          <x>. (</x>
+          <comment>
+            <italic>in Russian; original title translated</italic>
+          </comment>
+          <x>)</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr13">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Buryi</surname>
+              <x>, </x>
+              <given-names>G. I.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Zharnikova</surname>
+              <x>, </x>
+              <given-names>N. K.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1981</year>
+          <x>: </x>
+          <article-title>Ammonoids from the <italic>Tirolites</italic> Zone of South Primorye.</article-title>
+          <x></x>
+          <source>
+            <italic>Paleontologicheskii Zhurnal</italic>
+          </source>
+          <x>, </x>
+          <volume>1981</volume>
+          <x>, p. </x>
+          <fpage>61</fpage>
+          <x>–</x>
+          <lpage>69</lpage>
+          <x>, </x>
+          <comment>pls. 7–8</comment>
+          <x>. (</x>
+          <comment>
+            <italic>in Russian; original title translated</italic>
+          </comment>
+          <x>)</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr14">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Cao</surname>
+              <x>, </x>
+              <given-names>Y. L.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Wang</surname>
+              <x>, </x>
+              <given-names>Z.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1993</year>
+          <x>: </x>
+          <article-title>Triassic conodonts biostratigraphy and lithofacies paleogeography. Triassic conodont biostratigraphy section bearing conodonts. Triassic conodont biostratigraphy.</article-title>
+          <x></x>
+          <comment>
+            <italic>In</italic>
+          </comment>
+          <x>, </x>
+          <person-group person-group-type="editor">
+            <string-name>
+              <surname>Wang</surname>
+              <x>, </x>
+              <given-names>C.</given-names>
+            </string-name>
+          </person-group>
+          <x>
+            <italic>ed</italic>., </x>
+          <source>
+            <italic>Conodonts of Lower Yangtze Valley—an Index to Biostratigraphy and Organic Metamorphic Maturity</italic>
+          </source>
+          <x>, p. </x>
+          <fpage>103</fpage>
+          <x>–</x>
+          <lpage>117</lpage>
+          <x>. </x>
+          <publisher-name>Science Press</publisher-name>
+          <x>, </x>
+          <publisher-loc>Beijing</publisher-loc>
+          <x>. (</x>
+          <comment>
+            <italic>in Chinese; original title translated</italic>
+          </comment>
+          <x>)</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr15">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Carr</surname>
+              <x>, </x>
+              <given-names>T. R.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1981</year>
+          <x>: </x>
+          <source>Paleogeography, depositional history and conodont paleoecology of the Lower Triassic Thaynes Formation in the Cordilleran miogeosyncline [PhD thesis</source>
+          <x>], </x>
+          <fpage>210</fpage>
+          <x> p. </x>
+          <publisher-name>University of Wisconsin-Madison</publisher-name>
+          <x>, </x>
+          <publisher-loc>Madison</publisher-loc>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr16">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Clark</surname>
+              <x>, </x>
+              <given-names>D. L.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1957</year>
+          <x>: </x>
+          <article-title>Marine Triassic stratigraphy in eastern Great Basin.</article-title>
+          <x></x>
+          <source>
+            <italic>Bulletin of the American Association of Petroleum Geologists</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>41</volume>
+          <x>, p. </x>
+          <fpage>2192</fpage>
+          <x>–</x>
+          <lpage>2222</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr17">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Clark</surname>
+              <x>, </x>
+              <given-names>D. L.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1959</year>
+          <x>: </x>
+          <article-title>Conodonts from the Triassic of Nevada and Utah.</article-title>
+          <x></x>
+          <source>
+            <italic>Journal of Paleontology</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>33</volume>
+          <x>, p. </x>
+          <fpage>305</fpage>
+          <x>–</x>
+          <lpage>312</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr18">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Clark</surname>
+              <x>, </x>
+              <given-names>D. L.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Carr</surname>
+              <x>, </x>
+              <given-names>T. R.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1984</year>
+          <x>: </x>
+          <article-title>Conodont biofacies and biostartigraphic schemes in western North America: A model.</article-title>
+          <x></x>
+          <comment>
+            <italic>In</italic>
+          </comment>
+          <x>, </x>
+          <person-group person-group-type="editor">
+            <string-name>
+              <surname>Clark</surname>
+              <x>, </x>
+              <given-names>D. L.</given-names>
+            </string-name>
+          </person-group>
+          <x>
+            <italic>ed</italic>., </x>
+          <source>
+            <italic>Conodont Biofacies and Provincialism</italic>
+          </source>
+          <x>, p. </x>
+          <fpage>1</fpage>
+          <x>–</x>
+          <lpage>10</lpage>
+          <x>. </x>
+          <publisher-name>Geological Society of America Special Paper 196, The Geological Society of America, Inc</publisher-name>
+          <x>., </x>
+          <publisher-loc>Boulder</publisher-loc>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr19">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Clark</surname>
+              <x>, </x>
+              <given-names>W. B.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1915</year>
+          <x>: </x>
+          <article-title>Part I.—The Mesozoic Echinodermata.</article-title>
+          <x></x>
+          <comment>
+            <italic>In</italic>
+          </comment>
+          <x>, </x>
+          <person-group person-group-type="editor">
+            <string-name>
+              <surname>Clark</surname>
+              <x>, </x>
+              <given-names>W. B.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Twitchell</surname>
+              <x>, </x>
+              <given-names>M. W.</given-names>
+            </string-name>
+          </person-group>
+          <x>
+            <italic>eds.</italic>, </x>
+          <source>
+            <italic>The Mesozoic and Cenozoic Echinodermata of the United States</italic>
+          </source>
+          <x>, p. </x>
+          <fpage>9</fpage>
+          <x>–</x>
+          <lpage>100</lpage>
+          <x>. </x>
+          <publisher-name>Monographs of the United States Geological Survey,</publisher-name>
+          <x> vol. </x>
+          <volume>54</volume>
+          <x>, </x>
+          <publisher-name>Washington Government Printing Office</publisher-name>
+          <x>, </x>
+          <publisher-loc>Washington DC</publisher-loc>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr20">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Dagis</surname>
+              <x>, </x>
+              <given-names>A. A.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1984</year>
+          <x>: </x>
+          <article-title>Early Triassic conodonts of northern middle Siberia.</article-title>
+          <x></x>
+          <source>
+            <italic>Academy of Sciences of the USSR</italic>, <italic>Siberian Branch</italic>, <italic>Institute of Geology and Geographics</italic>, <italic>Transactions</italic></source>
+          <x>, vol. </x>
+          <volume>554</volume>
+          <x>, p. </x>
+          <fpage>3</fpage>
+          <x>–</x>
+          <lpage>69</lpage>
+          <x>. (</x>
+          <comment>
+            <italic>in Russian with English title</italic>
+          </comment>
+          <x>)</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr21">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Dunham</surname>
+              <x>, </x>
+              <given-names>R. J.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1962</year>
+          <x>: </x>
+          <article-title>Classification of carbonate rocks according to depositional texture.</article-title>
+          <x></x>
+          <comment>
+            <italic>In</italic>
+          </comment>
+          <x>, </x>
+          <person-group person-group-type="editor">
+            <string-name>
+              <surname>Ham</surname>
+              <x>, </x>
+              <given-names>E. W.</given-names>
+            </string-name>
+          </person-group>
+          <x>
+            <italic>ed</italic>., </x>
+          <source>
+            <italic>Classification of Carbonate Rocks</italic>
+          </source>
+          <x>, p. </x>
+          <fpage>108</fpage>
+          <x>–</x>
+          <lpage>121</lpage>
+          <x>. </x>
+          <publisher-name>American Association of Petroleum Geologists</publisher-name>
+          <x>, </x>
+          <publisher-loc>Tulsa</publisher-loc>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr22">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Dzik</surname>
+              <x>, </x>
+              <given-names>J.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1976</year>
+          <x>: </x>
+          <article-title>Remarks on the evolution of Ordovician conodonts.</article-title>
+          <x></x>
+          <source>
+            <italic>Acta Palaeontologica Polonica</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>21</volume>
+          <x>, p. </x>
+          <fpage>395</fpage>
+          <x>–</x>
+          <lpage>453</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr23">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Eichenberg</surname>
+              <x>, </x>
+              <given-names>W.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1930</year>
+          <x>: </x>
+          <article-title>Conodonten aus dem Culm des Harzes.</article-title>
+          <x></x>
+          <source>
+            <italic>Paläontologische Zeitschrift</italic>, Band</source>
+          <x></x>
+          <volume>12</volume>
+          <x>, p. </x>
+          <fpage>177</fpage>
+          <x>–</x>
+          <lpage>182</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr24">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Epstein</surname>
+              <x>, </x>
+              <given-names>A. G.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Epstein</surname>
+              <x>, </x>
+              <given-names>J. B.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Harris</surname>
+              <x>, </x>
+              <given-names>L. D.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1977</year>
+          <x>: </x>
+          <article-title>Conodont color alteration—an index to organic metamorphism.</article-title>
+          <x></x>
+          <source>
+            <italic>United States Geological Survey Professional Paper</italic>
+          </source>
+          <x>, </x>
+          <volume>995</volume>
+          <x>, p. </x>
+          <fpage>1</fpage>
+          <x>–</x>
+          <lpage>27</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr25">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Foster</surname>
+              <x>, </x>
+              <given-names>W. J.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Danise</surname>
+              <x>, </x>
+              <given-names>S.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Sedlacek</surname>
+              <x>, </x>
+              <given-names>A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Price</surname>
+              <x>, </x>
+              <given-names>G. D.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Hips</surname>
+              <x>, </x>
+              <given-names>K.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Twitchett</surname>
+              <x>, </x>
+              <given-names>R. J.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2015</year>
+          <x>: </x>
+          <article-title>Environmental controls on the post-Permian recovery of benthic, tropical marine ecosystems in western Palaeotethys (Aggtelek Karst, Hungary).</article-title>
+          <x></x>
+          <source>
+            <italic>Palaeogeography</italic>, <italic>Palaeoclimatology</italic>, <italic>Palaeoecology</italic></source>
+          <x>, vol. </x>
+          <volume>440</volume>
+          <x>, p. </x>
+          <fpage>374</fpage>
+          <x>–</x>
+          <lpage>394</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr26">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Foster</surname>
+              <x>, </x>
+              <given-names>W. J.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Lehrmann</surname>
+              <x>, </x>
+              <given-names>D. J.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Hirtz</surname>
+              <x>, </x>
+              <given-names>J. A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>White</surname>
+              <x>, </x>
+              <given-names>M.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Yu</surname>
+              <x>, </x>
+              <given-names>M.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Li</surname>
+              <x>, </x>
+              <given-names>J.</given-names>
+            </string-name>
+          </person-group>
+          <x>
+            <italic>et al.</italic>, </x>
+          <year>2019</year>
+          <x>: </x>
+          <article-title>Early Triassic benthic invertebrates from the Great Bank of Guizhou, South China: systematic palaeontology and palaeobiology.</article-title>
+          <x></x>
+          <source>
+            <italic>Papers in Palaeontology</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>5</volume>
+          <x>, p. </x>
+          <fpage>613</fpage>
+          <x>–</x>
+          <lpage>656</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr27">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Galfetti</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Bucher</surname>
+              <x>, </x>
+              <given-names>H.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Martini</surname>
+              <x>, </x>
+              <given-names>R.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Hochuli</surname>
+              <x>, </x>
+              <given-names>P. A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Weissert</surname>
+              <x>, </x>
+              <given-names>H.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Crasquin-Soleau</surname>
+              <x>, </x>
+              <given-names>S.</given-names>
+            </string-name>
+            <x></x>
+            <etal>
+              <italic>et al.</italic>
+            </etal>
+            <x>, </x>
+          </person-group>
+          <year>2008</year>
+          <x>: </x>
+          <article-title>Evolution of Early Triassic outer platform paleoenvironments in the Nanpanjiang Basin (South China) and their significance for the biotic recovery.</article-title>
+          <x></x>
+          <source>
+            <italic>Sedimentary Geology</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>204</volume>
+          <x>, p. </x>
+          <fpage>36</fpage>
+          <x>–</x>
+          <lpage>60</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr28">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Geol</surname>
+              <x>, </x>
+              <given-names>R. J.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1977</year>
+          <x>: </x>
+          <article-title>Triassic conodonts from Spiti (Himachal Pradesh), India.</article-title>
+          <x></x>
+          <source>
+            <italic>Journal of Paleontology</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>51</volume>
+          <x>, p. </x>
+          <fpage>1085</fpage>
+          <x>–</x>
+          <lpage>1101</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr29">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Goodspeed</surname>
+              <x>, </x>
+              <given-names>T. H.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Lucas</surname>
+              <x>, </x>
+              <given-names>S. G.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2007</year>
+          <x>: </x>
+          <article-title>Stratigraphy, sedimentology, and sequence stratigraphy of the Lower Triassic Sinbad Formation, San Rafael Swell, Utah.</article-title>
+          <x></x>
+          <source>
+            <italic>Bulletin of the New Mexico Museum of Natural History and Science</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>40</volume>
+          <x>, p. </x>
+          <fpage>91</fpage>
+          <x>–</x>
+          <lpage>102</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr30">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Gorzelak</surname>
+              <x>, </x>
+              <given-names>P.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Salamon</surname>
+              <x>, </x>
+              <given-names>M. A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Brom</surname>
+              <x>, </x>
+              <given-names>K.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Oji</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Oguri</surname>
+              <x>, </x>
+              <given-names>K.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Kołbuk</surname>
+              <x>, </x>
+              <given-names>D.</given-names>
+            </string-name>
+            <x></x>
+            <etal>
+              <italic>et al.</italic>
+            </etal>
+            <x>, </x>
+          </person-group>
+          <year>2020</year>
+          <x>: </x>
+          <article-title>Experimental neoichnology of post-autotomy arm movements of sea lilies and possible evidence of thrashing behavior in Triassic holocrinids.</article-title>
+          <x></x>
+          <source>
+            <italic>Scientific Reports</italic>
+          </source>
+          <x>, </x>
+          <comment>doi:10.1038/s41598-020-72116-1</comment>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr31">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Goudemand</surname>
+              <x>, </x>
+              <given-names>N.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2014</year>
+          <x>: </x>
+          <article-title>Note on the conodonts from the Induan-Olenekian boundary.</article-title>
+          <x></x>
+          <source>
+            <italic>Albertiana</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>42</volume>
+          <x>, p. </x>
+          <fpage>49</fpage>
+          <x>–</x>
+          <lpage>51</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr32">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Hagdorn</surname>
+              <x>, </x>
+              <given-names>H.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2011</year>
+          <x>: </x>
+          <article-title>Triassic: the crucial period of post-Palaeozoic crinoid diversification.</article-title>
+          <x></x>
+          <source>
+            <italic>Swiss Journal of Palaeontology</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>130</volume>
+          <x>, p. </x>
+          <fpage>91</fpage>
+          <x>–</x>
+          <lpage>112</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr33">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Han</surname>
+              <x>, </x>
+              <given-names>C.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Orchard</surname>
+              <x>, </x>
+              <given-names>M. J.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Wu</surname>
+              <x>, </x>
+              <given-names>S.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Zhao</surname>
+              <x>, </x>
+              <given-names>L.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Chen</surname>
+              <x>, </x>
+              <given-names>Z-Q.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Golding</surname>
+              <x>, </x>
+              <given-names>M. L.</given-names>
+            </string-name>
+            <x></x>
+            <etal>
+              <italic>et al.</italic>
+            </etal>
+            <x>, </x>
+          </person-group>
+          <year>2022</year>
+          <x>: </x>
+          <article-title>Improved taxonomic definition based on the ontogenetic series of Griesbachian-Dienerian conodonts from the Early Triassic of northwestern Pakistan.</article-title>
+          <x></x>
+          <source>
+            <italic>Global and Planetary Change</italic>
+          </source>
+          <x>, </x>
+          <comment>doi:10.1016/j.gloplacha.2021.103703</comment>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr34">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Hatleberg</surname>
+              <x>, </x>
+              <given-names>E. W.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Clark</surname>
+              <x>, </x>
+              <given-names>D. L.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1984</year>
+          <x>: </x>
+          <article-title>Lower Triassic conodonts and biofacies interpretations: Nepal and Svalbard.</article-title>
+          <x></x>
+          <source>
+            <italic>Geologica et Palaeontologica</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>18</volume>
+          <x>, p. </x>
+          <fpage>101</fpage>
+          <x>–</x>
+          <lpage>125</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr35">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Hess</surname>
+              <x>, </x>
+              <given-names>H.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Messing</surname>
+              <x>, </x>
+              <given-names>C. G.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2011</year>
+          <x>: </x>
+          <source>
+            <italic>Treatise on Invertebrate Paleontology</italic>, <italic>Part T</italic>, <italic>Echinodermata 2</italic>, <italic>Revised Crinoidea</italic></source>
+          <x>
+            <italic>Volume</italic>
+          </x>
+          <volume>3</volume>
+          <x>, </x>
+          <fpage>261</fpage>
+          <x> p. </x>
+          <publisher-name>The University of Kansas Paleontological Institute</publisher-name>
+          <x>, </x>
+          <publisher-loc>Lawrence</publisher-loc>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr36">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Hirsch</surname>
+              <x>, </x>
+              <given-names>F.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1994</year>
+          <x>: </x>
+          <article-title>Triassic conodonts as ecological and eustatic sensors.</article-title>
+          <x></x>
+          <comment>
+            <italic>In</italic>
+          </comment>
+          <x>, </x>
+          <person-group person-group-type="editor">
+            <string-name>
+              <surname>Embry</surname>
+              <x>, </x>
+              <given-names>A. F.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Beauchamp</surname>
+              <x>, </x>
+              <given-names>B.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Glass</surname>
+              <x>, </x>
+              <given-names>D. J.</given-names>
+            </string-name>
+          </person-group>
+          <x>
+            <italic>eds</italic>., </x>
+          <source>
+            <italic>Pangea: Global Environments and Resources</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>17</volume>
+          <x>, p. </x>
+          <fpage>949</fpage>
+          <x>–</x>
+          <lpage>959</lpage>
+          <x>. </x>
+          <publisher-name>Memoir of the Canadian Society of Petroleum Geologists</publisher-name>
+          <x>, </x>
+          <publisher-loc>Alberta</publisher-loc>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr37">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Hofmann</surname>
+              <x>, </x>
+              <given-names>R.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Hautmann</surname>
+              <x>, </x>
+              <given-names>M.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Wasmer</surname>
+              <x>, </x>
+              <given-names>M.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Bucher</surname>
+              <x>, </x>
+              <given-names>H.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2013</year>
+          <x>: </x>
+          <article-title>Palaeoecology of the Spathian Virgin Formation (Utah, USA) and its implications for the Early Triassic recovery.</article-title>
+          <x></x>
+          <source>
+            <italic>Acta Palaeontologica Polonica</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>58</volume>
+          <x>, p. </x>
+          <fpage>149</fpage>
+          <x>–</x>
+          <lpage>173</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr38">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Hounslow</surname>
+              <x>, </x>
+              <given-names>M. W.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Sun</surname>
+              <x>, </x>
+              <given-names>Z.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Zhao</surname>
+              <x>, </x>
+              <given-names>L.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Pei</surname>
+              <x>, </x>
+              <given-names>J.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Tong</surname>
+              <x>, </x>
+              <given-names>J.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2017</year>
+          <x>: </x>
+          <article-title>Lower Triassic bio-magnetostratigraphy from the late Permian to the early Olenekian from the Daxiakou Section (Hubei Province, China).</article-title>
+          <x></x>
+          <source>
+            <italic>Geo Alp</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>14</volume>
+          <x>, p. </x>
+          <fpage>121</fpage>
+          <x>–</x>
+          <lpage>123</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr39">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Huckriede</surname>
+              <x>, </x>
+              <given-names>R.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1958</year>
+          <x>: </x>
+          <article-title>Die Conodonten der mediterranen Trias und ihr stratigraphischer Wert.</article-title>
+          <x></x>
+          <source>
+            <italic>Paläontologische Zeitschrift</italic>, Band</source>
+          <x></x>
+          <volume>32</volume>
+          <x>, p. </x>
+          <fpage>141</fpage>
+          <x>–</x>
+          <lpage>175</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr40">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Igo</surname>
+              <x>, </x>
+              <given-names>H.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2009</year>
+          <x>: </x>
+          <article-title>Conodonts.</article-title>
+          <x></x>
+          <comment>
+            <italic>In</italic>
+          </comment>
+          <x>, </x>
+          <person-group person-group-type="editor">
+            <string-name>
+              <surname>Shigeta</surname>
+              <x>, </x>
+              <given-names>Y.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Zakharov</surname>
+              <x>, </x>
+              <given-names>Y. D.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Maeda</surname>
+              <x>, </x>
+              <given-names>H.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Popov</surname>
+              <x>, </x>
+              <given-names>M. A.</given-names>
+            </string-name>
+          </person-group>
+          <x>
+            <italic>eds</italic>., </x>
+          <source>
+            <italic>Lower Triassic System in the Abrek Bay area</italic>, <italic>South Primorye</italic></source>
+          <x>, p. </x>
+          <fpage>181</fpage>
+          <x>–</x>
+          <lpage>196</lpage>
+          <x>. </x>
+          <publisher-name>National Museum of Nature and Science Monographs, no. 38, Kokusai Bunken Insatsusha Co., Ltd.</publisher-name>
+          <x>, </x>
+          <publisher-loc>Tokyo</publisher-loc>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr41">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Jaekel</surname>
+              <x>, </x>
+              <given-names>O.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1918</year>
+          <x>: </x>
+          <article-title>Phylogenie und System der Pelmatozoen.</article-title>
+          <x></x>
+          <source>
+            <italic>Paläontologische Zeitschrift</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>3</volume>
+          <x>, p. </x>
+          <fpage>1</fpage>
+          <x>–</x>
+          <lpage>128</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr42">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Jenks</surname>
+              <x>, </x>
+              <given-names>J. F.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2007</year>
+          <x>: </x>
+          <article-title>Smithian (Early Triassic) ammonoid biostratigraphy at Crittenden Springs, Elko County, Nevada and a new ammonoid from the <italic>Meekoceras gracilitatis</italic> Zone.</article-title>
+          <x></x>
+          <source>
+            <italic>Bulletin of the New Mexico Museum of Natural History and Science</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>40</volume>
+          <x>, p. </x>
+          <fpage>81</fpage>
+          <x>–</x>
+          <lpage>90</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr43">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Jenks</surname>
+              <x>, </x>
+              <given-names>J. F.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Brayard</surname>
+              <x>, </x>
+              <given-names>A.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2018</year>
+          <x>: </x>
+          <article-title>Smithian (Early Triassic) ammonoids from Crittenden Springs, Elko County, Nevada: Taxonomy, Biostratigraphy and Biogeography.</article-title>
+          <x></x>
+          <source>
+            <italic>Bulletin of the New Mexico Museum of Natural History and Science</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>78</volume>
+          <x>, p. </x>
+          <fpage>1</fpage>
+          <x>–</x>
+          <lpage>175</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr44">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Jenks</surname>
+              <x>, </x>
+              <given-names>J. F.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Brayard</surname>
+              <x>, </x>
+              <given-names>A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Brühwiler</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Bucher</surname>
+              <x>, </x>
+              <given-names>H.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2010</year>
+          <x>: </x>
+          <article-title>New Smithian (Early Triassic) ammonoids from Crittenden Springs, Elko County, Nevada: Implications for taxonomy, biostratigraphy and biogeography.</article-title>
+          <x></x>
+          <source>
+            <italic>Bulletin of the New Mexico Museum of Natural History and Science</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>48</volume>
+          <x>, p. </x>
+          <fpage>1</fpage>
+          <x>–</x>
+          <lpage>41</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr45">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Jenks</surname>
+              <x>, </x>
+              <given-names>J. F.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Guex</surname>
+              <x>, </x>
+              <given-names>J.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Hungerbühler</surname>
+              <x>, </x>
+              <given-names>A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Taylor</surname>
+              <x>, </x>
+              <given-names>D. G.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Bucher</surname>
+              <x>, </x>
+              <given-names>H.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2013</year>
+          <x>: </x>
+          <article-title>Ammonoid biostratigraphy of the early Spathian <italic>Columbites parisianus</italic> Zone (Early Triassic) at Bear Lake Hot Springs, Idaho.</article-title>
+          <x></x>
+          <source>
+            <italic>Bulletin of the New Mexico Museum of Natural History and Science</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>61</volume>
+          <x>, p. </x>
+          <fpage>268</fpage>
+          <x>–</x>
+          <lpage>283</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr46">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Jenks</surname>
+              <x>, </x>
+              <given-names>J. F.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Maekawa</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Ware</surname>
+              <x>, </x>
+              <given-names>D.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Shigeta</surname>
+              <x>, </x>
+              <given-names>Y.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Brayard</surname>
+              <x>, </x>
+              <given-names>A.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Bylund</surname>
+              <x>, </x>
+              <given-names>K. G.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2021</year>
+          <x>: </x>
+          <article-title>Late Griesbachian (Early Triassic) ammonoids and nautiloids from the Dinwoody Formation at Crittenden Springs, Elko County, Nevada.</article-title>
+          <x></x>
+          <source>
+            <italic>Bulletin of the New Mexico Museum of Natural History and Science</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>86</volume>
+          <x>, p. </x>
+          <fpage>1</fpage>
+          <x>–</x>
+          <lpage>23</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr47">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Kaim</surname>
+              <x>, </x>
+              <given-names>A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Nützel</surname>
+              <x>, </x>
+              <given-names>A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Hautmann</surname>
+              <x>, </x>
+              <given-names>M.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Bucher</surname>
+              <x>, </x>
+              <given-names>H.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2013</year>
+          <x>: </x>
+          <article-title>Early Triassic gastropods from Salt Range, Pakistan.</article-title>
+          <x></x>
+          <source>
+            <italic>Bulletin of Geosciences</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>88</volume>
+          <x>, p. </x>
+          <fpage>505</fpage>
+          <x>–</x>
+          <lpage>516</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr48">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Kashiyama</surname>
+              <x>, </x>
+              <given-names>Y.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Oji</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2004</year>
+          <x>: </x>
+          <article-title>Low-diversity shallow marine benthic fauna from the Smithian of northeast Japan: paleoecologic and paleobiogeographic implications.</article-title>
+          <x></x>
+          <source>
+            <italic>Paleontological Research</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>8</volume>
+          <x>, p. </x>
+          <fpage>199</fpage>
+          <x>–</x>
+          <lpage>218</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr49">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Kobayashi</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Ichikawa</surname>
+              <x>, </x>
+              <given-names>K.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1951</year>
+          <x>: </x>
+          <article-title>The Triassic Fauna.</article-title>
+          <x></x>
+          <comment>
+            <italic>In</italic>
+          </comment>
+          <x>, </x>
+          <person-group person-group-type="editor">
+            <string-name>
+              <surname>Mitsuchi</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+          </person-group>
+          <x>
+            <italic>ed</italic>., </x>
+          <source>
+            <italic>Triassic Stratigraphy of Japan</italic>, <italic>Report Special Number</italic></source>
+          <x>, p. </x>
+          <fpage>4</fpage>
+          <x>–</x>
+          <lpage>7</lpage>
+          <x>. </x>
+          <publisher-name>Geological Survey of Japan</publisher-name>
+          <x>, </x>
+          <publisher-loc>Tokyo</publisher-loc>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr50">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Komatsu</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Naruse</surname>
+              <x>, </x>
+              <given-names>H.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Shigeta</surname>
+              <x>, </x>
+              <given-names>Y.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Takashima</surname>
+              <x>, </x>
+              <given-names>R.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Maekawa</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Dang</surname>
+              <x>, </x>
+              <given-names>T. H.</given-names>
+            </string-name>
+            <x></x>
+            <etal>
+              <italic>et al.</italic>
+            </etal>
+            <x>, </x>
+          </person-group>
+          <year>2014</year>
+          <x>: </x>
+          <article-title>Lower Triassic mixed carbonate and siliciclastic setting with Smithian-Spathian anoxic to dysoxic facies, An Chau Basin, northeastern Vietnam.</article-title>
+          <x></x>
+          <source>
+            <italic>Sedimentary Geology</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>300</volume>
+          <x>, p. </x>
+          <fpage>28</fpage>
+          <x>–</x>
+          <lpage>48</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr51">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Krystyn</surname>
+              <x>, </x>
+              <given-names>L.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Brandner</surname>
+              <x>, </x>
+              <given-names>R.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Horacek</surname>
+              <x>, </x>
+              <given-names>M.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Richoz</surname>
+              <x>, </x>
+              <given-names>S.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2017a</year>
+          <x>: </x>
+          <article-title>A species of the <italic>Eurygnathodus costatus</italic> morphocline as important auxiliary conodont marker for the <italic>waageni</italic>-date definition of the IOB in low palaeolatitudes.</article-title>
+          <x></x>
+          <source>
+            <italic>Geo Alp</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>14</volume>
+          <x>, p. </x>
+          <fpage>125</fpage>
+          <x>–</x>
+          <lpage>126</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr52">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Krystyn</surname>
+              <x>, </x>
+              <given-names>L.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Orchard</surname>
+              <x>, </x>
+              <given-names>M.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Richoz</surname>
+              <x>, </x>
+              <given-names>S.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2017b</year>
+          <x>: </x>
+          <article-title>Revised conodont and ammonoid biochronology of the <italic>N</italic>. <italic>waageni</italic>-date based IOB in the GSSP candidate section of Mud (Spiti, Himalaya).</article-title>
+          <x></x>
+          <source>
+            <italic>Geo Alp</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>14</volume>
+          <x>, p. </x>
+          <fpage>127</fpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr53">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Kummel</surname>
+              <x>, </x>
+              <given-names>B.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1954</year>
+          <x>: </x>
+          <article-title>Triassic stratigraphy of southeastern Idaho and adjacent areas.</article-title>
+          <x></x>
+          <source>
+            <italic>U.S. Geological Survey Professional Paper</italic>
+          </source>
+          <x>, </x>
+          <volume>254-H</volume>
+          <x>, p. </x>
+          <fpage>165</fpage>
+          <x>–</x>
+          <lpage>189</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr54">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Kummel</surname>
+              <x>, </x>
+              <given-names>B.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1957</year>
+          <x>: </x>
+          <article-title>Paleoecology of Lower Triassic formations of southeastern Idaho and adjacent areas.</article-title>
+          <x></x>
+          <source>
+            <italic>Geological Society of America Memoir</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>67</volume>
+          <x>, p. </x>
+          <fpage>437</fpage>
+          <x>–</x>
+          <lpage>468</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr55">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Kummel</surname>
+              <x>, </x>
+              <given-names>B.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Steele</surname>
+              <x>, </x>
+              <given-names>G.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1962</year>
+          <x>: </x>
+          <article-title>Ammonites from the <italic>Meekoceras gracilitatus</italic> Zone at Crittenden Springs, Elko County, Nevada.</article-title>
+          <x></x>
+          <source>
+            <italic>Journal of Paleontology</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>36</volume>
+          <x>, p. </x>
+          <fpage>638</fpage>
+          <x>–</x>
+          <lpage>703</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr56">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Lindström</surname>
+              <x>, </x>
+              <given-names>M.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1970</year>
+          <x>: </x>
+          <article-title>A suprageneric taxonomy of the conodonts.</article-title>
+          <x></x>
+          <source>
+            <italic>Lethaia</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>3</volume>
+          <x>, p. </x>
+          <fpage>427</fpage>
+          <x>–</x>
+          <lpage>445</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr57">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Lucas</surname>
+              <x>, </x>
+              <given-names>S. G.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Goodspeed</surname>
+              <x>, </x>
+              <given-names>T. H.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Estep</surname>
+              <x>, </x>
+              <given-names>J. W.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2007a</year>
+          <x>: </x>
+          <article-title>Ammonoid biostratigraphy of the Lower Triassic Sinbad Formation, East-Central Utah.</article-title>
+          <x></x>
+          <source>
+            <italic>Bulletin of the New Mexico Museum of Natural History and Science</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>40</volume>
+          <x>, p. </x>
+          <fpage>103</fpage>
+          <x>–</x>
+          <lpage>108</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr58">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Lucas</surname>
+              <x>, </x>
+              <given-names>S. G.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Krainer</surname>
+              <x>, </x>
+              <given-names>K.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Milner</surname>
+              <x>, </x>
+              <given-names>A. R. C.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2007b</year>
+          <x>: </x>
+          <article-title>The type section and age of the Timpoweap member and stratigraphic nomenclature of the Triassic Moenkopi Group in southwestern Utah.</article-title>
+          <x></x>
+          <source>
+            <italic>Bulletin of the New Mexico Museum of Natural History and Science</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>40</volume>
+          <x>, p. </x>
+          <fpage>109</fpage>
+          <x>–</x>
+          <lpage>117</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr59">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Lucas</surname>
+              <x>, </x>
+              <given-names>S. G.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Orchard</surname>
+              <x>, </x>
+              <given-names>M. J.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2007</year>
+          <x>: </x>
+          <article-title>Triassic lithostratigraphy and biostratigraphy north of Currie, Elko Couty, Nevada.</article-title>
+          <x></x>
+          <source>
+            <italic>Bulletin of the New Mexico Museum of Natural History and Science</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>40</volume>
+          <x>, p. </x>
+          <fpage>119</fpage>
+          <x>–</x>
+          <lpage>126</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr60">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Maekawa</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Igo</surname>
+              <x>, </x>
+              <given-names>H.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2014</year>
+          <x>: </x>
+          <article-title>Conodonts.</article-title>
+          <x></x>
+          <comment>
+            <italic>In</italic>
+          </comment>
+          <x>, </x>
+          <person-group person-group-type="editor">
+            <string-name>
+              <surname>Shigeta</surname>
+              <x>, </x>
+              <given-names>Y.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Komatsu</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Maekawa</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Dang</surname>
+              <x>, </x>
+              <given-names>T. H.</given-names>
+            </string-name>
+          </person-group>
+          <x>
+            <italic>eds</italic>., </x>
+          <source>
+            <italic>Olenekian (Early Triassic) Stratigraphy and Fossil Assemblages in Northeastern Vietnam</italic>
+          </source>
+          <x>, p. </x>
+          <fpage>190</fpage>
+          <x>–</x>
+          <lpage>271</lpage>
+          <x>, </x>
+          <publisher-name>National Museum of Nature and Science Monographs, no. 45, Kokusai Bunken Insatsusha Co., Ltd.</publisher-name>
+          <x>, </x>
+          <publisher-loc>Tokyo</publisher-loc>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr61">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Maekawa</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Jenks</surname>
+              <x>, </x>
+              <given-names>J. F.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2021</year>
+          <x>: </x>
+          <article-title>Smithian (Olenekian, Early Triassic) conodonts from ammonoid-bearing limestone blocks at Crittenden Springs, Elko County, Nevada, USA.</article-title>
+          <x></x>
+          <source>
+            <italic>Paleontological Research</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>25</volume>
+          <x>, p. </x>
+          <fpage>201</fpage>
+          <x>–</x>
+          <lpage>245</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr62">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Maekawa</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Komatsu</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Koike</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2018</year>
+          <x>: </x>
+          <article-title>Early Triassic conodonts from the Tahogawa Member of the Taho Formation, Ehime Prefecture, Southwest Japan.</article-title>
+          <x></x>
+          <source>
+            <italic>Paleontological Research</italic>, supplement</source>
+          <x> to vol. </x>
+          <volume>22</volume>
+          <x>, p. </x>
+          <fpage>1</fpage>
+          <x>–</x>
+          <lpage>62</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr63">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Maekawa</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Komatsu</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Shigeta</surname>
+              <x>, </x>
+              <given-names>Y.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Dang</surname>
+              <x>, </x>
+              <given-names>H. T.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Ding</surname>
+              <x>, </x>
+              <given-names>T. C.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2015</year>
+          <x>: </x>
+          <article-title>First occurrence of Early Triassic conodonts from the Lang Son Formation, northeastern Vietnam.</article-title>
+          <x></x>
+          <source>
+            <italic>Paleontological Research</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>19</volume>
+          <x>, p. </x>
+          <fpage>312</fpage>
+          <x>–</x>
+          <lpage>320</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr64">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Matsuda</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1983</year>
+          <x>: </x>
+          <article-title>Early Triassic conodonts from Kashmir, India, part 3: <italic>Neospathodus</italic> 2.</article-title>
+          <x></x>
+          <source>
+            <italic>Journal of Geosciences</italic>
+          </source>
+          <x>, </x>
+          <publisher-name>
+            <italic>Osaka City University</italic>
+          </publisher-name>
+          <x>, vol. </x>
+          <volume>26</volume>
+          <x>, p. </x>
+          <fpage>87</fpage>
+          <x>–</x>
+          <lpage>110</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr65">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>McTavish</surname>
+              <x>, </x>
+              <given-names>B. R.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1973</year>
+          <x>: </x>
+          <article-title>Triassic conodont faunas from Western Australia.</article-title>
+          <x></x>
+          <source>
+            <italic>Neues Jahrbuch für Geologie und Paläontologie</italic>, <italic>Abhandlungen</italic>, Band</source>
+          <x></x>
+          <volume>143</volume>
+          <x>, p. </x>
+          <fpage>275</fpage>
+          <x>–</x>
+          <lpage>303</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr66">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Metcalfe</surname>
+              <x>, </x>
+              <given-names>I.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Nicoll</surname>
+              <x>, </x>
+              <given-names>R. S.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Willink</surname>
+              <x>, </x>
+              <given-names>R.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Ladjavadi</surname>
+              <x>, </x>
+              <given-names>M.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Grice</surname>
+              <x>, </x>
+              <given-names>K.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2012</year>
+          <x>: </x>
+          <article-title>Early Triassic (Induan–Olenekian) conodont biostratigraphy, global anoxia, carbon isotope excursions and environmental perturbations: New data from Western Australian Gondwana.</article-title>
+          <x></x>
+          <source>
+            <italic>Gondwana Research</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>23</volume>
+          <x>, p. </x>
+          <fpage>1136</fpage>
+          <x>–</x>
+          <lpage>1150</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr67">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Miller</surname>
+              <x>, </x>
+              <given-names>J. S.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1821</year>
+          <x>: </x>
+          <source>
+            <italic>A natural history of the Crinoidea</italic>, <italic>or lily-shaped animals</italic>; <italic>with observations on the genera Asteria</italic>, <italic>Euryale</italic>, <italic>Comatula</italic>, <italic>and Marsupites</italic></source>
+          <x>, </x>
+          <fpage>150</fpage>
+          <x> p. </x>
+          <publisher-name>Bryan and Co. City Printing Office</publisher-name>
+          <x>, </x>
+          <publisher-loc>Bristol</publisher-loc>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr68">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Mosher</surname>
+              <x>, </x>
+              <given-names>L. C.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1968</year>
+          <x>: </x>
+          <article-title>Triassic conodonts from western North America and Europe and their correlation.</article-title>
+          <x></x>
+          <source>
+            <italic>Journal of Paleontology</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>42</volume>
+          <x>, p. </x>
+          <fpage>895</fpage>
+          <x>–</x>
+          <lpage>946</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr69">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Mullen</surname>
+              <x>, </x>
+              <given-names>D. M.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1985</year>
+          <x>: </x>
+          <source>Structure and stratigraphy of Triassic rocks in the Long Canyon area, northeastern Elko County, Nevada [Master course thesis</source>
+          <x>], </x>
+          <fpage>75</fpage>
+          <x> p. </x>
+          <publisher-name>University of Wisconsin-Milwaukee</publisher-name>
+          <x>, </x>
+          <publisher-loc>Milwaukee</publisher-loc>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr70">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Müller</surname>
+              <x>, </x>
+              <given-names>K. J.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1956</year>
+          <x>: </x>
+          <article-title>Triassic conodonts from Nevada.</article-title>
+          <x></x>
+          <source>
+            <italic>Journal of Paleontology</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>30</volume>
+          <x>, p. </x>
+          <fpage>818</fpage>
+          <x>–</x>
+          <lpage>830</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr71">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Oji</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2009</year>
+          <x>: </x>
+          <article-title>Crinoids.</article-title>
+          <x></x>
+          <comment>
+            <italic>In</italic>
+          </comment>
+          <x>, </x>
+          <person-group person-group-type="editor">
+            <string-name>
+              <surname>Shigeta</surname>
+              <x>, </x>
+              <given-names>Y.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Zakharov</surname>
+              <x>, </x>
+              <given-names>Y. D.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Maeda</surname>
+              <x>, </x>
+              <given-names>H.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Popov</surname>
+              <x>, </x>
+              <given-names>M. A.</given-names>
+            </string-name>
+          </person-group>
+          <x>
+            <italic>eds</italic>., </x>
+          <source>
+            <italic>Lower Triassic System in the Abrek Bay area</italic>, <italic>South Primorye</italic></source>
+          <x>, p. </x>
+          <fpage>180</fpage>
+          <x>–</x>
+          <lpage>181</lpage>
+          <x>. </x>
+          <publisher-name>National Museum of Nature and Science Monographs, no. 38, Kokusai Bunkensha Co., Ltd.</publisher-name>
+          <x>, </x>
+          <publisher-loc>Tokyo</publisher-loc>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr72">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Oji</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Twichett</surname>
+              <x>, </x>
+              <given-names>R. J.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2015</year>
+          <x>: </x>
+          <article-title>The oldest post-Palaeozoic crinoid and Permian-Triassic origins of the Articulata (Echinodermata).</article-title>
+          <x></x>
+          <source>
+            <italic>Zoological Science</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>32</volume>
+          <x>, p. </x>
+          <fpage>211</fpage>
+          <x>–</x>
+          <lpage>215</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr73">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Orchard</surname>
+              <x>, </x>
+              <given-names>M. J.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2005</year>
+          <x>: </x>
+          <article-title>Multielement conodont apparatuses of Triassic Gondolelloidea.</article-title>
+          <x></x>
+          <source>
+            <italic>Special Papers in Palaeontology</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>73</volume>
+          <x>, p. </x>
+          <fpage>73</fpage>
+          <x>–</x>
+          <lpage>101</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr74">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Orchard</surname>
+              <x>, </x>
+              <given-names>M. J.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2007a</year>
+          <x>: </x>
+          <article-title>Conodont diversity and evolution through the latest Permian and Early Triassic upheavals.</article-title>
+          <x></x>
+          <source>
+            <italic>Palaeogeography</italic>, <italic>Palaeoclimatology</italic>, <italic>Palaeoecology</italic></source>
+          <x>, vol. </x>
+          <volume>252</volume>
+          <x>, p. </x>
+          <fpage>93</fpage>
+          <x>–</x>
+          <lpage>117</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr75">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Orchard</surname>
+              <x>, </x>
+              <given-names>M. J.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2007b</year>
+          <x>: </x>
+          <article-title>Report on 2007 conodont collections from the Mud</article-title>
+          <x>, </x>
+          <source>Spiti. <italic>Albertiana</italic></source>
+          <x>, vol. </x>
+          <volume>36</volume>
+          <x>, p. </x>
+          <fpage>46</fpage>
+          <x>–</x>
+          <lpage>49</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr76">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Orchard</surname>
+              <x>, </x>
+              <given-names>M. J.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2008</year>
+          <x>: </x>
+          <article-title>Lower Triassic conodonts from the Canadian Arctic, their intercalibration with ammonoid-based stages and a comparison with other North American Olenekian faunas.</article-title>
+          <x></x>
+          <source>
+            <italic>Polar Research</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>27</volume>
+          <x>, p. </x>
+          <fpage>393</fpage>
+          <x>–</x>
+          <lpage>412</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr77">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Orchard</surname>
+              <x>, </x>
+              <given-names>M. J.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Krystyn</surname>
+              <x>, </x>
+              <given-names>L.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2007</year>
+          <x>: </x>
+          <article-title>Conodonts from the Induan-Olenekian boundary interval at Mud</article-title>
+          <x>, </x>
+          <source>Spiti. <italic>Albertiana</italic></source>
+          <x>, vol. </x>
+          <volume>35</volume>
+          <x>, p. </x>
+          <fpage>30</fpage>
+          <x>–</x>
+          <lpage>34</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr78">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Orchard</surname>
+              <x>, </x>
+              <given-names>M. J.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Zonneveld</surname>
+              <x>, </x>
+              <given-names>J. P.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2009</year>
+          <x>: </x>
+          <article-title>The Lower Triassic Sulphur Mountain Formation in the Wapiti Lake area: lithostratigraphy, conodont biostratigraphy, and a new biozonation for the lower Olenekian (Smithian).</article-title>
+          <x></x>
+          <source>
+            <italic>Canadian Journal of Earth Science</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>46</volume>
+          <x>, p. </x>
+          <fpage>757</fpage>
+          <x>–</x>
+          <lpage>790</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr79">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Paull</surname>
+              <x>, </x>
+              <given-names>R. K.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1980</year>
+          <x>: </x>
+          <source>Conodont biostratigraphy of the Lower Triassic Dinwoody Formation in northwestern Utah, northeastern Nevada and southeastern Idaho [PhD thesis</source>
+          <x>], </x>
+          <fpage>186</fpage>
+          <x> p. </x>
+          <publisher-name>University of Wisconsin-Madison</publisher-name>
+          <x>, </x>
+          <publisher-loc>Madison</publisher-loc>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr80">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Paull</surname>
+              <x>, </x>
+              <given-names>R. K.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1983</year>
+          <x>: </x>
+          <article-title>Definition and stratigraphic significance of the Lower Triassic (Smithian) conodont <italic>Gladigondolella meeki</italic> n. sp. in the western United States.</article-title>
+          <x></x>
+          <source>
+            <italic>Journal of Paleontology</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>57</volume>
+          <x>, p. </x>
+          <fpage>188</fpage>
+          <x>–</x>
+          <lpage>192</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr81">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Péron</surname>
+              <x>, </x>
+              <given-names>S.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Bourquin</surname>
+              <x>, </x>
+              <given-names>S.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Fluteau</surname>
+              <x>, </x>
+              <given-names>F.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Guillocheau</surname>
+              <x>, </x>
+              <given-names>F.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2005</year>
+          <x>: </x>
+          <article-title>Paleoenvironment reconstructions and climate simulations of the Early Triassic: impact of the water and sediment supply on the preservation of fluvial system.</article-title>
+          <x></x>
+          <source>
+            <italic>Geodinamica Acta</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>18</volume>
+          <x>, p. </x>
+          <fpage>431</fpage>
+          <x>–</x>
+          <lpage>446</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr82">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Picard</surname>
+              <x>, </x>
+              <given-names>K.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1883</year>
+          <x>: </x>
+          <article-title>Über eine neue Crinoiden-Art aus dem Muschelkalk der Hainleite bei Sondershausen.</article-title>
+          <x></x>
+          <source>
+            <italic>Zeitschrift der Deutschen Geologischen Gesellschaft</italic>, Band</source>
+          <x></x>
+          <volume>35</volume>
+          <x>, p. </x>
+          <fpage>199</fpage>
+          <x>–</x>
+          <lpage>202</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr83">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Purnell</surname>
+              <x>, </x>
+              <given-names>M. A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Donoghue</surname>
+              <x>, </x>
+              <given-names>P. C. J.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Aldridge</surname>
+              <x>, </x>
+              <given-names>R. J.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2000</year>
+          <x>: </x>
+          <article-title>Orientation and anatomical notation in conodonts.</article-title>
+          <x></x>
+          <source>
+            <italic>Journal of Paleontology</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>74</volume>
+          <x>, p. </x>
+          <fpage>113</fpage>
+          <x>–</x>
+          <lpage>122</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr84">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Salamon</surname>
+              <x>, </x>
+              <given-names>M. A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Gorzelak</surname>
+              <x>, </x>
+              <given-names>P.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Hanken</surname>
+              <x>, </x>
+              <given-names>N.-M.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Riise</surname>
+              <x>, </x>
+              <given-names>H. E.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Ferré</surname>
+              <x>, </x>
+              <given-names>B.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2015</year>
+          <x>: </x>
+          <article-title>Crinoids from Svalbard in the aftermath of the end-Permian mass extinction.</article-title>
+          <x></x>
+          <source>
+            <italic>Polish Polar Research</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>36</volume>
+          <x>, p. </x>
+          <fpage>225</fpage>
+          <x>–</x>
+          <lpage>238</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr85">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Sano</surname>
+              <x>, </x>
+              <given-names>H.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Nakashima</surname>
+              <x>, </x>
+              <given-names>K.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1997</year>
+          <x>: </x>
+          <article-title>Lowermost Triassic (Griesbachian) microbial bindstone-cementstone facies, Southwest Japan.</article-title>
+          <x></x>
+          <source>
+            <italic>Facies</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>36</volume>
+          <x>, p. </x>
+          <fpage>1</fpage>
+          <x>–</x>
+          <lpage>24</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr86">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Saucéde</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Smith</surname>
+              <x>, </x>
+              <given-names>C.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Olivier</surname>
+              <x>, </x>
+              <given-names>N.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Durlet</surname>
+              <x>, </x>
+              <given-names>C.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Gueriau</surname>
+              <x>, </x>
+              <given-names>P.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Thoury</surname>
+              <x>, </x>
+              <given-names>M.</given-names>
+            </string-name>
+            <x></x>
+            <etal>
+              <italic>et al.</italic>
+            </etal>
+            <x>, </x>
+          </person-group>
+          <year>2023</year>
+          <x>: </x>
+          <article-title>A new Early Triassic crinoid from Nevada questions the origin and palaeobiogeographical history of dadocrinids.</article-title>
+          <x></x>
+          <source>
+            <italic>Acta Palaeontologica Polonica</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>68</volume>
+          <x>, p. </x>
+          <fpage>155</fpage>
+          <x>–</x>
+          <lpage>166</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr87">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Schubert</surname>
+              <x>, </x>
+              <given-names>J. K.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Bottjer</surname>
+              <x>, </x>
+              <given-names>D. J.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Simms</surname>
+              <x>, </x>
+              <given-names>M. J.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1992</year>
+          <x>: </x>
+          <article-title>Paleobiology of the oldest known articulate crinoid.</article-title>
+          <x></x>
+          <source>
+            <italic>Lethaia</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>25</volume>
+          <x>, p. </x>
+          <fpage>97</fpage>
+          <x>–</x>
+          <lpage>110</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr88">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Shigeta</surname>
+              <x>, </x>
+              <given-names>Y.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Komatsu</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Maekawa</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Dang</surname>
+              <x>, </x>
+              <given-names>T. H.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2014</year>
+          <x>: </x>
+          <source>
+            <italic>Olenekian (Early Triassic) Stratigraphy and Fossil Assemblages in Northeastern Vietnam</italic>
+          </source>
+          <x>, </x>
+          <fpage>309</fpage>
+          <x> p. </x>
+          <source>National Museum of Nature and Science Monographs, no. 45</source>
+          <x>, </x>
+          <publisher-name>Kokusai Bunkensha Co., Ltd.</publisher-name>
+          <x>, </x>
+          <publisher-loc>Tokyo</publisher-loc>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr89">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Shigeta</surname>
+              <x>, </x>
+              <given-names>Y.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Nakajima</surname>
+              <x>, </x>
+              <given-names>Y.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2017</year>
+          <x>: </x>
+          <article-title>Discovery of the early Spathian (late Olenekian, Early Triassic) ammonoid <italic>Tirolites</italic> in the Hiraiso Formation, South Kitakami Belt, Northeast Japan.</article-title>
+          <x></x>
+          <source>
+            <italic>Paleontological Research</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>21</volume>
+          <x>, p. </x>
+          <fpage>37</fpage>
+          <x>–</x>
+          <lpage>43</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr90">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Shigeta</surname>
+              <x>, </x>
+              <given-names>Y.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Zakharov</surname>
+              <x>, </x>
+              <given-names>Y. D.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Maeda</surname>
+              <x>, </x>
+              <given-names>H.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Popov</surname>
+              <x>, </x>
+              <given-names>M. A.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2009</year>
+          <x>: </x>
+          <article-title>
+            <italic>Lower Triassic System in the Abrek Bay area, South Primorye</italic>
+          </article-title>
+          <x>, </x>
+          <fpage>218</fpage>
+          <x> p. </x>
+          <source>National Museum of Nature and Science Monographs, no. 38</source>
+          <x>, </x>
+          <publisher-name>Kokusai Bunkensha Co., Ltd.</publisher-name>
+          <x>, </x>
+          <publisher-loc>Tokyo</publisher-loc>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr91">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Solien</surname>
+              <x>, </x>
+              <given-names>M. A.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1979</year>
+          <x>: </x>
+          <article-title>Conodont biostratigraphy of the Lower Triassic Thaynes Formation, Utah.</article-title>
+          <x></x>
+          <source>
+            <italic>Journal of Paleontology</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>53</volume>
+          <x>, p. </x>
+          <fpage>276</fpage>
+          <x>–</x>
+          <lpage>306</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr92">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Stiller</surname>
+              <x>, </x>
+              <given-names>F.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2024</year>
+          <x>: </x>
+          <article-title>A new holocrinid sea lily from the Anisian (Middle Triassic) of Qingyan, south-western China, and the morphological variability of the distal nodal facets in the genus <italic>Holocrinus</italic>.</article-title>
+          <x></x>
+          <source>
+            <italic>Paläontologische Zeitschrift</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>98</volume>
+          <x>, p. </x>
+          <fpage>41</fpage>
+          <x>–</x>
+          <lpage>66</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr93">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Sweet</surname>
+              <x>, </x>
+              <given-names>W. C.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1970</year>
+          <x>: </x>
+          <article-title>Uppermost Permian and Lower Triassic conodonts of the Salt Range and Trans-Indus Ranges, West Pakistan.</article-title>
+          <x></x>
+          <comment>
+            <italic>In</italic>
+          </comment>
+          <x>, </x>
+          <person-group person-group-type="editor">
+            <string-name>
+              <surname>Kummel</surname>
+              <x>, </x>
+              <given-names>B.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Teichert</surname>
+              <x>, </x>
+              <given-names>C.</given-names>
+            </string-name>
+          </person-group>
+          <x>
+            <italic>eds</italic>., </x>
+          <source>
+            <italic>Stratigraphic Boundary Problems: Permian and Triassic of West Pakistan</italic>
+          </source>
+          <x>, p. </x>
+          <fpage>207</fpage>
+          <x>–</x>
+          <lpage>275</lpage>
+          <x>. </x>
+          <publisher-name>University of Kansas Special Publication, 4, University Press of Kansas</publisher-name>
+          <x>, </x>
+          <publisher-loc>Lawrence</publisher-loc>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr94">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Sweet</surname>
+              <x>, </x>
+              <given-names>W. C.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1988</year>
+          <x>: </x>
+          <article-title>
+            <italic>The Conodonta: Morphology</italic>, <italic>Taxonomy</italic>, <italic>Paleoecology</italic>, <italic>and Evolutionary History of a Long-Extinct Animal Phylum</italic></article-title>
+          <x>, </x>
+          <fpage>212</fpage>
+          <x> p. </x>
+          <source>Oxford Monographs on Geology and Geophysics, no. 10</source>
+          <x>, </x>
+          <publisher-name>Clarendon Press</publisher-name>
+          <x>, </x>
+          <publisher-loc>Oxford</publisher-loc>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr95">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Sweet</surname>
+              <x>, </x>
+              <given-names>W. C.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Mosher</surname>
+              <x>, </x>
+              <given-names>L. C.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Clark</surname>
+              <x>, </x>
+              <given-names>D. L.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Collinson</surname>
+              <x>, </x>
+              <given-names>J. W.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Hasenmueller</surname>
+              <x>, </x>
+              <given-names>W. H.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1971</year>
+          <x>: </x>
+          <article-title>Conodont biostratigraphy of the Triassic.</article-title>
+          <x></x>
+          <comment>
+            <italic>In</italic>
+          </comment>
+          <x>, </x>
+          <person-group person-group-type="editor">
+            <string-name>
+              <surname>Sweet</surname>
+              <x>, </x>
+              <given-names>W. C.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Bergstrom</surname>
+              <x>, </x>
+              <given-names>S. M.</given-names>
+            </string-name>
+          </person-group>
+          <x>
+            <italic>eds</italic>., </x>
+          <source>
+            <italic>Symposium on Conodont Biostratigraphy</italic>
+          </source>
+          <x>, p. </x>
+          <fpage>441</fpage>
+          <x>–</x>
+          <lpage>465</lpage>
+          <x>. </x>
+          <publisher-name>Geological Society of America Memoir 127, Geological Survey of America</publisher-name>
+          <x>, </x>
+          <publisher-loc>Boulder</publisher-loc>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr96">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Tamura</surname>
+              <x>, </x>
+              <given-names>M.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1982</year>
+          <x>: </x>
+          <article-title>
+            <italic>Isocrinus</italic> columnals bearing limestones in Sambosan Belt and Japanese Triassic <italic>Isocrinus</italic> columnals.</article-title>
+          <x></x>
+          <source>
+            <italic>Memoirs of the Faculty of Education</italic>, <italic>Kumamoto University (Natural Science)</italic></source>
+          <x>, no. </x>
+          <issue>31</issue>
+          <x>, p. </x>
+          <fpage>19</fpage>
+          <x>–</x>
+          <lpage>24</lpage>
+          <x>. (</x>
+          <comment>
+            <italic>in Japanese with English abstract</italic>
+          </comment>
+          <x>)</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr97">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Thomas</surname>
+              <x>, </x>
+              <given-names>H. D.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Krueger</surname>
+              <x>, </x>
+              <given-names>M. L.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1946</year>
+          <x>: </x>
+          <article-title>Late Paleozoic and early Mesozoic stratigraphy of Uinta Mountains, Utah.</article-title>
+          <x></x>
+          <source>
+            <italic>American Association of Petroleum Geologists Bulletin</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>30</volume>
+          <x>, p. </x>
+          <fpage>1255</fpage>
+          <x>–</x>
+          <lpage>1293</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr98">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Tian</surname>
+              <x>, </x>
+              <given-names>C.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Dai</surname>
+              <x>, </x>
+              <given-names>J.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Tian</surname>
+              <x>, </x>
+              <given-names>S.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1983</year>
+          <x>: </x>
+          <article-title>Triassic conodonts.</article-title>
+          <x></x>
+          <comment>
+            <italic>In</italic>
+          </comment>
+          <x>, </x>
+          <collab>Chengdu Institute of Geology and Mineral Resources</collab>
+          <x>
+            <italic>ed</italic>., </x>
+          <source>
+            <italic>Paleontological Atlas of Southwest China</italic>, <italic>Volume of Microfossils (Pt. 4, Micropaleontology)</italic></source>
+          <x>, p. </x>
+          <fpage>345</fpage>
+          <x>–</x>
+          <lpage>398</lpage>
+          <x>. </x>
+          <publisher-name>Geological Publishing House</publisher-name>
+          <x>, </x>
+          <publisher-loc>Beijing</publisher-loc>
+          <x>. (</x>
+          <comment>
+            <italic>in Chinese</italic>
+          </comment>
+          <x>)</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr99">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Twitchett</surname>
+              <x>, </x>
+              <given-names>R. J.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Oji</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2005</year>
+          <x>: </x>
+          <article-title>Early Triassic recovery of echinoderms.</article-title>
+          <x></x>
+          <source>
+            <italic>Comptes Rendus Palevol</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>4</volume>
+          <x>, p. </x>
+          <fpage>463</fpage>
+          <x>–</x>
+          <lpage>474</lpage>
+          <x>. von Zittel, K. A., 1876–1880: </x>
+          <comment>
+            <italic>Handbuch der Palaeontologie</italic>, <italic>Band 1</italic>, <italic>Palaeozoologie</italic>, <italic>Abtheilung 1</italic></comment>
+          <x>, </x>
+          <fpage>765</fpage>
+          <x> p. </x>
+          <publisher-name>R. Oldenbourg</publisher-name>
+          <x>, </x>
+          <publisher-name>München and</publisher-name>
+          <x></x>
+          <publisher-loc>Leipzig</publisher-loc>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr100">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Wachsmuth</surname>
+              <x>, </x>
+              <given-names>C.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Springer</surname>
+              <x>, </x>
+              <given-names>F.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1887</year>
+          <x>: </x>
+          <article-title>Revision of the Palaeocrinoidea, 3, section 2. Suborder Articulata.</article-title>
+          <x></x>
+          <source>
+            <italic>Proceedings of the Academy of Natural Sciences of Philadelphia</italic>
+          </source>
+          <x></x>
+          <volume>1886</volume>
+          <x>, p. </x>
+          <fpage>64</fpage>
+          <x>–</x>
+          <lpage>226</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr101">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Wang</surname>
+              <x>, </x>
+              <given-names>C.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Wang</surname>
+              <x>, </x>
+              <given-names>Z.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1976</year>
+          <x>: </x>
+          <article-title>Triassic conodonts from the Mount Jolmo Lungma region.</article-title>
+          <x></x>
+          <comment>
+            <italic>In</italic>
+          </comment>
+          <x>, </x>
+          <source>Xizang Scientific Expedition Team of Chinese Academy of Sciences <italic>ed</italic>., <italic>A Report of Scientific Expedition in the Mount Jolmo Lungma Region (1966–1968)</italic>, <italic>Paleontology</italic></source>
+          <x>, vol. </x>
+          <volume>2</volume>
+          <x>, p. </x>
+          <fpage>387</fpage>
+          <x>–</x>
+          <lpage>416</lpage>
+          <x>. </x>
+          <publisher-name>Science Press</publisher-name>
+          <x>, </x>
+          <publisher-loc>Beijing</publisher-loc>
+          <x>. (</x>
+          <comment>
+            <italic>in Chinese; original title translated</italic>
+          </comment>
+          <x>)</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr102">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Wang</surname>
+              <x>, </x>
+              <given-names>Z.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Cao</surname>
+              <x>, </x>
+              <given-names>Y.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>1981</year>
+          <x>: </x>
+          <article-title>Early Triassic conodonts from the Jiangyou-Beichuan area, Sichuan, Western Hubei.</article-title>
+          <x></x>
+          <source>
+            <italic>Acta Palaeontologica Sinica</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>20</volume>
+          <x>, p. </x>
+          <fpage>363</fpage>
+          <x>–</x>
+          <lpage>375</lpage>
+          <x>. (</x>
+          <comment>
+            <italic>in Chinese with English abstract</italic>
+          </comment>
+          <x>)</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr103">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Zhao</surname>
+              <x>, </x>
+              <given-names>L. S.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Orchard</surname>
+              <x>, </x>
+              <given-names>M. J.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <surname>Tong</surname>
+              <x>, </x>
+              <given-names>J. N.</given-names>
+            </string-name>
+            <x>, </x>
+          </person-group>
+          <year>2004</year>
+          <x>: </x>
+          <article-title>Lower Triassic conodont biostratigraphy and speciation of <italic>Neospathodus waageni</italic> around the Induan-Olenekian boundary of Chaohu, Anhui Province, China.</article-title>
+          <x></x>
+          <source>
+            <italic>Albertiana</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>29</volume>
+          <x>, p. </x>
+          <fpage>41</fpage>
+          <x>–</x>
+          <lpage>43</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr104">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Zhao</surname>
+              <x>, </x>
+              <given-names>L. S.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Orchard</surname>
+              <x>, </x>
+              <given-names>M. J.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Tong</surname>
+              <x>, </x>
+              <given-names>J. N.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Sun</surname>
+              <x>, </x>
+              <given-names>Z. M.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Zuo</surname>
+              <x>, </x>
+              <given-names>J. X.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <surname>Zhang</surname>
+              <x>, </x>
+              <given-names>S. I.</given-names>
+            </string-name>
+          </person-group>
+          <x>
+            <italic>et al.</italic>, </x>
+          <year>2007</year>
+          <x>: </x>
+          <article-title>Lower Triassic conodont sequence in Chaohu, Anhui Province, China and its global correlation.</article-title>
+          <x></x>
+          <source>
+            <italic>Palaeogeography</italic>, <italic>Palaeoclimatology</italic>, <italic>Palaeoecology</italic></source>
+          <x>, vol. </x>
+          <volume>252</volume>
+          <x>, p. </x>
+          <fpage>24</fpage>
+          <x>–</x>
+          <lpage>38</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec id="s11">
+      <title>Author contributions</title>
+      <p>T. M. and J. F. J. investigated outcrops of the Thaynes Formation at the classic Crittenden Springs site in Long Canyon and wrote this manuscript. T. M. collected conodont and crinoid samples. Both authors contributed to the writing of the paper.</p>
+    </sec>
+  </back>
+</article>

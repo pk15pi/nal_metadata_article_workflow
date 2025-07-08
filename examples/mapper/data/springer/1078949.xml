@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Article PUBLIC "-//NLM//DTD PubMed 3.0//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/in/PubMed.dtd">
+<Article>
+    <Journal>
+      <PublisherName>Springer Berlin Heidelberg</PublisherName>
+      <JournalTitle>Eur. J. Wood Prod.</JournalTitle>
+      <Issn>0018-3768</Issn>
+      <Volume>83</Volume>
+      <Issue>3</Issue>
+      <PubDate PubStatus="ppublish">
+        <Year>2025</Year>
+        <Month>6</Month>
+      </PubDate>
+    </Journal>
+    <ArticleTitle>Bending properties of LVL made by Eucalyptus globulus Labill. and its potential for hybrid glulam beams</ArticleTitle>
+    <FirstPage>97</FirstPage>
+    <LastPage>97</LastPage>
+    <Language>EN</Language>
+    <AuthorList>
+      <Author>
+        <FirstName>Carlos</FirstName>
+        <LastName>Martins</LastName>
+        <AffiliationInfo>
+          <Affiliation>SerQ &#8211; Innovation and Competence Forest Centre, Rua J, 9, 6100-711, Sert&#227;, Portugal. carlosmartins86@gmail.com</Affiliation>
+        </AffiliationInfo>
+        <AffiliationInfo>
+          <Affiliation>Departament of Civil Engineering, University of Coimbra, ISISE, ARISE, 3030-788, Coimbra, Portugal. carlosmartins86@gmail.com</Affiliation>
+        </AffiliationInfo>
+        <Identifier Source="ORCID">http://orcid.org/0000-0002-0041-4516</Identifier>
+      </Author>
+      <Author>
+        <FirstName>Alfredo</FirstName>
+        <MiddleName>M. P. G.</MiddleName>
+        <LastName>Dias</LastName>
+        <AffiliationInfo>
+          <Affiliation>Departament of Civil Engineering, University of Coimbra, ISISE, ARISE, 3030-788, Coimbra, Portugal</Affiliation>
+        </AffiliationInfo>
+        <Identifier Source="ORCID">http://orcid.org/0000-0002-9752-1907</Identifier>
+      </Author>
+    </AuthorList>
+    <ArticleIdList>
+      <ArticleId IdType="doi">10.1007/s00107-025-02244-w</ArticleId>
+      <ArticleId IdType="pii">10.1007/s00107-025-02244-w</ArticleId>
+    </ArticleIdList>
+    <History>
+      <PubDate PubStatus="received">
+        <Year>2024</Year>
+        <Month>11</Month>
+        <Day>29</Day>
+      </PubDate>
+      <PubDate PubStatus="accepted">
+        <Year>2025</Year>
+        <Month>3</Month>
+        <Day>7</Day>
+      </PubDate>
+      <PubDate PubStatus="aheadofprint">
+        <Year>2025</Year>
+        <Month>4</Month>
+        <Day>17</Day>
+      </PubDate>
+    </History>
+    <Abstract>The growing demand for engineered wood products is mobilizing the industry and the scientific community to study alternatives to softwood species. Hardwood species have been studied within the last decades to assess their mechanical properties of sawn wood and engineered wood products. Despite that, in Europe there is a huge diversity of hardwood species, most of them considered as mid-density, being Southern blue gum (Eucalyptus globulus Labill.) considered as high-density with values of density of about 900&#160;kg/m<sup>3</sup>. The present paper addresses an experimental campaign to assess the bending performance of Laminated Veneer Lumber (LVL) made with Southern blue gum (both edgewise and flatwise). An average modulus of elasticity of 22,015&#160;MPa and bending strength of 85.6&#160;MPa were obtained for edgewise direction, 30.5% higher than flatwise for modulus of elasticity and 5.5% lower than flatwise bending strength. The use of Southern blue gum LVL at both tension and compression external layers for glulam production in combination with Poplar (Populus spp.) was also considered as well as the use of LVL only at the tension layer. From the former (5 glulam beams) an average value of 19,713&#160;MPa and 77.9&#160;MPa was determined whereas from unsymmetric use of LVL (3 glulam beams) an average value of 13,634&#160;MPa and 57.9&#160;MPa were obtained for modulus of elasticity and bending strength, respectively. Non-destructive tests preceded static standard tests and correlations were drawn. Bonding performance assessment of both LVL and glulam beams followed EN 14734 and EN 14080, respectively.</Abstract>
+    <CopyrightInformation>&#169; 2025. The Author(s)</CopyrightInformation>
+    <CoiStatement>Declarations. Conflict of interest: Disclosure of potential conflicts of interest.</CoiStatement>
+    <ReferenceList>
+      <Reference>
+        <Citation>AENOR (2013) UNE 56546 Clasificaci&#243;n Visual de la Madera Aserrada Para uso Estructural. Madera de Frondosas. (Visual grading for structural sawn timber. Hardwood timber) AENOR. Madrid, Spain (In Spanish)</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Alvite JDB, Touza V&#225;squez MC, Infante FS (2002) White Eucalyptus species manual (in Spanish). Fundaci&#243;n para o Fomento da Calidade Industrial e Desenvolvimento Tecnol&#243;gico de Galicia. Ourense, Spain</Citation>
+      </Reference>
+      <Reference>
+        <Citation>ASTM (2005) D3737 Standard practices for establishing allowable properties for structural glued laminated timber (Glulam). ASTM International, West Conshohockem, PA, USA</Citation>
+      </Reference>
+      <Reference>
+        <Citation>CEN (2012b) EN 408:2010+A1:2012. Timber structures: structural timber and glued laminated timber&#8212;determination of some physical and mechanical properties. CEN. Brussels, Belgium</Citation>
+      </Reference>
+      <Reference>
+        <Citation>CEN (2016a) EN 14358. Timber structures: Calculation and verification of characteristic values. CEN. Brussels, Belgium</Citation>
+      </Reference>
+      <Reference>
+        <Citation>CEN (2016b) EN 338. Structural timber: Strength classes. CEN. Brussels, Belgium</Citation>
+      </Reference>
+      <Reference>
+        <Citation>CEN (2002a) EN 13183-1 Moisture content of a piece of sawn timber&#8212;part 1: determination by oven dry method. CEN. Brussels, Belgium</Citation>
+      </Reference>
+      <Reference>
+        <Citation>CEN (2002b) EN 13183-2 Moisture content of a piece of sawn timber: part 2: estimation by electrical resistance method. CEN. Brussels, Belgium</Citation>
+      </Reference>
+      <Reference>
+        <Citation>CEN (2004a) EN 14374 Structural laminated veneer lumber. CEN. Brussels, Belgium.</Citation>
+      </Reference>
+      <Reference>
+        <Citation>CEN (2004b) EN 314-1 Plywood: bonding quality&#8212;part 1: test methods. CEN. Brussels, Belgium</Citation>
+      </Reference>
+      <Reference>
+        <Citation>CEN (2012a) EN 1912 Structural timber: strength classes&#8212;assignment of visual grades and species. CEN. Brussels, Belgium</Citation>
+      </Reference>
+      <Reference>
+        <Citation>CEN (2013) EN 14080. Timber structures: glued laminated timber and glued solid timber&#8212;requirements. CEN. Brussels, Belgium</Citation>
+      </Reference>
+      <Reference>
+        <Citation>CEN (2022) EN 384:2016+A2:2022. Structural timber: determination of characteristic values of mechanical properties and density. CEN. Brussels, Belgium</Citation>
+      </Reference>
+      <Reference>
+        <Citation>&#199;olak S, &#199;olakoglu G, Aydin I (2007) Effects of logs steaming, veneer drying and aging on the mechanical properties of laminated veneer lumber (LVL). Build Environ 42:93&#8211;98. 
+                  https://doi.org/10.1016/j.buildenv.2005.08.008
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.buildenv.2005.08.008</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Downes GM, Touza M, Hardwood C, Wentzel-Vietheer M (2014) NIR detection of non-recoverable collapse in sawn boards of Eucalyptus globulus. Eur J Wood Prod 72:563&#8211;570. 
+                  https://doi.org/10.1007/s00107-014-0813-9
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00107-014-0813-9</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Franke S, Marto J (2014) Investigation of Eucalyptus globulus wood for the use as an engineered material. In Proceedings of the WCTE 2014:World Conference on Timber Engineering. Quebec City, Canada</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Hansmann C, Stingl R, Prieto OG, Lopes CB, Resch H (2008) High-frequency energy-assisted vacuum drying of fresh Eucalyptus globulus. Dry Technol 26(5):611&#8211;616. 
+                  https://doi.org/10.1080/07373930801946759
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1080/07373930801946759</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>ICNF (2019) IFN6: areas land use and forest species in mainland Portugal in 1995, 2005 and 2010 (in Portuguese). I. d. C. d. N. e. d. Florestas. Lisboa</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Jakoby O, Lischke H, Wermelinger B (2019) Climate change alters elevational phenology patterns of the European spruce bark beetle (Ips typographus). Glob Change Biol 25:4048&#8211;4063. 
+                  https://doi.org/10.1111/gcb.14766
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1111/gcb.14766</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Langer GJ, BussKamp J (2023) Vitality loss of beech: a serious threat to Fagus sylvatica in Germany in the context of global warming. J Plant Dis Prot 130:1101&#8211;1115. 
+                  https://doi.org/10.1007/s41348-023-00743-7
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s41348-023-00743-7</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Lara-Bocanegra AJ, Majano-Majano A, Crespo J, Guaita M (2017) Finger-jointed Eucalyptus globulus with 1C-PUR adhesive for high performance engineered laminated products. Constr Build Mater 135:529&#8211;537. 
+                  https://doi.org/10.1016/j.conbuildmat.2017.01.004
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.conbuildmat.2017.01.004</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Lara-Bocanegra AJ, Majano-Majano A, Arriaga F, Guaita M (2020) Eucalyptus globulus finger jointed solid timber and glued laminated timber with superior mechanical properties: characterisation and application in strained gridshells. Constr Build Mater 265. 
+                  https://doi.org/10.1016/j.conbuildmat.2020.120355
+                  
+                </Citation>
+      </Reference>
+      <Reference>
+        <Citation>LNEC (1997) M6: Common eucalyptus (in Portuguese). Lisbon, Portugal</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Lopez-Suevos F, Richter K (2009) Hydroymethylated resorcinol (HMR) and Novolak-based HMR (n-HMR) primers to enhance bond durability of Eucalyptus globulus beams. J Adhes Sci Technol 23(15):1925&#8211;1937. 
+                  https://doi.org/10.1163/016942409X12508517390914
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1163/016942409X12508517390914</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Martins C, Dias AMPG, Cruz H (2019) Using non-destructive testing to predict the mechanical properties of glued laminated poplar. Proc Inst Civ Eng Struct Build 172(9):661&#8211;670. 
+                  https://doi.org/10.1680/jstbu.18.00060
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1680/jstbu.18.00060</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Martins C, Dias AMPG, Cruz H (2020) Blue gum: assessment of its potential for glued laminated timber beams. Eur J Wood Prod 78:905&#8211;913. 
+                  https://doi.org/10.1007/s00107-020-01567-0
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00107-020-01567-0</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Martins C, Moltini G, Dias AMPG, Ba&#241;o V (2023) Machine grading of high-density hardwoods (southern blue gum) from tensile testing. Forests 14:1623. 
+                  https://doi.org/10.3390/f14081623
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.3390/f14081623</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Martins M (2015) Eucalyptus globulus characterization for structural applications (in Portuguese) MSc Thesis, University of Coimbra</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Mauri A, Girardello M, Strona G et al (2022) EU-Trees4F, a data set on the future of distribution of European tree species. Sci Data 9:37. 
+                  https://doi.org/10.1038/s41597-022-01128-5
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1038/s41597-022-01128-5</ArticleId>
+          <ArticleId IdType="pubmed">35115529</ArticleId>
+          <ArticleId IdType="pmcid">8813948</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>MITECO (2021) Anuario de Estadistica Forestal 2019. (in Spanish) Madrid, Spain</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Morin-Bernard A, Blanchet P, Dagenais C, Achim A (2021) Glued-laminated timber from northern hardwoods: effect of finger-joint profile on lamellae tensile strength. Construc Build Mater. 
+                  https://doi.org/10.1016/j.conbuildmat.2020.121591
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.conbuildmat.2020.121591</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Pollmeier (2024a) Declaration of Performance PM-020-2024: laminated veneer lumber made from beech. Holder: Pollmeier Furnierwerkstoffe GmbH, Germany. 
+                  https://www.pollmeier.com/product/board-baubuche/
+                  
+                </Citation>
+      </Reference>
+      <Reference>
+        <Citation>Pollmeier (2024b) ETA-14/0354: Glued laminated timber made of hardwood: structural laminated veneer lumber made of beech. Holder: Pollmeier Furnierwerkstoffe GmbH, Germany. 
+                  https://www.pollmeier.com/product/beam-baubuche-gl75/
+                  
+                </Citation>
+      </Reference>
+      <Reference>
+        <Citation>Sciomenta M, Spera L, Peditto A, Ciuffetelli E, Savini F, Bedon C, Romagnoli M, Nocetti M, Brunetti M, Fragiacomo M (2022) Mechanical characterization of homogeneous and hybrid beech-Corsican pine glued-laminated timber beams. Eng Struct. 
+                  https://doi.org/10.1016/j.engstruct.2022.114450
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.engstruct.2022.114450</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Touza V&#225;squez MC, Pedras Saavedra F (2002) An industrial proposal for drying timber of eucalyptus white (Eucalyptus globulus) from Galicia (in Spanish). CIS-Madera</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Tran V-D, Oudjene M, M&#233;ausoone P-J (2012) Experimental and numerical analyses of the structural response of adhesively reconstituted beech timber beams. Compos Struct 119:206&#8211;217. 
+                  https://doi.org/10.1016/j.compstruct.2014.08.013
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.compstruct.2014.08.013</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Tran V-D, Oudjene M, Meausoone P-J (2016) Experimental investigation on full-scale glued oak solid timber beams for structural bearing capacity. Constr Build Mater 123:365&#8211;371. 
+                  https://doi.org/10.1016/j.conbuildmat.2016.07.002
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.conbuildmat.2016.07.002</ArticleId>
+        </ArticleIdList>
+      </Reference>
+    </ReferenceList>
+  </Article>
+  

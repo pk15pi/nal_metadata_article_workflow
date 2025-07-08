@@ -1,0 +1,688 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Article PUBLIC "-//NLM//DTD PubMed 3.0//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/in/PubMed.dtd">
+<Article>
+    <Journal>
+      <PublisherName>Springer Berlin Heidelberg</PublisherName>
+      <JournalTitle>Theor Appl Genet</JournalTitle>
+      <Issn>0040-5752</Issn>
+      <Volume>138</Volume>
+      <Issue>5</Issue>
+      <PubDate PubStatus="ppublish">
+        <Year>2025</Year>
+        <Month>5</Month>
+      </PubDate>
+    </Journal>
+    <Replaces>40198388</Replaces>
+    <ArticleTitle>Deletion of wheat alpha-gliadins from chromosome 6D improves gluten strength and reduces immunodominant celiac disease epitopes</ArticleTitle>
+    <FirstPage>94</FirstPage>
+    <LastPage>94</LastPage>
+    <Language>EN</Language>
+    <AuthorList>
+      <Author EqualContrib="Y">
+        <FirstName>Maria</FirstName>
+        <MiddleName>G.</MiddleName>
+        <LastName>Rottersman</LastName>
+        <AffiliationInfo>
+          <Affiliation>Department of Plant Sciences, University of California, One Shields Avenue, Davis, CA, 95616, USA</Affiliation>
+        </AffiliationInfo>
+      </Author>
+      <Author EqualContrib="Y">
+        <FirstName>Wenjun</FirstName>
+        <LastName>Zhang</LastName>
+        <AffiliationInfo>
+          <Affiliation>Department of Plant Sciences, University of California, One Shields Avenue, Davis, CA, 95616, USA</Affiliation>
+        </AffiliationInfo>
+      </Author>
+      <Author>
+        <FirstName>Junli</FirstName>
+        <LastName>Zhang</LastName>
+        <AffiliationInfo>
+          <Affiliation>Department of Plant Sciences, University of California, One Shields Avenue, Davis, CA, 95616, USA</Affiliation>
+        </AffiliationInfo>
+      </Author>
+      <Author>
+        <FirstName>Gabriela</FirstName>
+        <LastName>Grigorean</LastName>
+        <AffiliationInfo>
+          <Affiliation>Proteomics Core Facility, University of California, 451 E. Health Sciences Dr., Davis, CA, 95616, USA</Affiliation>
+        </AffiliationInfo>
+      </Author>
+      <Author>
+        <FirstName>German</FirstName>
+        <LastName>Burguener</LastName>
+        <AffiliationInfo>
+          <Affiliation>Department of Plant Sciences, University of California, One Shields Avenue, Davis, CA, 95616, USA</Affiliation>
+        </AffiliationInfo>
+        <AffiliationInfo>
+          <Affiliation>Howard Hughes Medical Institute, 4000 Jones Bridge Rd, Chevy Chase, MD, 201815, USA</Affiliation>
+        </AffiliationInfo>
+      </Author>
+      <Author>
+        <FirstName>Claudia</FirstName>
+        <LastName>Carter</LastName>
+        <AffiliationInfo>
+          <Affiliation>California Wheat Commission, 1240 Commerce Ave., Woodland, CA, 95776, USA</Affiliation>
+        </AffiliationInfo>
+      </Author>
+      <Author>
+        <FirstName>Teng</FirstName>
+        <LastName>Vang</LastName>
+        <AffiliationInfo>
+          <Affiliation>California Wheat Commission, 1240 Commerce Ave., Woodland, CA, 95776, USA</Affiliation>
+        </AffiliationInfo>
+      </Author>
+      <Author>
+        <FirstName>Joshua</FirstName>
+        <LastName>Hegarty</LastName>
+        <AffiliationInfo>
+          <Affiliation>Department of Plant Sciences, University of California, One Shields Avenue, Davis, CA, 95616, USA</Affiliation>
+        </AffiliationInfo>
+      </Author>
+      <Author>
+        <FirstName>Xiaoqin</FirstName>
+        <LastName>Zhang</LastName>
+        <AffiliationInfo>
+          <Affiliation>Department of Plant Sciences, University of California, One Shields Avenue, Davis, CA, 95616, USA</Affiliation>
+        </AffiliationInfo>
+      </Author>
+      <Author>
+        <FirstName>Sean</FirstName>
+        <LastName>Finnie</LastName>
+        <AffiliationInfo>
+          <Affiliation>USDA-ARS E-202 Food Quality Building, Washington State University, Pullman, WA, 99164, USA</Affiliation>
+        </AffiliationInfo>
+      </Author>
+      <Author>
+        <FirstName>Jorge</FirstName>
+        <LastName>Dubcovsky</LastName>
+        <AffiliationInfo>
+          <Affiliation>Department of Plant Sciences, University of California, One Shields Avenue, Davis, CA, 95616, USA. jdubcovsky@ucdavis.edu</Affiliation>
+        </AffiliationInfo>
+        <AffiliationInfo>
+          <Affiliation>Howard Hughes Medical Institute, 4000 Jones Bridge Rd, Chevy Chase, MD, 201815, USA. jdubcovsky@ucdavis.edu</Affiliation>
+        </AffiliationInfo>
+        <Identifier Source="ORCID">http://orcid.org/0000-0002-7571-4345</Identifier>
+      </Author>
+    </AuthorList>
+    <ArticleIdList>
+      <ArticleId IdType="doi">10.1007/s00122-025-04882-3</ArticleId>
+      <ArticleId IdType="pii">10.1007/s00122-025-04882-3</ArticleId>
+    </ArticleIdList>
+    <History>
+      <PubDate PubStatus="received">
+        <Year>2024</Year>
+        <Month>11</Month>
+        <Day>9</Day>
+      </PubDate>
+      <PubDate PubStatus="accepted">
+        <Year>2025</Year>
+        <Month>3</Month>
+        <Day>11</Day>
+      </PubDate>
+      <PubDate PubStatus="aheadofprint">
+        <Year>2025</Year>
+        <Month>4</Month>
+        <Day>8</Day>
+      </PubDate>
+    </History>
+    <Abstract>Wheat gliadins and glutenins confer valuable end-use characteristics but include amino acid sequences (epitopes) that can elicit celiac disease (CeD) in genetically predisposed individuals. The onset of CeD in these individuals is affected by the amount and duration of the exposure to immunogenic epitopes. Therefore, a reduction of epitopes that result in high immune responses in the majority of CeD patients (immunodominant epitopes) may reduce the incidence of CeD at a population level. We generated gamma radiation-induced deletions encompassing the &#945;-gliadins in each of the three wheat genomes and characterized them using exome capture. These deletions, designated as &#916;gli-A2, &#916;gli-B2, and &#916;gli-D2, were deposited in GRIN-Global. The &#916;gli-A2 and &#916;gli-B2 deletions showed limited effects on breadmaking quality, but the &#916;gli-D2 deletion significantly increased gluten strength and improved breadmaking quality without compromising dough elasticity, protein content, or grain yield. The stronger effect of &#916;gli-D2 on gluten strength was associated with an increased proportion of glutenins and the deletion of &#945;-gliadins with seven cysteines, which are absent in the GLI-A2 and GLI-B2 loci. We show that &#945;-gliadins with seven cysteines are incorporated into the gluten polymer, where they likely function as chain terminators limiting the expansion of the gluten polymer and reducing its strength. In addition to its beneficial effects on breadmaking quality, the &#916;gli-D2 deletion eliminates major wheat immunodominant CeD epitopes. The deployment of this publicly available &#916;gli-D2 deletion can simultaneously improve wheat gluten strength and reduce the population-wide burden of CeD.</Abstract>
+    <CopyrightInformation>&#169; 2025. The Author(s)</CopyrightInformation>
+    <CoiStatement>Declarations. Conflict of interest: The authors declare that they have no conflict of interest.</CoiStatement>
+    <ObjectList>
+      <Object Type="grant">
+        <Param Name="id">No number</Param>
+        <Param Name="grantor">Celiac Disease Foundation</Param>
+      </Object>
+      <Object Type="grant">
+        <Param Name="id">2022-68013-36439</Param>
+        <Param Name="grantor">National Institute of Food and Agriculture</Param>
+      </Object>
+      <Object Type="grant">
+        <Param Name="id">Researcher support</Param>
+        <Param Name="grantor">Howard Hughes Medical Institute</Param>
+      </Object>
+      <Object Type="grant">
+        <Param Name="id">Research Fellowship</Param>
+        <Param Name="grantor">Foundation for Food and Agriculture Research</Param>
+      </Object>
+      <Object Type="grant">
+        <Param Name="id">Reducing wheat allergenicity</Param>
+        <Param Name="grantor">Foundation for Food and Agriculture Research</Param>
+      </Object>
+    </ObjectList>
+    <ReferenceList>
+      <Reference>
+        <Citation>Abadie V, Han AS, Jabri B, Sollid LM (2024) New insights on genes, gluten, and immunopathogenesis of celiac disease. Gastroenterology 167:4&#8211;22. 
+                  https://doi.org/10.1053/j.gastro.2024.03.042
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1053/j.gastro.2024.03.042</ArticleId>
+          <ArticleId IdType="pubmed">38670280</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Anderson OD, Greene FC (1997) The alpha-gliadin gene family.2. DNA and protein sequence variation, subfamily structure, and origins of pseudogenes. Theor Appl Genet 95:59&#8211;65. 
+                  https://doi.org/10.1007/s001220050532
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s001220050532</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Anderson RP, Degano P, Godkin AJ, Jewell DP, Hill AVS (2000) In vivo antigen challenge in celiac disease identifies a single transglutaminase-modified peptide as the dominant A-gliadin T-cell epitope. Nat Med 6:337&#8211;342. 
+                  https://doi.org/10.1038/73200
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1038/73200</ArticleId>
+          <ArticleId IdType="pubmed">10700238</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Athiyannan N, Abrouk M, Boshoff WHP, Cauet S, Rodde N, Kudrna D, Mohammed N, Bettgenhaeuser J, Botha KS, Derman SS, Wing R, Prins R, Krattinger SG (2022) Long-read genome sequencing of bread wheat facilitates disease resistance gene cloning. Nat Genet 54:227&#8211;231. 
+                  https://doi.org/10.1038/s41588-022-01022-1
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1038/s41588-022-01022-1</ArticleId>
+          <ArticleId IdType="pubmed">35288708</ArticleId>
+          <ArticleId IdType="pmcid">8920886</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Avni R, Nave M, Barad O, Baruch K, Twardziok SO, Gundlach H, Hale I, Mascher M, Spannagl M, Wiebe K, Jordan KW, Golan G, Deek J, Ben-Zvi B, Ben-Zvi G, Himmelbach A, MacLachlan RP, Sharpe AG, Fritz A, Ben-David R, Budak H, Fahima T, Korol A, Faris JD, Hernandez A, Mikel MA, Levy AA, Steffenson B, Maccaferri M, Tuberosa R, Cattivelli L, Faccioli P, Ceriotti A, Kashkush K, Pourkheirandish M, Komatsuda T, Eilam T, Sela H, Sharon A, Ohad N, Chamovitz DA, Mayer KFX, Stein N, Ronen G, Peleg Z, Pozniak CJ, Akhunov ED, Distelfeld A (2017) Wild emmer genome architecture and diversity elucidate wheat evolution and domestication. Science 357:93&#8211;97. 
+                  https://doi.org/10.1126/science.aan0032
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1126/science.aan0032</ArticleId>
+          <ArticleId IdType="pubmed">28684525</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Blake VC, Birkett C, Matthews DE, Hane DL, Bradbury P, Jannink JL (2012) The Triticeae Toolbox: combining phenotype and genotype data to advance small-grains breeding. Plant Genome. 
+                  https://doi.org/10.3835/plantgenome2014.12.0099
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.3835/plantgenome2014.12.0099</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Bradauskiene V, Vaiciulyte-Funk L, Martinaitiene D, Andruskiene J, Verma AK, Lima JPM, Serin Y, Catassi C (2023) Wheat consumption and prevalence of celiac disease: correlation from a multilevel analysis. Crit Rev Food Sci 63:18&#8211;32. 
+                  https://doi.org/10.1080/10408398.2021.1939650
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1080/10408398.2021.1939650</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Branlard G, Dardevet M, Amiour N, Igrejas G (2003) Allelic diversity of HMW and LMW glutenin subunits and omega-gliadins in French bread wheat (Triticum aestivum L.). Genet Resour Crop Evol 50:669&#8211;679. 
+                  https://doi.org/10.1023/A:1025077005401
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1023/A:1025077005401</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Camerlengo F, Sestili F, Silvestri M, Colaprico G, Margiotta B, Ruggeri R, Lupi R, Masci S, Lafiandra D (2017) Production and molecular characterization of bread wheat lines with reduced amount of alpha-type gliadins. BMC Plant Biol 17:248. 
+                  https://doi.org/10.1186/s12870-017-1211-3
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1186/s12870-017-1211-3</ArticleId>
+          <ArticleId IdType="pubmed">29258439</ArticleId>
+          <ArticleId IdType="pmcid">5738072</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Chao SM, Zhang WJ, Dubcovsky J, Sorrells M (2007) Evaluation of genetic diversity and genome-wide linkage disequilibrium among US wheat (Triticum aestivum L.) germplasm representing different market classes. Crop Sci 47:1018&#8211;1030. 
+                  https://doi.org/10.2135/cropsci2006.06.0434
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.2135/cropsci2006.06.0434</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Chen S, Hegarty J, Shen T, Hua L, Li H, Luo J, Li H, Bai S, Zhang C, Dubcovsky J (2021) Stripe rust resistance gene Yr34 (synonym Yr48) is located within a distal translocation of Triticum monococcum chromosome 5A<sup>m</sup>L into common wheat. Theor Appl Genet 134:2197&#8211;2211. 
+                  https://doi.org/10.1007/s00122-021-03816-z
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00122-021-03816-z</ArticleId>
+          <ArticleId IdType="pubmed">33791822</ArticleId>
+          <ArticleId IdType="pmcid">8263425</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Chlubnova M, Christophersen AO, Sandve GKF, Lundin KEA, Jahnsen J, Dahal-Koirala S, Sollid LM (2023) Identification of gluten T cell epitopes driving celiac disease. Sci Adv 9:eade5800. 
+                  https://doi.org/10.1126/sciadv.ade5800
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1126/sciadv.ade5800</ArticleId>
+          <ArticleId IdType="pubmed">36696493</ArticleId>
+          <ArticleId IdType="pmcid">9876541</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Gu YQ, Crossman C, Kong X, Luo MC, You FM, Coleman-Derr D, Dubcovsky J, Anderson OD (2004) Genomic organization of the complex &#945;-gliadin gene loci in wheat. Theor Appl Genet 109:648&#8211;657. 
+                  https://doi.org/10.1007/s00122-004-1672-2
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00122-004-1672-2</ArticleId>
+          <ArticleId IdType="pubmed">15103408</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Gupta RB, Khan K, Macritchie F (1993) Biochemical basis of flour properties in bread wheats.1. Effects of variation in the quantity and size distribution of polymeric protein. J Cereal Sci 18:23&#8211;41. 
+                  https://doi.org/10.1006/jcrs.1993.1031
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1006/jcrs.1993.1031</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Ivarsson A, Persson L&#197;, Nystr&#246;m I, Ascher H, Cavell B, Danielsson L, Dannaeus A, Lindberg T, Lindquist B, Stenhammar L, Hernell O (2000) Epidemic of coeliac disease in Swedish children. Acta Paediatr 89:165&#8211;171. 
+                  https://doi.org/10.1080/080352500750028771
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1080/080352500750028771</ArticleId>
+          <ArticleId IdType="pubmed">10709885</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Jabri B, Sollid LM (2017) T cells in celiac disease. J Immunol 198:3005&#8211;3014. 
+                  https://doi.org/10.4049/jimmunol.1601693
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.4049/jimmunol.1601693</ArticleId>
+          <ArticleId IdType="pubmed">28373482</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Jouanin A, Schaart JG, Boyd LA, Cockram J, Leigh FJ, Bates R, Wallington EJ, Visser RGF, Smulders MJM (2019) Outlook for coeliac disease patients: towards bread wheat with hypoimmunogenic gluten by gene editing of &#945;- and &#947;-gliadin gene families. BMC Plant Biol 19:333. 
+                  https://doi.org/10.1186/s12870-019-1889-5
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1186/s12870-019-1889-5</ArticleId>
+          <ArticleId IdType="pubmed">31370789</ArticleId>
+          <ArticleId IdType="pmcid">6670228</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Juh&#225;sz A, Belova T, Florides CG, Maulis C, Fischer I, Gell G, Birinyi Z, Ong J, Keeble-Gagnere G, Maharajan A, Ma W, Gibson P, Jia J, Lang D, Mayer KFX, Spannagl M, Tye-Din JA, Appels R, Olsen OA, International Wheat Genome Sequencing C (2018) Genome mapping of seed-borne allergens and immunoresponsive proteins in wheat. Sci Adv 4:eaar8602. 
+                  https://doi.org/10.1126/sciadv.aar8602
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1126/sciadv.aar8602</ArticleId>
+          <ArticleId IdType="pubmed">30128352</ArticleId>
+          <ArticleId IdType="pmcid">6097586</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Kale SM, Schulthess AW, Padmarasu S, Boeven PHG, Schacht J, Himmelbach A, Steuernagel B, Wulff BBH, Reif JC, Stein N, Mascher M (2022) A catalogue of resistance gene homologs and a chromosome-scale reference sequence support resistance gene mapping in winter wheat. Plant Biotechnol J 20:1730&#8211;1742. 
+                  https://doi.org/10.1111/pbi.13843
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1111/pbi.13843</ArticleId>
+          <ArticleId IdType="pubmed">35562859</ArticleId>
+          <ArticleId IdType="pmcid">9398310</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Kasarda DD, Adalsteins AE, Laird NF (1987) Gamma-gliadins with alpha-type structure coded on chromosome 6B of the wheat (Triticum aestivum L.) cultivar Chinese Spring. In: Proceedings of the 3rd international workshop of gluten proteins, Budapest, Hungary, pp 20&#8211;29</Citation>
+      </Reference>
+      <Reference>
+        <Citation>King JA, Jeong J, Underwood FE, Quan JS, Panaccione N, Windsor JW, Coward S, deBruyn J, Ronksley PE, Shaheen AA, Quan HD, Godley J, van Zanten SV, Lebwohl B, Ng SC, Ludvigsson JF, Kaplan GG (2020) Incidence of Celiac Disease is increasing over time: a systematic review and meta-analysis. Am J Gastroenterol 115:507&#8211;525. 
+                  https://doi.org/10.14309/ajg.0000000000000523
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.14309/ajg.0000000000000523</ArticleId>
+          <ArticleId IdType="pubmed">32022718</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Koning F (2012) Celiac disease: quantity matters. Semin Immunopathol 34:541&#8211;549. 
+                  https://doi.org/10.1007/s00281-012-0321-0
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00281-012-0321-0</ArticleId>
+          <ArticleId IdType="pubmed">22732901</ArticleId>
+          <ArticleId IdType="pmcid">3410019</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Krasileva KV, Vasquez-Gross HA, Howell T, Bailey P, Paraiso F, Clissold L, Simmonds J, Ramirez-Gonzalez RH, Wang X, Borrill P, Fosker C, Ayling S, Phillips AL, Uauy C, Dubcovsky J (2017) Uncovering hidden variation in polyploid wheat. Proc Natl Acad Sci USA 114:E913&#8211;E921. 
+                  https://doi.org/10.1073/pnas.1619268114
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1073/pnas.1619268114</ArticleId>
+          <ArticleId IdType="pubmed">28096351</ArticleId>
+          <ArticleId IdType="pmcid">5307431</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Lafiandra D, Colaprico G, Kasarda DD, Porceddu E (1987) Null alleles for giadin blocks in bread and durum-wheat cultivars. Theor Appl Genet 74:610&#8211;616. 
+                  https://doi.org/10.1007/BF00288860
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/BF00288860</ArticleId>
+          <ArticleId IdType="pubmed">24240217</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Li D, Jin HB, Zhang KP, Wang ZJ, Wang FM, Zhao Y, Huo NX, Liu X, Gu YQ, Wang DW, Dong LL (2018) Analysis of the Gli-D2 locus identifies a genetic target for simultaneously improving the breadmaking and health-related traits of common wheat. Plant J 95:414&#8211;426. 
+                  https://doi.org/10.1111/tpj.13956
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1111/tpj.13956</ArticleId>
+          <ArticleId IdType="pubmed">29752764</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Li H (2013) Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM. arXiv preprint 
+                  arXiv:1303.3997
+                  
+                </Citation>
+      </Reference>
+      <Reference>
+        <Citation>Lowe I, Jankuloski L, Chao S, Chen X, See D, Dubcovsky J (2011) Mapping and validation of QTL which confer partial resistance to broadly virulent post-2000 North American races of stripe rust in hexaploid wheat. Theor Appl Genet 123:143&#8211;157. 
+                  https://doi.org/10.1007/s00122-011-1573-0
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00122-011-1573-0</ArticleId>
+          <ArticleId IdType="pubmed">21455722</ArticleId>
+          <ArticleId IdType="pmcid">4761445</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Luo MC, Gu YQ, Puiu D, Wang H, Twardziok SO, Deal KR, Huo NX, Zhu TT, Wang L, Wang Y, McGuire PE, Liu SY, Long H, Ramasamy RK, Rodriguez JC, Van SL, Yuan LX, Wang ZZ, Xia ZQ, Xiao LC, Anderson OD, Ouyang SH, Liang Y, Zimin AV, Pertea G, Qi P, Ennetzen JLB, Dai XT, Dawson MW, M&#252;ller HG, Kugler K, Rivarola-Duarte L, Spannagl M, Mayer KFX, Lu FH, Bevan MW, Leroy P, Li PC, You FM, Sun QX, Liu ZY, Lyons E, Wicker T, Salzberg SL, Devos KM, Dvor&#225;k J (2017) Genome sequence of the progenitor of the wheat D genome Aegilops tauschii. Nature 551:498&#8211;502. 
+                  https://doi.org/10.1038/nature24486
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1038/nature24486</ArticleId>
+          <ArticleId IdType="pubmed">29143815</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Maccaferri M, Harris NS, Twardziok SO, Pasam RK, Gundlach H, Spannagl M, Ormanbekova D, Lux T, Prade VM, Milner SG, Himmelbach A, Mascher M, Bagnaresi P, Faccioli P, Cozzi P, Lauria M, Lazzari B, Stella A, Manconi A, Gnocchi M, Moscatelli M, Avni R, Deek J, Biyiklioglu S, Frascaroli E, Corneti S, Salvi S, Sonnante G, Desiderio F, Mare C, Crosatti C, Mica E, Ozkan H, Kilian B, De Vita P, Marone D, Joukhadar R, Mazzucotelli E, Nigro D, Gadaleta A, Chao SM, Faris JD, Melo ATO, Pumphrey M, Pecchioni N, Milanesi L, Wiebe K, Ens J, MacLachlan RP, Clarke JM, Sharpe AG, Koh CS, Liang KYH, Taylor GJ, Knox R, Budak H, Mastrangelo AM, Xu SS, Stein N, Hale I, Distelfeld A, Hayden MJ, Tuberosa R, Walkowiak S, Mayer KFX, Ceriotti A, Pozniak CJ, Cattivelli L (2019) Durum wheat genome highlights past domestication signatures and future improvement targets. Nat Genet 51:885&#8211;895. 
+                  https://doi.org/10.1038/s41588-019-0381-3
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1038/s41588-019-0381-3</ArticleId>
+          <ArticleId IdType="pubmed">30962619</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Masci S, Rovelli L, Kasarda DD, Vensel WH, Lafiandra D (2002) Characterisation and chromosomal localisation of C-type low-molecular-weight glutenin subunits in the bread wheat cultivar Chinese Spring. Theor Appl Genet 104:422&#8211;428. 
+                  https://doi.org/10.1007/s001220100761
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s001220100761</ArticleId>
+          <ArticleId IdType="pubmed">12582715</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Mearin ML, Biemond I, Pena AS, Polanco I, Vazquez C, Schreuder GT, de Vries RR, van Rood JJ (1983) HLA-DR phenotypes in Spanish coeliac children: their contribution to the understanding of the genetics of the disease. Gut 24:532&#8211;537. 
+                  https://doi.org/10.1136/gut.24.6.532
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1136/gut.24.6.532</ArticleId>
+          <ArticleId IdType="pubmed">6602084</ArticleId>
+          <ArticleId IdType="pmcid">1420005</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Megiorni F, Mora B, Bonamico M, Barbato M, Nenna R, Maiella G, Lulli P, Mazzilli MC (2009) HLA-DQ and risk gradient for celiac disease. Hum Immunol 70:55&#8211;59. 
+                  https://doi.org/10.1016/j.humimm.2008.10.018
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.humimm.2008.10.018</ArticleId>
+          <ArticleId IdType="pubmed">19027045</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>M&#252;ller S, Wieser H (1995) The location of disulfide bonds in alpha-type gliadins. J Cereal Sci 22:21&#8211;27. 
+                  https://doi.org/10.1016/S0733-5210(05)80004-9
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/S0733-5210(05)80004-9</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>R-Core-Team (2021) R: a language and environment for statistical computing. R Foundation for Statistical Computing, Vienna</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Redaelli R, Metakovsky EV, Davidov SD, Pogna NE (1994) Two-dimensional mapping of gliadins using biotypes and null mutants of common wheat cultivar Saratovskaya-29. Hereditas 121:131&#8211;137. 
+                  https://doi.org/10.1111/j.1601-5223.1994.00131.x
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1111/j.1601-5223.1994.00131.x</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Rosyara U, Kishii M, Payne T, Sansaloni CP, Singh RP, Braun HJ, Dreisigacker S (2019) Genetic contribution of synthetic hexaploid wheat to CIMMYT&#8217;s spring bread wheat breeding germplasm. Sci Rep 9:12355. 
+                  https://doi.org/10.1038/s41598-019-47936-5
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1038/s41598-019-47936-5</ArticleId>
+          <ArticleId IdType="pubmed">31451719</ArticleId>
+          <ArticleId IdType="pmcid">6710277</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>S&#225;nchez B, Barro F, Smulders MJM, Gilissen LJWJ, Rodr&#237;guez-Cerezo E (2023) Socioeconomic impact of low-gluten, celiac-safe wheat developed through gene editing. Publications Office of the European Union, Luxembourg. 
+                  https://doi.org/10.2760/280847
+                  
+                </Citation>
+      </Reference>
+      <Reference>
+        <Citation>S&#225;nchez-Le&#243;n S, Gil-Humanes J, Ozuna CV, Gim&#233;nez MJ, Sousa C, Voytas DF, Barro F (2018) Low-gluten, nontransgenic wheat engineered with CRISPR/Cas9. Plant Biotechnol J 16:902&#8211;910. 
+                  https://doi.org/10.1111/pbi.12837
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1111/pbi.12837</ArticleId>
+          <ArticleId IdType="pubmed">28921815</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Sato K, Abe F, Mascher M, Haberer G, Gundlach H, Spannagl M, Shirasawa K, Isobe S (2021) Chromosome-scale genome assembly of the transformation-amenable common wheat cultivar &#8220;Fielder.&#8221; DNA Res 28:dsab008. 
+                  https://doi.org/10.1093/dnares/dsab008
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1093/dnares/dsab008</ArticleId>
+          <ArticleId IdType="pubmed">34254113</ArticleId>
+          <ArticleId IdType="pmcid">8320877</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Shan L, Molberg &#216;, Parrot I, Hausch F, Filiz F, Gray GM, Sollid LM, Khosla C (2002) Structural basis for gluten intolerance in Celiac sprue. Science 297:2275&#8211;2279. 
+                  https://doi.org/10.1126/science.1074129
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1126/science.1074129</ArticleId>
+          <ArticleId IdType="pubmed">12351792</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Shewry PR, Lafiandra D (2022) Wheat glutenin polymers 1. Structure, assembly and properties. J Cereal Sci 106:103486. 
+                  https://doi.org/10.1016/j.jcs.2022.103486
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.jcs.2022.103486</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Shewry PR, Tatham AS (1990) The prolamin storage proteins of cereal seeds&#8212;structure and evolution. Biochem J 267:1&#8211;12. 
+                  https://doi.org/10.1042/bj2670001
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1042/bj2670001</ArticleId>
+          <ArticleId IdType="pubmed">2183790</ArticleId>
+          <ArticleId IdType="pmcid">1131235</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Singh NK, Shepherd KW, Cornish GB (1991) A simplified SDS-PAGE procedure for separating LMW subunits of glutenin. J Cereal Sci 14:203&#8211;208. 
+                  https://doi.org/10.1016/S0733-5210(09)80039-8
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/S0733-5210(09)80039-8</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Sollid LM, Qiao SW, Anderson RP, Gianfrani C, Koning F (2012) Nomenclature and listing of celiac disease relevant gluten T-cell epitopes restricted by HLA-DQ molecules. Immunogenetics 64:455&#8211;460. 
+                  https://doi.org/10.1007/s00251-012-0599-z
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00251-012-0599-z</ArticleId>
+          <ArticleId IdType="pubmed">22322673</ArticleId>
+          <ArticleId IdType="pmcid">3349865</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Sollid LM, Tye-Din JA, Qiao SW, Anderson RP, Gianfrani C, Koning F (2020) Update 2020: nomenclature and listing of celiac disease-relevant gluten epitopes recognized by CD4<sup>+</sup> T cells. Immunogenetics 72:85&#8211;88. 
+                  https://doi.org/10.1007/s00251-019-01141-w
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00251-019-01141-w</ArticleId>
+          <ArticleId IdType="pubmed">31735991</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Tye-Din JA, Stewart JA, Dromey JA, Beissbarth T, van Heel DA, Tatham A, Henderson K, Mannering SI, Gianfrani C, Jewell DP, Hill AV, McCluskey J, Rossjohn J, Anderson RP (2010) Comprehensive, quantitative mapping of T cell epitopes in gluten in celiac disease. Sci Transl Med 2:41&#8211;51. 
+                  https://doi.org/10.1126/scitranslmed.3001012
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1126/scitranslmed.3001012</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Uauy C, Wulff BBH, Dubcovsky J (2017) Combining traditional mutagenesis with new high-throughput sequencing and genome editing to reveal hidden variation in polyploid wheat. Annu Rev Genet 51:435&#8211;454. 
+                  https://doi.org/10.1146/annurev-genet-120116-024533
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1146/annurev-genet-120116-024533</ArticleId>
+          <ArticleId IdType="pubmed">28934591</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Vader W, Kooy Y, Van Veelen P, De Ru A, Harris D, Benckhuijsen W, Pe&#241;a S, Mearin L, Drijfhout JW, Koning F (2002) The gluten response in children with celiac disease is directed toward multiple gliadin and glutenin peptides. Gastroenterology 122:1729&#8211;1737. 
+                  https://doi.org/10.1053/gast.2002.33606
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1053/gast.2002.33606</ArticleId>
+          <ArticleId IdType="pubmed">12055577</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>van den Broeck HC, van Herpen TWJM, Schuit C, Salentijn EMJ, Dekking L, Bosch D, Hamer RJ, Smulders MJM, Gilissen LJWJ, van der Meer IM (2009) Removing celiac disease-related gluten proteins from bread wheat while retaining technological properties: a study with Chinese Spring deletion lines. BMC Plant Biol 9:41. 
+                  https://doi.org/10.1186/1471-2229-9-41
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1186/1471-2229-9-41</ArticleId>
+          <ArticleId IdType="pubmed">19351412</ArticleId>
+          <ArticleId IdType="pmcid">2670835</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Walkowiak S, Gao LL, Monat C, Haberer G, Kassa MT, Brinton J, Ramirez-Gonzalez RH, Kolodziej MC, Delorean E, Thambugala D, Klymiuk V, Byrns B, Gundlach H, Bandi V, Siri JN, Nilsen K, Aquino C, Himmelbach A, Copetti D, Ban T, Venturini L, Bevan M, Clavijo B, Koo DH, Ens J, Wiebe K, N&#8217;Diaye A, Fritz AK, Gutwin C, Fiebig A, Fosker C, Fu BX, Accinelli GG, Gardner KA, Fradgley N, Gutierrez-Gonzalez J, Halstead-Nussloch G, Hatakeyama M, Koh CS, Deek J, Costamagna AC, Fobert P, Heavens D, Kanamori H, Kawaura K, Kobayashi F, Krasileva K, Kuo T, McKenzie N, Murata K, Nabeka Y, Paape T, Padmarasu S, Percival-Alwyn L, Kagale S, Scholz U, Sese J, Juliana P, Singh R, Shimizu-Inatsugi R, Swarbreck D, Cockram J, Budak H, Tameshige T, Tanaka T, Tsuji H, Wright J, Wu JZ, Steuernagel B, Small I, Cloutier S, Keeble-Gagnere G, Muehlbauer G, Tibbets J, Nasuda S, Melonek J, Hucl PJ, Sharpe AG, Clark M, Legg E, Bharti A, Langridge P, Hall A, Uauy C, Mascher M, Krattinger SG, Handa H, Shimizu KK, Distelfeld A, Chalmers K, Keller B, Mayer KFX, Poland J, Stein N, McCartney CA, Spannagl M, Wicker T, Pozniak CJ (2020) Multiple wheat genomes reveal global variation in modern breeding. Nature 588:277&#8211;283. 
+                  https://doi.org/10.1038/s41586-020-2961-x
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1038/s41586-020-2961-x</ArticleId>
+          <ArticleId IdType="pubmed">33239791</ArticleId>
+          <ArticleId IdType="pmcid">7759465</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Wang DW, Li D, Wang J, Zhao Y, Wang Z, Yue GD, Liu X, Qin H, Zhang K, Dong L, Wang D (2017) Genome-wide analysis of complex wheat gliadins, the dominant carriers of celiac disease epitopes. Sci Rep-Uk 7:44609. 
+                  https://doi.org/10.1038/srep44609
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1038/srep44609</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Wieser H, Koehler P, Scherf KA (2022) Chemistry of wheat gluten proteins: quantitative composition. Cereal Chem 100:36&#8211;55. 
+                  https://doi.org/10.1002/cche.10553
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1002/cche.10553</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Yu Z, Yunusbaev U, Fritz A, Tilley M, Akhunova A, Trick H, Akhunov E (2024) CRISPR-based editing of the &#969;- and &#947;-gliadin gene clusters reduces wheat immunoreactivity without affecting grain protein quality. Plant Biotechnol J 22:892&#8211;903. 
+                  https://doi.org/10.1111/pbi.14231
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1111/pbi.14231</ArticleId>
+          <ArticleId IdType="pubmed">37975410</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Zhou Y, Bai SL, Li H, Sun GL, Zhang DL, Ma FF, Zhao XP, Nie F, Li JY, Chen LY, Lv LL, Zhu LL, Fan RX, Ge YF, Shaheen A, Guo GH, Zhang Z, Ma JC, Liang HH, Qiu XL, Hu JM, Sun T, Hou JY, Xu HX, Xue SL, Jiang WK, Huang JL, Li SP, Zou CS, Song CP (2021) Introgressing the Aegilops tauschii genome into wheat as a basis for cereal improvement. Nat Plants 7:774&#8211;786. 
+                  https://doi.org/10.1038/s41477-021-00934-w
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1038/s41477-021-00934-w</ArticleId>
+          <ArticleId IdType="pubmed">34045708</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Zhu TT, Wang L, Rodriguez JC, Deal KR, Avni R, Distelfeld A, McGuire PE, Dvorak J, Luo MC (2019) Improved genome sequence of wild emmer wheat Zavitan with the aid of optical maps. G3-Genes Genom Genet 9:619&#8211;624. 
+                  https://doi.org/10.1534/g3.118.200902
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1534/g3.118.200902</ArticleId>
+        </ArticleIdList>
+      </Reference>
+    </ReferenceList>
+  </Article>
+  

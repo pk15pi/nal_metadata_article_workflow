@@ -52,8 +52,7 @@ def split_pubmed(xml_data) -> tuple[list[str], str]:
                 message (str) - if successful returns 'successful'
 
     """
-    pubmed_doctype = ''''
-<?xml version="1.0" encoding="UTF-8"?>
+    pubmed_doctype = '''<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Article PUBLIC "-//NLM//DTD PubMed 3.0//EN" \
 "https://dtd.nlm.nih.gov/ncbi/pubmed/in/PubMed.dtd">
 '''

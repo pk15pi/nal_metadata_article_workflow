@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN" "https://jats.nlm.nih.gov/nlm-dtd/archiving/3.0/archivearticle3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         article-type="rapid-communication"
+         xml:lang="en"><!--
+input file: SFOR_A_2495954_J.xml
+processed with: d3p_header_nlm3_from_jats12.xsl
+version: 2.0
+darts-xml-transformations-20250326T224308 git hash: 0183536115
+-->
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="publisher-acronym">SFOR</journal-id>
+         <journal-id journal-id-type="publisher-id">sfor20</journal-id>
+         <journal-title-group>
+            <journal-title>Scandinavian Journal of Forest Research</journal-title>
+         </journal-title-group>
+         <issn pub-type="ppub">0282-7581</issn>
+         <issn pub-type="epub">1651-1891</issn>
+         <publisher>
+            <publisher-name>Taylor &amp; Francis</publisher-name>
+         </publisher>
+      </journal-meta>
+      <article-meta>
+         <article-id pub-id-type="publisher-id">2495954</article-id>
+         <article-id pub-id-type="doi">10.1080/02827581.2025.2495954</article-id>
+         <article-id pub-id-type="submission-id">257985266</article-id>
+         <article-categories>
+            <subj-group subj-group-type="heading">
+               <subject>Rapid Communication</subject>
+            </subj-group>
+            <subj-group subj-group-type="article-type">
+               <subject>Rapid Communication</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Frequency of <italic>Armillaria</italic> species in woody substrates in Latvian Norway spruce stands</article-title>
+            <alt-title alt-title-type="right-running-head">SCANDINAVIAN JOURNAL OF FOREST RESEARCH</alt-title>
+            <alt-title alt-title-type="left-running-head">L. SILBAUMA ET AL.</alt-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Lauma</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Silbauma</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF1">a</xref>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Inga</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Bu&#x161;a</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF1">a</xref>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>D&#x101;rta</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>K&#x13c;avi&#x146;a</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF1">a</xref>
+               <xref ref-type="corresp" rid="cor1">
+                  <sup>*</sup>
+               </xref>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Baiba</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Krivmane</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF1">a</xref>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Zane</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Stri&#x137;e</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF1">a</xref>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Maryna</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Ramanenka</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF1">a</xref>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Guglielmo</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Lione</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF2">b</xref>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Keitl&#x12b;na</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Krasti&#x146;a</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF1">a</xref>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>T&#x101;lis</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Gaitnieks</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF1">a</xref>
+               <x xml:space="preserve"> &amp; </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Paolo</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Gonthier</surname>
+               </string-name>
+               <xref ref-type="aff" rid="AF2">b</xref>
+            </contrib>
+            <aff id="AF1">
+               <label>a </label>
+               <institution>Latvian State Forest Research Institute Silava</institution>, <named-content content-type="city">Salaspils</named-content>, <country>Latvia</country>
+            </aff>
+            <aff id="AF2">
+               <label>b </label>Department of Agricultural, Forest and Food Sciences (DISAFA), <institution>University of Torino</institution>, <named-content content-type="city">Grugliasco</named-content>, <country>Italy</country>
+            </aff>
+         </contrib-group>
+         <author-notes>
+            <corresp id="cor1">
+               <label>CONTACT </label> D&#x101;rta K&#x13c;avi&#x146;a <email xlink:href="darta.klavina@silava.lv">darta.klavina@silava.lv</email>
+               <institution>Latvian State Forest Research Institute Silava</institution>, <addr-line>Rigas Street 111</addr-line>, <named-content content-type="postal-code">LV-2169</named-content>
+               <named-content content-type="city">Salaspils</named-content>, <country>Latvia</country>
+            </corresp>
+         </author-notes>
+         <pub-date pub-type="ppub">
+            <day>19</day>
+            <month>05</month>
+            <year>2025</year>
+            <string-date>April - June 2025</string-date>
+         </pub-date>
+         <volume>40</volume>
+         <issue>3-4</issue>
+         <fpage seq="7">237</fpage>
+         <lpage>240</lpage>
+         <supplementary-material id="SM4064"
+                                 mimetype="application"
+                                 mime-subtype="vnd.openxmlformats-officedocument.wordprocessingml.document"
+                                 xlink:href="sfor_a_2495954_sm4064.docx">
+            <caption>
+               <title>Supplemental Material</title>
+            </caption>
+         </supplementary-material>
+         <history>
+            <date date-type="received">
+               <day>7</day>
+               <month>1</month>
+               <year>2025</year>
+            </date>
+            <date date-type="accepted">
+               <day>15</day>
+               <month>4</month>
+               <year>2025</year>
+            </date>
+         </history>
+         <permissions>
+            <copyright-statement>&#xa9; 2025 Informa UK Limited, trading as Taylor &amp; Francis Group</copyright-statement>
+            <copyright-year>2025</copyright-year>
+            <copyright-holder>Informa UK Limited, trading as Taylor &amp; Francis Group</copyright-holder>
+         </permissions>
+         <abstract>
+            <title>ABSTRACT</title>
+            <p>This study aimed to identify and quantify the presence of <italic>Armillaria</italic> species associated with various woody substrates in 48 Norway spruce forest stands growing on different soil types across Latvia. We collected 241 samples of <italic>Armillaria</italic> rhizomorphs, which were identified at the species level using molecular tools. The results showed that <italic>A. cepistipes</italic> is the dominant species in the wood substrates of Norway spruce in Latvia, followed by <italic>A. borealis</italic>. The impact of the observed <italic>Armillaria</italic> species on Norway spruce forests is discussed.</p>
+         </abstract>
+         <kwd-group kwd-group-type="author">
+            <title>KEYWORDS</title>
+            <kwd>Wood-inhabiting fungi</kwd>
+            <kwd>
+               <italic>Heterobasidion</italic> spp<italic>.</italic>
+            </kwd>
+            <kwd>Honey fungus</kwd>
+            <kwd>root rot</kwd>
+            <kwd>
+               <italic>Picea abies</italic>
+            </kwd>
+            <kwd>Rhizomorphs</kwd>
+         </kwd-group>
+         <funding-group>
+            <award-group>
+               <funding-source>
+JSC Latvian State Forests
+</funding-source>
+            </award-group>
+            <funding-statement>This work was funded by the framework of the project Forest Sector Competence Center (project No.5.1.1.2.i.0/1/22/A/CFLA/007/P12 &#x201c;The use of cord forming basidiomycetes in limiting the spread of root and butt rot in forests on peat soils&#x201d;). A part of the material was collected in the research program funded by JSC Latvian State Forests (No. 5-5.9.1_007q_101_21_79 &#x201c;Investigation of the impact of root rot and reducing risks caused by root rot&#x201d;).</funding-statement>
+         </funding-group>
+         <counts>
+            <fig-count count="1"/>
+            <table-count count="1"/>
+            <equation-count count="1"/>
+            <ref-count count="10"/>
+            <page-count count="4"/>
+            <word-count count="2013"/>
+         </counts>
+      </article-meta>
+   </front>
+</article>

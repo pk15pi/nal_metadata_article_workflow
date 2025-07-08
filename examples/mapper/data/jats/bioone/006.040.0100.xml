@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE issue-xml PUBLIC "-//Atypon//DTD Atypon JATS Journal Archiving and Interchange Issue XML DTD v1.0 20120831//EN" "JATS-1.0/Atypon-Issue-Xml.dtd">
+<issue-xml>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">malb</journal-id>
+<journal-title-group>
+<journal-title>American Malacological Bulletin</journal-title>
+</journal-title-group>
+<issn pub-type="ppub">0740-2783</issn>
+<publisher>
+<publisher-name>American Malacological Society</publisher-name>
+</publisher>
+</journal-meta>
+<issue-meta>
+<pub-date pub-type="ppub">
+<month>2</month>
+<year>2024</year>
+</pub-date>
+<volume>40</volume>
+<issue>1</issue>
+<issue-id pub-id-type="doi">10.4003/006.040.0100</issue-id>
+</issue-meta>
+<toc toc-type="page-order">
+<issue-article-meta><article-id pub-id-type="doi">10.4003/006.040.0101</article-id></issue-article-meta>
+<issue-article-meta><article-id pub-id-type="doi">10.4003/006.040.0102</article-id></issue-article-meta>
+<issue-article-meta><article-id pub-id-type="doi">10.4003/006.040.0104</article-id></issue-article-meta>
+<issue-article-meta><article-id pub-id-type="doi">10.4003/006.040.0107</article-id></issue-article-meta>
+<issue-article-meta><article-id pub-id-type="doi">10.4003/006.040.0109</article-id></issue-article-meta>
+<issue-article-meta><article-id pub-id-type="doi">10.4003/006.040.0103</article-id></issue-article-meta>
+<issue-article-meta><article-id pub-id-type="doi">10.4003/006.040.0105</article-id></issue-article-meta>
+<issue-article-meta><article-id pub-id-type="doi">10.4003/006.040.0110</article-id></issue-article-meta>
+<issue-article-meta><article-id pub-id-type="doi">10.4003/006.040.0111</article-id></issue-article-meta>
+<issue-article-meta><article-id pub-id-type="doi">10.4003/006.040.0112</article-id></issue-article-meta>
+</toc>
+</issue-xml>

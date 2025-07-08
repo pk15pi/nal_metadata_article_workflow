@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN" "https://jats.nlm.nih.gov/nlm-dtd/archiving/3.0/archivearticle3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink"
+         xml:lang="en"
+         article-type="research-article"><!--
+input file: GEFN_A_2307431_J.xml
+processed with: d3p_header_nlm3_from_jats12.xsl
+version: 2.0
+darts-xml-transformations-20250326T224308 git hash: 0183536115
+-->
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="publisher-id">gefn20</journal-id>
+         <journal-id journal-id-type="publisher-acronym">GEFN</journal-id>
+         <journal-title-group>
+            <journal-title>Ecology of Food and Nutrition</journal-title>
+         </journal-title-group>
+         <issn pub-type="ppub">0367-0244</issn>
+         <issn pub-type="epub">1543-5237</issn>
+         <publisher>
+            <publisher-name>Routledge</publisher-name>
+         </publisher>
+      </journal-meta>
+      <article-meta>
+         <article-id pub-id-type="doi">10.1080/03670244.2024.2307431</article-id>
+         <article-id pub-id-type="publisher-id">2307431</article-id>
+         <article-id pub-id-type="submission-id">237240018</article-id>
+         <article-categories>
+            <subj-group subj-group-type="heading">
+               <subject>Research Article</subject>
+            </subj-group>
+            <subj-group subj-group-type="article-type">
+               <subject>Research Article</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Nutritional status, feeding behavior, and oral conditions in preschool children exposed to secondhand smoke</article-title>
+            <alt-title alt-title-type="left-running-head">K. G. DE SOUSA ET AL.</alt-title>
+            <alt-title alt-title-type="right-running-head">ECOLOGY OF FOOD AND NUTRITION</alt-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names initials="K. G.">Karina Guedes</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>de Sousa</surname>
+               </string-name>
+               <xref ref-type="aff" rid="aff0001">
+                  <sup>a</sup>
+               </xref>
+               <xref ref-type="aff" rid="aff0002">
+                  <sup>b</sup>
+               </xref>
+               <uri content-type="orcid">https://orcid.org/0000-0003-3784-9537</uri>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names initials="S.">Samuel</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>de Carvalho Chaves</surname>
+               </string-name>
+               <x xml:space="preserve"> </x>
+               <degrees>J&#xfa;nior</degrees>
+               <xref ref-type="aff" rid="aff0003">
+                  <sup>c</sup>
+               </xref>
+               <uri content-type="orcid">https://orcid.org/0000-0002-7769-4763</uri>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names initials="T.">Ta&#xed;s</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>de Souza Barbosa</surname>
+               </string-name>
+               <xref ref-type="aff" rid="aff0004">
+                  <sup>d</sup>
+               </xref>
+               <uri content-type="orcid">https://orcid.org/0000-0002-3479-7789</uri>
+               <x xml:space="preserve"> &amp; </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names initials="M. B. D.">Maria Beatriz Duarte</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Gavi&#xe3;o</surname>
+               </string-name>
+               <xref ref-type="aff" rid="aff0001">
+                  <sup>a</sup>
+               </xref>
+               <xref ref-type="corresp" rid="an0001">
+                  <sup>*</sup>
+               </xref>
+               <uri content-type="orcid">https://orcid.org/0000-0002-7546-5262</uri>
+            </contrib>
+            <aff id="aff0001">
+               <label>a </label>Departamento de Ci&#xea;ncias da Sa&#xfa;de e Odontologia Infantil, Faculdade de Odontologia de Piracicaba, <institution>Universidade Estadual de Campinas (FOP-UNICAMP)</institution>, <named-content content-type="city">Piracicaba, SP</named-content>, <country>Brasil</country>
+            </aff>
+            <aff id="aff0002">
+               <label>b </label>Department of Dentistry, <institution>UniFacex</institution>, <named-content content-type="city">Natal</named-content>, <country>Brasil</country>
+            </aff>
+            <aff id="aff0003">
+               <label>c </label>Dental School, <institution>Federal University of Par&#xe1;</institution>, <named-content content-type="city">Bel&#xe9;m</named-content>, <country>Brasil</country>
+            </aff>
+            <aff id="aff0004">
+               <label>d </label>Department of Social and Pediatric Dentistry, Institute of Science and Technology, <institution>Campus of S&#xe3;o Jos&#xe9; dos Campos, S&#xe3;o Paulo State University (UNESP)</institution>, <named-content content-type="city">S&#xe3;o Jos&#xe9; dos Campos</named-content>, <country>Brasil</country>
+            </aff>
+         </contrib-group>
+         <author-notes>
+            <corresp id="an0001">CONTACT Maria Beatriz Duarte Gavi&#xe3;o <email xlink:href="mailto:mbgaviao@unicamp.br">mbgaviao@unicamp.br</email> Departamento de Ci&#xea;ncias da Sa&#xfa;de e Odontologia Infantil, Faculdade de Odontologia de Piracicaba, <institution>Universidade Estadual de Campinas (FOP-UNICAMP)</institution>, <addr-line>Avenida Limeira, 901, Piracicaba 13414-903, Brasil</addr-line>, <named-content content-type="city">Piracicaba/SP</named-content>, <country>Brasil</country>
+            </corresp>
+         </author-notes>
+         <pub-date pub-type="ppub">
+            <day>03</day>
+            <month>03</month>
+            <year>2024</year>
+            <string-date>March-April 2024</string-date>
+         </pub-date>
+         <volume>63</volume>
+         <issue>2</issue>
+         <fpage seq="3">63</fpage>
+         <lpage>82</lpage>
+         <permissions>
+            <copyright-statement>&#xa9; 2024 The Author(s). Published with license by Taylor &amp; Francis Group, LLC.</copyright-statement>
+            <copyright-year>2024</copyright-year>
+            <copyright-holder>The Author(s)</copyright-holder>
+            <license license-type="open-access"
+                     xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+               <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives License (<ext-link ext-link-type="uri"
+                            xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link>), which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited, and is not altered, transformed, or built upon in any way. The terms on which this article has been published allow the posting of the Accepted Manuscript in a repository by the author(s) or with their consent.</license-p>
+            </license>
+         </permissions>
+         <abstract>
+            <title>ABSTRACT</title>
+            <p>This study evaluated whether the nutritional status of preschoolers is influenced by secondhand smoke. Pairs of mothers-children (<italic>N</italic>&#x2009;=&#x2009;201) were allocated in &#x201c;children exposed to secondhand smoke (ESHS)&#x201d; or &#x201c;not exposed (N_ESHS).&#x201d; Mothers answered, &#x201c;The Parental Feeding Style Questionnaire (PFSQ).&#x201d; The nutritional status and oral conditions were evaluated using WHO criteria. ESHS was 3.5 more likely to have a high BMI and their mothers had 10&#x2009;kg more than N_ESHS. The probability of having dental caries was 2.28 and 3.68 times greater when the mother&#x2019;s BMI increases and when family/mothers were smokers, independently whether they smoke in the child&#x2019;s presence.</p>
+         </abstract>
+         <kwd-group kwd-group-type="author">
+            <title>KEYWORDS</title>
+            <kwd>Children</kwd>
+            <kwd>cigarettes</kwd>
+            <kwd>food</kwd>
+            <kwd>oral health</kwd>
+         </kwd-group>
+         <funding-group>
+            <award-group>
+               <funding-source>
+Coordena&#xe7;&#xe3;o de Aperfei&#xe7;oamento de Pessoal de N&#xed;vel Superior - Brasil (CAPES, Brazil)
+</funding-source>
+            </award-group>
+            <funding-statement>This work was supported by the Coordena&#xe7;&#xe3;o de Aperfei&#xe7;oamento de Pessoal de N&#xed;vel Superior - Brasil (CAPES, Brazil).</funding-statement>
+         </funding-group>
+         <counts>
+            <fig-count count="1"/>
+            <table-count count="6"/>
+            <ref-count count="44"/>
+            <page-count count="20"/>
+         </counts>
+      </article-meta>
+   </front>
+</article>

@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/archiving/1.0/JATS-archivearticle1.dtd"[]>
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">zoos</journal-id>
+      <journal-title-group>
+        <journal-title>Zoosystema</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1280-9551</issn>
+      <publisher>
+        <publisher-name>National Museum of Natural History</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.5252/zoosystema2024v46a31</article-id>
+      <title-group>
+        <article-title>The identity of the iconic Japanese ‘Heike-gani’, <italic>Heikeopsis japonica</italic> (von Siebold, 1824) (Crustacea, Decapoda, Brachyura, Dorippidae)</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <string-name>
+            <given-names>Danièle</given-names>
+            <x></x>
+            <surname>Guinot</surname>
+          </string-name>
+          <xref ref-type="aff" rid="aff1"></xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>
+            <given-names>Peter K. L.</given-names>
+            <x></x>
+            <surname>Ng</surname>
+          </string-name>
+          <xref ref-type="aff" rid="aff2"></xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>
+            <given-names>Tohru</given-names>
+            <x></x>
+            <surname>Naruse</surname>
+          </string-name>
+          <xref ref-type="aff" rid="aff3"></xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>
+            <given-names>Valentin de</given-names>
+            <x></x>
+            <surname>Mazancourt</surname>
+          </string-name>
+          <xref ref-type="aff" rid="aff4"></xref>
+        </contrib>
+        <aff id="aff1">Institut de Systématique, Évolution, Biodiversité (ISYEB) Muséum national d'Histoire naturelle, CNRS, Sorbonne Université, EPHE, Université des Antilles Case postale 53, 57 rue Cuvier, F-75231 Paris cedex 05 (France) <email>daniele.guinot@mnhn.fr</email></aff>
+        <aff id="aff2">Lee Kong Chian Natural History Museum, Conservatory Drive, National University of Singapore, Singapore 117377 (Republic of Singapore) <email>peterng@nus.edu.sg</email></aff>
+        <aff id="aff3">Tropical Biosphere Research Center, Iriomote Station University of the Ryukyus, 870 Uehara, Taketomi, Okinawa 907-1541 (Japan) <email>naruse@lab.u-ryukyu.ac.jp</email></aff>
+        <aff id="aff4">Laboratoire de Biologie des Organismes et Écosystèmes Aquatiques (BOREA) Muséum national d'Histoire naturelle, CNRS, IRD, Sorbonne Université, Université de Caen Normandie, Université des Antilles, Case postale 26, 57 rue Cuvier, F-75231 Paris cedex 05 (France) <email>valentin.demazancourt_ext@mnhn.fr</email></aff>
+      </contrib-group>
+      <author-notes>
+        <fn id="fn01">
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://zoobank.org/urn:lsid:zoobank.org:pub:1C5C17AD-CBFA-4F51-A856-2D0CE191ABEC">urn:lsid:zoobank.org:pub:1C5C17AD-CBFA-4F51-A856-2D0CE191ABEC</ext-link>
+          </p>
+        </fn>
+        <fn id="fn02">
+          <p>Guinot D., Ng P. K. L., Naruse T. &amp; de Mazancourt V. 2024. — The identity of the iconic Japanese ‘Heike-gani’, <italic>Heikeopsis japonica</italic> (von <xref ref-type="bibr" rid="bibr112">Siebold, 1824</xref>) (Crustacea, Decapoda, Brachyura, Dorippidae). <italic>Zoosystema</italic> 46 (31): 775-811. <ext-link ext-link-type="uri" xlink:href="http://zoosystema.com/46/31">http://zoosystema.com/46/31</ext-link></p>
+        </fn>
+        <fn id="fn03">
+          <p>
+            <italic>Dedicated to Lipke B. Holthuis and Raymond B. Manning</italic>
+          </p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>10</day>
+        <month>December</month>
+        <year>2024</year>
+      </pub-date>
+      <volume>46</volume>
+      <issue>31</issue>
+      <fpage>775</fpage>
+      <lpage>811</lpage>
+      <history>
+        <date date-type="received">
+          <day>12</day>
+          <month>March</month>
+          <year>2024</year>
+        </date>
+        <date date-type="accepted">
+          <day>13</day>
+          <month>May</month>
+          <year>2024</year>
+        </date>
+      </history>
+      <self-uri content-type="pdf" xlink:href="zoosystema2024v46a31.pdf"></self-uri>
+      <abstract>
+        <title>ABSTRACT</title>
+        <p>In the Dorippidae H. Milne Edwards, 1837, as revised by Holthuis &amp; Manning (<xref ref-type="bibr" rid="bibr28">1990</xref>), ambulatory leg length, which is often utilised as a criterion for specific morphological differentiation, has proved to be a reliable character, even for the few cases where sexual dimorphism is observed in relative lengths. However, the discrepancies in the use of ambulatory leg length by these authors in the case of the iconic East Asian crab <italic>Heikeopsis japonica</italic> (von <xref ref-type="bibr" rid="bibr112">Siebold, 1824</xref>) is an issue that requires detailed study. The use of ambulatory leg length in dorippids has since been followed up by other researchers, but it is clear that there is a problem with this species. The taxonomy of the Heike-gani crab is therefore examined here in depth. In their revision, Holthuis &amp; Manning (<xref ref-type="bibr" rid="bibr28">1990</xref>) did not discuss or resolve the problem that in <italic>H. japonica</italic> the first and second ambulatory legs are constantly and consistently long and narrow in adults of both sexes for most specimens in Japan, Taiwan and southern China, whereas the populations from the North China Sea have legs that are usually distinctly shorter and wider. Holthuis &amp; Manning (<xref ref-type="bibr" rid="bibr28">1990</xref>) synonymised the long-legged <italic>Neodorippe</italic> (<italic>Neodorippe</italic>) <italic>japonica</italic> var<italic>. taiwanensis</italic><xref ref-type="bibr" rid="bibr102">Serène &amp; Romimohtarto, 1969</xref> with <italic>Heikea japonica</italic> (von <xref ref-type="bibr" rid="bibr112">Siebold, 1824</xref>) but, in addition, recognised a new very long-legged species from the Inland Sea in Japan, <italic>H. arachnoides</italic> (<xref ref-type="bibr" rid="bibr60">Manning &amp; Holthuis, 1986</xref>). While the first and second ambulatory legs of <italic>H. arachnoides</italic> are relatively longer than in the typical <italic>H. japonica</italic> from the other parts of Japan, the difference is slight, and the holotype is not a fully adult specimen. Much of the literature on <italic>H. japonica</italic> from Japan, China, Hong Kong, Taiwan, and Korea does not discriminate between the leg lengths, and most authors follow the prognosis of Holthuis &amp; Manning (<xref ref-type="bibr" rid="bibr28">1990</xref>) for the taxonomy. To better understand the problem with leg lengths in <italic>H. japonica</italic>, we examined a large series of specimens of these different leg-morphs from across its distribution, including the types of the various taxa. We confirm here that <italic>Neodorippe</italic> (<italic>Neodorippe</italic>) <italic>japonica</italic> var<italic>. taiwanensis</italic> is a junior synonym of <italic>H. japonica</italic> s. str. We also show that <italic>Heikea arachnoides</italic> Manning &amp; Holthuis, 1986, based on not fully-grown individuals, is clearly a junior synonym of <italic>H. japonica</italic> s. str. as we demonstrate here that subadults and juveniles usually have proportionately longer and more slender first and second ambulatory legs. Notably, while all adult specimens from northern Chinese waters have shorter legs in contrast to those from other areas, this character is not unique to them: there were some specimens from Japan, Taiwan and southern China that possess relatively shorter legs as well, and others that belonged to the typical long-legged morph. Detailed morphological examination (including gonopods) of hundreds of specimens and analysis of sequence data for the mitochondrial 16S rRNA gene did not reveal any significant characters that could be used to separate the two morphs. This may be one of the very first cases of incipient speciation or cladogenesis taking place in a widely distributed species, with the northern Chinese population beginning to be isolated, but not long enough for other morphological and/or genetic characters to manifest themselves.</p>
+      </abstract>
+      <abstract>
+        <title>RÉSUMÉ</title>
+        <p>
+          <italic>L'identité du crabe japonais iconique «Heike-gani»,</italic> Heikeopsis japonica <italic>(von <xref ref-type="bibr" rid="bibr112">Siebold, 1824</xref>) (Crustacea, Decapoda, Brachyura, Dorippidae).</italic></p>
+        <p>Chez les Dorippidae H. Milne Edwards, 1837, tels que révisés par Holthuis &amp; Manning (<xref ref-type="bibr" rid="bibr28">1990</xref>), la longueur des pattes ambulatoires, souvent utilisée comme critère de différenciation morphologique spécifique, s'est avérée être un caractère fiable, même dans les rares cas où un dimorphisme sexuel est observé dans les longueurs relatives. Cependant, les divergences dans l'utilisation de la longueur des pattes ambulatoires par ces auteurs dans le cas du crabe emblématique d'Asie orientale <italic>Heikeopsis japonica</italic> (von <xref ref-type="bibr" rid="bibr112">Siebold, 1824</xref>) est une question qui nécessite une étude détaillée. La longueur des pattes ambulatoires a continué à être utilisée par d'autres chercheurs, mais il est clair qu'il y a un problème avec cette espèce. La taxonomie du crabe Heike-gani est donc examinée ici en détail. Dans leur révision, Holthuis &amp; Manning (<xref ref-type="bibr" rid="bibr28">1990</xref>) n'ont pas discuté ni résolu le problème selon lequel chez <italic>H. japonica</italic> les première et deuxième pattes ambulatoires des adultes des deux sexes sont constamment et régulièrement longues et étroites chez la plupart des spécimens du Japon, de Taiwan et de Chine du Sud, alors qu'elles sont généralement nettement plus courtes et plus larges dans les populations de la mer de Chine du Nord. Holthuis &amp; Manning (<xref ref-type="bibr" rid="bibr28">1990</xref>) ont mis en synonymie <italic>Neodorippe</italic> (<italic>Neodorippe</italic>) <italic>japonica</italic> var. <italic>taiwanensis</italic><xref ref-type="bibr" rid="bibr102">Serène &amp; Romimohtarto, 1969</xref> avec <italic>Heikea japonica</italic> (von <xref ref-type="bibr" rid="bibr112">Siebold, 1824</xref>) et, en outre, ont reconnu une nouvelle espèce à très longues pattes dans la Mer intérieure du Japon, <italic>H. arachnoides</italic> (<xref ref-type="bibr" rid="bibr60">Manning &amp; Holthuis, 1986</xref>). Bien que les première et deuxième pattes ambulatoires de <italic>H. arachnoides</italic> soient relativement plus longues que celles de l'espèce typique <italic>H. japonica</italic> d'autres régions du Japon, la différence est faible, et l'holotype n'est pas un spécimen complètement adulte. Une grande partie de la littérature concernant <italic>H. japonica</italic> du Japon, de Chine, de Hong Kong, de Taïwan et de Corée ne fait pas de distinction entre la longueur des pattes, et la plupart des auteurs suivent la diagnose de Holthuis &amp; Manning (<xref ref-type="bibr" rid="bibr28">1990</xref>). Pour mieux comprendre le problème de la longueur des pattes chez <italic>H. japonica</italic>, nous avons examiné une grande série d'individus des différents morphes de pattes provenant de l'ensemble de sa distribution, y compris les types des différents taxons. Nous pouvons confirmer que <italic>Neodorippe</italic> (<italic>Neodorippe</italic>) <italic>japonica</italic> var<italic>. taiwanensis</italic> est un synonyme junior de <italic>H. japonica</italic> s. str. Nous montrons également que <italic>Heikea arachnoides</italic> (<xref ref-type="bibr" rid="bibr60">Manning &amp; Holthuis, 1986</xref>), décrit sur la base d'individus n'ayant pas atteint leur maturité, est indubitablement un synonyme junior de <italic>H. japonica</italic> s. str. car il est démontré ici que les subadultes et les juvéniles ont généralement les première et deuxième pattes ambulatoires proportionnellement plus longues et plus fines. Malheureusement, alors que tous les spécimens adultes des eaux du nord de la Chine ont des pattes plus courtes que ceux des autres régions, ce caractère ne leur est pas exclusif: quelques spécimens du Japon, de Taiwan et du sud de la Chine possèdent également des pattes relativement plus courtes, bien que la plupart d'entre eux appartiennent au morphe typique à longues pattes. Un examen morphologique détaillé (y compris des gonopodes) de centaines d'individus et l'analyse des données de séquence du gène mitochondrial ARNr 16S n'ont pas permis de révéler de caractères significatifs pouvant être utilisés pour distinguer les deux morphes. Il pourrait s'agir de l'un des tout premiers cas observés de spéciation ou de cladogenèse naissante chez une espèce largement répandue, la population du nord de la Chine étant au début du processus d'isolement, mais pas depuis assez longtemps pour que d'autres caractères morphologiques et/ou génétiques apparaissent.</p>
+      </abstract>
+      <kwd-group>
+        <title>KEY WORDS</title>
+        <kwd>Morphological variability</kwd>
+        <x>, </x>
+        <kwd>ambulatory leg length</kwd>
+        <x>, </x>
+        <kwd>long-legged morph</kwd>
+        <x>, </x>
+        <kwd>short-legged morph</kwd>
+        <x>, </x>
+        <kwd>
+          <italic>Neodorippe</italic> (<italic>Neodorippe</italic>)
+<italic>japonica</italic> var. <italic>taiwanensis</italic></kwd>
+        <x>, </x>
+        <kwd>
+          <italic>Heikea arachnoides</italic>
+        </kwd>
+        <x>, </x>
+        <kwd>incipient speciation</kwd>
+        <x>, </x>
+        <kwd>molecular analysis</kwd>
+        <x>, </x>
+        <kwd>16S rRNA</kwd>
+        <x>, </x>
+        <kwd>East Asia</kwd>
+        <x>.</x>
+      </kwd-group>
+      <kwd-group xml:lang="fr">
+        <title>MOTS CLÉS</title>
+        <kwd>Variabilité morphologique</kwd>
+        <x>, </x>
+        <kwd>pattes ambulatoires</kwd>
+        <x>, </x>
+        <kwd>forme à pattes longues</kwd>
+        <x>, </x>
+        <kwd>forme à pattes courtes</kwd>
+        <x>, </x>
+        <kwd>
+          <italic>Neodorippe</italic> (<italic>Neodorippe</italic>)
+<italic>japonica</italic> var. <italic>taiwanensis</italic></kwd>
+        <x>, </x>
+        <kwd>
+          <italic>Heikea arachnoides</italic>
+        </kwd>
+        <x>, </x>
+        <kwd>cladogenèse</kwd>
+        <x>, </x>
+        <kwd>analyse moléculaire</kwd>
+        <x>, </x>
+        <kwd>ARNr 16S</kwd>
+        <x>, </x>
+        <kwd>Asie de l'Est</kwd>
+        <x>.</x>
+      </kwd-group>
+      <counts>
+        <page-count count="37" />
+      </counts>
+    </article-meta>
+  </front>
+</article>

@@ -1,0 +1,2016 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/archiving/1.0/JATS-archivearticle1.dtd"[]>
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">malb</journal-id>
+      <journal-title-group>
+        <journal-title>American Malacological Bulletin</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0740-2783</issn>
+      <publisher>
+        <publisher-name>American Malacological Society</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.4003/006.040.0102</article-id>
+      <title-group>
+        <article-title>Boring Bivalves: Using Molecular Phylogenetics to Resolve Species Identities in <italic>Botula</italic> (Mytilidae)</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <string-name>
+            <given-names>Sarah K.</given-names>
+            <x></x>
+            <surname>Hayes</surname>
+          </string-name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <x>, </x>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <string-name>
+            <given-names>Timothy A.</given-names>
+            <x></x>
+            <surname>Rawlings</surname>
+          </string-name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="corresp" rid="corr1"></xref>
+          <x>, </x>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>
+            <given-names>Rüdiger</given-names>
+            <x></x>
+            <surname>Bieler</surname>
+          </string-name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <aff id="aff1">
+          <label>
+            <sup>1</sup>
+          </label>Department of Biology, Cape Breton University, 1250 Grand Lake Road, Sydney, NS B1P 6L2, Canada</aff>
+        <aff id="aff2">
+          <label>
+            <sup>2</sup>
+          </label>Negaunee Integrative Research Center, 1400 S. DuSable Lake Shore Drive, Field Museum of Natural History, Chicago, Illinois 60605, U.S.A
+</aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="corr1">Correspondence: (Timothy A. Rawlings): <email>timothy_rawlings@cbu.ca</email></corresp>
+        <fn id="fn01">
+          <p>
+            <bold>ZooBank Registration:</bold>
+            <ext-link ext-link-type="uri" xlink:href="urn:lsid:zoobank.org:pub:BD2C05DD-004F-4FEF-873C-F93FCB12603C">urn:lsid:zoobank.org:pub:BD2C05DD-004F-4FEF-873C-F93FCB12603C</ext-link>
+          </p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>29</day>
+        <month>September</month>
+        <year>2023</year>
+      </pub-date>
+      <volume>40</volume>
+      <issue>1</issue>
+      <fpage>1</fpage>
+      <lpage>17</lpage>
+      <history>
+        <date date-type="received">
+          <day>18</day>
+          <month>November</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>16</day>
+          <month>February</month>
+          <year>2023</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>18</day>
+          <month>September</month>
+          <year>2023</year>
+        </date>
+      </history>
+      <self-uri content-type="pdf" xlink:href="006.040.0102.pdf"></self-uri>
+      <abstract>
+        <title>Abstract<x>: </x></title>
+        <p>Based on morphological examination of rock-, shell-, and coral-boring bivalves in the marine genus <italic>Botula</italic>, Wilson and Tait (<xref ref-type="bibr" rid="bibr47">1984</xref>) concluded that this genus comprised a single Recent species, <italic>Botula fusca</italic> (<xref ref-type="bibr" rid="bibr13">Gmelin, 1791</xref>), with a pan-tropical distribution spanning the western Atlantic, Pacific, and Indian Oceans. Variation in shell colour, habitat, depth, and anatomy were determined to reflect variation within this one species. In a subsequent review of Recent and fossil <italic>Botula</italic>, Kleemann (<xref ref-type="bibr" rid="bibr17">2007</xref>) expressed doubts about a monotypic <italic>Botula</italic> given “striking morphological differences” between several described species, advocating for the study of soft tissues and application of molecular tools to help resolve species identities. Here, for the first time, we have undertaken a molecular phylogenetic approach to explore species-level relationships within the genus <italic>Botula.</italic> Our taxon sampling included freshly collected specimens from the Florida Keys National Marine Sanctuary in the context of ongoing research into bioeroding bivalves at reef restoration sites, in addition to previous collections from the western Atlantic, Pacific, and Indian Oceans available at the Florida Museum of Natural History and the Santa Barbara Museum of Natural History. Based on analyses of mitochondrial (COI and 16S rRNA) and nuclear (H3 and 28S rRNA) genes, the genus <italic>Botula</italic> appears to be monophyletic, with the contentious species currently classified as <italic>Leiosolenus kleemanni</italic> (<xref ref-type="bibr" rid="bibr45">Valentich-Scott, 2008</xref>) falling within <italic>Botula</italic> rather than <italic>Leiosolenus</italic>. High levels of sequence differentiation among samples in this study, including ones previously identified as “<italic>Botula silicula”, Botula cinnamomea, “Leiosolenus” kleemanni,</italic> and <italic>Botula fusca</italic>, supported them as distinct species. Our phylogenetic analyses also identified a potential cryptic species within western Atlantic <italic>Botula fusca</italic>. Increased knowledge of diversity within the genus <italic>Botula</italic> should lead to a more accurate understanding of the role of these bioeroding species in reef ecosystems.</p>
+      </abstract>
+      <kwd-group>
+        <title>Key words<x>: </x></title>
+        <kwd>Coral reef</kwd>
+        <x>, </x>
+        <kwd>cryptic species</kwd>
+        <x>, </x>
+        <kwd>diversity</kwd>
+        <x>, </x>
+        <kwd>Florida Keys National Marine Sanctuary</kwd>
+      </kwd-group>
+      <counts>
+        <page-count count="17" />
+      </counts>
+    </article-meta>
+  </front>
+  <back>
+    <ack>
+      <title>ACKNOWLEDGMENTS</title>
+      <p>We would like to thank John Slapcinsky and Gustav Paulay (UF-IZ), Pam Soltis and Terry Lott (UF-GRR), and the UF Board of Trustees, for granting access to tissues and specimens in the UF collections, as well as Paul Valentich-Scott and Vanessa Delnavaz for providing tissue samples of key taxa from SBMNH. We also appreciate the efforts of those individuals listed in <xref ref-type="table" rid="t02">Table 2</xref> who were involved in specimen collection in the field. Lisa Kanellos, illustrator for RB's reef restoration project (FMNH), arranged the color plate. Funding for this project was provided by the Paul M. Angell Family Foundation to RB, an NSERC Undergraduate Student Research Award to SKH, a Clean Leadership Professional Internship to SKH, and a CBU RISE grant to TAR. Specimen collection in the Florida Keys National Marine Sanctuary was conducted under Research Permit FKNMS-2017-069 to RB.</p>
+    </ack>
+    <ref-list>
+      <title>LITERATURE CITED</title>
+      <ref id="bibr01">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Audino</surname>
+              <x>, </x>
+              <given-names>J. A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>J. M.</given-names>
+              <x></x>
+              <surname>Serb</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>J. E. A. R.</given-names>
+              <x></x>
+              <surname>Marian</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2020</year>
+          <x>. </x>
+          <article-title>Phylogeny and anatomy of marine mussels (Bivalvia: Mytilidae) reveal convergent evolution of siphon traits.</article-title>
+          <x></x>
+          <source>
+            <italic>Zoological Journal of the Linnean Society</italic>
+          </source>
+          <x></x>
+          <volume>190</volume>
+          <x>: </x>
+          <fpage>592</fpage>
+          <x>–</x>
+          <lpage>612</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr02">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Bieler</surname>
+              <x>, </x>
+              <given-names>R.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>P. M.</given-names>
+              <x></x>
+              <surname>Mikkelsen</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>T. M.</given-names>
+              <x></x>
+              <surname>Collins</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>E. A.</given-names>
+              <x></x>
+              <surname>Glover</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>V. L.</given-names>
+              <x></x>
+              <surname>González</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>D. L.</given-names>
+              <x></x>
+              <surname>Graf</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>E. M.</given-names>
+              <x></x>
+              <surname>Harper</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>J.</given-names>
+              <x></x>
+              <surname>Healy</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>G. Y.</given-names>
+              <x></x>
+              <surname>Kawauchi</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>P. P.</given-names>
+              <x></x>
+              <surname>Sharma</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>S.</given-names>
+              <x></x>
+              <surname>Staubach</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>E. E.</given-names>
+              <x></x>
+              <surname>Strong</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>J. D.</given-names>
+              <x></x>
+              <surname>Taylor</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>I.</given-names>
+              <x></x>
+              <surname>Tëmkin</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>J. D.</given-names>
+              <x></x>
+              <surname>Zardus</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>S.</given-names>
+              <x></x>
+              <surname>Clarke</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>A.</given-names>
+              <x></x>
+              <surname>Guzmán</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>E.</given-names>
+              <x></x>
+              <surname>McIntyre</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>P.</given-names>
+              <x></x>
+              <surname>Sharp</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>G.</given-names>
+              <x></x>
+              <surname>Giribet</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2014</year>
+          <x>. </x>
+          <article-title>Investigating the Bivalve Tree of Life — An exemplar-based approach combining molecular and novel morphological characters.</article-title>
+          <x></x>
+          <source>
+            <italic>Invertebrate Systematics</italic>
+          </source>
+          <x></x>
+          <volume>28</volume>
+          <x>: </x>
+          <fpage>32</fpage>
+          <x>–</x>
+          <lpage>115</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr03">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Bieler</surname>
+              <x>, </x>
+              <given-names>R.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>C.</given-names>
+              <x></x>
+              <surname>Granados-Cifuentes</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>T. A.</given-names>
+              <x></x>
+              <surname>Rawlings</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>P.</given-names>
+              <x></x>
+              <surname>Sierwald</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>T. M.</given-names>
+              <x></x>
+              <surname>Collins</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2017</year>
+          <x>. </x>
+          <article-title>Non-native molluscan colonizers on deliberately placed shipwrecks in the Florida Keys, with description of a new species of potentially invasive worm-snail (Gastropoda: Vermetidae).</article-title>
+          <x></x>
+          <source>
+            <italic>PeerJ</italic>
+          </source>
+          <x></x>
+          <volume>5</volume>
+          <x>: </x>
+          <fpage>e3158</fpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr04">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Chemnitz</surname>
+              <x>, </x>
+              <given-names>J. H.</given-names>
+            </string-name>
+            <x></x>
+          </person-group>
+          <year>1785</year>
+          <x>. </x>
+          <source>
+            <italic>Neues systematisches Conchylien Cabinet</italic>
+          </source>
+          <x>, vol. </x>
+          <volume>8</volume>
+          <x>, </x>
+          <fpage>xvi +</fpage>
+          <x></x>
+          <fpage>372</fpage>
+          <x> pp., </x>
+          <comment>pls 70–102</comment>
+          <x>. </x>
+          <publisher-loc>Nürnberg</publisher-loc>
+          <x>: </x>
+          <publisher-name>Gabriel Nicolaus Raspe</publisher-name>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr05">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Colgan</surname>
+              <x>, </x>
+              <given-names>D. J.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>W. F.</given-names>
+              <x></x>
+              <surname>Ponder</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>P. E.</given-names>
+              <x></x>
+              <surname>Eggler</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2000</year>
+          <x>. </x>
+          <article-title>Gastropod evolutionary rates and phylogenetic relationships assessed using partial 28S rDNA and histone H3 sequences.</article-title>
+          <x></x>
+          <source>
+            <italic>Zoological Scripta</italic>
+          </source>
+          <x></x>
+          <volume>29</volume>
+          <x>: </x>
+          <fpage>29</fpage>
+          <x>–</x>
+          <lpage>63</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr06">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Dall</surname>
+              <x>, </x>
+              <given-names>W. H.</given-names>
+            </string-name>
+            <x></x>
+          </person-group>
+          <year>1898</year>
+          <x>. </x>
+          <article-title>Contributions to the Tertiary fauna of Florida with especial reference to the Miocene silex-beds of Tampa and the Pliocene beds of the Caloosahatchie River.</article-title>
+          <x></x>
+          <source>
+            <italic>Transactions of the Wagner Free Institute of Science</italic>
+          </source>
+          <x>, </x>
+          <volume>3</volume>
+          <x>(</x>
+          <issue>4</issue>
+          <x>): [i]</x>
+          <issue>–viii</issue>
+          <x>, </x>
+          <fpage>571</fpage>
+          <x>–</x>
+          <lpage>948</lpage>
+          <x>, </x>
+          <comment>pls 23–35</comment>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr07">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Dall</surname>
+              <x>, </x>
+              <given-names>W. H.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>R.</given-names>
+              <x></x>
+              <surname>Bartsch</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>H. A.</given-names>
+              <x></x>
+              <surname>Rehder</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>1938</year>
+          <x>. </x>
+          <article-title>
+            <italic>A manual of the recent and fossil marine pelecypod mollusks of the Hawaiian Islands</italic>
+          </article-title>
+          <x>. </x>
+          <source>
+            <italic>Bulletin of the Bernice P. Bishop Museum</italic>
+          </source>
+          <x></x>
+          <volume>153</volume>
+          <x>: </x>
+          <fpage>1</fpage>
+          <x>–</x>
+          <lpage>233</lpage>
+          <x>, </x>
+          <comment>58 pls</comment>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr08">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Darriba</surname>
+              <x>, </x>
+              <given-names>D.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>G. L.</given-names>
+              <x></x>
+              <surname>Taboada</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>R.</given-names>
+              <x></x>
+              <surname>Doallo</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>D.</given-names>
+              <x></x>
+              <surname>Posada</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2012</year>
+          <x>. </x>
+          <article-title>JModelTest2: More models, new heuristics and parallel computing.</article-title>
+          <x></x>
+          <source>
+            <italic>Nature Methods</italic>
+          </source>
+          <x></x>
+          <volume>9</volume>
+          <x>: </x>
+          <fpage>772</fpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr09">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>de Souza</surname>
+              <x>, </x>
+              <given-names>T. O.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>F. A. S.</given-names>
+              <x></x>
+              <surname>Alves</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>C. R.</given-names>
+              <x></x>
+              <surname>Beasley</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>L. R. L.</given-names>
+              <x></x>
+              <surname>Simone</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>N. S.</given-names>
+              <x></x>
+              <surname>Marques-Silva</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>G. C.</given-names>
+              <x></x>
+              <surname>Santos-Neto</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>C. H.</given-names>
+              <x></x>
+              <surname>Tagliaro</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2015</year>
+          <x>. </x>
+          <article-title>Population structure and identification of two matrilinear and one patrilinear mitochondrial lineages in the mussel <italic>Mytella charruana</italic>.</article-title>
+          <x></x>
+          <source>
+            <italic>Estuarine, Coastal and Shelf Science</italic>
+          </source>
+          <x></x>
+          <volume>156</volume>
+          <x>: </x>
+          <fpage>165</fpage>
+          <x>–</x>
+          <lpage>174</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr10">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Folmer</surname>
+              <x>, </x>
+              <given-names>O.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>M.</given-names>
+              <x></x>
+              <surname>Black</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>W.</given-names>
+              <x></x>
+              <surname>Hoeh</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>R.</given-names>
+              <x></x>
+              <surname>Lutz</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>R.</given-names>
+              <x></x>
+              <surname>Vrijenhoek</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>1994</year>
+          <x>. </x>
+          <article-title>DNA primers for amplification of mitochondrial c oxidase subunit I from diverse metazoan invertebrates.</article-title>
+          <x></x>
+          <source>
+            <italic>Molecular Marine Biology and Biotechnology</italic>
+          </source>
+          <x></x>
+          <volume>3</volume>
+          <x>: </x>
+          <fpage>294</fpage>
+          <x>–</x>
+          <lpage>299</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr11">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Garrido-Ramos</surname>
+              <x>, </x>
+              <given-names>M. A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>D. T.</given-names>
+              <x></x>
+              <surname>Stewart</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>B. W.</given-names>
+              <x></x>
+              <surname>Sutherland</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>E.</given-names>
+              <x></x>
+              <surname>Zouros</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>1998</year>
+          <x>. </x>
+          <article-title>The distribution of male-transmitted and female-transmitted mitochondrial DNA types in somatic tissues of blue mussels: Implications for the operation of doubly uniparental inheritance of mitochondrial DNA.</article-title>
+          <x></x>
+          <source>
+            <italic>Genome</italic>
+          </source>
+          <x></x>
+          <volume>41</volume>
+          <x>: </x>
+          <fpage>818</fpage>
+          <x>–</x>
+          <lpage>824</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr12">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Ghiselli</surname>
+              <x>, </x>
+              <given-names>F.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>M. G.</given-names>
+              <x></x>
+              <surname>Maurizii</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>A.</given-names>
+              <x></x>
+              <surname>Reunov</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>H.</given-names>
+              <x></x>
+              <surname>Ariño-Bassols</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>C.</given-names>
+              <x></x>
+              <surname>Cifaldi</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>A.</given-names>
+              <x></x>
+              <surname>Pecci</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>Y.</given-names>
+              <x></x>
+              <surname>Alexandrova</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>S.</given-names>
+              <x></x>
+              <surname>Bettini</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>M.</given-names>
+              <x></x>
+              <surname>Passamonti</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>V.</given-names>
+              <x></x>
+              <surname>Franceschini</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>L.</given-names>
+              <x></x>
+              <surname>Milani</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2019</year>
+          <x>. </x>
+          <article-title>Natural heteroplasmy and mitochondrial inheritance in bivalve molluscs.</article-title>
+          <x></x>
+          <source>
+            <italic>Integrative and Comparative Biology</italic>
+          </source>
+          <x></x>
+          <volume>59</volume>
+          <x>: </x>
+          <fpage>1016</fpage>
+          <x>–</x>
+          <lpage>1032</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr13">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Gmelin</surname>
+              <x>, </x>
+              <given-names>J. F.</given-names>
+            </string-name>
+            <x></x>
+          </person-group>
+          <year>1791</year>
+          <x>. </x>
+          <article-title>
+            <italic>Caroli a Linné Systema Naturae per regna tria naturae</italic>
+          </article-title>
+          <x>. </x>
+          <source>
+            <italic>Editio decima tertia</italic>. Lipsiae [Leipzig].</source>
+          <x> Vol. </x>
+          <volume>1</volume>
+          <x>, </x>
+          <comment>pt</comment>
+          <x>. </x>
+          <issue>6</issue>
+          <x> (</x>
+          <comment>Vermes</comment>
+          <x>), pp. </x>
+          <fpage>3021</fpage>
+          <x>–</x>
+          <lpage>3910</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr14">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Huber</surname>
+              <x>, </x>
+              <given-names>M.</given-names>
+            </string-name>
+            <x></x>
+          </person-group>
+          <year>2010</year>
+          <x>. </x>
+          <source>
+            <italic>Compendium of bivalves. A full-color guide to 3,300 of the world's marine bivalves. A status on Bivalvia after 250 years of research</italic>
+          </source>
+          <x>. </x>
+          <publisher-loc>Hackenheim</publisher-loc>
+          <x>: </x>
+          <publisher-name>ConchBooks</publisher-name>
+          <x>. Pp. </x>
+          <fpage>1</fpage>
+          <x>–</x>
+          <lpage>901</lpage>
+          <x></x>
+          <comment>[with CD-ROM containing spreadsheet with species listing]</comment>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr15">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Huber</surname>
+              <x>, </x>
+              <given-names>M.</given-names>
+            </string-name>
+            <x></x>
+          </person-group>
+          <year>2015</year>
+          <x>. </x>
+          <source>
+            <italic>Compendium of bivalves 2. A full-color guide to the remaining seven families. A systematic listing of 8500 bivalve species and 10500 synonyms</italic>.</source>
+          <x></x>
+          <publisher-loc>Harxheim</publisher-loc>
+          <x>: </x>
+          <publisher-name>ConchBooks</publisher-name>
+          <x>. Pp. </x>
+          <fpage>1</fpage>
+          <x>–</x>
+          <lpage>907</lpage>
+          <x></x>
+          <comment>[with CD-ROM containing spreadsheet with species listing]</comment>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr16">
+        <element-citation>
+          <collab>ICZN</collab>
+          <x>. </x>
+          <year>1954</year>
+          <x>. </x>
+          <article-title>International Commission on Zoological Nomenclature. Direction 1. Addition to the Official Lists and Official Indexes of certain scientific names and of the titles of certain books dealt with in Opinions 182 to 194.</article-title>
+          <x></x>
+          <source>
+            <italic>Opinions and declarations rendered by the International Commission on Zoological Nomenclature</italic>
+          </source>
+          <x></x>
+          <volume>3</volume>
+          <x>: </x>
+          <fpage>401</fpage>
+          <x>–</x>
+          <lpage>416</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr17">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Kleemann</surname>
+              <x>, </x>
+              <given-names>K. H.</given-names>
+            </string-name>
+            <x></x>
+          </person-group>
+          <year>2007</year>
+          <x>. </x>
+          <article-title>Catalogue and bibliography of recent and fossil <italic>Botula</italic> (Bivalvia: Mytilidae).</article-title>
+          <x></x>
+          <source>
+            <italic>Zootaxa</italic>
+          </source>
+          <x></x>
+          <volume>1508</volume>
+          <x>: </x>
+          <fpage>1</fpage>
+          <x>–</x>
+          <lpage>48</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr18">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Kleemann</surname>
+              <x>, </x>
+              <given-names>K. H.</given-names>
+            </string-name>
+            <x></x>
+          </person-group>
+          <year>2009</year>
+          <x>. </x>
+          <article-title>
+            <italic>Botula kleemanni</italic> Valentich-Scott, 2008, actually a member of <italic>Lithophaga</italic> (<italic>Leiosolenus</italic>).</article-title>
+          <x></x>
+          <source>
+            <italic>The Raffles Bulletin of Zoology</italic>
+          </source>
+          <x></x>
+          <volume>57</volume>
+          <x>: </x>
+          <fpage>233</fpage>
+          <x>–</x>
+          <lpage>235</lpage>
+        </element-citation>
+      </ref>
+      <ref id="bibr19">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Kozlov</surname>
+              <x>, </x>
+              <given-names>A. M.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>D.</given-names>
+              <x></x>
+              <surname>Darriba</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>T.</given-names>
+              <x></x>
+              <surname>Flouri</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>B.</given-names>
+              <x></x>
+              <surname>Morel</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>A.</given-names>
+              <x></x>
+              <surname>Stamatakis</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2019</year>
+          <x>. </x>
+          <article-title>RAxML-NG: A fast, scalable and user-friendly tool for maximum likelihood phylogenetic inference.</article-title>
+          <x></x>
+          <source>
+            <italic>Bioinformatics</italic>
+          </source>
+          <x></x>
+          <volume>35</volume>
+          <x>: </x>
+          <fpage>4453</fpage>
+          <x>–</x>
+          <lpage>4455</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr20">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Kumar</surname>
+              <x>, </x>
+              <given-names>S.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>G.</given-names>
+              <x></x>
+              <surname>Stecher</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>M.</given-names>
+              <x></x>
+              <surname>Li</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>C.</given-names>
+              <x></x>
+              <surname>Knyaz</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>K.</given-names>
+              <x></x>
+              <surname>Tamura</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2018</year>
+          <x>. </x>
+          <article-title>MEGA X: Molecular evolutionary genetics analysis across computing platforms.</article-title>
+          <x></x>
+          <source>
+            <italic>Molecular Biology and Evolution</italic>
+          </source>
+          <x></x>
+          <volume>35</volume>
+          <x>: </x>
+          <fpage>1547</fpage>
+          <x>–</x>
+          <lpage>1549</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr21">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Lee</surname>
+              <x>, </x>
+              <given-names>T.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <given-names>D. Ó</given-names>
+              <x></x>
+              <surname>Foighil</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2005</year>
+          <x>. </x>
+          <article-title>Placing the Floridian marine genetic disjunction into a regional evolutionary context using the scorched mussel, <italic>Brachidontes exustus</italic>, species complex.</article-title>
+          <x></x>
+          <source>
+            <italic>Evolution</italic>
+          </source>
+          <x></x>
+          <volume>59</volume>
+          <x>: </x>
+          <fpage>2139</fpage>
+          <x>–</x>
+          <lpage>2158</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr22">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Lee</surname>
+              <x>, </x>
+              <given-names>Y.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>H.</given-names>
+              <x></x>
+              <surname>Kwak</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>J.</given-names>
+              <x></x>
+              <surname>Shin</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>S.-C.</given-names>
+              <x></x>
+              <surname>Kim</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>T.</given-names>
+              <x></x>
+              <surname>Kim</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>J.-K.</given-names>
+              <x></x>
+              <surname>Park</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2019</year>
+          <x>. </x>
+          <article-title>A mitochondrial genome phylogeny of Mytilidae (Bivalvia: Mytilida).</article-title>
+          <x></x>
+          <source>
+            <italic>Molecular Phylogenetics and Evolution</italic>
+          </source>
+          <x></x>
+          <volume>139</volume>
+          <x>: </x>
+          <fpage>106533</fpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr23">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Lemer</surname>
+              <x>, </x>
+              <given-names>S.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>B.</given-names>
+              <x></x>
+              <surname>Buge</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>A.</given-names>
+              <x></x>
+              <surname>Bemis</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>G.</given-names>
+              <x></x>
+              <surname>Giribet</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2014</year>
+          <x>. </x>
+          <article-title>First molecular phylogeny of the circumtropical bivalve family Pinnidae (Mollusca, Bivalvia): Evidence for high levels of cryptic species diversity.</article-title>
+          <x></x>
+          <source>
+            <italic>Molecular Phylogenetics and Evolution</italic>
+          </source>
+          <x></x>
+          <volume>75</volume>
+          <x>: </x>
+          <fpage>11</fpage>
+          <x>–</x>
+          <lpage>23</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr24">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Lister</surname>
+              <x>, </x>
+              <given-names>M.</given-names>
+            </string-name>
+            <x></x>
+          </person-group>
+          <year>1685–1695</year>
+          <x>. </x>
+          <source>
+            <italic>Historiae Conchyliorum</italic>.</source>
+          <x></x>
+          <publisher-loc>London</publisher-loc>
+          <x>: </x>
+          <comment>privately printed</comment>
+          <x>. </x>
+          <fpage>290</fpage>
+          <x> pp. </x>
+          <comment>with 439 pls</comment>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr25">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Liu</surname>
+              <x>, </x>
+              <given-names>J.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>H.</given-names>
+              <x></x>
+              <surname>Liu</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>H.</given-names>
+              <x></x>
+              <surname>Zhang</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2018</year>
+          <x>. </x>
+          <article-title>Phylogeny and evolutionary radiation of the marine mussels (Bivalvia: Mytilidae) based on mitochondrial and nuclear genes.</article-title>
+          <x></x>
+          <source>
+            <italic>Molecular Phylogenetics and Evolution</italic>
+          </source>
+          <x></x>
+          <volume>126</volume>
+          <x>: </x>
+          <fpage>233</fpage>
+          <x>–</x>
+          <lpage>240</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr26">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Lubośny</surname>
+              <x>, </x>
+              <given-names>M.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>B.</given-names>
+              <x></x>
+              <surname>Śmietanka</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>M.</given-names>
+              <x></x>
+              <surname>Arculeo</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>A.</given-names>
+              <x></x>
+              <surname>Burzyński</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2022</year>
+          <x>. </x>
+          <article-title>No evidence of DUI in the Mediterranean alien species <italic>Brachidontes pharaonis</italic> (P. Fisher, 1870) despite mitochondrial heteroplasmy.</article-title>
+          <x></x>
+          <source>
+            <italic>Scientific Reports</italic>
+          </source>
+          <x></x>
+          <volume>12</volume>
+          <x>: </x>
+          <fpage>8569</fpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr27">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Lynge</surname>
+              <x>, </x>
+              <given-names>H.</given-names>
+            </string-name>
+            <x></x>
+          </person-group>
+          <year>1909</year>
+          <x>. </x>
+          <article-title>The Danish expedition to Siam, 1899–1900, IV. Lamellibranchiata.</article-title>
+          <x></x>
+          <source>
+            <italic>Det Kongelige Danske Videnskabernes Selskabs Naturvidenskabelige og Mathematiske Afhandlingar</italic>
+          </source>
+          <x></x>
+          <volume>5</volume>
+          <x>: </x>
+          <fpage>97</fpage>
+          <x>–</x>
+          <lpage>299</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr28">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>McLean</surname>
+              <x>, </x>
+              <given-names>R. A.</given-names>
+            </string-name>
+            <x></x>
+          </person-group>
+          <year>1951</year>
+          <x>. </x>
+          <article-title>The Pelecypoda or bivalve mollusks of Porto Rico and the Virgin Islands.</article-title>
+          <x></x>
+          <source>
+            <italic>The New York Academy of Sciences Scientific Survey of Porto Rico and the Virgin Islands</italic>
+          </source>
+          <x></x>
+          <volume>17</volume>
+          <x>: </x>
+          <fpage>1</fpage>
+          <x>–</x>
+          <lpage>183</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr29">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Miller</surname>
+              <x>, </x>
+              <given-names>M. A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>W.</given-names>
+              <x></x>
+              <surname>Pfeiffer</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>T.</given-names>
+              <x></x>
+              <surname>Schwartz</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2011</year>
+          <x>. </x>
+          <article-title>The CIPRES Science Gateway: A community resource for phylogenetic analyses.</article-title>
+          <x></x>
+          <source>
+            <italic>Proceedings of the TeraGrid 2011 conference: Extreme digital discovery</italic>
+          </source>
+          <x></x>
+          <volume>41</volume>
+          <x>: </x>
+          <fpage>1</fpage>
+          <x>–</x>
+          <lpage>8</lpage>
+        </element-citation>
+      </ref>
+      <ref id="bibr30">
+        <element-citation>
+          <collab>MolluscaBase</collab>
+          <x>. </x>
+          <year>2022</year>
+          <x>. </x>
+          <source>MolluscaBase.</source>
+          <x></x>
+          <comment>Available at:<ext-link ext-link-type="uri" xlink:href="https://www.molluscabase.org">https://www.molluscabase.org</ext-link>on 14 November 2022</comment>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr31">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Mörch</surname>
+              <x>, </x>
+              <given-names>O. A. L.</given-names>
+            </string-name>
+            <x></x>
+          </person-group>
+          <year>1852–1853</year>
+          <x>. </x>
+          <source>
+            <italic>Catalogus conchyliorum quae reliquit D. Alphonso d'Aguirra &amp; Gadea Comes de Yoldi, Regis Daniae Cubiculariorum Princeps, Ordinis Dannebrogici in Prima Classe &amp; Ordinis Caroli Tertii Eques.</italic> Fasc. 2, Acephala, Annulata, Cirripedia, Echinodermata, 74 [+2</source>
+          <x>] pp. </x>
+          <publisher-loc>Hafniae [Copenhagen]</publisher-loc>
+          <x>: </x>
+          <publisher-name>L. Klein</publisher-name>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr32">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Morton</surname>
+              <x>, </x>
+              <given-names>B.</given-names>
+            </string-name>
+            <x></x>
+          </person-group>
+          <year>1990</year>
+          <x>. </x>
+          <article-title>Corals and their bivalve borers – the evolution of a symbiosis.</article-title>
+          <x></x>
+          <comment>
+            <italic>In</italic>
+          </comment>
+          <x>
+            <italic>:</italic>
+          </x>
+          <person-group person-group-type="editor">
+            <string-name>
+              <given-names>B.</given-names>
+              <x></x>
+              <surname>Morton</surname>
+            </string-name>
+            <x>, ed., </x>
+          </person-group>
+          <source>
+            <italic>The Bivalvia: Proceedings of a Memorial Symposium in Honour of Sir Charles Maurice Yonge (1899–1986)</italic>
+          </source>
+          <x>. </x>
+          <publisher-name>Hong Kong Univ Press</publisher-name>
+          <x>, </x>
+          <publisher-loc>Hong Kong</publisher-loc>
+          <x>. Pp. </x>
+          <fpage>11</fpage>
+          <x>–</x>
+          <lpage>46</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr33">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Nielsen</surname>
+              <x>, </x>
+              <given-names>C.</given-names>
+            </string-name>
+            <x></x>
+          </person-group>
+          <year>1976</year>
+          <x>. </x>
+          <article-title>Notes on boring bivalves from Phuket, Thailand.</article-title>
+          <x></x>
+          <source>
+            <italic>Ophelia</italic>
+          </source>
+          <x></x>
+          <volume>15</volume>
+          <x>: </x>
+          <fpage>141</fpage>
+          <x>–</x>
+          <lpage>148</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr34">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Owada</surname>
+              <x>, </x>
+              <given-names>M.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <given-names>B. W.</given-names>
+              <x></x>
+              <surname>Hoeksema</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2011</year>
+          <x>. </x>
+          <article-title>Molecular phylogeny and shell microstructure of <italic>Fungiacava eilatensis</italic> Goreau <italic>et al.</italic> 1968, boring into mushroom corals (Scleractinia: Fungiidae), in relation to other mussels (Bivalvia: Mytilidae).</article-title>
+          <x></x>
+          <source>
+            <italic>Contributions to Zoology</italic>
+          </source>
+          <x></x>
+          <volume>80</volume>
+          <x>: </x>
+          <fpage>169</fpage>
+          <x>–</x>
+          <lpage>178</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr35">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Page</surname>
+              <x>, </x>
+              <given-names>C. A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>E. M.</given-names>
+              <x></x>
+              <surname>Muller</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>D. E.</given-names>
+              <x></x>
+              <surname>Vaughan</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2018</year>
+          <x>. </x>
+          <article-title>Microfragmenting for the successful restoration of slow growing massive corals.</article-title>
+          <x></x>
+          <source>
+            <italic>Ecological Engineering</italic>
+          </source>
+          <x></x>
+          <volume>123</volume>
+          <x>: </x>
+          <fpage>86</fpage>
+          <x>–</x>
+          <lpage>94</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr36">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Paredes</surname>
+              <x>, </x>
+              <given-names>C.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <given-names>F.</given-names>
+              <x></x>
+              <surname>Cardoso</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2003</year>
+          <x>. </x>
+          <article-title>Adiciones a los moluscos bivalvos marinos del Perú.</article-title>
+          <x></x>
+          <source>
+            <italic>Revista Peruana de Biología</italic>
+          </source>
+          <x></x>
+          <volume>10</volume>
+          <x>: </x>
+          <fpage>53</fpage>
+          <x>–</x>
+          <lpage>58</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr37">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Park</surname>
+              <x></x>
+              <given-names>J.-K.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <given-names>D. Ó</given-names>
+              <x></x>
+              <surname>Foighil</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2000</year>
+          <x>. </x>
+          <article-title>Sphaeriid and corbiculid clams represent separate heterodont bivalve radiations into freshwater environments.</article-title>
+          <x></x>
+          <source>
+            <italic>Molecular Phylogenetics and Evolution</italic>
+          </source>
+          <x></x>
+          <volume>14</volume>
+          <x>: </x>
+          <fpage>75</fpage>
+          <x>–</x>
+          <lpage>88</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr38">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Rambaut</surname>
+              <x>, </x>
+              <given-names>A.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>A. J.</given-names>
+              <x></x>
+              <surname>Drummond</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>D.</given-names>
+              <x></x>
+              <surname>Xie</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>G.</given-names>
+              <x></x>
+              <surname>Baele</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>M. A.</given-names>
+              <x></x>
+              <surname>Suchard</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2018</year>
+          <x>. </x>
+          <article-title>Posterior summarization in Bayesian Phylogenetics using Tracer 1.7.</article-title>
+          <x></x>
+          <source>
+            <italic>Systematic Biology</italic>
+          </source>
+          <x></x>
+          <volume>67</volume>
+          <x>: </x>
+          <fpage>901</fpage>
+          <x>–</x>
+          <lpage>904</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr39">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Ronquist</surname>
+              <x>, </x>
+              <given-names>F.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>M.</given-names>
+              <x></x>
+              <surname>Teslenko</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>P.</given-names>
+              <x></x>
+              <surname>van der Mark</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>D. L.</given-names>
+              <x></x>
+              <surname>Ayres</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>A.</given-names>
+              <x></x>
+              <surname>Darling</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>S.</given-names>
+              <x></x>
+              <surname>Höhna</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>B.</given-names>
+              <x></x>
+              <surname>Larget</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>L.</given-names>
+              <x></x>
+              <surname>Liu</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>M. A.</given-names>
+              <x></x>
+              <surname>Suchard</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>J. P.</given-names>
+              <x></x>
+              <surname>Huelsenbeck</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2012</year>
+          <x>. </x>
+          <article-title>MrBayes 3.2: efficient Bayesian phylogenetic inference and model choice across a large model space.</article-title>
+          <x></x>
+          <source>
+            <italic>Systematic Biology</italic>
+          </source>
+          <x></x>
+          <volume>61</volume>
+          <x>: </x>
+          <fpage>539</fpage>
+          <x>–</x>
+          <lpage>542</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr40">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Schreibers</surname>
+              <x>, </x>
+              <given-names>K.</given-names>
+            </string-name>
+            <x></x>
+          </person-group>
+          <year>1793</year>
+          <x>. </x>
+          <source>
+            <italic>Versuch einer vollständigen Conchylienkenntniß nach Linnes System</italic>.</source>
+          <x></x>
+          <publisher-loc>Wien: Kurzbeck</publisher-loc>
+          <x>. </x>
+          <publisher-name>Zweyter Band</publisher-name>
+          <x>. </x>
+          <publisher-loc>Von den Muscheln</publisher-loc>
+          <x>. pp. [</x>
+          <issue>1–9</issue>
+          <x>], </x>
+          <fpage>1</fpage>
+          <x>–</x>
+          <lpage>416</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr41">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Skibinski</surname>
+              <x>, </x>
+              <given-names>D. O. F.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>C.</given-names>
+              <x></x>
+              <surname>Gallagher</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>C. M.</given-names>
+              <x></x>
+              <surname>Beynon</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>E.</given-names>
+              <x></x>
+              <surname>Zouros</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>A. O.</given-names>
+              <x></x>
+              <surname>Ball</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>C.</given-names>
+              <x></x>
+              <surname>Saavedra</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>K. R.</given-names>
+              <x></x>
+              <surname>Freeman</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>1994</year>
+          <x>. </x>
+          <article-title>Mitochondrial DNA inheritance.</article-title>
+          <x></x>
+          <source>
+            <italic>Nature</italic>
+          </source>
+          <x></x>
+          <volume>368</volume>
+          <x>: </x>
+          <fpage>817</fpage>
+          <x>–</x>
+          <lpage>818</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr42">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Terranova</surname>
+              <x>, </x>
+              <given-names>M. S.</given-names>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>S. L.</given-names>
+              <x></x>
+              <surname>Brutto</surname>
+            </string-name>
+            <x>, </x>
+            <string-name>
+              <given-names>M.</given-names>
+              <x></x>
+              <surname>Arculeo</surname>
+            </string-name>
+            <x>, and </x>
+            <string-name>
+              <given-names>J. B.</given-names>
+              <x></x>
+              <surname>Mitton</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2007</year>
+          <x>. </x>
+          <article-title>A mitochondrial phylogeography of <italic>Brachidontes variabilis</italic> (Bivalvia: Mytilidae) reveals three cryptic species.</article-title>
+          <x></x>
+          <source>
+            <italic>Journal of Zoological Systematics and Evolutionary Research</italic>
+          </source>
+          <x></x>
+          <volume>45</volume>
+          <x>: </x>
+          <fpage>289</fpage>
+          <x>–</x>
+          <lpage>298</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr43">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Valentich-Scott</surname>
+              <x>, </x>
+              <given-names>P.</given-names>
+            </string-name>
+            <x></x>
+          </person-group>
+          <year>2009</year>
+          <x>. </x>
+          <article-title>Response to “<italic>Botula kleemanni</italic> Valentich-Scott, 2008, actually a member of <italic>Lithophaga</italic> (<italic>Leiosolenus</italic>).</article-title>
+          <x>” </x>
+          <source>
+            <italic>The Raffles Bulletin of Zoology</italic>
+          </source>
+          <x></x>
+          <volume>57</volume>
+          <x>: </x>
+          <fpage>237</fpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr44">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Valentich-Scott</surname>
+              <x>, </x>
+              <given-names>P.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <given-names>G. E.</given-names>
+              <x></x>
+              <surname>Dinesen</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2004</year>
+          <x>. </x>
+          <article-title>Rock and coral boring Bivalvia (Mollusca) of the Middle Florida Keys, U.S.A.</article-title>
+          <x></x>
+          <source>
+            <italic>Malacologia</italic>
+          </source>
+          <x></x>
+          <volume>46</volume>
+          <x>: </x>
+          <fpage>339</fpage>
+          <x>–</x>
+          <lpage>354</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr45">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Valentich-Scott</surname>
+              <x>, </x>
+              <given-names>P.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <given-names>P.</given-names>
+              <x></x>
+              <surname>Tongkerd</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2008</year>
+          <x>. </x>
+          <article-title>Coral-boring bivalve molluscs of southeastern Thailand, with the description of a new species.</article-title>
+          <x></x>
+          <source>
+            <italic>The Raffles Bulletin of Zoology</italic>
+          </source>
+          <x></x>
+          <volume>18</volume>
+          <x>: </x>
+          <fpage>191</fpage>
+          <x>–</x>
+          <lpage>216</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr46">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Wells</surname>
+              <x>, </x>
+              <given-names>F. E.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <given-names>R.</given-names>
+              <x></x>
+              <surname>Bieler</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>2020</year>
+          <x>. </x>
+          <article-title>A low number of introduced marine species at low latitudes: a case study from southern Florida with a special focus on Mollusca.</article-title>
+          <x></x>
+          <source>
+            <italic>Management of Biological Invasions</italic>
+          </source>
+          <x></x>
+          <volume>11</volume>
+          <x>: </x>
+          <fpage>372</fpage>
+          <x>–</x>
+          <lpage>398</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+      <ref id="bibr47">
+        <element-citation>
+          <person-group person-group-type="author">
+            <string-name>
+              <surname>Wilson</surname>
+              <x>, </x>
+              <given-names>B. R.</given-names>
+            </string-name>
+            <x> and </x>
+            <string-name>
+              <given-names>R.</given-names>
+              <x></x>
+              <surname>Tait</surname>
+            </string-name>
+            <x>. </x>
+          </person-group>
+          <year>1984</year>
+          <x>. </x>
+          <article-title>Systematics, anatomy, and boring mechanisms of the rock-boring mytilid bivalve <italic>Botula</italic>.</article-title>
+          <x></x>
+          <source>
+            <italic>Proceedings of the Royal Society of Victoria</italic>
+          </source>
+          <x></x>
+          <volume>96</volume>
+          <x>: </x>
+          <fpage>113</fpage>
+          <x>–</x>
+          <lpage>125</lpage>
+          <x>.</x>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

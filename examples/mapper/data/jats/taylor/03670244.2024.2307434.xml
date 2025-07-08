@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN" "https://jats.nlm.nih.gov/nlm-dtd/archiving/3.0/archivearticle3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xml:lang="en"
+         article-type="research-article"><!--
+input file: GEFN_A_2307434_J.xml
+processed with: d3p_header_nlm3_from_jats12.xsl
+version: 2.0
+darts-xml-transformations-20250326T224308 git hash: 0183536115
+-->
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="publisher-id">gefn20</journal-id>
+         <journal-id journal-id-type="publisher-acronym">GEFN</journal-id>
+         <journal-title-group>
+            <journal-title>Ecology of Food and Nutrition</journal-title>
+         </journal-title-group>
+         <issn pub-type="ppub">0367-0244</issn>
+         <issn pub-type="epub">1543-5237</issn>
+         <publisher>
+            <publisher-name>Routledge</publisher-name>
+         </publisher>
+      </journal-meta>
+      <article-meta>
+         <article-id pub-id-type="doi">10.1080/03670244.2024.2307434</article-id>
+         <article-id pub-id-type="publisher-id">2307434</article-id>
+         <article-id pub-id-type="submission-id">237657215</article-id>
+         <article-categories>
+            <subj-group subj-group-type="heading">
+               <subject>Research Article</subject>
+            </subj-group>
+            <subj-group subj-group-type="article-type">
+               <subject>Research Article</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Nurturing Food Security for All: Assessing the Impact of COVID-19 Social Protection Responses Among Vulnerable Population Groups in Nigeria</article-title>
+            <alt-title alt-title-type="left-running-head">E. C. ORJIAKOR</alt-title>
+            <alt-title alt-title-type="right-running-head">ECOLOGY OF FOOD AND NUTRITION</alt-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names initials="E. C.">Ebuka Christian</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Orjiakor</surname>
+               </string-name>
+               <xref ref-type="aff" rid="aff0001"/>
+               <xref ref-type="corresp" rid="an0001">
+                  <sup>*</sup>
+               </xref>
+               <uri content-type="orcid">https://orcid.org/0000-0002-6209-356X</uri>
+            </contrib>
+            <aff id="aff0001">Department of Economics, <institution>University of Nigeria</institution>, <named-content content-type="city">Nsukka</named-content>, <country>Nigeria</country>
+            </aff>
+         </contrib-group>
+         <author-notes>
+            <corresp id="an0001">CONTACT Ebuka Christian Orjiakor <email xlink:href="mailto:orjiakorebuka@yahoo.com">orjiakorebuka@yahoo.com</email> Department of Economics, <institution>University of Nigeria</institution>, <named-content content-type="city">Nsukka</named-content>, <country>Nigeria</country>
+            </corresp>
+         </author-notes>
+         <pub-date pub-type="ppub">
+            <day>03</day>
+            <month>03</month>
+            <year>2024</year>
+            <string-date>March-April 2024</string-date>
+         </pub-date>
+         <volume>63</volume>
+         <issue>2</issue>
+         <fpage seq="4">83</fpage>
+         <lpage>97</lpage>
+         <permissions>
+            <copyright-statement>&#xa9; 2024 Taylor &amp; Francis Group, LLC</copyright-statement>
+            <copyright-year>2024</copyright-year>
+            <copyright-holder>Taylor &amp; Francis</copyright-holder>
+         </permissions>
+         <abstract>
+            <title>ABSTRACT</title>
+            <p>This study examines the impact of government and humanitarian interventions during COVID-19 on food security among vulnerable populations in Nigeria. Data from a survey conducted by the United Nations High Commissioner for Refugees (UNHCR) in July 2020 was used, with a sample of 4,833 households drawn from various vulnerable groups such as refugees and internally displaced persons (IDPs). Using matching methods, the results indicate that targeted support initiatives helped alleviate immediate food insecurity challenges during the pandemic. This underscores the significance of focused interventions in mitigating the adverse impact of economic shocks on food security for vulnerable populations.</p>
+         </abstract>
+         <kwd-group kwd-group-type="author">
+            <title>KEYWORDS</title>
+            <kwd>COVID-19</kwd>
+            <kwd>food security</kwd>
+            <kwd>interventions</kwd>
+            <kwd>Nigeria</kwd>
+            <kwd>vulnerable groups</kwd>
+         </kwd-group>
+         <funding-group>
+            <award-group>
+               <funding-source>
+funding
+</funding-source>
+            </award-group>
+            <funding-statement>The author did not receive any funding for this study.</funding-statement>
+         </funding-group>
+         <counts>
+            <fig-count count="1"/>
+            <table-count count="4"/>
+            <ref-count count="38"/>
+            <page-count count="15"/>
+         </counts>
+      </article-meta>
+   </front>
+</article>

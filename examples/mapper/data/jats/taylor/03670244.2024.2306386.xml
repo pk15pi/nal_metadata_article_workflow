@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN" "https://jats.nlm.nih.gov/nlm-dtd/archiving/3.0/archivearticle3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink"
+         xml:lang="en"
+         article-type="research-article"><!--
+input file: GEFN_A_2306386_J.xml
+processed with: d3p_header_nlm3_from_jats12.xsl
+version: 2.0
+darts-xml-transformations-20250326T224308 git hash: 0183536115
+-->
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="publisher-id">gefn20</journal-id>
+         <journal-id journal-id-type="publisher-acronym">GEFN</journal-id>
+         <journal-title-group>
+            <journal-title>Ecology of Food and Nutrition</journal-title>
+         </journal-title-group>
+         <issn pub-type="ppub">0367-0244</issn>
+         <issn pub-type="epub">1543-5237</issn>
+         <publisher>
+            <publisher-name>Routledge</publisher-name>
+         </publisher>
+      </journal-meta>
+      <article-meta>
+         <article-id pub-id-type="doi">10.1080/03670244.2024.2306386</article-id>
+         <article-id pub-id-type="publisher-id">2306386</article-id>
+         <article-id pub-id-type="submission-id">231503050</article-id>
+         <article-categories>
+            <subj-group subj-group-type="heading">
+               <subject>Research Article</subject>
+            </subj-group>
+            <subj-group subj-group-type="article-type">
+               <subject>Research Article</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>High Incidence of Vitamin D Deficiency (VDD) Among Indoor Workers: Association with Dietary and Lifestyle Factors</article-title>
+            <alt-title alt-title-type="left-running-head">C. MAHAJAN ET AL.</alt-title>
+            <alt-title alt-title-type="right-running-head">ECOLOGY OF FOOD AND NUTRITION</alt-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names initials="C.">Charvi</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Mahajan</surname>
+               </string-name>
+               <xref ref-type="aff" rid="aff0001">
+                  <sup>a</sup>
+               </xref>
+               <x xml:space="preserve">, </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names initials="N.">Neerja</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Singla</surname>
+               </string-name>
+               <xref ref-type="aff" rid="aff0002">
+                  <sup>b</sup>
+               </xref>
+               <x xml:space="preserve"> &amp; </x>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names initials="D.">Divya</given-names>
+                  <x xml:space="preserve"> </x>
+                  <surname>Jain</surname>
+               </string-name>
+               <xref ref-type="aff" rid="aff0002">
+                  <sup>b</sup>
+               </xref>
+               <xref ref-type="corresp" rid="an0001">
+                  <sup>*</sup>
+               </xref>
+               <uri content-type="orcid">https://orcid.org/0000-0003-4853-3917</uri>
+            </contrib>
+            <aff id="aff0001">
+               <label>a </label>Food and Nutrition, <institution>Punjab Agricultural University</institution>, <named-content content-type="city">Ludhiana</named-content>, <country>India</country>
+            </aff>
+            <aff id="aff0002">
+               <label>b </label>Department of Food and Nutrition, <institution>Punjab Agricultural University</institution>, <named-content content-type="city">Ludhiana</named-content>, <country>India</country>
+            </aff>
+         </contrib-group>
+         <author-notes>
+            <corresp id="an0001">CONTACT Divya Jain <email xlink:href="mailto:divyajainbsc13@gmail.com">divyajainbsc13@gmail.com</email> Department of Food &amp; Nutrition, College of Community Science, <institution>Punjab Agricultural University</institution>, <named-content content-type="city">Ludhiana</named-content>, <named-content content-type="state">Punjab</named-content>
+               <named-content content-type="postal-code">141004</named-content>, <country>India</country>
+            </corresp>
+         </author-notes>
+         <pub-date pub-type="ppub">
+            <day>03</day>
+            <month>03</month>
+            <year>2024</year>
+            <string-date>March-April 2024</string-date>
+         </pub-date>
+         <volume>63</volume>
+         <issue>2</issue>
+         <fpage seq="2">40</fpage>
+         <lpage>62</lpage>
+         <permissions>
+            <copyright-statement>&#xa9; 2024 Taylor &amp; Francis Group, LLC</copyright-statement>
+            <copyright-year>2024</copyright-year>
+            <copyright-holder>Taylor &amp; Francis</copyright-holder>
+         </permissions>
+         <abstract>
+            <title>ABSTRACT</title>
+            <p>The study evaluated the relationship of various dietary and lifestyle factors with vitamin D status and bone health of adults engaged in office jobs. A total of 100 subjects comprising of 50 males and 50 females (with their willingness to participate) in the age group of 30&#x2013;50&#x2009;years were purposively selected for the investigation, who were spending 8 hours in the offices. Results showed that most of the subjects had vitamin D deficit with mean serum vitamin D level as 13.2&#x2009;ng/ml and 68% were osteopenic. Dietary phytates, sedentary lifestyle, higher body mass index were found to have a deleterious impact on vitamin D status. This silent epidemic needs to be addressed with effective public health initiatives, such as raising awareness about the availability of fortified foods, optimum time, and body surface area for sun exposure.</p>
+         </abstract>
+         <kwd-group kwd-group-type="author">
+            <title>KEYWORDS</title>
+            <kwd>Bone mineral density</kwd>
+            <kwd>calcium</kwd>
+            <kwd>dietary intake</kwd>
+            <kwd>sun exposure index</kwd>
+            <kwd>vitamin D deficiency</kwd>
+         </kwd-group>
+         <funding-group>
+            <award-group>
+               <funding-source>
+No funding
+</funding-source>
+            </award-group>
+            <funding-statement>No funding was recieved by authors.</funding-statement>
+         </funding-group>
+         <counts>
+            <fig-count count="7"/>
+            <table-count count="7"/>
+            <ref-count count="45"/>
+            <page-count count="23"/>
+         </counts>
+      </article-meta>
+   </front>
+</article>

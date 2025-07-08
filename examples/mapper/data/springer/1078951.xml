@@ -1,0 +1,489 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Article PUBLIC "-//NLM//DTD PubMed 3.0//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/in/PubMed.dtd">
+<Article>
+    <Journal>
+      <PublisherName>Springer Berlin Heidelberg</PublisherName>
+      <JournalTitle>Eur. J. Wood Prod.</JournalTitle>
+      <Issn>0018-3768</Issn>
+      <Volume>83</Volume>
+      <Issue>3</Issue>
+      <PubDate PubStatus="ppublish">
+        <Year>2025</Year>
+        <Month>6</Month>
+      </PubDate>
+    </Journal>
+    <ArticleTitle>Enhancing mechanical properties of 3D-printed PLA/wood composites: a metaheuristic and statistical perspective</ArticleTitle>
+    <FirstPage>99</FirstPage>
+    <LastPage>99</LastPage>
+    <Language>EN</Language>
+    <AuthorList>
+      <Author>
+        <FirstName>Nikhil</FirstName>
+        <LastName>Bharat</LastName>
+        <AffiliationInfo>
+          <Affiliation>Centre for Additive Manufacturing, Chennai Institute of Technology, Chennai, Tamil Nadu, 600069, India. nikhilbharat@citchennai.net</Affiliation>
+        </AffiliationInfo>
+        <Identifier Source="ORCID">http://orcid.org/0000-0002-2940-4899</Identifier>
+      </Author>
+      <Author>
+        <FirstName>Vijay</FirstName>
+        <LastName>Kumar</LastName>
+        <AffiliationInfo>
+          <Affiliation>Department of Mechanical Engineering, Thapar Institute of Engineering &amp; Technology, Patiala, Punjab, 147004, India</Affiliation>
+        </AffiliationInfo>
+      </Author>
+      <Author>
+        <FirstName>D.</FirstName>
+        <LastName>Veeman</LastName>
+        <AffiliationInfo>
+          <Affiliation>Centre for Additive Manufacturing, Chennai Institute of Technology, Chennai, Tamil Nadu, 600069, India</Affiliation>
+        </AffiliationInfo>
+      </Author>
+      <Author>
+        <FirstName>M.</FirstName>
+        <LastName>Vellaisamy</LastName>
+        <AffiliationInfo>
+          <Affiliation>Centre for Additive Manufacturing, Chennai Institute of Technology, Chennai, Tamil Nadu, 600069, India</Affiliation>
+        </AffiliationInfo>
+      </Author>
+    </AuthorList>
+    <ArticleIdList>
+      <ArticleId IdType="doi">10.1007/s00107-025-02253-9</ArticleId>
+      <ArticleId IdType="pii">10.1007/s00107-025-02253-9</ArticleId>
+    </ArticleIdList>
+    <History>
+      <PubDate PubStatus="received">
+        <Year>2025</Year>
+        <Month>2</Month>
+        <Day>20</Day>
+      </PubDate>
+      <PubDate PubStatus="accepted">
+        <Year>2025</Year>
+        <Month>3</Month>
+        <Day>31</Day>
+      </PubDate>
+      <PubDate PubStatus="aheadofprint">
+        <Year>2025</Year>
+        <Month>4</Month>
+        <Day>19</Day>
+      </PubDate>
+    </History>
+    <Abstract>The optimization of Fused Filament Fabrication (FFF) process parameters is crucial for improving the mechanical properties of PLA/wood composites, yet traditional statistical methods often fail to capture complex, nonlinear parameter interactions effectively. This study applies the Artificial Bee Colony (ABC) algorithm to optimize layer height, infill density, infill pattern, and raster orientation, comparing its performance with Analysis of Variance (ANOVA). PLA/wood composites were fabricated using an 80:20 ratio, and mechanical testing was conducted to evaluate compressive strength, hardness, and tensile strength. The ABC algorithm demonstrated higher prediction accuracy, with R<sup>2</sup> values of 0.96 for compressive strength, 0.93 for hardness, and 0.95 for tensile strength, significantly reducing prediction errors compared to ANOVA. Experimental validation confirmed an experimental compressive strength of 82.4&#160;MPa, theoretical value of 83.78&#160;MPa (error 1.69%), hardness of 83.54 Shore D, theoretical value of 83.60 Shore D (error 0.11%), and tensile strength of 59.7&#160;MPa, theoretical value of 59.95&#160;MPa (error 0.41%). The results demonstrate that ABC-based optimization significantly enhances process efficiency and mechanical performance, making it a promising tool for advanced additive manufacturing applications, including multi-material 3D printing and sustainable bio-composite fabrication.</Abstract>
+    <CopyrightInformation>&#169; 2025. The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature</CopyrightInformation>
+    <CoiStatement>Declarations. Conflict of interest: The authors declare no conflict of interest. Ethical approval: All authors acknowledged compliance with ethical standards for preparation and publishing. Consent for publication: All authors endorse this research&#8217;s publishing. Consent to participate: This manuscript&#8217;s authors planned, designed, conducted, and interpreted the study.</CoiStatement>
+    <ReferenceList>
+      <Reference>
+        <Citation>Abas M, Habib T, Khan I, Noor S (2025) Definitive screening design for mechanical properties enhancement in extrusion-based additive manufacturing of carbon fiber-reinforced PLA composite. Prog Addit Manuf 10:139&#8211;157. 
+                  https://doi.org/10.1007/s40964-024-00610-3
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s40964-024-00610-3</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Afrifah KA, Matuana LM (2012) Statistical optimization of ternary blends of poly(lactic acid)/ethylene acrylate copolymer/wood flour composites. Macromol Mater Eng 297:167&#8211;175. 
+                  https://doi.org/10.1002/mame.201100097
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1002/mame.201100097</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Alhaddad W, He M, Halabi Y, Yahya Mohammed Almajhali K (2022) Optimizing the material and printing parameters of the additively manufactured fiber-reinforced polymer composites using an artificial neural network model and artificial bee colony algorithm. Structures 46:1781&#8211;1795. 
+                  https://doi.org/10.1016/j.istruc.2022.10.134
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.istruc.2022.10.134</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Almansoori K, Pervaiz S (2023) Effect of layer height, print speed and cell geometry on mechanical properties of marble PLA based 3D printed parts. Smart Mater Manuf 1:100023. 
+                  https://doi.org/10.1016/j.smmf.2023.100023
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.smmf.2023.100023</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Anerao P, Kulkarni A, Munde Y et al (2023) Biochar reinforced PLA composite for fused deposition modelling (FDM): a parametric study on mechanical performance. Compos Part C Open Access 12:100406. 
+                  https://doi.org/10.1016/j.jcomc.2023.100406
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.jcomc.2023.100406</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Ayatollahi MR, Nabavi-Kivi A, Bahrami B et al (2020) The influence of in-plane raster angle on tensile and fracture strengths of 3D-printed PLA specimens. Eng Fract Mech 237:107225. 
+                  https://doi.org/10.1016/j.engfracmech.2020.107225
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.engfracmech.2020.107225</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Bardiya S, Jerald J, Satheeshkumar V (2021) Effect of process parameters on the impact strength of fused filament fabricated (FFF) polylactic acid (PLA) parts. Mater Today Proc 41:1103&#8211;1106. 
+                  https://doi.org/10.1016/j.matpr.2020.08.066
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.matpr.2020.08.066</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Bharat N, Jain R, Bose PSC (2024) In: Sharma VS, Dixit US, Gupta A et al (eds) A comprehensive overview on additive manufacturing processes: materials, applications, and challenges BT&#8212;machining and additive manufacturing. Springer Nature Singapore, Singapore, pp 95&#8211;105</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Bhayana M, Singh J, Sharma A, Gupta M (2023) A review on optimized FDM 3D printed wood/pla bio composite material characteristics. Mater Today Proc. 
+                  https://doi.org/10.1016/j.matpr.2023.03.029
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.matpr.2023.03.029</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Chen S, Khan SB, Li N, Xiao C (2025) In-depth analysis of sintering, exposure time, and layer height (um) in LRS 3D printed devices with DLP. J Manuf Process 133:576&#8211;591. 
+                  https://doi.org/10.1016/j.jmapro.2024.11.060
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.jmapro.2024.11.060</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Dembri I, Belaadi A, Boumaaza M et al (2022) Drilling performance of short Washingtonia filifera fiber&#8211;reinforced epoxy biocomposites: RSM modeling. Int J Adv Manuf Technol 121:7833&#8211;7850. 
+                  https://doi.org/10.1007/s00170-022-09849-y
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00170-022-09849-y</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Dembri I, Belaadi A, Lekrine A et al (2024) Effect of alkaline treatment on the thermo-physicochemical and mechanical properties of Biochar Powder/Washingtonia robusta fibers/pla hybrid biocomposites. J Mater Res Technol 33:9735&#8211;9751. 
+                  https://doi.org/10.1016/j.jmrt.2024.12.018
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.jmrt.2024.12.018</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Elloumi Ahmed J, Abdessalem BA, Rania S Slim (2024) A comparative study of Gray relational analysis and VlseKriterijumska optimizacija I Kompromisno Resenje approaches for enhancing mechanical properties and productivity in 3D-Printed copper-filled PLA parts. J Elastomers Plast 56:675&#8211;692. 
+                  https://doi.org/10.1177/00952443241254939
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1177/00952443241254939</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Faheem A, Hasan MA, Badhotiya GK, Ali SM (2024) A systematic literature review to examine the role of additive manufacturing in achieving sustainable development goals. 
+                  https://doi.org/10.1016/j.susoc.2024.08.001
+                  
+                . Sustain Oper Comput</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Fakih MA, Singh SK, Mustapha S et al (2023) A comprehensive analysis of guided-wave propagation in 3D-printed PLA plates with different infill densities&#8212;experimental study. Mech Syst Signal Process 202:110645. 
+                  https://doi.org/10.1016/j.ymssp.2023.110645
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.ymssp.2023.110645</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Fountas NA, Kechagias JD, Zaoutsos SP, Vaxevanidis NM (2022) Experimental and statistical study on the effects of fused filament fabrication parameters on the tensile strength of hybrid PLA/Wood fabricated parts. Procedia Struct Integr 41:638&#8211;645. 
+                  https://doi.org/10.1016/j.prostr.2022.05.072
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.prostr.2022.05.072</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Fountas N, Kechagias J, Vaxevanidis N (2023a) Statistical modeling and optimization of surface roughness for PLA and PLA/Wood FDM fabricated items. J Mater Eng 1:38&#8211;44. 
+                  https://doi.org/10.61552/jme.2023.01.005
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.61552/jme.2023.01.005</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Fountas NA, Zaoutsos S, Chaidas D et al (2023b) Statistical modelling and optimization of mechanical properties for PLA and PLA/Wood FDM materials. Mater Today Proc 93:824&#8211;830. 
+                  https://doi.org/10.1016/j.matpr.2023.08.276
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.matpr.2023.08.276</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Gonabadi H, Chen Y, Yadav A, Bull S (2022) Investigation of the effect of raster angle, build orientation, and infill density on the elastic response of 3D printed parts using finite element microstructural modeling and homogenization techniques. Int J Adv Manuf Technol 118:1485&#8211;1510. 
+                  https://doi.org/10.1007/s00170-021-07940-4
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00170-021-07940-4</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Gon&#231;alves L, Couto G, Ramalho A (2024) The influence of layer height in the orthotropic elastic properties of PLA material obtained by additive processes. Procedia Struct Integr 53:89&#8211;96. 
+                  https://doi.org/10.1016/j.prostr.2024.01.012
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.prostr.2024.01.012</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Gunasekaran KN, Aravinth V, Muthu Kumaran CB et al (2021) Investigation of mechanical properties of PLA printed materials under varying infill density. Mater Today Proc 45:1849&#8211;1856. 
+                  https://doi.org/10.1016/j.matpr.2020.09.041
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.matpr.2020.09.041</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>He L, Xia F, Chen D et al (2023) Optimization of molding process parameters for enhancing mechanical properties of jute fiber reinforced composites. J Reinf Plast Compos 42:446&#8211;454. 
+                  https://doi.org/10.1177/07316844221130487
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1177/07316844221130487</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Hikmat M, Rostam S, Ahmed YM (2021) Investigation of tensile property-based Taguchi method of PLA parts fabricated by FDM 3D printing technology. Results Eng 11:100264. 
+                  https://doi.org/10.1016/j.rineng.2021.100264
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.rineng.2021.100264</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Jadhav A, Jadhav VS (2022) A review on 3D printing: an additive manufacturing technology. Mater Today Proc 62:2094&#8211;2099. 
+                  https://doi.org/10.1016/j.matpr.2022.02.558
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.matpr.2022.02.558</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Jatti VS, Tamboli S, Shaikh S et al (2023) Optimization of tensile strength in 3D printed PLA parts via meta-heuristic approaches: a comparative study. Front Mater 10:1&#8211;15. 
+                  https://doi.org/10.3389/fmats.2023.1336837
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.3389/fmats.2023.1336837</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Kechagias JD, Zaoutsos SP, Chaidas D, Vidakis N (2022) Multi-parameter optimization of PLA/Coconut wood compound for fused filament fabrication using robust design. Int J Adv Manuf Technol 119:4317&#8211;4328. 
+                  https://doi.org/10.1007/s00170-022-08679-2
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s00170-022-08679-2</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Khedri E, Karimi Hreza, Aliha MRM et al (2024) Tensile, flexural, and mode-I cracking behavior of interpenetrating phase composites (IPC), developed using additively manufactured PLA-based structures with different infill densities and epoxy resin polymer as matrix. Results Eng 22:102162. 
+                  https://doi.org/10.1016/j.rineng.2024.102162
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.rineng.2024.102162</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Kim S-J, Kim M-G, Kim J et al (2025) Bioprinting methods for fabricating in vitro tubular blood vessel models. Cyborg Bionic Syst 4:43. 
+                  https://doi.org/10.34133/cbsystems.0043
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.34133/cbsystems.0043</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Lee H (2023) Engineering in vitro models: bioprinting of organoids with artificial intelligence. Cyborg Bionic Syst 4:18. 
+                  https://doi.org/10.34133/cbsystems.0018
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.34133/cbsystems.0018</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Lekrine A, Belaadi A, Dembri I et al (2024) Thermomechanical and structural analysis of green hybrid composites based on polylactic acid/biochar/treated W. filifera palm fibers. J Mater Res Technol 30:9656&#8211;9667. 
+                  https://doi.org/10.1016/j.jmrt.2024.06.033
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.jmrt.2024.06.033</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Ma Q, Rejab MRM, Song Y et al (2024) Effect of infill pattern of polylactide acid (PLA) 3D-printed integral sandwich panels under ballistic impact loading. Mater Today Commun 38:107626. 
+                  https://doi.org/10.1016/j.mtcomm.2023.107626
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.mtcomm.2023.107626</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Megersa GK, Sitek W, Nowak AJ, Toma&#353;i&#263; N (2024) Investigation of the influence of fused deposition modeling 3D printing process parameters on tensile properties of polylactic acid parts using the Taguchi method. Mater (Basel) 17. 
+                  https://doi.org/10.3390/ma17235951
+                  
+                </Citation>
+      </Reference>
+      <Reference>
+        <Citation>Milenkovic S, Slavkovic V, Fragassa C et al (2021) Effect of the raster orientation on strength of the continuous fiber reinforced PVDF/PLA composites, fabricated by hand-layup and fused deposition modeling. Compos Struct 270:114063. 
+                  https://doi.org/10.1016/j.compstruct.2021.114063
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.compstruct.2021.114063</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Morvayov&#225; A, Contuzzi N, Fabbiano L, Casalino G (2024) Multi-Attribute decision making: parametric optimization and modeling of the FDM manufacturing process using PLA/Wood biocomposites. Mater (Basel) 17. 
+                  https://doi.org/10.3390/ma17040924
+                  
+                </Citation>
+      </Reference>
+      <Reference>
+        <Citation>&#214;teyaka M&#214;, &#199;akir FH, Sofuo&#287;lu MA (2022) Effect of infill pattern and ratio on the flexural and vibration damping characteristics of FDM printed PLA specimens. Mater Today Commun 33:104912. 
+                  https://doi.org/10.1016/j.mtcomm.2022.104912
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.mtcomm.2022.104912</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Owed MKB (2023) The influence of infill density and speed of printing on the tensile properties of the three dimension printing polylactic acid parts. J Eng Sustain Dev 27:95&#8211;103. 
+                  https://doi.org/10.31272/jeasd.27.1.8
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.31272/jeasd.27.1.8</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Peng X, Chen K, Jia W et al (2025) Stacking sequence optimization of variable thickness composite laminated plate based on multi-peak stacking sequence table. Compos Struct 356:118886. 
+                  https://doi.org/10.1016/j.compstruct.2025.118886
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.compstruct.2025.118886</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Plocher J, Panesar A (2020) Mechanical performance of additively manufactured Fiber-Reinforced functionally graded lattices. JOM 72:1292&#8211;1298. 
+                  https://doi.org/10.1007/s11837-019-03961-3
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s11837-019-03961-3</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Shi Y, Hou X, Na Z et al (2024) Bio-inspired attachment mechanism of dynastes Hercules: vertical climbing for On-Orbit assembly legged robots. J Bionic Eng 21:137&#8211;148. 
+                  https://doi.org/10.1007/s42235-023-00423-0
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s42235-023-00423-0</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Singh J, Kumar Goyal K, Kumar R (2022) Effect of filling percentage and raster style on tensile behavior of FDM produced PLA parts at different build orientation. Mater Today Proc 63:433&#8211;439. 
+                  https://doi.org/10.1016/j.matpr.2022.03.444
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.matpr.2022.03.444</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Sriya Ambati S, Ambatipudi R (2022) Effect of infill density and infill pattern on the mechanical properties of 3D printed PLA parts. Mater Today Proc 64:804&#8211;807. 
+                  https://doi.org/10.1016/j.matpr.2022.05.312
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1016/j.matpr.2022.05.312</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Stojkovi&#263; JR, Turudija R, Vitkovi&#263; N et al (2023) An experimental study on the impact of layer height and annealing parameters on the tensile strength and dimensional accuracy of FDM 3D printed parts. Materials (Basel) 16(13):4754. 
+                  https://doi.org/10.3390/ma16134574
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.3390/ma16134574</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Ulkir O (2024) Investigation on the mechanical and thermal properties of metal-PLA composites fabricated by FDM. Rapid Prototyp J 30:2113&#8211;2122. 
+                  https://doi.org/10.1108/RPJ-01-2024-0007
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1108/RPJ-01-2024-0007</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Ulkir O, Akgun G (2024) Prediction of flexural strength with fuzzy logic approach for fused deposition modeling of polyethylene terephthalate glycol components. J Mater Eng Perform 33:4367&#8211;4376. 
+                  https://doi.org/10.1007/s11665-024-09291-z
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1007/s11665-024-09291-z</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Wu Y, Chiu G (2019) Modeling height profile for Drop-on-Demand. Print of UV Curable Ink</Citation>
+      </Reference>
+      <Reference>
+        <Citation>Yang M, Xu Y, Xin X et al (2025) 4D printed cardiac occlusion device with efficient anticoagulation, proendothelialization, and precise localization. Adv Funct Mater 2412533:1&#8211;14. 
+                  https://doi.org/10.1002/adfm.202412533
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1002/adfm.202412533</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Zuo X, Zhou Y, Hao K et al (2024) 3D printed All-Natural hydrogels: Flame-Retardant materials toward attaining green sustainability. Adv Sci 11:1&#8211;9. 
+                  https://doi.org/10.1002/advs.202306360
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.1002/advs.202306360</ArticleId>
+        </ArticleIdList>
+      </Reference>
+      <Reference>
+        <Citation>Zurnaci E (2023) Optimization of 3D printing parameters to mechanical strength improvement of sustainable printing material using Rsm. Int J 3D Print Technol Digit Ind 7:38&#8211;46. 
+                  https://doi.org/10.46519/ij3dptdi.1231076
+                  
+                </Citation>
+        <ArticleIdList>
+          <ArticleId IdType="doi">10.46519/ij3dptdi.1231076</ArticleId>
+        </ArticleIdList>
+      </Reference>
+    </ReferenceList>
+  </Article>
+
