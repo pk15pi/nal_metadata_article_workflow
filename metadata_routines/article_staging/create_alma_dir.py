@@ -30,6 +30,9 @@ def determine_top_level_directory(base: dict, article) -> str:
     elif article.import_type == "merge_publisher":
         print(article.import_type)
         return os.path.join(base, ALMA_STAGING_DIR, 'MERGE_PUBLISHER')
+    else:
+        print("Wrong or unknown type found")
+        return None
             
 
 
@@ -97,6 +100,9 @@ def create_alma_directory(citation_object, base: str, path_directory: dict, arti
 
     # Step 1: Determine top-level folder
     top_level_folder = determine_top_level_directory(base, article)
+
+    if not top_level_folder:
+            return "Not a valid import type", citation_object, article_stage_dir
 
     # Step 2: Build citation folder path with pid
     pid = citation_object.local.identifiers.get('pid')
